@@ -1,0 +1,1021 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Hangzhou",
+  "country": "China",
+  "lat": 30.2741,
+  "lon": 120.1551,
+  "generated": "2026-08-13",
+  "by": "Claude",
+  "note": "Opening hours, bookings and restaurants change. Treat specifics as a starting point and confirm before you commit.",
+  "glance": {
+    "why": "There is a Chinese saying that heaven is above and Suzhou and Hangzhou are below, and Hangzhou earned its half of it with a lake. West Lake is not a natural wonder; it is a thousand years of causeways, pagodas, planted willows and framed viewpoints, curated to the point that it has its own canon of ten named views. Add the country's most famous green tea growing in the hills behind, a serious Buddhist monastery, and the headquarters of Alibaba, and you get a city that is both a classical landscape and a tech capital.",
+    "bestFor": [
+      "Landscape and walking",
+      "Tea",
+      "Buddhist sites",
+      "Cycling",
+      "Seasonal beauty"
+    ],
+    "idealStay": "2-3 days",
+    "character": [
+      "Green",
+      "Watery",
+      "Leisurely",
+      "Poetic",
+      "Prosperous"
+    ],
+    "dontMiss": [
+      "Walking or cycling the Su Causeway across West Lake",
+      "Lingyin Temple and the Feilai Feng rock carvings",
+      "Longjing tea village, ideally with a tasting",
+      "The lake at dawn, before the crowds and often in mist",
+      "A boat across to the Three Pools Mirroring the Moon",
+      "Hefang Street for old-brand shops and snacks",
+      "The Grand Canal north of the city, and the museum on it"
+    ],
+    "neighbourhoods": [
+      "West Lake shore",
+      "Longjing and Meijiawu tea villages",
+      "Lingyin and the western hills",
+      "Hefang Street and Wushan",
+      "Grand Canal and Gongshu"
+    ]
+  },
+  "history": {
+    "story": "Hangzhou's fortune was made twice by water. The Grand Canal gave it trade from the seventh century; West Lake gave it beauty, and beauty turned out to be the more durable asset. When the Song court fled south in 1127 and made this its capital, the city became, for a while, probably the largest and richest in the world.",
+    "origins": "A silted lagoon at the mouth of the Qiantang River, made habitable when the lake was separated from the sea and dredged.",
+    "periods": [
+      {
+        "name": "Sui, 610",
+        "text": "The Grand Canal reached Hangzhou, connecting it to the north and making it a trading hub."
+      },
+      {
+        "name": "Tang and Wuyue",
+        "text": "The poet-governor Bai Juyi built the first causeway and began the tradition of officials improving the lake."
+      },
+      {
+        "name": "Southern Song, 1127-1276",
+        "text": "The capital of a truncated empire, and by many accounts the most populous city on earth. Marco Polo called it Kinsay and said it was the finest city in the world. Su Dongpo, another poet-official, dredged the lake and built the second causeway."
+      },
+      {
+        "name": "Ming and Qing",
+        "text": "No longer a capital, but the lake became a national aesthetic reference, painted, poeticised and imitated in gardens everywhere."
+      },
+      {
+        "name": "Modern",
+        "text": "The Taiping Rebellion devastated it; the twentieth century rebuilt it as a resort city; the twenty-first made it China's e-commerce capital."
+      }
+    ],
+    "modern": "Alibaba's headquarters and a large tech economy have made Hangzhou wealthy and young. The lake and its hills are protected, so the money went east and north. It hosted the 2016 G20 and the 2022 Asian Games, both of which funded infrastructure and a great deal of lighting.",
+    "whyItMatters": "West Lake is the most influential designed landscape in China. The Ten Views are a formal canon, each a named framing with a stele, and Chinese visitors arrive knowing them. Recognising that changes the experience from a nice walk to reading a text everyone else can already read.",
+    "visible": [
+      "The Bai and Su Causeways are named for the two poet-officials who built them, 250 years apart.",
+      "Leifeng Pagoda's modern rebuild sits over the excavated ruins of the original, visible in the basement.",
+      "The Feilai Feng carvings at Lingyin span the tenth to fourteenth centuries and survived because they are in a cliff.",
+      "The Grand Canal is still a working waterway and you can ride a public water bus on it."
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {
+        "name": "Lingyin Temple",
+        "area": "Western hills",
+        "why": "One of the largest and wealthiest Chan Buddhist monasteries in China, founded 328 CE. Working, incense-heavy and set in forest.",
+        "mins": 150
+      },
+      {
+        "name": "Feilai Feng carvings",
+        "area": "Beside Lingyin",
+        "why": "Over 300 Buddhist figures carved into a limestone crag and its caves, from the tenth century on. Separate ticket, and the better half of the visit.",
+        "mins": 75
+      },
+      {
+        "name": "Leifeng Pagoda",
+        "area": "South lake shore",
+        "why": "Rebuilt on the ruins of the collapsed original, with lifts. Excellent lake views and a legend about a white snake.",
+        "mins": 60
+      },
+      {
+        "name": "Yue Fei Temple",
+        "area": "North shore",
+        "why": "Tomb of the Song general executed on false charges, still a national symbol of loyalty betrayed.",
+        "mins": 60
+      },
+      {
+        "name": "Six Harmonies Pagoda",
+        "area": "Qiantang River",
+        "why": "A Song-era pagoda built to calm the river's tidal bore. Climbable, quiet, out of the way.",
+        "mins": 75
+      }
+    ],
+    "arts": [
+      {
+        "name": "China National Tea Museum",
+        "area": "Longjing",
+        "why": "Free, well done, and set among the tea terraces. Explains what you are drinking.",
+        "mins": 90
+      },
+      {
+        "name": "Zhejiang Provincial Museum",
+        "area": "Gushan Island / Wulin",
+        "why": "Liangzhu jade, Yue celadon and the region's deep history. Free.",
+        "mins": 120
+      },
+      {
+        "name": "Liangzhu Museum and archaeological park",
+        "area": "North of the city",
+        "why": "A 5,000-year-old walled city with hydraulic engineering, UNESCO-listed in 2019. A serious detour but a genuine revelation.",
+        "mins": 180
+      },
+      {
+        "name": "China National Silk Museum",
+        "area": "South of the lake",
+        "why": "Free, large, and better than it sounds; textiles, dyeing and costume.",
+        "mins": 90
+      },
+      {
+        "name": "Grand Canal Museum and Xiaohe Zhi Street",
+        "area": "Gongshu",
+        "why": "The canal's story plus a restored working-class canal street.",
+        "mins": 120
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "name": "West Lake shore",
+        "character": "Willows, causeways, teahouses, joggers",
+        "highlights": "Su Causeway, Bai Causeway, Broken Bridge, lotus in summer",
+        "food": "Lakeside restaurants, tea",
+        "bestTime": "Dawn or the hour before sunset",
+        "mins": 240
+      },
+      {
+        "name": "Longjing and Meijiawu",
+        "character": "Tea terraces on hillsides, village houses",
+        "highlights": "Tea fields, farmhouse tastings, Dragon Well spring",
+        "food": "Farmhouse cooking, tea",
+        "bestTime": "Morning",
+        "mins": 180
+      },
+      {
+        "name": "Hefang Street and Wushan",
+        "character": "Restored old commercial street below a hill",
+        "highlights": "Old-brand shops, herbal medicine hall, city view from Wushan",
+        "food": "Snacks, old restaurants",
+        "bestTime": "Afternoon",
+        "mins": 120
+      },
+      {
+        "name": "Grand Canal and Qiaoxi",
+        "character": "Working canal, warehouses turned museums",
+        "highlights": "Gongchen Bridge, water bus, craft museums",
+        "food": "Local, unpretentious",
+        "bestTime": "Morning",
+        "mins": 150
+      }
+    ],
+    "nature": [
+      {
+        "name": "Su Causeway",
+        "area": "West Lake",
+        "why": "Nearly three kilometres of tree-lined causeway with six bridges. Walk it or cycle it; this is the single best thing in Hangzhou.",
+        "mins": 90
+      },
+      {
+        "name": "Nine Creeks and Eighteen Gullies",
+        "area": "Western hills",
+        "why": "A shaded stream walk through tea country. Almost no tourists.",
+        "mins": 180
+      },
+      {
+        "name": "Xixi Wetland Park",
+        "area": "West",
+        "why": "Reedy, boat-based, calm. Pleasant rather than essential.",
+        "mins": 180
+      },
+      {
+        "name": "Baopu Taoist Temple and Baochu Pagoda ridge",
+        "area": "North shore",
+        "why": "A short climb for the best free view over the lake.",
+        "mins": 120
+      },
+      {
+        "name": "Qiantang River tidal bore",
+        "area": "East, seasonal",
+        "why": "The world's largest tidal bore, around the eighth lunar month in September or October.",
+        "mins": 180
+      }
+    ],
+    "shopping": [
+      {
+        "name": "Longjing tea, bought at source",
+        "area": "Longjing village",
+        "why": "Buy graded, current-season leaf from a grower rather than a lakeside stall.",
+        "mins": 90
+      },
+      {
+        "name": "Hefang Street",
+        "area": "Wushan",
+        "why": "Silk, fans, scissors, tea and Huqingyutang, a nineteenth-century medicine hall that is half museum.",
+        "mins": 120
+      },
+      {
+        "name": "Silk and umbrellas",
+        "area": "Around the lake and Hefang",
+        "why": "Hangzhou silk is a real trade; the umbrella and fan shops are decorative but pleasant.",
+        "mins": 60
+      },
+      {
+        "name": "Xiaohe Zhi Street",
+        "area": "Grand Canal",
+        "why": "Craft workshops in restored canal-side houses.",
+        "mins": 90
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Impression West Lake",
+        "area": "Yuehu",
+        "why": "A large outdoor performance staged on the water, originally directed by Zhang Yimou. Spectacular, expensive, seasonal.",
+        "mins": 90
+      },
+      {
+        "name": "Lake shore after dark",
+        "area": "West Lake",
+        "why": "The causeways are lit and quiet; the Ten Views include a moonlight one for a reason.",
+        "mins": 90
+      },
+      {
+        "name": "Bars around Nanshan Road",
+        "area": "East shore",
+        "why": "The main strip for drinks with a view.",
+        "mins": 120
+      }
+    ]
+  },
+  "essential10": [
+    {
+      "rank": 1,
+      "name": "Su Causeway on foot or by bike at dawn",
+      "why": "The lake at its best, empty, often misty, and free.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 2,
+      "name": "Lingyin Temple and Feilai Feng",
+      "why": "The most important Buddhist site in the region and 300 carvings in a cliff.",
+      "mins": 210,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 3,
+      "name": "Longjing tea village and a tasting",
+      "why": "China's most famous green tea, on the hillside where it grows.",
+      "mins": 180,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 4,
+      "name": "A boat on the lake",
+      "why": "The Ten Views were composed to be seen from the water.",
+      "mins": 60,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 5,
+      "name": "Baochu Pagoda ridge walk",
+      "why": "Twenty minutes up for the best view of the whole lake, and almost nobody does it.",
+      "mins": 120,
+      "label": "Recommended",
+      "popularity": 2,
+      "cultural": 3,
+      "worth": 5
+    },
+    {
+      "rank": 6,
+      "name": "Nine Creeks and Eighteen Gullies",
+      "why": "A stream walk through tea country with no crowds at all.",
+      "mins": 180,
+      "label": "Recommended",
+      "popularity": 2,
+      "cultural": 3,
+      "worth": 4
+    },
+    {
+      "rank": 7,
+      "name": "Hefang Street and Huqingyutang",
+      "why": "The old commercial city, and a spectacular Qing medicine hall.",
+      "mins": 120,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 3
+    },
+    {
+      "rank": 8,
+      "name": "Grand Canal water bus and Qiaoxi",
+      "why": "The infrastructure that made the city, still working.",
+      "mins": 150,
+      "label": "Recommended",
+      "popularity": 2,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 9,
+      "name": "Liangzhu archaeological site",
+      "why": "A 5,000-year-old city with jade and dams. Serious detour, serious reward.",
+      "mins": 240,
+      "label": "Optional",
+      "popularity": 2,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 10,
+      "name": "Impression West Lake",
+      "why": "Big, beautiful, expensive and thoroughly staged.",
+      "mins": 90,
+      "label": "Optional",
+      "popularity": 4,
+      "cultural": 2,
+      "worth": 3
+    }
+  ],
+  "food": {
+    "identity": "Zhejiang cooking is another branch of the Jiangnan tradition: fresh, light, faintly sweet, heavy on freshwater fish, bamboo, river shrimp and vinegar. Hangzhou's own version leans on the lake and the tea. It is subtle food, and the two most famous dishes are both about restraint rather than intensity.",
+    "mustTry": [
+      {
+        "dish": "Longjing shrimp",
+        "what": "Freshwater shrimp stir-fried with Dragon Well tea leaves and a little of the brew.",
+        "why": "The city's two signatures in one dish, and it only works with genuinely fresh leaf.",
+        "flavour": "Sweet, grassy, delicate.",
+        "howLocalsEat": "As one dish in a shared spread, in spring.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "West Lake vinegar fish",
+        "what": "Grass carp poached and dressed in a sweet-sour vinegar sauce.",
+        "why": "The most famous dish in the city, and the one most likely to disappoint if badly made.",
+        "flavour": "Sharp, sweet, very delicate.",
+        "howLocalsEat": "Shared; the fish should be barely cooked.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Dongpo pork",
+        "what": "Cubes of pork belly braised in wine and soy until they hold their shape but collapse on the tongue.",
+        "why": "Named for Su Dongpo, the poet-governor who dredged the lake. History and dinner in one.",
+        "flavour": "Sweet, winey, rich.",
+        "howLocalsEat": "One cube each, with rice.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Longjing tea",
+        "what": "Pan-fired green tea from the hills behind the lake, flat-leaved and grassy.",
+        "why": "China's most famous green tea, and pre-Qingming first flush is a serious luxury.",
+        "flavour": "Chestnut, grass, sweet finish.",
+        "howLocalsEat": "In a tall glass, leaves loose, topped up all day.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Beggar's chicken",
+        "what": "Chicken wrapped in lotus leaf and clay and baked, then cracked open at the table.",
+        "why": "Theatre plus a genuinely good result.",
+        "flavour": "Moist, herbal, mild.",
+        "howLocalsEat": "Ordered ahead, shared.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Pian er chuan noodles",
+        "what": "Noodles with pork, bamboo shoots and pickled greens in broth.",
+        "why": "The everyday local bowl.",
+        "flavour": "Salty, savoury, comforting.",
+        "howLocalsEat": "For lunch, cheaply.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Osmanthus and lotus root",
+        "what": "Glutinous rice stuffed into lotus root, syrup and osmanthus over the top.",
+        "why": "Autumn, in a bowl.",
+        "flavour": "Sweet, floral, chewy.",
+        "howLocalsEat": "As a dessert.",
+        "importance": "Recommended"
+      }
+    ]
+  },
+  "mustEat10": [
+    {
+      "dish": "Longjing shrimp",
+      "where": "Lou Wai Lou or Zhiweiguan",
+      "order": "Longjing xiaren, in spring if possible",
+      "price": "CNY 120-250"
+    },
+    {
+      "dish": "Dongpo pork",
+      "where": "Lou Wai Lou",
+      "order": "One portion between two",
+      "price": "CNY 60-120"
+    },
+    {
+      "dish": "West Lake vinegar fish",
+      "where": "Lou Wai Lou or Wai Po Jia",
+      "order": "Ask for it lightly done",
+      "price": "CNY 100-200"
+    },
+    {
+      "dish": "Beggar's chicken",
+      "where": "A traditional restaurant, ordered ahead",
+      "order": "Whole chicken, shared",
+      "price": "CNY 150-250"
+    },
+    {
+      "dish": "Pian er chuan noodles",
+      "where": "Kuiyuanguan",
+      "order": "The classic, plus shrimp-and-eel noodles",
+      "price": "CNY 30-60"
+    },
+    {
+      "dish": "Home-style Hangzhou dishes",
+      "where": "Wai Po Jia (Grandma's Home)",
+      "order": "Grandma's braised pork, tea shrimp",
+      "price": "CNY 60-120 per person"
+    },
+    {
+      "dish": "Longjing tea",
+      "where": "A grower's house in Longjing or Meijiawu",
+      "order": "Pre-Qingming first flush if it is April",
+      "price": "CNY 100-800 per 100g"
+    },
+    {
+      "dish": "Farmhouse lunch in the tea hills",
+      "where": "Meijiawu village",
+      "order": "Whatever is seasonal, plus tea",
+      "price": "CNY 60-120"
+    },
+    {
+      "dish": "Lotus root with glutinous rice",
+      "where": "Most local restaurants in autumn",
+      "order": "As dessert",
+      "price": "CNY 30-50"
+    },
+    {
+      "dish": "Canal-side street snacks",
+      "where": "Xiaohe Zhi Street",
+      "order": "Whatever is being fried",
+      "price": "CNY 10-30"
+    }
+  ],
+  "restaurants": {
+    "iconic": [
+      {
+        "name": "Lou Wai Lou",
+        "cuisine": "Hangzhou",
+        "price": "Mid-high",
+        "area": "Gushan, lakeside",
+        "desc": "Founded 1848 on the lake shore. Touristy, historically important, and the classics are done properly.",
+        "dishes": "Dongpo pork, vinegar fish, Longjing shrimp",
+        "whyGo": "The canonical Hangzhou meal with the canonical view.",
+        "booking": "Recommended"
+      },
+      {
+        "name": "Zhiweiguan",
+        "cuisine": "Hangzhou and snacks",
+        "price": "Mid",
+        "area": "Several",
+        "desc": "Old house famous for its dumplings and small eats as well as full dishes.",
+        "dishes": "Cat's ear dumplings, shrimp",
+        "whyGo": "Cheaper than Lou Wai Lou and often better.",
+        "booking": "No"
+      },
+      {
+        "name": "Kuiyuanguan",
+        "cuisine": "Noodles",
+        "price": "Low",
+        "area": "Central",
+        "desc": "Noodle house since 1867.",
+        "dishes": "Pian er chuan, eel noodles",
+        "whyGo": "A century and a half of one bowl.",
+        "booking": "No"
+      }
+    ],
+    "bestFood": [
+      {
+        "name": "Longjing Manor (Longjing Caotang)",
+        "cuisine": "Refined Hangzhou",
+        "price": "Very high",
+        "area": "Longjing",
+        "desc": "A famous farm-to-table house in the tea hills, seasonal set menus, widely considered among China's best restaurants.",
+        "dishes": "Seasonal menu",
+        "whyGo": "The regional cuisine at its most serious.",
+        "booking": "Essential, well ahead"
+      },
+      {
+        "name": "28 Hubin",
+        "cuisine": "Hangzhou fine dining",
+        "price": "High",
+        "area": "Lakeside",
+        "desc": "Hotel restaurant with lake views and precise cooking.",
+        "dishes": "Dongpo pork, seasonal fish",
+        "whyGo": "Polished version of the classics.",
+        "booking": "Recommended"
+      }
+    ],
+    "bestValue": [
+      {
+        "name": "Wai Po Jia (Grandma's Home)",
+        "cuisine": "Home-style Hangzhou",
+        "price": "Low-mid",
+        "area": "Several",
+        "desc": "A chain, always packed, genuinely good and very cheap for what it is.",
+        "dishes": "Braised pork, tea shrimp, seasonal greens",
+        "whyGo": "Best value local food in the city.",
+        "booking": "No, expect to queue"
+      },
+      {
+        "name": "Xin Bai Lu",
+        "cuisine": "Hangzhou",
+        "price": "Low-mid",
+        "area": "Several",
+        "desc": "Reliable local chain in the same vein.",
+        "dishes": "Standard classics",
+        "whyGo": "Consistent and cheap.",
+        "booking": "No"
+      },
+      {
+        "name": "Meijiawu farmhouse restaurants",
+        "cuisine": "Farmhouse",
+        "price": "Low-mid",
+        "area": "Tea villages",
+        "desc": "Family houses serving lunch among the terraces.",
+        "dishes": "Seasonal vegetables, chicken, tea",
+        "whyGo": "Setting and freshness.",
+        "booking": "No"
+      }
+    ],
+    "special": [
+      {
+        "name": "A lakeside private kitchen",
+        "cuisine": "Hangzhou",
+        "price": "High",
+        "area": "West Lake",
+        "desc": "Small set-menu restaurants in villas around the lake.",
+        "dishes": "Seasonal",
+        "whyGo": "The view and the quiet.",
+        "booking": "Essential"
+      }
+    ],
+    "casual": [
+      {
+        "name": "Hefang Street snack shops",
+        "cuisine": "Street food",
+        "price": "Low",
+        "area": "Wushan",
+        "desc": "Old-brand sweets, fried things, tea.",
+        "dishes": "Whatever is hot",
+        "whyGo": "Grazing while shopping.",
+        "booking": "No"
+      },
+      {
+        "name": "Wushan night market",
+        "cuisine": "Street food and stalls",
+        "price": "Low",
+        "area": "Wushan",
+        "desc": "Evening market with food and cheap goods.",
+        "dishes": "Skewers, noodles",
+        "whyGo": "Local evening.",
+        "booking": "No"
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Longjing village tea houses",
+        "cuisine": "Tea",
+        "price": "Low-mid",
+        "area": "Longjing",
+        "desc": "Sit on a terrace above the tea fields and drink what grows below you.",
+        "dishes": "Longjing, graded",
+        "whyGo": "The defining Hangzhou hour.",
+        "booking": "No"
+      },
+      {
+        "name": "Qingteng Tea House",
+        "cuisine": "Tea buffet",
+        "price": "Mid",
+        "area": "Central",
+        "desc": "The local institution of the tea house buffet: one price, endless tea and snacks.",
+        "dishes": "Tea plus a spread",
+        "whyGo": "A very Hangzhou way to spend an afternoon.",
+        "booking": "No"
+      },
+      {
+        "name": "Lakeside coffee at Nanshan Road",
+        "cuisine": "Coffee",
+        "price": "Low-mid",
+        "area": "East shore",
+        "desc": "Cafes with lake views.",
+        "dishes": "Coffee",
+        "whyGo": "Rest stop mid-walk.",
+        "booking": "No"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "name": "Cycle the lake at dawn",
+      "what": "Bike-share round the shore and along both causeways before seven.",
+      "why": "Mist, joggers, no coaches. The best two hours in the city.",
+      "mins": 120
+    },
+    {
+      "name": "Tea picking and pan-firing",
+      "what": "In April, growers will let you pick and watch the leaf fired by hand in a wok.",
+      "why": "Explains everything about why the good stuff costs what it does.",
+      "mins": 180
+    },
+    {
+      "name": "Morning service at Lingyin",
+      "what": "Arrive at opening and hear the monks.",
+      "why": "It is a working monastery before it is a sight.",
+      "mins": 90
+    },
+    {
+      "name": "Grand Canal water bus",
+      "what": "The public boat between Wulinmen and Gongchen Bridge.",
+      "why": "Cheap, slow, and the canal is still a working one.",
+      "mins": 60
+    },
+    {
+      "name": "Tea house afternoon",
+      "what": "The all-you-can-drink tea houses with endless snacks.",
+      "why": "A local institution that visitors almost never find.",
+      "mins": 150
+    },
+    {
+      "name": "Nine Creeks stream walk",
+      "what": "A shaded three-hour walk through tea country to the river.",
+      "why": "Solitude ten minutes from the busiest lake in China.",
+      "mins": 180
+    }
+  ],
+  "neighbourhoodGuide": [
+    {
+      "name": "West Lake shore",
+      "vibe": "Willows, water, causeways, crowds at the pinch points",
+      "bestFor": "Walking, cycling, boats, sunrise",
+      "sights": "Su and Bai Causeways, Leifeng Pagoda, Yue Fei Temple",
+      "food": "Lou Wai Lou, lakeside cafes",
+      "mins": 300
+    },
+    {
+      "name": "Western hills and Lingyin",
+      "vibe": "Forest, temples, tea terraces",
+      "bestFor": "Buddhist sites, tea, walking",
+      "sights": "Lingyin Temple, Feilai Feng, Nine Creeks",
+      "food": "Farmhouse lunches",
+      "mins": 300
+    },
+    {
+      "name": "Longjing and Meijiawu",
+      "vibe": "Village houses among tea terraces",
+      "bestFor": "Tea, quiet, lunch",
+      "sights": "Tea fields, Tea Museum, Dragon Well",
+      "food": "Farmhouse",
+      "mins": 180
+    },
+    {
+      "name": "Hefang and Wushan",
+      "vibe": "Old commercial street under a hill",
+      "bestFor": "Shopping, snacks, one good view",
+      "sights": "Huqingyutang medicine hall, Wushan viewpoint",
+      "food": "Old brands, night market",
+      "mins": 150
+    },
+    {
+      "name": "Grand Canal and Gongshu",
+      "vibe": "Working canal, warehouses, local",
+      "bestFor": "Museums, water bus, escaping the lake",
+      "sights": "Gongchen Bridge, canal museums, Xiaohe Zhi Street",
+      "food": "Cheap and local",
+      "mins": 180
+    }
+  ],
+  "timeGuidance": {
+    "three": "Day 1 the lake, causeways and a boat. Day 2 Lingyin, Feilai Feng and the tea villages. Day 3 Grand Canal, Hefang Street and a tea house afternoon.",
+    "fivePlus": "Add Liangzhu, Xixi Wetland, the Six Harmonies Pagoda, and a slow second lake day."
+  },
+  "dayTrips": [
+    {
+      "name": "Wuzhen",
+      "travel": "1-1.5 hrs by coach",
+      "why": "The best-preserved water town in the region; the east gate by night is genuinely beautiful.",
+      "duration": "Full day or overnight",
+      "suits": "Anyone wanting canals.",
+      "logistics": "Coach from Hangzhou; staying inside the west gate is the good version.",
+      "verdict": "Worth it, ideally overnight"
+    },
+    {
+      "name": "Shaoxing",
+      "travel": "30 min by high-speed rail",
+      "why": "Rice wine, canals, Lu Xun's home town, and far fewer tourists.",
+      "duration": "Full day",
+      "suits": "Anyone interested in literature or wine.",
+      "logistics": "Frequent trains.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Suzhou",
+      "travel": "1 hr by high-speed rail",
+      "why": "The other half of the heaven-on-earth pairing.",
+      "duration": "Full day",
+      "suits": "Everyone.",
+      "logistics": "Frequent trains.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Liangzhu Ancient City",
+      "travel": "45 min",
+      "why": "A 5,000-year-old walled city with jade and hydraulic works, UNESCO-listed.",
+      "duration": "Half day",
+      "suits": "Anyone interested in deep prehistory.",
+      "logistics": "Metro and shuttle, or taxi.",
+      "verdict": "Only if you have extra time"
+    },
+    {
+      "name": "Moganshan",
+      "travel": "1.5 hrs",
+      "why": "Bamboo-forested hill station with colonial villas, cool in summer.",
+      "duration": "Overnight",
+      "suits": "Anyone wanting two nights out of the city.",
+      "logistics": "Car or coach plus local transport.",
+      "verdict": "Worth it as an overnight"
+    }
+  ],
+  "practical": {
+    "gettingAround": "Bike-share is the right way to see the lake and the city is flat around it. The metro is new, clean and useful for the stations and the canal. Buses reach Lingyin and the tea villages; taxis and Didi are cheap. The lake circuit is about fifteen kilometres, so plan which sections to walk. Boats leave from several jetties.",
+    "whenToGo": "Late March to May is the peak: tea harvest, blossom, and the lake at its greenest. September to November is cooler, clearer, with osmanthus in flower and the tidal bore in early autumn. Summer is hot and humid but lotus season on the lake is spectacular. Winter is grey and damp, though snow on the Broken Bridge is one of the canonical Ten Views for a reason. Avoid the first weeks of May and October entirely.",
+    "howLong": {
+      "one": "Sunrise on the Su Causeway, Lingyin and Feilai Feng, then a lakeside dinner. Tight but coherent.",
+      "twoThree": "Add the tea villages, a boat, Hefang Street and a tea house. Two to three days is right.",
+      "fourFive": "Add the Grand Canal, Liangzhu, Nine Creeks and a water town.",
+      "week": "Use it as a base for Shaoxing, Wuzhen, Moganshan and Suzhou."
+    },
+    "culture": [
+      "Lingyin charges separately for the temple and for Feilai Feng; buy both.",
+      "Most lakeside sights are free; the pagodas and gardens are not.",
+      "Passport needed for museums and rail.",
+      "Payment by phone; set up Alipay or WeChat Pay before arriving.",
+      "Tea is graded and priced steeply by picking date; pre-Qingming leaf is the expensive one. Buy from a grower, not a lakeside tout.",
+      "Tipping is not expected."
+    ]
+  },
+  "whatIdDo": [
+    {
+      "day": "Day 1",
+      "plan": "Bike the lake at sunrise, both causeways. Breakfast, then Baochu ridge for the view. Afternoon boat to the Three Pools, Leifeng Pagoda at sunset. Dinner at Wai Po Jia."
+    },
+    {
+      "day": "Day 2",
+      "plan": "Lingyin at opening, then Feilai Feng. Bus or taxi to Meijiawu for a farmhouse lunch and a tea tasting. Walk part of Nine Creeks in the afternoon. Quiet dinner."
+    },
+    {
+      "day": "Day 3",
+      "plan": "Grand Canal water bus north, canal museums and Xiaohe Zhi Street. Hefang Street and Huqingyutang in the afternoon. A tea house until it gets dark, then the lit causeways."
+    }
+  ],
+  "quickRef": {
+    "musts": [
+      "Su Causeway at dawn",
+      "Lingyin Temple and Feilai Feng",
+      "Longjing tea village",
+      "A boat on the lake",
+      "Baochu ridge view"
+    ],
+    "eats": [
+      "Longjing shrimp",
+      "Dongpo pork",
+      "West Lake vinegar fish",
+      "Pian er chuan noodles",
+      "Longjing tea"
+    ],
+    "areas": [
+      "West Lake shore",
+      "Longjing and Meijiawu",
+      "Lingyin and the western hills",
+      "Grand Canal"
+    ],
+    "experiences": [
+      "Cycling the lake at dawn",
+      "Tea picking in April",
+      "Tea house afternoon"
+    ],
+    "dayTrip": "Shaoxing by rail, or Wuzhen overnight",
+    "stay": "2-3 days"
+  },
+  "coords": {
+    "28 Hubin": [
+      30.25,
+      120.16
+    ],
+    "Baopu Taoist Temple and Baochu Pagoda ridge": [
+      30.259,
+      120.145
+    ],
+    "Bars around Nanshan Road": [
+      30.239,
+      120.155
+    ],
+    "China National Silk Museum": [
+      30.226,
+      120.146
+    ],
+    "China National Tea Museum": [
+      30.2305,
+      120.1195
+    ],
+    "Feilai Feng carvings": [
+      30.24,
+      120.104
+    ],
+    "Grand Canal Museum and Xiaohe Zhi Street": [
+      30.322,
+      120.14
+    ],
+    "Grand Canal and Gongshu": [
+      30.322,
+      120.14
+    ],
+    "Grand Canal and Qiaoxi": [
+      30.322,
+      120.14
+    ],
+    "Hefang Street": [
+      30.239,
+      120.17
+    ],
+    "Hefang Street and Wushan": [
+      30.239,
+      120.17
+    ],
+    "Hefang Street snack shops": [
+      30.239,
+      120.17
+    ],
+    "Hefang and Wushan": [
+      30.239,
+      120.17
+    ],
+    "Impression West Lake": [
+      30.253,
+      120.132
+    ],
+    "Kuiyuanguan": [
+      30.253,
+      120.166
+    ],
+    "Lake shore after dark": [
+      30.245,
+      120.145
+    ],
+    "Lakeside coffee at Nanshan Road": [
+      30.239,
+      120.155
+    ],
+    "Leifeng Pagoda": [
+      30.231,
+      120.148
+    ],
+    "Liangzhu Ancient City": [
+      30.393,
+      119.996
+    ],
+    "Liangzhu Museum and archaeological park": [
+      30.393,
+      119.996
+    ],
+    "Lingyin Temple": [
+      30.241,
+      120.101
+    ],
+    "Longjing Manor (Longjing Caotang)": [
+      30.222,
+      120.112
+    ],
+    "Longjing and Meijiawu": [
+      30.22,
+      120.105
+    ],
+    "Longjing and Meijiawu ": [
+      30.22,
+      120.105
+    ],
+    "Longjing tea, bought at source": [
+      30.226,
+      120.117
+    ],
+    "Longjing village tea houses": [
+      30.226,
+      120.117
+    ],
+    "Lou Wai Lou": [
+      30.253,
+      120.14
+    ],
+    "Meijiawu farmhouse restaurants": [
+      30.212,
+      120.088
+    ],
+    "Moganshan": [
+      30.61,
+      119.892
+    ],
+    "Nine Creeks and Eighteen Gullies": [
+      30.209,
+      120.107
+    ],
+    "Qiantang River tidal bore": [
+      30.209,
+      120.213
+    ],
+    "Qingteng Tea House": [
+      30.253,
+      120.16
+    ],
+    "Shaoxing": [
+      29.996,
+      120.582
+    ],
+    "Silk and umbrellas": [
+      30.239,
+      120.17
+    ],
+    "Six Harmonies Pagoda": [
+      30.198,
+      120.13
+    ],
+    "Su Causeway": [
+      30.24,
+      120.137
+    ],
+    "Suzhou": [
+      31.299,
+      120.585
+    ],
+    "Wai Po Jia (Grandma's Home)": [
+      30.246,
+      120.161
+    ],
+    "West Lake shore": [
+      30.245,
+      120.145
+    ],
+    "Western hills and Lingyin": [
+      30.241,
+      120.101
+    ],
+    "Wushan night market": [
+      30.24,
+      120.168
+    ],
+    "Wuzhen": [
+      30.745,
+      120.492
+    ],
+    "Xiaohe Zhi Street": [
+      30.322,
+      120.14
+    ],
+    "Xin Bai Lu": [
+      30.248,
+      120.163
+    ],
+    "Xixi Wetland Park": [
+      30.269,
+      120.07
+    ],
+    "Yue Fei Temple": [
+      30.253,
+      120.135
+    ],
+    "Zhejiang Provincial Museum": [
+      30.253,
+      120.142
+    ],
+    "Zhiweiguan": [
+      30.246,
+      120.16
+    ]
+  }
+}

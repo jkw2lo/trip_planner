@@ -1,0 +1,975 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Suzhou",
+  "country": "China",
+  "lat": 31.2989,
+  "lon": 120.5853,
+  "generated": "2026-08-13",
+  "by": "Claude",
+  "note": "Opening hours, bookings and restaurants change. Treat specifics as a starting point and confirm before you commit.",
+  "glance": {
+    "why": "Suzhou is what wealthy, retired Chinese officials built when they wanted to demonstrate taste rather than power. Nine of its classical gardens are UNESCO-listed, and they are not parks but compositions: every window frames a view, every path is designed to slow you down. Add canals, silk, the most refined regional opera in China, and a modern city that has quietly become an industrial giant, and you have somewhere far more substantial than a Shanghai day trip.",
+    "bestFor": [
+      "Gardens",
+      "Canals",
+      "Crafts and silk",
+      "Classical culture",
+      "Quiet"
+    ],
+    "idealStay": "2 days, 1 if you are coming from Shanghai",
+    "character": [
+      "Refined",
+      "Watery",
+      "Scholarly",
+      "Understated",
+      "Crowded at the famous sites"
+    ],
+    "dontMiss": [
+      "The Humble Administrator's Garden, booked ahead and entered at opening",
+      "The Master of the Nets Garden, ideally in the late afternoon",
+      "Pingjiang Road canal walk, early or late",
+      "Suzhou Museum, I.M. Pei's last major building",
+      "Silk, either the museum or a working shop",
+      "Kunqu opera, even thirty minutes of it",
+      "Tiger Hill and its leaning pagoda"
+    ],
+    "neighbourhoods": [
+      "Pingjiang historic quarter",
+      "Shantang Street",
+      "Guanqian Street",
+      "Tiger Hill",
+      "Jinji Lake and SIP"
+    ]
+  },
+  "history": {
+    "story": "Suzhou was rich for a thousand years before Shanghai existed, and it got rich from silk, water and paperwork. The Grand Canal made it the hinge of China's north-south trade; the silk trade made its merchants wealthy; and the imperial examination system meant those merchants' sons became officials who retired home and spent their fortunes building gardens. That sequence explains everything you will see.",
+    "origins": "Founded in 514 BCE as the capital of the state of Wu, laid out with a double moat and water gates. The street plan on a Song-dynasty stone map still broadly matches the modern city.",
+    "periods": [
+      {
+        "name": "Sui and Tang",
+        "text": "The Grand Canal connected the Yangtze delta to the northern capitals, and Suzhou became one of the richest cities in the empire."
+      },
+      {
+        "name": "Ming and Qing",
+        "text": "The golden age. Silk workshops, publishing, painting schools, and the garden-building boom that produced almost everything you will visit."
+      },
+      {
+        "name": "Taiping Rebellion, 1860s",
+        "text": "The city was devastated and much was lost. A great deal of what you see is careful reconstruction of what was there."
+      },
+      {
+        "name": "Twentieth century",
+        "text": "Overtaken economically by Shanghai, Suzhou became a provincial city known for handicrafts and gardens."
+      },
+      {
+        "name": "Since 1994",
+        "text": "The Singapore-China industrial park east of the old town turned Suzhou into one of the country's biggest manufacturing economies. The old town was protected, height-limited and restored while the money was made elsewhere."
+      }
+    ],
+    "modern": "You are effectively visiting two cities: a low-rise, canal-laced historic core with strict building limits, and a glass-and-lake business district to the east that looks like Singapore. The separation was deliberate policy and it is the reason the gardens survived.",
+    "whyItMatters": "Garden design here is a literary art, not a horticultural one. Rocks stand in for mountains, ponds for lakes, and the point is to compress a landscape into a courtyard so a scholar could contemplate it without travelling. Once you see that, the gardens stop looking repetitive.",
+    "visible": [
+      "Pingjiang Road follows the same canal alignment as the Song stone map.",
+      "White walls, grey tiles and black timber are the strict local palette; note how the modern museum obeys it.",
+      "Water gates and stone bridges show how goods actually moved.",
+      "Silk workshops still operate in the lanes off Shantang Street."
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {
+        "name": "Humble Administrator's Garden",
+        "area": "Old town north",
+        "why": "The largest and most famous, built by a demoted official in 1509. Water-centred, endlessly framed. Book several days ahead and be there at opening or it is a procession.",
+        "mins": 120
+      },
+      {
+        "name": "Master of the Nets Garden",
+        "area": "Old town south",
+        "why": "Small, and the best-composed of them all. Evening opera performances in the courtyards in season.",
+        "mins": 75
+      },
+      {
+        "name": "Lingering Garden",
+        "area": "West of the old town",
+        "why": "Famous for its rockery and its covered walkways; less crowded than the Humble Administrator's.",
+        "mins": 90
+      },
+      {
+        "name": "Tiger Hill",
+        "area": "Northwest",
+        "why": "A burial mound, a leaning tenth-century pagoda and the legendary tomb of the king of Wu. Green, hilly and a good change of register.",
+        "mins": 120
+      },
+      {
+        "name": "Panmen Gate",
+        "area": "Southwest",
+        "why": "The only surviving combined land and water gate, with a stretch of city wall.",
+        "mins": 60
+      }
+    ],
+    "arts": [
+      {
+        "name": "Suzhou Museum",
+        "area": "Next to the Humble Administrator's Garden",
+        "why": "I.M. Pei's 2006 building, a modern reading of the local white-and-grey vernacular, with a first-rate collection of Wu-region art. Free, timed entry.",
+        "mins": 90
+      },
+      {
+        "name": "Suzhou Silk Museum",
+        "area": "North old town",
+        "why": "Live silkworms, working looms and 4,000 years of the trade that funded the gardens.",
+        "mins": 75
+      },
+      {
+        "name": "Kunqu Opera Museum",
+        "area": "Pingjiang",
+        "why": "The oldest surviving Chinese operatic form, in a beautiful old guild hall. Short performances most days.",
+        "mins": 60
+      },
+      {
+        "name": "Suzhou Embroidery Research Institute",
+        "area": "West",
+        "why": "Double-sided silk embroidery so fine it looks printed. Watching it worked is the point.",
+        "mins": 60
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "name": "Pingjiang Road",
+        "character": "Canal on one side, shophouses on the other, willows overhead",
+        "highlights": "The canal itself, small museums, tea houses",
+        "food": "Snacks, tea, noodle shops",
+        "bestTime": "Before 9am or after 7pm",
+        "mins": 120
+      },
+      {
+        "name": "Shantang Street",
+        "character": "Longer, older canal street running toward Tiger Hill",
+        "highlights": "Boat rides, evening lanterns",
+        "food": "Street snacks",
+        "bestTime": "Evening",
+        "mins": 120
+      },
+      {
+        "name": "Guanqian Street",
+        "character": "The main commercial street, busy and local",
+        "highlights": "Xuanmiao Taoist temple in the middle",
+        "food": "Old-brand snack shops",
+        "bestTime": "Afternoon",
+        "mins": 90
+      },
+      {
+        "name": "Jinji Lake and SIP",
+        "character": "Glass towers, lakeside promenade, Singapore-planned",
+        "highlights": "Ferris wheel, lakeside walk, the 'gate of the east' building",
+        "food": "Malls and international dining",
+        "bestTime": "Evening",
+        "mins": 90
+      }
+    ],
+    "nature": [
+      {
+        "name": "Canal boat ride",
+        "area": "Pingjiang or Shantang",
+        "why": "Twenty minutes on the water re-orients the whole city.",
+        "mins": 30
+      },
+      {
+        "name": "Tiger Hill grounds",
+        "area": "Northwest",
+        "why": "Gardens, bamboo, a stream and a pagoda you can circle.",
+        "mins": 120
+      },
+      {
+        "name": "Jinji Lake promenade",
+        "area": "East",
+        "why": "Long, flat, breezy and good for cycling at dusk.",
+        "mins": 90
+      },
+      {
+        "name": "Tianping Mountain",
+        "area": "West",
+        "why": "Red maples in November; a real if modest walk.",
+        "mins": 180
+      }
+    ],
+    "shopping": [
+      {
+        "name": "Silk shops",
+        "area": "Off Shantang and Guanqian",
+        "why": "Scarves, quilts, and made-to-measure. Buy where you can see the loom.",
+        "mins": 60
+      },
+      {
+        "name": "Embroidery workshops",
+        "area": "Zhenhu village or in-town institutes",
+        "why": "The real thing is expensive and extraordinary; the cheap versions are printed.",
+        "mins": 60
+      },
+      {
+        "name": "Pingjiang craft shops",
+        "area": "Pingjiang",
+        "why": "Fans, tea, woodblock prints, some genuinely good.",
+        "mins": 60
+      },
+      {
+        "name": "Guanqian old brands",
+        "area": "Centre",
+        "why": "Cake shops and sweet-makers a century or more old.",
+        "mins": 45
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Kunqu or pingtan performance",
+        "area": "Pingjiang",
+        "why": "Pingtan storytelling with a lute in a tea house is the local evening, and short sets are easy to sit through.",
+        "mins": 60
+      },
+      {
+        "name": "Shantang Street after dark",
+        "area": "Northwest",
+        "why": "Lanterns on the water; touristy but genuinely lovely.",
+        "mins": 90
+      },
+      {
+        "name": "Jinji Lake light show",
+        "area": "SIP",
+        "why": "The modern city showing off.",
+        "mins": 60
+      }
+    ]
+  },
+  "essential10": [
+    {
+      "rank": 1,
+      "name": "Humble Administrator's Garden at opening",
+      "why": "The definitive classical garden. Only pleasant in the first hour.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 2,
+      "name": "Master of the Nets Garden",
+      "why": "Smaller and better composed. If you only see one, some would argue for this.",
+      "mins": 75,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 3,
+      "name": "Suzhou Museum",
+      "why": "Pei's building is a lesson in how to be modern and local at once.",
+      "mins": 90,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 4,
+      "name": "Pingjiang Road early or late",
+      "why": "The canal town Suzhou actually is, once the coaches leave.",
+      "mins": 90,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 4,
+      "worth": 5
+    },
+    {
+      "rank": 5,
+      "name": "A bowl of Suzhou noodles for breakfast",
+      "why": "The local ritual, and the broth is genuinely refined.",
+      "mins": 40,
+      "label": "Essential",
+      "popularity": 3,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 6,
+      "name": "Kunqu or pingtan, even briefly",
+      "why": "600-year-old opera, and Suzhou is its home.",
+      "mins": 60,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 7,
+      "name": "Tiger Hill",
+      "why": "Landscape and legend, and a break from courtyards.",
+      "mins": 120,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 8,
+      "name": "Silk museum or a working workshop",
+      "why": "Explains why this city was rich.",
+      "mins": 75,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 9,
+      "name": "Lingering Garden",
+      "why": "Excellent, and the third garden is where diminishing returns start.",
+      "mins": 90,
+      "label": "Optional",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 3
+    },
+    {
+      "rank": 10,
+      "name": "Jinji Lake at night",
+      "why": "The other Suzhou, if you are curious about what paid for the restoration.",
+      "mins": 60,
+      "label": "Optional",
+      "popularity": 3,
+      "cultural": 2,
+      "worth": 2
+    }
+  ],
+  "food": {
+    "identity": "Su cuisine is one of China's classical schools: delicate, seasonal, faintly sweet, built on freshwater fish, shrimp, lotus and river vegetables. It is subtle to the point that visitors expecting bold flavour sometimes find it plain. The city's real everyday genius is its noodles, where the broth, the toppings and the timing are all separately fussed over.",
+    "mustTry": [
+      {
+        "dish": "Suzhou noodles (tang mian)",
+        "what": "Thin noodles in a clear, long-simmered broth with a topping served alongside.",
+        "why": "Breakfast for the whole city, with a vocabulary of orders locals use to specify hardness, broth and oil.",
+        "flavour": "Clean, savoury, delicate.",
+        "howLocalsEat": "Before 9am. Order the topping separately and add it yourself.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Songshu guiyu (squirrel-shaped mandarin fish)",
+        "what": "Fish scored, fried into a pinecone shape and drenched in sweet-and-sour sauce.",
+        "why": "The showpiece dish of the Su school.",
+        "flavour": "Sweet, sour, crisp.",
+        "howLocalsEat": "Shared at a banquet table.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Biluochun tea",
+        "what": "A green tea from the hills by Lake Tai, rolled into tight spirals.",
+        "why": "One of China's ten famous teas and grown twenty minutes away.",
+        "flavour": "Floral, delicate, faintly fruity.",
+        "howLocalsEat": "Brewed weak, in a glass, all day.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Sweet osmanthus everything",
+        "what": "Osmanthus flower in cakes, syrups, wine and glutinous rice.",
+        "why": "The city's signature scent, especially in autumn.",
+        "flavour": "Honeyed, floral.",
+        "howLocalsEat": "As a dessert or a drink.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Hairy crab from Yangcheng Lake",
+        "what": "The famous freshwater crab, from the lake just east of the city.",
+        "why": "This is the source; Shanghai just eats it.",
+        "flavour": "Sweet roe, delicate meat.",
+        "howLocalsEat": "October and November, with warm yellow wine.",
+        "importance": "Essential in autumn"
+      },
+      {
+        "dish": "Su-style mooncakes and pastries",
+        "what": "Flaky, layered pastry with savoury or sweet fillings, unlike the dense Cantonese kind.",
+        "why": "A distinct regional pastry tradition still made in old shops.",
+        "flavour": "Buttery, layered, mildly sweet.",
+        "howLocalsEat": "With tea, any time.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Freshwater shrimp with biluochun",
+        "what": "Tiny river shrimp stir-fried with tea leaves.",
+        "why": "The most local dish on any menu here.",
+        "flavour": "Sweet, grassy, very light.",
+        "howLocalsEat": "As one dish among several.",
+        "importance": "Recommended"
+      }
+    ]
+  },
+  "mustEat10": [
+    {
+      "dish": "Suzhou noodles",
+      "where": "Tongdexing or Zhu Hongxing",
+      "order": "Nen ji mian, or the seasonal eel topping",
+      "price": "CNY 20-50"
+    },
+    {
+      "dish": "Squirrel mandarin fish",
+      "where": "Songhelou",
+      "order": "The fish, plus watermelon chicken if in season",
+      "price": "CNY 150-300"
+    },
+    {
+      "dish": "Freshwater shrimp with tea",
+      "where": "Wumen Renjia",
+      "order": "Biluo shrimp, plus lotus root",
+      "price": "CNY 100-200"
+    },
+    {
+      "dish": "Hairy crab",
+      "where": "A Yangcheng Lake restaurant in season",
+      "order": "One each, with yellow wine",
+      "price": "CNY 200-500"
+    },
+    {
+      "dish": "Su-style pastries",
+      "where": "Huangtianyuan",
+      "order": "Osmanthus cake, glutinous rice sweets",
+      "price": "CNY 10-30"
+    },
+    {
+      "dish": "Wontons in clear broth",
+      "where": "Any old-town noodle shop",
+      "order": "Fresh meat wontons",
+      "price": "CNY 12-20"
+    },
+    {
+      "dish": "Biluochun tea",
+      "where": "A Dongshan or Xishan tea house by Lake Tai",
+      "order": "First-flush spring leaf",
+      "price": "CNY 50-200"
+    },
+    {
+      "dish": "Braised pork with soy",
+      "where": "Deyuelou",
+      "order": "Cherry-sauce pork, plus the eel",
+      "price": "CNY 120-250"
+    },
+    {
+      "dish": "Sweet plum juice and osmanthus drinks",
+      "where": "Street stalls on Pingjiang",
+      "order": "Chilled, in summer",
+      "price": "CNY 10-20"
+    },
+    {
+      "dish": "Tofu skin and river vegetables",
+      "where": "Any local restaurant",
+      "order": "Seasonal greens, water shield soup",
+      "price": "CNY 30-80"
+    }
+  ],
+  "restaurants": {
+    "iconic": [
+      {
+        "name": "Songhelou",
+        "cuisine": "Su cuisine",
+        "price": "Mid-high",
+        "area": "Guanqian",
+        "desc": "Claims a Qianlong Emperor connection and has been trading on it since. Touristy but the classics are correct.",
+        "dishes": "Squirrel mandarin fish",
+        "whyGo": "The canonical Suzhou banquet dish in its canonical setting.",
+        "booking": "Recommended"
+      },
+      {
+        "name": "Deyuelou",
+        "cuisine": "Su cuisine",
+        "price": "Mid",
+        "area": "Guanqian",
+        "desc": "Another old house, generally better value than Songhelou.",
+        "dishes": "Braised eel, sweet-and-sour fish",
+        "whyGo": "Classical cooking without the full markup.",
+        "booking": "Recommended"
+      },
+      {
+        "name": "Wumen Renjia",
+        "cuisine": "Su cuisine",
+        "price": "Mid",
+        "area": "Pingjiang",
+        "desc": "In a restored courtyard house off the canal street.",
+        "dishes": "Tea shrimp, lotus root with glutinous rice",
+        "whyGo": "The setting and the food both feel like Suzhou.",
+        "booking": "Recommended"
+      }
+    ],
+    "bestFood": [
+      {
+        "name": "Xin Kai Yuan or a garden-hotel restaurant",
+        "cuisine": "Refined Su",
+        "price": "High",
+        "area": "Various",
+        "desc": "Precise, seasonal cooking in courtyard settings.",
+        "dishes": "Seasonal set menu",
+        "whyGo": "Su cuisine at full attention.",
+        "booking": "Essential"
+      },
+      {
+        "name": "Yangcheng Lake crab restaurants",
+        "cuisine": "Seasonal crab",
+        "price": "High in season",
+        "area": "East of the city",
+        "desc": "Lakeside houses that do little else in October and November.",
+        "dishes": "Steamed hairy crab",
+        "whyGo": "At the source, in season.",
+        "booking": "Essential in season"
+      }
+    ],
+    "bestValue": [
+      {
+        "name": "Tongdexing",
+        "cuisine": "Noodles",
+        "price": "Low",
+        "area": "Old town",
+        "desc": "Famous noodle house, queue at breakfast.",
+        "dishes": "Aozao noodles, eel topping",
+        "whyGo": "The city's best cheap meal.",
+        "booking": "No"
+      },
+      {
+        "name": "Zhu Hongxing",
+        "cuisine": "Noodles",
+        "price": "Low",
+        "area": "Several",
+        "desc": "Long-established chain, consistent broth.",
+        "dishes": "Nen ji mian",
+        "whyGo": "Reliable, cheap, everywhere.",
+        "booking": "No"
+      },
+      {
+        "name": "Huangtianyuan",
+        "cuisine": "Sweets and snacks",
+        "price": "Low",
+        "area": "Guanqian",
+        "desc": "Glutinous rice cakes and osmanthus sweets since 1821.",
+        "dishes": "Osmanthus cake",
+        "whyGo": "A hundred years of the same recipe.",
+        "booking": "No"
+      }
+    ],
+    "special": [
+      {
+        "name": "A garden-side private kitchen",
+        "cuisine": "Su",
+        "price": "High",
+        "area": "Pingjiang",
+        "desc": "Small courtyard restaurants with set menus and a handful of tables.",
+        "dishes": "Seasonal menu",
+        "whyGo": "The most atmospheric dinner in the city.",
+        "booking": "Essential"
+      }
+    ],
+    "casual": [
+      {
+        "name": "Pingjiang Road snack shops",
+        "cuisine": "Street food",
+        "price": "Low",
+        "area": "Pingjiang",
+        "desc": "Stinky tofu, sweet soups, grilled things.",
+        "dishes": "Whatever smells right",
+        "whyGo": "Grazing while you walk the canal.",
+        "booking": "No"
+      },
+      {
+        "name": "Shantang Street food stalls",
+        "cuisine": "Street food",
+        "price": "Low",
+        "area": "Shantang",
+        "desc": "Busiest in the evening.",
+        "dishes": "Snacks and sweets",
+        "whyGo": "Lantern-lit and cheap.",
+        "booking": "No"
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Pingjiang tea houses",
+        "cuisine": "Tea and pingtan",
+        "price": "Low-mid",
+        "area": "Pingjiang",
+        "desc": "Tea with a live storyteller and a three-stringed lute in the afternoon.",
+        "dishes": "Biluochun",
+        "whyGo": "The single most Suzhou hour available.",
+        "booking": "No"
+      },
+      {
+        "name": "Dongshan and Xishan tea villages",
+        "cuisine": "Tea",
+        "price": "Low-mid",
+        "area": "Lake Tai",
+        "desc": "Growers' houses on the lake where biluochun is picked.",
+        "dishes": "Spring leaf",
+        "whyGo": "Worth a half day in April.",
+        "booking": "No"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "name": "A garden at opening, alone",
+      "what": "First entry, before the tour groups, in the Humble Administrator's or the Lingering Garden.",
+      "why": "The gardens were designed for solitude and only work that way.",
+      "mins": 120
+    },
+    {
+      "name": "Pingtan storytelling in a tea house",
+      "what": "Two performers, a lute, and a story in Suzhou dialect.",
+      "why": "You will not understand a word and it is still lovely.",
+      "mins": 60
+    },
+    {
+      "name": "Canal boat at dusk",
+      "what": "A short rowed or motored trip on the old canals.",
+      "why": "The water level is the level the city was designed from.",
+      "mins": 30
+    },
+    {
+      "name": "Silk or embroidery workshop visit",
+      "what": "Watch a loom or a double-sided embroidery being worked.",
+      "why": "Both crafts are still alive here, not staged.",
+      "mins": 60
+    },
+    {
+      "name": "Tea picking or tasting at Lake Tai",
+      "what": "A half day in the biluochun villages, best in April.",
+      "why": "Seasonal, beautiful, and the tea is transformed by freshness.",
+      "mins": 240
+    },
+    {
+      "name": "Kunqu at the Master of the Nets Garden",
+      "what": "Evening performances staged in the courtyards in season.",
+      "why": "Opera in the space it was written for.",
+      "mins": 90
+    }
+  ],
+  "neighbourhoodGuide": [
+    {
+      "name": "Pingjiang historic quarter",
+      "vibe": "Canal, willows, white walls, tea houses",
+      "bestFor": "Walking, tea, small museums",
+      "sights": "Pingjiang Road, Kunqu Museum, Couple's Garden",
+      "food": "Noodles, snacks, courtyard restaurants",
+      "mins": 180
+    },
+    {
+      "name": "North old town",
+      "vibe": "Garden district, busiest part of the city",
+      "bestFor": "The major gardens and the museum",
+      "sights": "Humble Administrator's Garden, Suzhou Museum, Silk Museum",
+      "food": "Tourist-facing but decent",
+      "mins": 240
+    },
+    {
+      "name": "Shantang and Tiger Hill",
+      "vibe": "Long canal street leading to a wooded hill",
+      "bestFor": "Evening lanterns, boat rides",
+      "sights": "Shantang Street, Tiger Hill pagoda",
+      "food": "Street snacks",
+      "mins": 180
+    },
+    {
+      "name": "Guanqian",
+      "vibe": "Local commercial centre",
+      "bestFor": "Old-brand shops, eating",
+      "sights": "Xuanmiao Temple",
+      "food": "Songhelou, Deyuelou, Huangtianyuan",
+      "mins": 120
+    },
+    {
+      "name": "Jinji Lake and SIP",
+      "vibe": "Modern, planned, glassy",
+      "bestFor": "Evening walk, contrast",
+      "sights": "Lakeside promenade, Gate of the East",
+      "food": "Malls, international",
+      "mins": 90
+    }
+  ],
+  "timeGuidance": {
+    "three": "You do not need three days. Two is generous: gardens and museum on day one, Pingjiang, Tiger Hill and opera on day two.",
+    "fivePlus": "Add Lake Tai and the tea villages, Tongli or Mudu water towns, and a slower pass at two more gardens."
+  },
+  "dayTrips": [
+    {
+      "name": "Tongli",
+      "travel": "40 min by car or bus",
+      "why": "A quieter, prettier water town than the famous ones, with the Retreat and Reflection Garden.",
+      "duration": "Half to full day",
+      "suits": "Anyone wanting canals without Zhouzhuang's crowds.",
+      "logistics": "Bus or taxi; easy.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Mudu",
+      "travel": "30 min by metro and bus",
+      "why": "An old merchant town with several small gardens, on the way to Lake Tai.",
+      "duration": "Half day",
+      "suits": "Garden completists.",
+      "logistics": "Metro line 1 then a short bus.",
+      "verdict": "Only if you have extra time"
+    },
+    {
+      "name": "Zhouzhuang",
+      "travel": "1 hr",
+      "why": "The most famous water town, and the most commercialised.",
+      "duration": "Half to full day",
+      "suits": "First-timers who want the classic canal photograph.",
+      "logistics": "Coach or taxi.",
+      "verdict": "Skip unless particularly interested; Tongli is better"
+    },
+    {
+      "name": "Lake Tai, Dongshan and Xishan",
+      "travel": "1 hr",
+      "why": "Tea villages, orchards, lake views, and the source of biluochun.",
+      "duration": "Full day",
+      "suits": "Spring visitors.",
+      "logistics": "Car is easiest.",
+      "verdict": "Worth it in April"
+    },
+    {
+      "name": "Shanghai",
+      "travel": "25-30 min by high-speed rail",
+      "why": "It works in both directions.",
+      "duration": "Full day",
+      "suits": "Anyone based in Suzhou.",
+      "logistics": "Trains every few minutes.",
+      "verdict": "Worth it"
+    }
+  ],
+  "practical": {
+    "gettingAround": "The old town is small and flat; walking and bike-share cover most of it. The metro is clean and useful for reaching Tiger Hill, the station and Jinji Lake. Didi works well. The high-speed station is north of the old town, about fifteen minutes by taxi.",
+    "whenToGo": "Late March to May for magnolia, tea and mild weather. October and November for hairy crab, osmanthus and clear light. Avoid July and August, which are humid and heavy, and the national holiday weeks when the gardens are genuinely unbearable.",
+    "howLong": {
+      "one": "Humble Administrator's Garden at opening, Suzhou Museum, lunch, Pingjiang Road, Master of the Nets in the late afternoon. Full but rewarding.",
+      "twoThree": "Add Tiger Hill, Shantang in the evening, a silk workshop and an opera performance. Two days is the right length.",
+      "fourFive": "Add Tongli, Lake Tai and a slower pass at the remaining gardens.",
+      "week": "Only as a base for the whole Jiangnan region."
+    },
+    "culture": [
+      "Book the Humble Administrator's Garden days ahead; it caps entries and sells out.",
+      "Passport needed for garden and museum entry.",
+      "Gardens open around 7:30am and the first hour is a different experience entirely.",
+      "Payment by phone; set up Alipay or WeChat Pay before arriving.",
+      "Suzhou dialect is distinct and older residents are proud of it.",
+      "Tipping is not expected."
+    ]
+  },
+  "whatIdDo": [
+    {
+      "day": "Day 1",
+      "plan": "Humble Administrator's Garden at opening, Suzhou Museum next door, noodles for lunch. Afternoon on Pingjiang Road with a tea-house pingtan set. Master of the Nets Garden late, dinner at Wumen Renjia."
+    },
+    {
+      "day": "Day 2",
+      "plan": "Tiger Hill in the morning, then Shantang Street and a canal boat. Silk museum or a workshop in the afternoon. Songhelou or Deyuelou for the squirrel fish, then Shantang after dark."
+    }
+  ],
+  "quickRef": {
+    "musts": [
+      "Humble Administrator's Garden at opening",
+      "Master of the Nets Garden",
+      "Suzhou Museum",
+      "Pingjiang Road early or late",
+      "Suzhou noodles for breakfast"
+    ],
+    "eats": [
+      "Suzhou noodles",
+      "Squirrel mandarin fish",
+      "Biluochun tea",
+      "Hairy crab in autumn",
+      "Osmanthus sweets"
+    ],
+    "areas": [
+      "Pingjiang",
+      "North old town",
+      "Shantang and Tiger Hill",
+      "Guanqian"
+    ],
+    "experiences": [
+      "A garden alone at opening",
+      "Pingtan in a tea house",
+      "Canal boat at dusk"
+    ],
+    "dayTrip": "Tongli water town, or Lake Tai in spring",
+    "stay": "2 days"
+  },
+  "coords": {
+    "Canal boat ride": [
+      31.316,
+      120.632
+    ],
+    "Deyuelou": [
+      31.311,
+      120.622
+    ],
+    "Dongshan and Xishan tea villages": [
+      31.07,
+      120.428
+    ],
+    "Embroidery workshops": [
+      31.315,
+      120.59
+    ],
+    "Guanqian": [
+      31.31,
+      120.622
+    ],
+    "Guanqian Street": [
+      31.31,
+      120.622
+    ],
+    "Guanqian old brands": [
+      31.31,
+      120.622
+    ],
+    "Huangtianyuan": [
+      31.311,
+      120.621
+    ],
+    "Humble Administrator's Garden": [
+      31.324,
+      120.628
+    ],
+    "Jinji Lake": [
+      31.32,
+      120.68
+    ],
+    "Jinji Lake and SIP": [
+      31.32,
+      120.68
+    ],
+    "Jinji Lake light show": [
+      31.32,
+      120.68
+    ],
+    "Jinji Lake promenade": [
+      31.32,
+      120.68
+    ],
+    "Kunqu Opera Museum": [
+      31.315,
+      120.633
+    ],
+    "Kunqu or pingtan performance": [
+      31.316,
+      120.633
+    ],
+    "Lake Tai, Dongshan and Xishan": [
+      31.07,
+      120.428
+    ],
+    "Lingering Garden": [
+      31.316,
+      120.605
+    ],
+    "Master of the Nets Garden": [
+      31.303,
+      120.629
+    ],
+    "Mudu": [
+      31.263,
+      120.52
+    ],
+    "North old town": [
+      31.322,
+      120.627
+    ],
+    "Panmen Gate": [
+      31.293,
+      120.605
+    ],
+    "Pingjiang Road": [
+      31.316,
+      120.632
+    ],
+    "Pingjiang craft shops": [
+      31.316,
+      120.632
+    ],
+    "Pingjiang historic quarter": [
+      31.316,
+      120.632
+    ],
+    "Pingjiang tea houses": [
+      31.316,
+      120.632
+    ],
+    "Shanghai": [
+      31.23,
+      121.474
+    ],
+    "Shantang Street": [
+      31.323,
+      120.59
+    ],
+    "Shantang Street after dark": [
+      31.323,
+      120.59
+    ],
+    "Shantang and Tiger Hill": [
+      31.328,
+      120.582
+    ],
+    "Silk shops": [
+      31.323,
+      120.592
+    ],
+    "Songhelou": [
+      31.311,
+      120.623
+    ],
+    "Suzhou Embroidery Research Institute": [
+      31.315,
+      120.59
+    ],
+    "Suzhou Museum": [
+      31.324,
+      120.626
+    ],
+    "Suzhou Silk Museum": [
+      31.32,
+      120.622
+    ],
+    "Tianping Mountain": [
+      31.29,
+      120.529
+    ],
+    "Tiger Hill": [
+      31.334,
+      120.573
+    ],
+    "Tiger Hill grounds": [
+      31.334,
+      120.573
+    ],
+    "Tongdexing": [
+      31.312,
+      120.62
+    ],
+    "Tongli": [
+      31.162,
+      120.719
+    ],
+    "Wumen Renjia": [
+      31.316,
+      120.634
+    ],
+    "Yangcheng Lake crab restaurants": [
+      31.435,
+      120.76
+    ],
+    "Zhouzhuang": [
+      31.116,
+      120.851
+    ],
+    "Zhu Hongxing": [
+      31.311,
+      120.621
+    ]
+  }
+}

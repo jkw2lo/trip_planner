@@ -1,0 +1,1067 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Beijing",
+  "country": "China",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "generated": "2026-08-13",
+  "by": "Claude",
+  "note": "Opening hours, bookings and restaurants change. Treat specifics as a starting point and confirm before you commit.",
+  "glance": {
+    "why": "Beijing is where Chinese power has been staged for six centuries, and it is still built to make you feel small. The axis running from the Temple of Heaven through Tiananmen to the Drum Tower is one of the great pieces of urban design anywhere. What surprises most first-timers is how much low, grey, ordinary life survives in the hutongs a block from all that monumentality.",
+    "bestFor": [
+      "Imperial history",
+      "Monumental architecture",
+      "Food",
+      "Markets",
+      "Contemporary art"
+    ],
+    "idealStay": "4-5 days, 6 if you want the Great Wall unhurried",
+    "character": [
+      "Monumental",
+      "Dusty",
+      "Ceremonial",
+      "Enormous",
+      "Unexpectedly local"
+    ],
+    "dontMiss": [
+      "Forbidden City, entered from the south and walked north",
+      "Jingshan Park immediately after, for the only view of those roofs",
+      "The Great Wall at Mutianyu or Jinshanling, not Badaling",
+      "Temple of Heaven park at 7am when it belongs to the neighbourhood",
+      "A hutong on foot, ideally without a plan",
+      "Peking duck carved at the table",
+      "The Summer Palace by boat in warm weather"
+    ],
+    "neighbourhoods": [
+      "Dongcheng hutongs",
+      "Gulou and Houhai",
+      "Wudaoying and Beiluoguxiang",
+      "798 Art District",
+      "Sanlitun",
+      "Qianmen and Dashilan"
+    ]
+  },
+  "history": {
+    "story": "Beijing has been destroyed and rebuilt as a capital more times than almost any city on earth, and each rebuild was an argument about who China belonged to. It is not an ancient city in the way Xi'an is; it is a deliberately constructed one, laid out on a north-south axis by Mongol and then Ming planners to demonstrate that the emperor sat at the centre of the world.",
+    "origins": "A frontier settlement on the edge of the north China plain, valuable because it guarded the passes between the steppe and the agricultural heartland. That frontier position is the whole story: whoever held Beijing controlled the meeting point of two worlds.",
+    "periods": [
+      {
+        "name": "Yuan, 1271-1368",
+        "text": "Kublai Khan built Dadu here and gave the city its grid and its axis. Marco Polo, whether or not he actually came, described a city of unimaginable order."
+      },
+      {
+        "name": "Ming, 1368-1644",
+        "text": "The Yongle Emperor moved the capital north from Nanjing, built the Forbidden City and the Temple of Heaven, and rebuilt the Great Wall in the form tourists photograph today. This is the Beijing you are mostly visiting."
+      },
+      {
+        "name": "Qing, 1644-1912",
+        "text": "Manchu rulers kept the Ming city almost unchanged and added the garden palaces in the northwest. The Summer Palace and the ruined Old Summer Palace both date from here, and the latter's destruction by British and French troops in 1860 is still taught as the start of the century of humiliation."
+      },
+      {
+        "name": "Republic and war, 1912-1949",
+        "text": "The capital moved away, the city was occupied by Japan, and much of the imperial fabric fell into disrepair."
+      },
+      {
+        "name": "People's Republic, 1949-",
+        "text": "The city walls came down for ring roads, Tiananmen Square was enlarged to hold a million people, and the hutongs were subdivided into crowded compounds. From the 1990s, whole districts were cleared for towers."
+      }
+    ],
+    "modern": "The 2008 Olympics were the hinge. Enormous investment produced the subway network you will actually use, the airport, and a set of landmark buildings by foreign architects. Since then the city has pushed industry and population outward and turned inward toward culture, coffee and preservation, at least in the districts visitors see.",
+    "whyItMatters": "The axis is not a museum piece. Watch where the flag ceremony happens, which direction the Forbidden City faces, and where the new national museums sit, and you are watching the same argument about centrality being made in a modern register.",
+    "visible": [
+      "Walk the axis in one day: Temple of Heaven, Qianmen, Tiananmen, Forbidden City, Jingshan, Drum and Bell Towers.",
+      "Hutong courtyard walls show where wealth sat: door piers and the number of beams still signal rank.",
+      "The Old Summer Palace ruins are deliberately left broken as a political statement.",
+      "798's Bauhaus factory sheds were built by East German engineers in the 1950s, an artefact of socialist-bloc industry."
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {
+        "name": "Forbidden City",
+        "area": "Dongcheng",
+        "why": "980 surviving buildings, and the only way to feel the scale is to walk the full north-south route. Book with your passport several days ahead; entry is timed and caps out.",
+        "mins": 180
+      },
+      {
+        "name": "Temple of Heaven",
+        "area": "Dongcheng",
+        "why": "The architecture is extraordinary, but the park is the real experience: dancers, chess, choirs and calligraphy on the paving from dawn.",
+        "mins": 120
+      },
+      {
+        "name": "Great Wall at Mutianyu",
+        "area": "Huairou",
+        "why": "Restored, steep, forested and far less crowded than Badaling. Chairlift up, toboggan down if you want. Jinshanling is wilder if you will hike three hours.",
+        "mins": 300
+      },
+      {
+        "name": "Summer Palace",
+        "area": "Haidian",
+        "why": "An imperial lake retreat the size of a district. The Long Corridor and Kunming Lake are the point; go by boat in summer or across the ice in winter.",
+        "mins": 180
+      },
+      {
+        "name": "Lama Temple",
+        "area": "Dongcheng",
+        "why": "A working Tibetan Buddhist monastery with an 18-metre Maitreya carved from a single sandalwood trunk.",
+        "mins": 60
+      },
+      {
+        "name": "Ming Tombs and the Sacred Way",
+        "area": "Changping",
+        "why": "The avenue of stone animals is the good part. Pairs naturally with a wall trip.",
+        "mins": 180
+      }
+    ],
+    "arts": [
+      {
+        "name": "National Museum of China",
+        "area": "Tiananmen",
+        "why": "Free with ID. The Ancient China galleries in the basement hold the bronzes; the upstairs political narrative is interesting for different reasons.",
+        "mins": 180
+      },
+      {
+        "name": "Capital Museum",
+        "area": "Xicheng",
+        "why": "Beijing's own story, well told and rarely crowded.",
+        "mins": 120
+      },
+      {
+        "name": "798 Art District",
+        "area": "Chaoyang",
+        "why": "Galleries, bookshops and coffee in 1950s factory halls. Uneven, commercial in parts, still worth an afternoon.",
+        "mins": 180
+      },
+      {
+        "name": "Peking opera at Huguang Guild Hall",
+        "area": "Xicheng",
+        "why": "Short tourist-friendly programmes in a historic theatre. Not the deep version, but a real building and a real art form.",
+        "mins": 90
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "name": "Gulou, Houhai and the Drum Tower hutongs",
+        "character": "Grey-brick lanes, courtyard gates, lake and willows",
+        "highlights": "Drum and Bell Towers, Houhai lakes, Nanluoguxiang side alleys",
+        "food": "Jianbing carts, hotpot, Yunnan restaurants",
+        "bestTime": "Late afternoon into evening",
+        "mins": 180
+      },
+      {
+        "name": "Wudaoying and Beiluoguxiang",
+        "character": "Quieter, small independent shops and coffee",
+        "highlights": "The lane itself, plus the Lama Temple at one end",
+        "food": "Third-wave coffee, craft beer, vegetarian",
+        "bestTime": "Morning",
+        "mins": 120
+      },
+      {
+        "name": "Qianmen and Dashilan",
+        "character": "Restored commercial street plus genuinely old lanes behind",
+        "highlights": "Zhengyangmen gate, Dashilan's old shopfronts",
+        "food": "Old brand shops, snack street",
+        "bestTime": "Morning before the coaches",
+        "mins": 120
+      },
+      {
+        "name": "Sanlitun",
+        "character": "Modern, glassy, expensive",
+        "highlights": "Taikoo Li architecture, bookshop, bars",
+        "food": "International, good cocktails",
+        "bestTime": "Evening",
+        "mins": 120
+      }
+    ],
+    "nature": [
+      {
+        "name": "Jingshan Park",
+        "area": "Xicheng",
+        "why": "A coal hill made from the moat spoil. Five minutes up for the single best view in Beijing.",
+        "mins": 45
+      },
+      {
+        "name": "Beihai Park",
+        "area": "Xicheng",
+        "why": "Imperial lake garden with a white dagoba on the island. Rowing boats in summer.",
+        "mins": 90
+      },
+      {
+        "name": "Olympic Forest Park",
+        "area": "Chaoyang",
+        "why": "Vast, green, and where Beijingers actually run. Skip unless you want a break from stone.",
+        "mins": 90
+      },
+      {
+        "name": "Fragrant Hills",
+        "area": "Haidian",
+        "why": "Worth it in late October for the red leaves, mobbed accordingly.",
+        "mins": 240
+      }
+    ],
+    "shopping": [
+      {
+        "name": "Panjiayuan Antique Market",
+        "area": "Chaoyang",
+        "why": "Weekend mornings. Ceramics, calligraphy, Cultural Revolution ephemera, jade, and a great deal of confident fakery. Bargain hard, expect reproductions.",
+        "mins": 120
+      },
+      {
+        "name": "Kappabashi of knives it is not, but Dashilan's old brands",
+        "area": "Qianmen",
+        "why": "Tea, silk, cloth shoes and traditional medicine in shops a century or more old.",
+        "mins": 90
+      },
+      {
+        "name": "Maliandao Tea Street",
+        "area": "Xicheng",
+        "why": "Several buildings of nothing but tea. Sit down, get poured, learn something.",
+        "mins": 120
+      },
+      {
+        "name": "Sanlitun Taikoo Li",
+        "area": "Chaoyang",
+        "why": "Contemporary design, international brands, the good Page One bookshop.",
+        "mins": 90
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Houhai lakeside",
+        "area": "Xicheng",
+        "why": "Touristy bar strip with live music. Pleasant on the water, avoid the hard-sell venues.",
+        "mins": 120
+      },
+      {
+        "name": "Great Leap Brewing",
+        "area": "Dongcheng",
+        "why": "Craft beer in a courtyard hutong. The original Doujiao Hutong location is the atmospheric one.",
+        "mins": 120
+      },
+      {
+        "name": "Jazz at Blue Note or a hutong bar",
+        "area": "Dongcheng",
+        "why": "Beijing's live music scene is small but real, and better value than Shanghai.",
+        "mins": 150
+      },
+      {
+        "name": "Night view from Jingshan is closed, so try a rooftop in Qianmen",
+        "area": "Qianmen",
+        "why": "The Forbidden City lit from a distance, drink in hand.",
+        "mins": 90
+      }
+    ]
+  },
+  "essential10": [
+    {
+      "rank": 1,
+      "name": "Forbidden City walked south to north, then Jingshan",
+      "why": "The building and the view of the building are one experience. Doing them separately halves both.",
+      "mins": 240,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 2,
+      "name": "Great Wall at Mutianyu or Jinshanling",
+      "why": "The one thing you will regret skipping. Choose a restored-but-quiet section and go early.",
+      "mins": 360,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 3,
+      "name": "Temple of Heaven park at opening",
+      "why": "The only major site where you see contemporary Beijing using an imperial space as a back garden.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 4,
+      "name": "Peking duck, properly",
+      "why": "It is a technical dish, not just a famous one. Watching it carved is part of it.",
+      "mins": 105,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 4,
+      "worth": 5
+    },
+    {
+      "rank": 5,
+      "name": "A hutong on foot with no destination",
+      "why": "Beijing's domestic scale is invisible from a car and it is where the city is warmest.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 3,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 6,
+      "name": "Summer Palace",
+      "why": "Imperial leisure rather than imperial power, and a different register entirely.",
+      "mins": 180,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 7,
+      "name": "Lama Temple",
+      "why": "Working religion, thick with juniper smoke, twenty minutes from the hutong cafes.",
+      "mins": 60,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 8,
+      "name": "National Museum, ancient galleries only",
+      "why": "The bronzes are world-class. Ignore the rest unless the politics interest you.",
+      "mins": 120,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 9,
+      "name": "798 Art District",
+      "why": "The best available window into contemporary Chinese culture, commercial edges and all.",
+      "mins": 180,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 3,
+      "worth": 3
+    },
+    {
+      "rank": 10,
+      "name": "Panjiayuan on a weekend morning",
+      "why": "More fun as anthropology than as shopping.",
+      "mins": 120,
+      "label": "Optional",
+      "popularity": 3,
+      "cultural": 3,
+      "worth": 3
+    }
+  ],
+  "food": {
+    "identity": "Beijing food is northern, wheat-based and imperial at the top end, blunt and salty at the bottom. Think noodles and steamed bread rather than rice, lamb from the Mongolian frontier, heavy fermented bean and sesame pastes, and a court tradition that produced roast duck and Manchu-Han banquets. It is not Sichuan and it is not Cantonese: less chilli than the first, less delicacy than the second, more wheat and mutton than either.",
+    "mustTry": [
+      {
+        "dish": "Peking duck",
+        "what": "Air-dried duck roasted over fruitwood, carved into skin, meat and fat, served with pancakes, scallion, cucumber and sweet bean sauce.",
+        "why": "A court dish perfected over centuries, and the technical benchmark for the whole cuisine.",
+        "flavour": "Crisp, rich, smoky; the skin dipped in sugar is the tell of a good house.",
+        "howLocalsEat": "Skin first with sugar, then wrapped pancakes, then soup from the carcass.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Zhajiangmian",
+        "what": "Thick wheat noodles under fermented soybean paste with pork, topped with shredded raw vegetables you mix in yourself.",
+        "why": "The everyday Beijing bowl, and the clearest expression of the northern wheat-and-paste palate.",
+        "flavour": "Salty, deep, a little funky; the cucumber cuts it.",
+        "howLocalsEat": "Mix hard, eat fast, add vinegar.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Jianbing",
+        "what": "A thin mung bean crepe cooked on a griddle with egg, hoisin, chilli, coriander and a crisp cracker folded inside.",
+        "why": "The definitive breakfast, made in ninety seconds from a cart.",
+        "flavour": "Savoury, crunchy, a little sweet.",
+        "howLocalsEat": "Standing up, on the way to the subway, before 9am.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Instant-boiled mutton hotpot",
+        "what": "Thin-sliced lamb swished in plain broth from a copper chimney pot, dipped in sesame paste.",
+        "why": "Mongol frontier food that became Beijing's winter ritual. The plain broth is the point.",
+        "flavour": "Clean, then whatever your sesame dip makes it.",
+        "howLocalsEat": "In winter, in a group, with sesame bread and pickled garlic.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Douzhi and jiaoquan",
+        "what": "Fermented mung bean drink with a fried dough ring.",
+        "why": "The most divisive thing in the city. Locals love it, almost no visitor does.",
+        "flavour": "Sour, cheesy, aggressively fermented.",
+        "howLocalsEat": "Breakfast, with pickles, at an old shop.",
+        "importance": "Optional, but try one sip"
+      },
+      {
+        "dish": "Lamb skewers",
+        "what": "Cumin and chilli mutton grilled over coals, Uyghur in origin.",
+        "why": "The default street food of a summer evening.",
+        "flavour": "Cumin-forward, fatty, smoky.",
+        "howLocalsEat": "By the dozen, with cold Yanjing beer, outdoors.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Baodu",
+        "what": "Flash-boiled tripe with sesame dip.",
+        "why": "Old Beijing offal culture, still going in Niujie and around the Drum Tower.",
+        "flavour": "Crunchy, clean, dip-dependent.",
+        "howLocalsEat": "Quickly, as a snack.",
+        "importance": "Optional"
+      },
+      {
+        "dish": "Tanghulu",
+        "what": "Hawthorn berries on a stick in hard sugar glaze.",
+        "why": "Winter street sweet, sharp under the sugar.",
+        "flavour": "Tart then sweet.",
+        "howLocalsEat": "Walking, in cold weather.",
+        "importance": "Recommended"
+      }
+    ]
+  },
+  "mustEat10": [
+    {
+      "dish": "Peking duck",
+      "where": "Siji Minfu (Qianmen or Forbidden City branches)",
+      "order": "Whole duck, ask for the sugar for the skin",
+      "price": "CNY 250-350 for two"
+    },
+    {
+      "dish": "Peking duck, the old-school version",
+      "where": "Bianyifang",
+      "order": "Menlu-roasted duck, a closed-oven method older than Quanjude's",
+      "price": "CNY 250-350 for two"
+    },
+    {
+      "dish": "Zhajiangmian",
+      "where": "Haiwanju",
+      "order": "Noodles with the full set of vegetable toppings",
+      "price": "CNY 30-50"
+    },
+    {
+      "dish": "Jianbing",
+      "where": "Any cart with a morning queue; several around Gulou",
+      "order": "Add an extra egg",
+      "price": "CNY 8-15"
+    },
+    {
+      "dish": "Mutton hotpot",
+      "where": "Julong Zhai or Nanmen Shuan Rou",
+      "order": "Hand-cut lamb, sesame dip, sesame bread",
+      "price": "CNY 120-200 per person"
+    },
+    {
+      "dish": "Lamb skewers and grilled fish",
+      "where": "Any evening chuanr strip; Gui Street for the full circus",
+      "order": "Skewers by the ten, plus cumin flatbread",
+      "price": "CNY 60-120"
+    },
+    {
+      "dish": "Beijing-style dumplings",
+      "where": "Baoyuan Dumpling House",
+      "order": "The coloured-dough dumplings, several fillings",
+      "price": "CNY 50-90"
+    },
+    {
+      "dish": "Imperial-style small plates",
+      "where": "Najia Xiaoguan",
+      "order": "Manchu court dishes, book ahead",
+      "price": "CNY 150-250"
+    },
+    {
+      "dish": "Muslim-quarter beef and lamb",
+      "where": "Niujie area shops",
+      "order": "Beef pies, lamb offal soup",
+      "price": "CNY 30-60"
+    },
+    {
+      "dish": "Yoghurt in a clay pot",
+      "where": "Street vendors around Nanluoguxiang and Houhai",
+      "order": "Plain, cold",
+      "price": "CNY 8-15"
+    }
+  ],
+  "restaurants": {
+    "iconic": [
+      {
+        "name": "Siji Minfu",
+        "cuisine": "Peking duck",
+        "price": "Mid",
+        "area": "Qianmen / Dongcheng",
+        "desc": "The duck house Beijingers actually recommend now, with a view of the Forbidden City walls from the Nanchizi branch.",
+        "dishes": "Roast duck, mustard duck web, sesame pastry",
+        "whyGo": "Best balance of quality, price and atmosphere among the famous houses.",
+        "booking": "Queue or book; peak times are long"
+      },
+      {
+        "name": "Bianyifang",
+        "cuisine": "Peking duck",
+        "price": "Mid",
+        "area": "Chongwenmen",
+        "desc": "Founded 1416, roasting in a closed oven rather than over open fire, which gives softer skin and less smoke.",
+        "dishes": "Menlu duck",
+        "whyGo": "The other technique, and the older house.",
+        "booking": "Advisable"
+      },
+      {
+        "name": "Najia Xiaoguan",
+        "cuisine": "Manchu court",
+        "price": "Mid-high",
+        "area": "Chaoyang",
+        "desc": "Imperial bannerman cooking in a small, warm room.",
+        "dishes": "Sea cucumber with scallion, court-style pork",
+        "whyGo": "A cuisine you will not meet elsewhere.",
+        "booking": "Essential"
+      }
+    ],
+    "bestFood": [
+      {
+        "name": "TRB Hutong",
+        "cuisine": "European fine dining",
+        "price": "High",
+        "area": "Dongcheng",
+        "desc": "In a former temple compound; the courtyard is the reason.",
+        "dishes": "Tasting menu",
+        "whyGo": "Beijing's most atmospheric special-occasion room.",
+        "booking": "Essential, weeks out"
+      },
+      {
+        "name": "King's Joy",
+        "cuisine": "Vegetarian fine dining",
+        "price": "High",
+        "area": "Dongcheng",
+        "desc": "Buddhist-influenced vegetarian near the Lama Temple, taken very seriously.",
+        "dishes": "Set menu",
+        "whyGo": "Proves how good Chinese vegetarian cooking can be.",
+        "booking": "Essential"
+      },
+      {
+        "name": "Jing Yaa Tang",
+        "cuisine": "Duck and Chinese",
+        "price": "High",
+        "area": "Sanlitun",
+        "desc": "Designer duck house in The Opposite House hotel.",
+        "dishes": "Duck, dim sum",
+        "whyGo": "If you want the dish in a polished setting.",
+        "booking": "Recommended"
+      }
+    ],
+    "bestValue": [
+      {
+        "name": "Haiwanju",
+        "cuisine": "Old Beijing noodles",
+        "price": "Low",
+        "area": "Several",
+        "desc": "Staff shout a greeting when you walk in and slam the bowl down. Loud, cheap, correct.",
+        "dishes": "Zhajiangmian",
+        "whyGo": "The bowl and the theatre for the price of a coffee.",
+        "booking": "No"
+      },
+      {
+        "name": "Baoyuan Dumpling House",
+        "cuisine": "Dumplings",
+        "price": "Low",
+        "area": "Chaoyang",
+        "desc": "Dough coloured with vegetable juice; more fun than it sounds and genuinely good.",
+        "dishes": "Mixed dumpling plate",
+        "whyGo": "Cheap, reliable, good for groups.",
+        "booking": "No"
+      },
+      {
+        "name": "Niujie street shops",
+        "cuisine": "Hui Muslim",
+        "price": "Low",
+        "area": "Xicheng",
+        "desc": "Beef pies, lamb soup and sesame cakes around the old mosque.",
+        "dishes": "Niuroubing, yangza tang",
+        "whyGo": "A different Beijing, and very cheap.",
+        "booking": "No"
+      }
+    ],
+    "special": [
+      {
+        "name": "Country Kitchen",
+        "cuisine": "Northern Chinese",
+        "price": "High",
+        "area": "Chaoyang",
+        "desc": "Open kitchen, wood-fired breads, refined versions of northern staples.",
+        "dishes": "Peking duck, hand-pulled noodles",
+        "whyGo": "Northern food at fine-dining execution.",
+        "booking": "Recommended"
+      },
+      {
+        "name": "Da Dong",
+        "cuisine": "Duck and modern Chinese",
+        "price": "High",
+        "area": "Several",
+        "desc": "Famously lean duck and theatrical presentation. Divisive among purists.",
+        "dishes": "Super-lean roast duck",
+        "whyGo": "The polished, plated interpretation.",
+        "booking": "Recommended"
+      }
+    ],
+    "casual": [
+      {
+        "name": "Gui Street (Guijie)",
+        "cuisine": "Crayfish, hotpot, skewers",
+        "price": "Low-mid",
+        "area": "Dongzhimen",
+        "desc": "A kilometre of red lanterns and restaurants open absurdly late.",
+        "dishes": "Spicy crayfish, grilled fish",
+        "whyGo": "Beijing's late-night eating street.",
+        "booking": "No"
+      },
+      {
+        "name": "Yunnan and Guizhou places around Gulou",
+        "cuisine": "Southwestern Chinese",
+        "price": "Low-mid",
+        "area": "Dongcheng",
+        "desc": "Sour, herbal, chilli-forward cooking that makes a good break from northern food.",
+        "dishes": "Rice noodles, sour fish soup",
+        "whyGo": "Variety, and mostly local crowds.",
+        "booking": "No"
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Metal Hands",
+        "cuisine": "Coffee",
+        "price": "Low",
+        "area": "Fangjia Hutong and others",
+        "desc": "The hutong coffee scene's anchor, in a converted courtyard.",
+        "dishes": "Filter, flat white",
+        "whyGo": "Good coffee and a good place to sit between sights.",
+        "booking": "No"
+      },
+      {
+        "name": "Maliandao tea houses",
+        "cuisine": "Tea",
+        "price": "Low-mid",
+        "area": "Xicheng",
+        "desc": "Sit-down tastings of pu'er, oolong and jasmine, with a merchant who will explain the differences.",
+        "dishes": "Whatever they pour",
+        "whyGo": "The most useful hour you can spend on Chinese tea.",
+        "booking": "No"
+      },
+      {
+        "name": "Soloist Coffee",
+        "cuisine": "Coffee",
+        "price": "Low",
+        "area": "Qianmen / Dashilan",
+        "desc": "Industrial-vintage roaster in an old lane.",
+        "dishes": "Espresso",
+        "whyGo": "Well placed between Qianmen and the square.",
+        "booking": "No"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "name": "Tai chi or a morning choir in Temple of Heaven park",
+      "what": "Turn up before 8am and watch, or join in; nobody minds.",
+      "why": "The single most human thing you can do in Beijing.",
+      "mins": 90
+    },
+    {
+      "name": "Tea tasting on Maliandao",
+      "what": "A merchant walks you through several pu'ers and oolongs.",
+      "why": "Chinese tea makes sense in an hour of tasting and never from reading.",
+      "mins": 90
+    },
+    {
+      "name": "Hutong cycling",
+      "what": "Rent a bike and follow the lanes around Houhai and Beiluoguxiang.",
+      "why": "Beijing is flat and the hutongs are made for two wheels.",
+      "mins": 150
+    },
+    {
+      "name": "Peking opera or acrobatics",
+      "what": "A short evening programme at Huguang Guild Hall or Tianqiao.",
+      "why": "The make-up, the falsetto and the percussion are worth meeting once.",
+      "mins": 90
+    },
+    {
+      "name": "Calligraphy on the paving",
+      "what": "Elderly men writing water characters on stone in the parks, who will hand you the brush.",
+      "why": "Free, ephemeral and completely charming.",
+      "mins": 30
+    },
+    {
+      "name": "A dumpling or duck-pancake cooking class",
+      "what": "Half a day in a hutong kitchen.",
+      "why": "Portable skill, and the market trip beforehand is half the value.",
+      "mins": 240
+    }
+  ],
+  "neighbourhoodGuide": [
+    {
+      "name": "Dongcheng hutongs (Gulou, Nanluoguxiang, Beiluoguxiang)",
+      "vibe": "Grey brick, courtyard gates, bicycles, cats",
+      "bestFor": "Wandering, coffee, small bars, evening light",
+      "sights": "Drum and Bell Towers, Houhai, Confucius Temple",
+      "food": "Jianbing, Yunnan, craft beer, hotpot",
+      "mins": 240
+    },
+    {
+      "name": "Xicheng and Beihai",
+      "vibe": "Lakes, willows, imperial gardens, quieter",
+      "bestFor": "Parks, boats, morning walks",
+      "sights": "Beihai Park, Jingshan, Prince Gong's Mansion",
+      "food": "Niujie Muslim quarter is nearby",
+      "mins": 180
+    },
+    {
+      "name": "Qianmen and Dashilan",
+      "vibe": "Restored commercial frontage with real lanes behind",
+      "bestFor": "Old shops, snacks, the axis",
+      "sights": "Zhengyangmen, Dashilan, Liulichang antiques street",
+      "food": "Old brands, duck",
+      "mins": 150
+    },
+    {
+      "name": "Chaoyang and Sanlitun",
+      "vibe": "Towers, embassies, money",
+      "bestFor": "Bars, international food, shopping",
+      "sights": "Taikoo Li, CCTV headquarters",
+      "food": "Everything, at a price",
+      "mins": 150
+    },
+    {
+      "name": "798 and Caochangdi",
+      "vibe": "Factory sheds and galleries",
+      "bestFor": "Contemporary art, bookshops",
+      "sights": "UCCA, gallery clusters",
+      "food": "Cafes and a few good restaurants",
+      "mins": 180
+    },
+    {
+      "name": "Haidian",
+      "vibe": "Universities and imperial gardens, far northwest",
+      "bestFor": "Summer Palace, Old Summer Palace",
+      "sights": "Summer Palace, Peking University",
+      "food": "Student cheap eats",
+      "mins": 240
+    }
+  ],
+  "timeGuidance": {
+    "three": "Day 1 the axis and the Forbidden City. Day 2 the Great Wall. Day 3 Temple of Heaven at dawn, hutongs, Lama Temple, duck.",
+    "fivePlus": "Add the Summer Palace, 798, Panjiayuan on a weekend, a tea afternoon on Maliandao, and one deliberately unplanned hutong day."
+  },
+  "dayTrips": [
+    {
+      "name": "Great Wall at Mutianyu",
+      "travel": "1.5 hrs each way by car or tour bus",
+      "why": "Restored, forested, steep, far quieter than Badaling.",
+      "duration": "Full day",
+      "suits": "Everyone; the chairlift makes it manageable.",
+      "logistics": "Go at opening. Private car is worth splitting.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Great Wall at Jinshanling",
+      "travel": "2.5 hrs each way",
+      "why": "Partly unrestored, long ridge walk, almost empty.",
+      "duration": "Full day",
+      "suits": "Anyone happy with three hours of steep walking.",
+      "logistics": "Book a driver; public transport is painful.",
+      "verdict": "Worth it if you want the wall to yourself"
+    },
+    {
+      "name": "Ming Tombs and Sacred Way",
+      "travel": "1 hr",
+      "why": "The stone avenue is memorable; the tombs themselves less so.",
+      "duration": "Half day",
+      "suits": "Combine with Mutianyu.",
+      "logistics": "Usually bundled into wall tours.",
+      "verdict": "Only if you have extra time"
+    },
+    {
+      "name": "Chengde Mountain Resort",
+      "travel": "2 hrs by high-speed rail",
+      "why": "The Qing summer capital, with Tibetan-style temples.",
+      "duration": "Full day or overnight",
+      "suits": "Second-time visitors.",
+      "logistics": "Book rail ahead.",
+      "verdict": "Skip unless particularly interested"
+    },
+    {
+      "name": "Tianjin",
+      "travel": "35 min by high-speed rail",
+      "why": "Colonial concession architecture, an entirely different feel, excellent snacks.",
+      "duration": "Full day",
+      "suits": "Anyone with a spare day.",
+      "logistics": "Trains run constantly from Beijing South.",
+      "verdict": "Worth it"
+    }
+  ],
+  "practical": {
+    "gettingAround": "The subway is cheap, extensive, signed in English and the correct default. Get a transit QR code set up in Alipay or WeChat on arrival; almost nothing takes cash and foreign cards work poorly outside hotels. Didi is the taxi app. Traffic is genuinely bad, so use rail for anything crossing the centre. Bike-share is excellent and the city is flat.",
+    "whenToGo": "September and October are the best months: dry, clear, warm days. Late April and May are good too. Summer is hot, humid and stormy. Winter is cold and dry with brilliant light and thin crowds; December to February you will have the Forbidden City almost to yourself if you can stand minus ten. Avoid the first week of May and the first week of October, when the whole country travels.",
+    "howLong": {
+      "one": "Forbidden City, Jingshan and a hutong evening. You will feel it.",
+      "twoThree": "Add the wall and Temple of Heaven. This is the honest minimum.",
+      "fourFive": "Add the Summer Palace, 798 and a proper hutong day. This is the right length.",
+      "week": "Add Tianjin or Chengde, Panjiayuan, tea on Maliandao, and time to be bored somewhere pleasant."
+    },
+    "culture": [
+      "Bring your passport everywhere; it is required for museum entry, rail travel and hotel check-in.",
+      "Most major sites now require booking days ahead through a WeChat mini-programme. Plan the Forbidden City first.",
+      "Payment is by phone. Set up Alipay or WeChat Pay with a foreign card before you arrive; it now works reasonably well.",
+      "A VPN, installed before arrival, is necessary for most non-Chinese services.",
+      "Queueing is loose and personal space is smaller. It is not rudeness.",
+      "Tipping is not expected anywhere.",
+      "Tap water is not drunk; hot water is available everywhere and is the local default."
+    ]
+  },
+  "whatIdDo": [
+    {
+      "day": "Day 1",
+      "plan": "Temple of Heaven at opening, then walk the axis north through Qianmen to Tiananmen. Forbidden City in the afternoon on a timed ticket, exiting north. Straight up Jingshan for sunset. Duck at Siji Minfu."
+    },
+    {
+      "day": "Day 2",
+      "plan": "Leave at 7am for Mutianyu. Chairlift up, walk to the far towers, toboggan down. Back by late afternoon; light dinner and an early night."
+    },
+    {
+      "day": "Day 3",
+      "plan": "Lama Temple, then coffee on Wudaoying. Walk south through the hutongs to the Drum and Bell Towers. Afternoon free. Evening around Houhai and Gui Street."
+    },
+    {
+      "day": "Day 4",
+      "plan": "Summer Palace in the morning, boat across the lake. 798 in the afternoon. Hotpot in the evening if it is cold."
+    },
+    {
+      "day": "Day 5",
+      "plan": "Panjiayuan if it is a weekend, otherwise the National Museum bronzes. Tea on Maliandao. Last dinner somewhere unfamous."
+    }
+  ],
+  "quickRef": {
+    "musts": [
+      "Forbidden City then Jingshan",
+      "Great Wall at Mutianyu",
+      "Temple of Heaven at dawn",
+      "A hutong on foot",
+      "Peking duck"
+    ],
+    "eats": [
+      "Peking duck",
+      "Zhajiangmian",
+      "Jianbing",
+      "Mutton hotpot",
+      "Lamb skewers"
+    ],
+    "areas": [
+      "Gulou and Houhai",
+      "Wudaoying",
+      "Qianmen and Dashilan",
+      "798"
+    ],
+    "experiences": [
+      "Morning in Temple of Heaven park",
+      "Tea tasting on Maliandao",
+      "Hutong cycling"
+    ],
+    "dayTrip": "The Great Wall at Mutianyu, or Tianjin by high-speed rail",
+    "stay": "4-5 days"
+  },
+  "coords": {
+    "798 Art District": [
+      39.984,
+      116.494
+    ],
+    "798 and Caochangdi": [
+      39.984,
+      116.494
+    ],
+    "Baoyuan Dumpling House": [
+      39.94,
+      116.46
+    ],
+    "Beihai Park": [
+      39.926,
+      116.383
+    ],
+    "Bianyifang": [
+      39.9,
+      116.418
+    ],
+    "Capital Museum": [
+      39.907,
+      116.343
+    ],
+    "Chaoyang and Sanlitun": [
+      39.937,
+      116.454
+    ],
+    "Chengde Mountain Resort": [
+      41.001,
+      117.941
+    ],
+    "Country Kitchen": [
+      39.937,
+      116.455
+    ],
+    "Da Dong": [
+      39.938,
+      116.45
+    ],
+    "Dongcheng hutongs (Gulou, Nanluoguxiang, Beiluoguxiang)": [
+      39.937,
+      116.403
+    ],
+    "Forbidden City": [
+      39.916,
+      116.397
+    ],
+    "Fragrant Hills": [
+      39.996,
+      116.19
+    ],
+    "Great Leap Brewing": [
+      39.937,
+      116.402
+    ],
+    "Great Wall at Jinshanling": [
+      40.678,
+      117.245
+    ],
+    "Great Wall at Mutianyu": [
+      40.431,
+      116.563
+    ],
+    "Gui Street (Guijie)": [
+      39.943,
+      116.428
+    ],
+    "Gulou, Houhai and the Drum Tower hutongs": [
+      39.941,
+      116.394
+    ],
+    "Haidian": [
+      39.999,
+      116.275
+    ],
+    "Haiwanju": [
+      39.94,
+      116.4
+    ],
+    "Houhai lakeside": [
+      39.941,
+      116.383
+    ],
+    "Jing Yaa Tang": [
+      39.936,
+      116.454
+    ],
+    "Jingshan Park": [
+      39.924,
+      116.396
+    ],
+    "King's Joy": [
+      39.947,
+      116.41
+    ],
+    "Lama Temple": [
+      39.947,
+      116.411
+    ],
+    "Maliandao Tea Street": [
+      39.888,
+      116.339
+    ],
+    "Maliandao tea houses": [
+      39.888,
+      116.339
+    ],
+    "Metal Hands": [
+      39.945,
+      116.412
+    ],
+    "Ming Tombs and Sacred Way": [
+      40.253,
+      116.233
+    ],
+    "Ming Tombs and the Sacred Way": [
+      40.253,
+      116.233
+    ],
+    "Najia Xiaoguan": [
+      39.93,
+      116.45
+    ],
+    "National Museum of China": [
+      39.904,
+      116.402
+    ],
+    "Niujie street shops": [
+      39.887,
+      116.36
+    ],
+    "Olympic Forest Park": [
+      40.02,
+      116.39
+    ],
+    "Panjiayuan Antique Market": [
+      39.874,
+      116.457
+    ],
+    "Peking opera at Huguang Guild Hall": [
+      39.894,
+      116.393
+    ],
+    "Qianmen and Dashilan": [
+      39.897,
+      116.395
+    ],
+    "Sanlitun": [
+      39.937,
+      116.454
+    ],
+    "Sanlitun Taikoo Li": [
+      39.937,
+      116.454
+    ],
+    "Siji Minfu": [
+      39.913,
+      116.404
+    ],
+    "Soloist Coffee": [
+      39.896,
+      116.397
+    ],
+    "Summer Palace": [
+      39.999,
+      116.275
+    ],
+    "TRB Hutong": [
+      39.947,
+      116.412
+    ],
+    "Temple of Heaven": [
+      39.882,
+      116.407
+    ],
+    "Tiananmen Square": [
+      39.903,
+      116.397
+    ],
+    "Tianjin": [
+      39.343,
+      117.362
+    ],
+    "Wudaoying and Beiluoguxiang": [
+      39.946,
+      116.41
+    ],
+    "Xicheng and Beihai": [
+      39.926,
+      116.383
+    ]
+  }
+}

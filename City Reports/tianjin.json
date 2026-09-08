@@ -1,0 +1,962 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Tianjin",
+  "country": "China",
+  "lat": 39.3434,
+  "lon": 117.3616,
+  "generated": "2026-08-13",
+  "by": "Claude",
+  "note": "Opening hours, bookings and restaurants change. Treat specifics as a starting point and confirm before you commit.",
+  "glance": {
+    "why": "Tianjin is the closest thing China has to a European city centre, because nine foreign powers each built one here between 1860 and 1945 and they are all still standing, side by side along the river. It is also a famously funny city, home to crosstalk comedy and a snack culture Beijingers travel down for. Thirty-five minutes from Beijing by train, and almost nobody goes.",
+    "bestFor": [
+      "Colonial architecture",
+      "Street food and snacks",
+      "Riverside walking",
+      "Comedy and theatre",
+      "Day trips from Beijing"
+    ],
+    "idealStay": "1-2 days, or a day trip from Beijing",
+    "character": [
+      "Layered",
+      "Faded-grand",
+      "Funny",
+      "Unpretentious",
+      "Riverine"
+    ],
+    "dontMiss": [
+      "The Five Great Avenues on foot or by pedicab",
+      "The Italian Concession at dusk",
+      "Jinwan Plaza and the riverbanks lit at night",
+      "Goubuli or better, a local baozi shop",
+      "Tianjin Eye ferris wheel, built on a bridge",
+      "A crosstalk (xiangsheng) show, even without the language",
+      "Ancient Culture Street and the Tianhou Temple"
+    ],
+    "neighbourhoods": [
+      "Five Great Avenues",
+      "Italian Concession",
+      "Jiefang North Road",
+      "Ancient Culture Street",
+      "Binjiang Dao"
+    ]
+  },
+  "history": {
+    "story": "Tianjin's name means the ford of heaven, from the emperor who crossed the river here on his way to seize the throne. It spent centuries as Beijing's port and grain depot, and then in 1860 it was forced open to foreign trade and carved into concessions. What makes it unusual is how many: British, French, German, Japanese, Russian, Italian, Austro-Hungarian, Belgian and American, each building in its own national style within walking distance of the others.",
+    "origins": "A garrison and canal town where the Grand Canal met the Hai River, feeding Beijing.",
+    "periods": [
+      {
+        "name": "Ming and Qing",
+        "text": "Walled garrison, salt trade and grain transhipment. Wealthy merchants, no prestige."
+      },
+      {
+        "name": "Concessions, 1860-1945",
+        "text": "Nine foreign settlements, each with its own architecture, police and rules. The city became a refuge for deposed politicians and the last emperor, and an experiment in every European building style at once."
+      },
+      {
+        "name": "Republican era",
+        "text": "Banking, industry, and a famously sharp popular culture: crosstalk, storytelling, opera and street food."
+      },
+      {
+        "name": "People's Republic",
+        "text": "Heavy industry and port work. The 1976 Tangshan earthquake did severe damage."
+      },
+      {
+        "name": "Since 2000",
+        "text": "The Binhai new area, a high-speed rail link to Beijing in half an hour, and a restoration programme that cleaned up the concession districts for tourism."
+      }
+    ],
+    "modern": "Tianjin is a large port and industrial city that has struggled economically relative to its neighbours, and it wears that lightly. The restored districts are genuinely handsome; the rest is ordinary working China. The comedy tradition is alive and the food culture is taken very seriously.",
+    "whyItMatters": "Walking the Five Great Avenues you can read the whole nineteenth-century carve-up of China in domestic architecture: mock-Tudor next to Beaux-Arts next to Spanish revival, all built for Chinese and foreign elites who wanted out of imperial politics.",
+    "visible": [
+      "The Five Great Avenues hold over 2,000 pre-war villas in a dozen national styles.",
+      "The Italian Concession is the only surviving Italian settlement in Asia.",
+      "Jiefang North Road was the banking street, and the granite facades are still there.",
+      "Zhang Xueliang's and Puyi's residences are both open and tell the story of the era's refugees."
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {
+        "name": "Five Great Avenues (Wudadao)",
+        "area": "Heping",
+        "why": "A square kilometre of pre-war villas. Walk it, or take a pedicab if your legs have gone. The Minyuan Stadium end has the cafes.",
+        "mins": 180
+      },
+      {
+        "name": "Italian Style Town",
+        "area": "Hebei district",
+        "why": "Piazza, church and restored Italian villas. Touristy and pleasant, especially at dusk.",
+        "mins": 120
+      },
+      {
+        "name": "Jiefang North Road",
+        "area": "Heping",
+        "why": "The old banking street, a canyon of colonial granite. Free and mostly empty.",
+        "mins": 60
+      },
+      {
+        "name": "Ancient Culture Street and Tianhou Temple",
+        "area": "Nankai",
+        "why": "Reconstructed Qing-style shopping street around a genuinely old temple to the sea goddess.",
+        "mins": 90
+      },
+      {
+        "name": "Puyi's residence (Jingyuan) and Zhang Yuan",
+        "area": "Heping",
+        "why": "Where the last emperor lived after the abdication, in a Japanese-built garden villa.",
+        "mins": 75
+      },
+      {
+        "name": "Xikai Church",
+        "area": "Binjiang Dao",
+        "why": "A big French Catholic cathedral with three domes, at the end of the main shopping street.",
+        "mins": 30
+      }
+    ],
+    "arts": [
+      {
+        "name": "Tianjin Museum",
+        "area": "Hexi",
+        "why": "Regional history and a strong collection of Chinese painting and calligraphy. Free.",
+        "mins": 120
+      },
+      {
+        "name": "Tianjin Binhai Library",
+        "area": "Binhai",
+        "why": "The viral 'eye' library with tiered shelving. Many of the upper books are printed on the wall, which is worth knowing before you travel forty minutes.",
+        "mins": 60
+      },
+      {
+        "name": "Crosstalk theatre",
+        "area": "Nankai or Heping",
+        "why": "Xiangsheng is a two-man comic dialogue form and Tianjin is its heartland. Even without Mandarin, the timing and the room are worth an hour.",
+        "mins": 90
+      },
+      {
+        "name": "Yangliuqing New Year print workshop",
+        "area": "West of the city",
+        "why": "Woodblock New Year prints, a 400-year-old local craft, still being cut and printed.",
+        "mins": 90
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "name": "Five Great Avenues",
+        "character": "Leafy, low, villa-lined, quiet",
+        "highlights": "Minyuan Stadium, Machang Dao, hundreds of villas",
+        "food": "Cafes, western restaurants",
+        "bestTime": "Late afternoon",
+        "mins": 180
+      },
+      {
+        "name": "Italian Concession",
+        "character": "Piazza, arcades, restaurants, lit at night",
+        "highlights": "Marco Polo Square, Liang Qichao's study",
+        "food": "Italian and Chinese, mixed quality",
+        "bestTime": "Dusk",
+        "mins": 120
+      },
+      {
+        "name": "Ancient Culture Street",
+        "character": "Reconstructed Qing shopfronts",
+        "highlights": "Tianhou Temple, clay figurine and kite shops",
+        "food": "Snacks",
+        "bestTime": "Morning",
+        "mins": 90
+      },
+      {
+        "name": "Binjiang Dao and Heping Lu",
+        "character": "Busy modern shopping streets",
+        "highlights": "Xikai Church at the end",
+        "food": "Everything",
+        "bestTime": "Afternoon",
+        "mins": 90
+      },
+      {
+        "name": "Hai River banks",
+        "character": "Promenade, bridges, lit buildings",
+        "highlights": "Tianjin Eye, Jiefang Bridge, night cruises",
+        "food": "Riverside restaurants",
+        "bestTime": "After dark",
+        "mins": 120
+      }
+    ],
+    "nature": [
+      {
+        "name": "Hai River walk",
+        "area": "Central",
+        "why": "Flat, long, and the best way to link the concession districts.",
+        "mins": 90
+      },
+      {
+        "name": "Shuishang Park",
+        "area": "Nankai",
+        "why": "The big local park, with lakes and a Japanese garden.",
+        "mins": 90
+      },
+      {
+        "name": "Panshan Mountain",
+        "area": "Jixian, 1.5 hrs out",
+        "why": "Temples and granite peaks; a proper half-day hike.",
+        "mins": 300
+      },
+      {
+        "name": "Huangyaguan Great Wall",
+        "area": "Jixian, 2 hrs out",
+        "why": "Tianjin's own stretch of wall, with almost nobody on it.",
+        "mins": 360
+      }
+    ],
+    "shopping": [
+      {
+        "name": "Ancient Culture Street",
+        "area": "Nankai",
+        "why": "Clay figurines (the Zhang family workshop is the famous one), kites, papercuts.",
+        "mins": 90
+      },
+      {
+        "name": "Shenyang Dao antiques market",
+        "area": "Heping",
+        "why": "Weekend market, genuinely good browsing for ceramics and ephemera.",
+        "mins": 90
+      },
+      {
+        "name": "Binjiang Dao",
+        "area": "Heping",
+        "why": "The main pedestrian shopping street.",
+        "mins": 90
+      },
+      {
+        "name": "Yangliuqing prints",
+        "area": "West",
+        "why": "Buy a woodblock New Year print from the workshop that cuts them.",
+        "mins": 60
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Tianjin Eye",
+        "area": "Yongle Bridge",
+        "why": "The only ferris wheel in the world built into a bridge over a river. Half an hour, good at night.",
+        "mins": 45
+      },
+      {
+        "name": "Hai River night cruise",
+        "area": "Central",
+        "why": "The lit bridges and concession buildings from the water.",
+        "mins": 60
+      },
+      {
+        "name": "Crosstalk clubs",
+        "area": "Nankai",
+        "why": "Evening shows in small theatres, tea served, very local.",
+        "mins": 120
+      },
+      {
+        "name": "Italian Concession bars",
+        "area": "Hebei",
+        "why": "The most pleasant place to sit outside in the evening.",
+        "mins": 120
+      }
+    ]
+  },
+  "essential10": [
+    {
+      "rank": 1,
+      "name": "Five Great Avenues on foot",
+      "why": "Two thousand pre-war villas, and the reason to come.",
+      "mins": 180,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 2,
+      "name": "Italian Concession at dusk",
+      "why": "The only surviving Italian settlement in Asia, and lovely as the lights come on.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 4,
+      "worth": 5
+    },
+    {
+      "rank": 3,
+      "name": "Eating your way through the snack canon",
+      "why": "Baozi, jianbing guozi, mahua and erduoyan fried cake. Tianjin's actual claim to fame.",
+      "mins": 120,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 4,
+      "name": "The riverbanks after dark",
+      "why": "Lit bridges, the Eye, and old bank facades reflected in the water.",
+      "mins": 90,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 3,
+      "worth": 4
+    },
+    {
+      "rank": 5,
+      "name": "A crosstalk show",
+      "why": "The city's real living art form, in small tea-house theatres.",
+      "mins": 90,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 6,
+      "name": "Jiefang North Road",
+      "why": "Ten minutes of colonial banking architecture, free and empty.",
+      "mins": 60,
+      "label": "Recommended",
+      "popularity": 2,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 7,
+      "name": "Ancient Culture Street and Tianhou Temple",
+      "why": "Reconstructed but the temple is real and the crafts are good.",
+      "mins": 90,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 3,
+      "worth": 3
+    },
+    {
+      "rank": 8,
+      "name": "Tianjin Museum",
+      "why": "Free, calm, strong on painting.",
+      "mins": 120,
+      "label": "Optional",
+      "popularity": 2,
+      "cultural": 4,
+      "worth": 3
+    },
+    {
+      "rank": 9,
+      "name": "Tianjin Eye",
+      "why": "Novel, brief, best at night.",
+      "mins": 45,
+      "label": "Optional",
+      "popularity": 4,
+      "cultural": 2,
+      "worth": 3
+    },
+    {
+      "rank": 10,
+      "name": "Binhai Library",
+      "why": "Photogenic, forty minutes out, and half the books are painted on. Know that going in.",
+      "mins": 60,
+      "label": "Optional",
+      "popularity": 4,
+      "cultural": 2,
+      "worth": 2
+    }
+  ],
+  "food": {
+    "identity": "Tianjin food is northern port food: wheat, sesame, fried dough and a great deal of humour about it. The city takes its snacks more seriously than its restaurants, and the three famous ones are treated as civic institutions. There is also excellent seafood, being on the Bohai gulf, and a strong Hui Muslim tradition.",
+    "mustTry": [
+      {
+        "dish": "Goubuli baozi",
+        "what": "Pleated steamed pork buns with an eighteen-fold crimp, from an 1858 shop.",
+        "why": "The most famous baozi in China, though locals will tell you the fame outran the quality decades ago.",
+        "flavour": "Juicy, savoury, mild.",
+        "howLocalsEat": "For breakfast, and often at a neighbourhood shop rather than the famous one.",
+        "importance": "Essential as a rite, Recommended as a meal"
+      },
+      {
+        "dish": "Jianbing guozi",
+        "what": "The Tianjin original: a mung bean crepe with egg, folded round a crisp fried dough stick, with fermented bean sauce and chilli.",
+        "why": "This is the source of the dish Beijing sells. The local version uses guozi, a length of fried dough, not a cracker.",
+        "flavour": "Savoury, crunchy, eggy.",
+        "howLocalsEat": "From a cart, before nine, standing up.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Shibajie mahua",
+        "what": "A large, hard, deep-fried dough twist studded with sugar, sesame and nuts.",
+        "why": "One of the three famous snacks and the classic gift to take home.",
+        "flavour": "Sweet, crunchy, very rich.",
+        "howLocalsEat": "Broken up and shared with tea.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Erduoyan zhagao",
+        "what": "Fried glutinous rice cakes with red bean paste.",
+        "why": "The third of the famous three, from a shop in an alley named after an ear.",
+        "flavour": "Sticky, sweet, hot from the oil.",
+        "howLocalsEat": "Immediately, while still crisp.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Bohai seafood",
+        "what": "Crab, razor clams, mantis shrimp and small fish from the gulf.",
+        "why": "The port's other food story, and cheaper than in Beijing.",
+        "flavour": "Clean, briny.",
+        "howLocalsEat": "Steamed simply, in autumn.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Guobacai",
+        "what": "Strips of mung bean pancake in a thick savoury sauce with sesame and fermented tofu.",
+        "why": "A breakfast dish that exists almost nowhere else and divides visitors instantly.",
+        "flavour": "Salty, sesame-heavy, sloppy.",
+        "howLocalsEat": "For breakfast, with a shaobing.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Chatang and mianchá",
+        "what": "Thick sweet millet or sorghum gruel, poured from a long-spouted pot.",
+        "why": "Old-fashioned street breakfast, and the pouring is a performance.",
+        "flavour": "Sweet, nutty, thick.",
+        "howLocalsEat": "In winter, hot.",
+        "importance": "Optional"
+      }
+    ]
+  },
+  "mustEat10": [
+    {
+      "dish": "Jianbing guozi",
+      "where": "A morning cart in Nankai or near Ancient Culture Street",
+      "order": "With guozi, not the cracker",
+      "price": "CNY 8-15"
+    },
+    {
+      "dish": "Goubuli baozi",
+      "where": "Goubuli on Shandong Road, or any local baozi shop",
+      "order": "Pork, plus a bowl of soup",
+      "price": "CNY 40-120"
+    },
+    {
+      "dish": "Shibajie mahua",
+      "where": "Guifaxiang Shibajie",
+      "order": "One large twist to share or take home",
+      "price": "CNY 30-80"
+    },
+    {
+      "dish": "Erduoyan fried cake",
+      "where": "Erduoyan Zhagao, Beimenwai",
+      "order": "Straight from the fryer",
+      "price": "CNY 10-25"
+    },
+    {
+      "dish": "Guobacai",
+      "where": "Dafulai or a morning shop",
+      "order": "With a shaobing",
+      "price": "CNY 10-20"
+    },
+    {
+      "dish": "Bohai seafood",
+      "where": "A seafood restaurant near the river",
+      "order": "Steamed crab and razor clams in autumn",
+      "price": "CNY 150-350"
+    },
+    {
+      "dish": "Hui Muslim beef and lamb",
+      "where": "Around the Great Mosque in Hongqiao",
+      "order": "Beef pies, lamb soup",
+      "price": "CNY 30-70"
+    },
+    {
+      "dish": "Roasted chestnuts and candied haws",
+      "where": "Street stalls in winter",
+      "order": "A paper bag of each",
+      "price": "CNY 10-25"
+    },
+    {
+      "dish": "Italian Concession dinner",
+      "where": "One of the piazza restaurants",
+      "order": "Whatever the terrace is serving",
+      "price": "CNY 100-250"
+    },
+    {
+      "dish": "Tea and snacks at a crosstalk theatre",
+      "where": "Mingliu Chaguan",
+      "order": "Tea, seeds, and the show",
+      "price": "CNY 40-120"
+    }
+  ],
+  "restaurants": {
+    "iconic": [
+      {
+        "name": "Goubuli",
+        "cuisine": "Baozi",
+        "price": "Mid",
+        "area": "Shandong Road",
+        "desc": "Trading on 1858 and a story about a founder nicknamed 'dog ignores him'. Overpriced by local standards and everyone will tell you so, which is part of the fun.",
+        "dishes": "Pork baozi",
+        "whyGo": "Because it is the thing.",
+        "booking": "No"
+      },
+      {
+        "name": "Guifaxiang Shibajie Mahua",
+        "cuisine": "Snack",
+        "price": "Low",
+        "area": "Several",
+        "desc": "The mahua institution.",
+        "dishes": "The twist",
+        "whyGo": "One of the three famous snacks, and it travels.",
+        "booking": "No"
+      },
+      {
+        "name": "Erduoyan Zhagao",
+        "cuisine": "Snack",
+        "price": "Low",
+        "area": "Beimenwai",
+        "desc": "Fried glutinous cakes from an alley shop.",
+        "dishes": "Zhagao",
+        "whyGo": "The third famous snack, eaten hot.",
+        "booking": "No"
+      }
+    ],
+    "bestFood": [
+      {
+        "name": "Tianjin Restaurant (Tianjin Fandian)",
+        "cuisine": "Tianjin banquet",
+        "price": "Mid-high",
+        "area": "Central",
+        "desc": "Old-style state banquet house doing the regional classics.",
+        "dishes": "Eight great bowls, braised fish",
+        "whyGo": "The formal version of local cooking.",
+        "booking": "Recommended"
+      },
+      {
+        "name": "A Bohai seafood house",
+        "cuisine": "Seafood",
+        "price": "Mid-high",
+        "area": "Riverside or Binhai",
+        "desc": "Pick from tanks, steamed simply.",
+        "dishes": "Crab, mantis shrimp, razor clams",
+        "whyGo": "Cheaper and fresher than Beijing.",
+        "booking": "Recommended in season"
+      }
+    ],
+    "bestValue": [
+      {
+        "name": "Neighbourhood baozi shops",
+        "cuisine": "Baozi",
+        "price": "Low",
+        "area": "Everywhere",
+        "desc": "Locals will insist these beat Goubuli, and they are right.",
+        "dishes": "Pork and chive buns",
+        "whyGo": "Better and a quarter of the price.",
+        "booking": "No"
+      },
+      {
+        "name": "Dafulai",
+        "cuisine": "Guobacai",
+        "price": "Low",
+        "area": "Central",
+        "desc": "The best-known guobacai shop.",
+        "dishes": "Guobacai and shaobing",
+        "whyGo": "A breakfast you will not find elsewhere.",
+        "booking": "No"
+      },
+      {
+        "name": "Nanshi Food Street",
+        "cuisine": "Everything",
+        "price": "Low-mid",
+        "area": "Nankai",
+        "desc": "A covered complex of snack and restaurant stalls; touristy but comprehensive.",
+        "dishes": "The full snack canon in one building",
+        "whyGo": "Efficient if you are only here a day.",
+        "booking": "No"
+      }
+    ],
+    "special": [
+      {
+        "name": "A Five Great Avenues villa restaurant",
+        "cuisine": "Chinese or western",
+        "price": "High",
+        "area": "Heping",
+        "desc": "Several pre-war houses now serve dinner in their original rooms.",
+        "dishes": "Varies",
+        "whyGo": "The setting is the point.",
+        "booking": "Recommended"
+      }
+    ],
+    "casual": [
+      {
+        "name": "Italian Concession terraces",
+        "cuisine": "Mixed",
+        "price": "Mid",
+        "area": "Hebei",
+        "desc": "Piazza-side tables, uneven food, excellent atmosphere.",
+        "dishes": "Pizza, beer",
+        "whyGo": "The best evening sit-down in the city.",
+        "booking": "No"
+      },
+      {
+        "name": "Morning snack streets",
+        "cuisine": "Breakfast",
+        "price": "Low",
+        "area": "Nankai and Hongqiao",
+        "desc": "Carts and shopfronts, over by nine.",
+        "dishes": "Jianbing guozi, guobacai",
+        "whyGo": "The real Tianjin meal.",
+        "booking": "No"
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Minyuan Stadium cafes",
+        "cuisine": "Coffee",
+        "price": "Low-mid",
+        "area": "Five Great Avenues",
+        "desc": "The restored stadium is ringed with cafes and bookshops.",
+        "dishes": "Coffee, cake",
+        "whyGo": "A good pause mid-villa-walk.",
+        "booking": "No"
+      },
+      {
+        "name": "Mingliu Chaguan",
+        "cuisine": "Tea house theatre",
+        "price": "Low-mid",
+        "area": "Nankai",
+        "desc": "Tea, seeds and crosstalk in the evening.",
+        "dishes": "Tea",
+        "whyGo": "The single most local evening available.",
+        "booking": "Recommended"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "name": "Crosstalk in a tea house",
+      "what": "Two performers, a table, a fan, and ninety minutes of wordplay.",
+      "why": "Tianjin's own art form, performed to a room of locals who know the routines.",
+      "mins": 90
+    },
+    {
+      "name": "Breakfast crawl",
+      "what": "Jianbing guozi from a cart, guobacai at a shop, then a baozi.",
+      "why": "The city's real cuisine happens before nine in the morning.",
+      "mins": 90
+    },
+    {
+      "name": "Pedicab through the Five Great Avenues",
+      "what": "An hour with a driver who will point out whose house was whose.",
+      "why": "Covers ground and the commentary is usually good.",
+      "mins": 60
+    },
+    {
+      "name": "Night cruise on the Hai River",
+      "what": "An hour past the lit bridges and bank facades.",
+      "why": "The concessions read best from the water.",
+      "mins": 60
+    },
+    {
+      "name": "Yangliuqing print workshop",
+      "what": "Watch woodblocks being cut and printed, and buy one.",
+      "why": "A living 400-year-old craft.",
+      "mins": 90
+    },
+    {
+      "name": "Shenyang Dao antiques market on a weekend",
+      "what": "Ceramics, watches, Cultural Revolution ephemera.",
+      "why": "Good browsing and very local.",
+      "mins": 90
+    }
+  ],
+  "neighbourhoodGuide": [
+    {
+      "name": "Five Great Avenues",
+      "vibe": "Leafy, low-rise, pre-war villas",
+      "bestFor": "Walking, architecture, cafes",
+      "sights": "Minyuan Stadium, villa streets, Zhang Xueliang's residence",
+      "food": "Cafes and villa restaurants",
+      "mins": 180
+    },
+    {
+      "name": "Italian Concession",
+      "vibe": "Piazza and arcades, lively at night",
+      "bestFor": "Dinner, drinks, photographs",
+      "sights": "Marco Polo Square, Liang Qichao's study",
+      "food": "Terraces, mixed quality",
+      "mins": 120
+    },
+    {
+      "name": "Jiefang North Road and the riverfront",
+      "vibe": "Colonial banking canyon meeting the water",
+      "bestFor": "Architecture, night walking",
+      "sights": "Bank facades, Jiefang Bridge, Tianjin Eye",
+      "food": "Riverside restaurants",
+      "mins": 120
+    },
+    {
+      "name": "Ancient Culture Street and Nankai",
+      "vibe": "Reconstructed old China, busy",
+      "bestFor": "Crafts, snacks, temple",
+      "sights": "Tianhou Temple, clay figurine shops",
+      "food": "Snack stalls, Nanshi Food Street",
+      "mins": 150
+    },
+    {
+      "name": "Binjiang Dao",
+      "vibe": "Modern shopping",
+      "bestFor": "Shops, Xikai Church",
+      "sights": "Xikai Church",
+      "food": "Chains and department store food halls",
+      "mins": 90
+    }
+  ],
+  "timeGuidance": {
+    "three": "Tianjin does not need three days. One long day covers the essentials; two lets you slow down and add a crosstalk evening.",
+    "fivePlus": "Only if you are using it as a base for Panshan, Huangyaguan Great Wall and the Bohai coast."
+  },
+  "dayTrips": [
+    {
+      "name": "Beijing",
+      "travel": "35 min by high-speed rail",
+      "why": "It works in both directions, and many people day-trip to Tianjin from Beijing rather than the reverse.",
+      "duration": "Full day",
+      "suits": "Everyone.",
+      "logistics": "Trains every few minutes between Beijing South and Tianjin.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Huangyaguan Great Wall",
+      "travel": "2 hrs",
+      "why": "Tianjin's own restored stretch of wall, with a fraction of the visitors of the Beijing sections.",
+      "duration": "Full day",
+      "suits": "Anyone who wants the wall alone.",
+      "logistics": "Car or coach from the city.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Panshan Mountain",
+      "travel": "1.5 hrs",
+      "why": "Granite peaks, temples and a cable car; a Qing imperial favourite.",
+      "duration": "Full day",
+      "suits": "Walkers.",
+      "logistics": "Bus or car to Jixian.",
+      "verdict": "Only if you have extra time"
+    },
+    {
+      "name": "Binhai and the port",
+      "travel": "40 min by metro or intercity rail",
+      "why": "The library, the aircraft carrier theme park and a very large modern port district.",
+      "duration": "Half day",
+      "suits": "Curiosity only.",
+      "logistics": "Line 9 or intercity rail.",
+      "verdict": "Skip unless particularly interested"
+    }
+  ],
+  "practical": {
+    "gettingAround": "The metro covers the centre adequately and the concession districts are best walked; the Five Great Avenues, Italian Concession and riverfront are all within a couple of kilometres of each other. Pedicabs and Didi fill the gaps. From Beijing, high-speed trains run from Beijing South to Tianjin in about 35 minutes and to Tianjin West in a little less; book ahead on weekends.",
+    "whenToGo": "September and October are the best: dry, mild and crab season on the Bohai gulf. April and May are good. Summer is hot and humid, winter cold and windy off the sea but the light is clear and the snack stalls are at their best.",
+    "howLong": {
+      "one": "Five Great Avenues, lunch, Ancient Culture Street, Italian Concession at dusk, river at night. A very full day trip from Beijing.",
+      "twoThree": "Add a crosstalk show, the museum, Shenyang Dao market and a proper breakfast crawl. Two days is generous.",
+      "fourFive": "Only with Huangyaguan and Panshan added.",
+      "week": "Not warranted."
+    },
+    "culture": [
+      "Passport needed for rail and hotels.",
+      "Payment by phone; set up Alipay or WeChat Pay before arriving.",
+      "Tianjin people are famously quick and jokey; the crosstalk tradition is a source of civic pride.",
+      "Book Beijing-Tianjin trains ahead at weekends and holidays.",
+      "Goubuli is a tourist rite rather than the best baozi in town, and locals enjoy saying so.",
+      "Tipping is not expected."
+    ]
+  },
+  "whatIdDo": [
+    {
+      "day": "Day 1",
+      "plan": "Early train from Beijing. Jianbing guozi from a cart on arrival. Five Great Avenues on foot for two hours, coffee at Minyuan. Ancient Culture Street and Tianhou Temple after lunch. Jiefang North Road, then the Italian Concession as the light goes. Dinner on the piazza, river walk and the Eye after dark. Late train back, or stay."
+    },
+    {
+      "day": "Day 2",
+      "plan": "Breakfast crawl: guobacai, then a neighbourhood baozi shop. Tianjin Museum or Shenyang Dao market. Afternoon free. Crosstalk at a tea house in the evening."
+    }
+  ],
+  "quickRef": {
+    "musts": [
+      "Five Great Avenues",
+      "Italian Concession at dusk",
+      "Jianbing guozi from a cart",
+      "The riverfront at night",
+      "A crosstalk show"
+    ],
+    "eats": [
+      "Jianbing guozi",
+      "Goubuli baozi",
+      "Shibajie mahua",
+      "Guobacai",
+      "Bohai seafood"
+    ],
+    "areas": [
+      "Five Great Avenues",
+      "Italian Concession",
+      "Jiefang North Road",
+      "Ancient Culture Street"
+    ],
+    "experiences": [
+      "Crosstalk in a tea house",
+      "Breakfast crawl",
+      "Hai River night cruise"
+    ],
+    "dayTrip": "Huangyaguan Great Wall, or Beijing in reverse",
+    "stay": "1-2 days"
+  },
+  "coords": {
+    "Ancient Culture Street": [
+      39.146,
+      117.185
+    ],
+    "Ancient Culture Street and Nankai": [
+      39.146,
+      117.185
+    ],
+    "Ancient Culture Street and Tianhou Temple": [
+      39.146,
+      117.185
+    ],
+    "Beijing": [
+      39.904,
+      116.407
+    ],
+    "Binhai Library": [
+      39.011,
+      117.694
+    ],
+    "Binhai and the port": [
+      39.011,
+      117.694
+    ],
+    "Binjiang Dao": [
+      39.126,
+      117.201
+    ],
+    "Crosstalk clubs": [
+      39.135,
+      117.19
+    ],
+    "Crosstalk theatre": [
+      39.135,
+      117.19
+    ],
+    "Dafulai": [
+      39.133,
+      117.195
+    ],
+    "Erduoyan Zhagao": [
+      39.147,
+      117.187
+    ],
+    "Five Great Avenues": [
+      39.115,
+      117.196
+    ],
+    "Five Great Avenues (Wudadao)": [
+      39.115,
+      117.196
+    ],
+    "Goubuli": [
+      39.135,
+      117.196
+    ],
+    "Guifaxiang Shibajie Mahua": [
+      39.128,
+      117.192
+    ],
+    "Hai River night cruise": [
+      39.14,
+      117.199
+    ],
+    "Hai River walk": [
+      39.135,
+      117.2
+    ],
+    "Huangyaguan Great Wall": [
+      40.229,
+      117.482
+    ],
+    "Italian Concession": [
+      39.14,
+      117.204
+    ],
+    "Italian Concession bars": [
+      39.14,
+      117.204
+    ],
+    "Italian Style Town": [
+      39.14,
+      117.204
+    ],
+    "Jiefang North Road": [
+      39.129,
+      117.204
+    ],
+    "Jiefang North Road and the riverfront": [
+      39.129,
+      117.204
+    ],
+    "Mingliu Chaguan": [
+      39.135,
+      117.19
+    ],
+    "Minyuan Stadium cafes": [
+      39.118,
+      117.192
+    ],
+    "Nanshi Food Street": [
+      39.135,
+      117.184
+    ],
+    "Panshan Mountain": [
+      40.049,
+      117.276
+    ],
+    "Puyi's residence (Jingyuan) and Zhang Yuan": [
+      39.126,
+      117.2
+    ],
+    "Shenyang Dao antiques market": [
+      39.13,
+      117.2
+    ],
+    "Shuishang Park": [
+      39.093,
+      117.164
+    ],
+    "Tianjin Binhai Library": [
+      39.011,
+      117.694
+    ],
+    "Tianjin Eye": [
+      39.152,
+      117.184
+    ],
+    "Tianjin Museum": [
+      39.062,
+      117.24
+    ],
+    "Tianjin Restaurant (Tianjin Fandian)": [
+      39.13,
+      117.2
+    ],
+    "Xikai Church": [
+      39.117,
+      117.198
+    ],
+    "Yangliuqing New Year print workshop": [
+      39.135,
+      116.994
+    ],
+    "Yangliuqing prints": [
+      39.135,
+      116.994
+    ]
+  }
+}

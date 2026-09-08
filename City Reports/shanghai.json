@@ -1,0 +1,1072 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Shanghai",
+  "country": "China",
+  "lat": 31.2304,
+  "lon": 121.4737,
+  "generated": "2026-08-13",
+  "by": "Claude",
+  "note": "Opening hours, bookings and restaurants change. Treat specifics as a starting point and confirm before you commit.",
+  "glance": {
+    "why": "Shanghai is the only Chinese city that was largely built by outsiders and then took itself back. The result is a place with no imperial axis and no single centre, where a 1920s banking facade faces a 632-metre tower across a muddy river, and the best afternoon you can have is aimless walking under plane trees in the old French Concession. It is China's most comfortable city for a first-time visitor and its least representative.",
+    "bestFor": [
+      "Architecture",
+      "Food",
+      "Walking",
+      "Coffee and bars",
+      "Contemporary art",
+      "Shopping"
+    ],
+    "idealStay": "3-4 days, 5 with a water town",
+    "character": [
+      "Cosmopolitan",
+      "Commercial",
+      "Art deco",
+      "Fast",
+      "Comfortable"
+    ],
+    "dontMiss": [
+      "The Bund at dusk, then again at 7am when it is empty",
+      "Aimless walking in the former French Concession",
+      "Yu Garden early, before the bazaar fills",
+      "Shanghai Museum's bronzes and ceramics",
+      "Xiaolongbao done properly",
+      "The skyline from the Pudong side, or from a Bund rooftop",
+      "One water town or a Suzhou day trip"
+    ],
+    "neighbourhoods": [
+      "Former French Concession",
+      "The Bund and Waitan",
+      "Jing'an",
+      "Tianzifang and Dapuqiao",
+      "West Bund",
+      "Hongkou"
+    ]
+  },
+  "history": {
+    "story": "Shanghai spent most of Chinese history as an unremarkable cotton and fishing town. Everything that makes it interesting happened in the last 180 years, starting with a war fought over the right to sell opium, and the city has been catching up with, and then overtaking, that origin ever since.",
+    "origins": "A walled market town at the mouth of the Yangtze, useful for coastal shipping and cotton, entirely overshadowed by Suzhou and Hangzhou.",
+    "periods": [
+      {
+        "name": "Treaty port, 1842-1943",
+        "text": "The Treaty of Nanking opened Shanghai to foreign trade and created the International Settlement and the French Concession, foreign-run enclaves with their own police and courts. Money, opium, banking and printing poured in."
+      },
+      {
+        "name": "The 1920s and 30s",
+        "text": "The Paris of the East and the whore of the Orient, depending on who was writing. Jazz clubs, gangsters, Chinese modernist literature, the founding of the Communist Party in a Concession shikumen house, and the largest refugee community of European Jews in Asia."
+      },
+      {
+        "name": "War and revolution, 1937-1949",
+        "text": "Japanese occupation, then the Communist victory. Capital, industry and much of the elite left for Hong Kong and Taiwan."
+      },
+      {
+        "name": "Socialist decades, 1949-1990",
+        "text": "Shanghai became an industrial workhorse taxed to fund the rest of the country. The Bund buildings became government offices; Pudong was farmland and warehouses."
+      },
+      {
+        "name": "Reform, 1990-",
+        "text": "Deng Xiaoping's decision to develop Pudong turned a floodplain into the skyline you photograph, in one generation."
+      }
+    ],
+    "modern": "Shanghai now runs on finance, shipping, design and consumption. It is China's wealthiest large city and the one most legible to a foreigner, which is precisely why some Chinese visitors find it inauthentic. The trade-off for the visitor is real: everything is easy, and you will learn less about China than you would in Xi'an or Chengdu.",
+    "whyItMatters": "The city's whole aesthetic is negotiation between imported and local. Shikumen houses are British terraces with Chinese courtyard gates. The food is Jiangnan sweetness plus everything that arrived by ship. The art scene lives in repurposed industry because industry is what the socialist decades left behind.",
+    "visible": [
+      "The Bund is a catalogue of 1920s banking architecture, read left to right as you walk north.",
+      "Shikumen lane houses in the Concession show the hybrid at domestic scale; Xintiandi is the restored version, Tianzifang the messier one.",
+      "Wukang Mansion, the flatiron block on Huaihai Road, is the single most photographed piece of that era.",
+      "The Jewish Refugees Museum in Hongkou marks where 20,000 people sheltered from the Holocaust.",
+      "Power Station of Art and M50 are socialist industry turned into culture."
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {
+        "name": "The Bund",
+        "area": "Huangpu",
+        "why": "A mile of 1920s granite facing the towers. Walk it at dusk for the lights and again at dawn for the tai chi and the emptiness.",
+        "mins": 60
+      },
+      {
+        "name": "Yu Garden",
+        "area": "Huangpu",
+        "why": "A Ming scholar's garden of rockeries, dragon walls and zigzag bridges. Go at opening; the surrounding bazaar is a scrum by ten.",
+        "mins": 90
+      },
+      {
+        "name": "Shikumen Open House Museum",
+        "area": "Xintiandi",
+        "why": "A restored lane house furnished as it was in the 1930s. The best single explanation of how Shanghai actually lived.",
+        "mins": 45
+      },
+      {
+        "name": "Jewish Refugees Museum",
+        "area": "Hongkou",
+        "why": "The Ohel Moishe synagogue and the story of the Shanghai ghetto. Small, sober, worth the trip.",
+        "mins": 90
+      },
+      {
+        "name": "Longhua Temple",
+        "area": "Xuhui",
+        "why": "The city's oldest temple with a wooden pagoda dating to the tenth century. Working, incense-thick, largely local.",
+        "mins": 60
+      }
+    ],
+    "arts": [
+      {
+        "name": "Shanghai Museum",
+        "area": "People's Square",
+        "why": "Free and genuinely world-class. The bronze and ceramic galleries are the reason; skip the rest if pressed. A second, larger branch has opened in Pudong.",
+        "mins": 150
+      },
+      {
+        "name": "Power Station of Art",
+        "area": "Huangpu",
+        "why": "A former power plant, China's first state-run contemporary art museum. Ambitious, uneven, always interesting.",
+        "mins": 120
+      },
+      {
+        "name": "West Bund museum mile",
+        "area": "Xuhui",
+        "why": "Long Museum, Yuz Museum and the Centre Pompidou outpost strung along the riverside. A half day if the shows are good.",
+        "mins": 240
+      },
+      {
+        "name": "M50",
+        "area": "Putuo",
+        "why": "Suzhou Creek warehouses full of working studios and small galleries. Rougher and more real than West Bund.",
+        "mins": 120
+      },
+      {
+        "name": "Propaganda Poster Art Centre",
+        "area": "Xuhui",
+        "why": "In the basement of an apartment block, a private collection of 1950s-70s posters. Strange, excellent, tiny.",
+        "mins": 60
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "name": "Former French Concession",
+        "character": "Plane trees, art deco villas, low walls, small shops",
+        "highlights": "Wukang Mansion, Anfu Road, Ferguson Lane, Fuxing Park",
+        "food": "Coffee, wine bars, Shanghainese home cooking",
+        "bestTime": "Late morning or golden hour",
+        "mins": 240
+      },
+      {
+        "name": "Jing'an",
+        "character": "Temple gold against glass towers, upmarket",
+        "highlights": "Jing'an Temple, Zhangyuan restored lanes",
+        "food": "Serious restaurants, hotel bars",
+        "bestTime": "Afternoon",
+        "mins": 150
+      },
+      {
+        "name": "Tianzifang",
+        "character": "Dense shikumen alleys packed with shops",
+        "highlights": "The lanes themselves",
+        "food": "Snacks, small bars",
+        "bestTime": "Weekday morning or skip",
+        "mins": 90
+      },
+      {
+        "name": "Hongkou and North Bund",
+        "character": "Working, unpolished, historically layered",
+        "highlights": "Jewish quarter, 1933 Old Millfun slaughterhouse",
+        "food": "Local breakfast streets",
+        "bestTime": "Morning",
+        "mins": 150
+      },
+      {
+        "name": "Pudong Lujiazui",
+        "character": "Vertical, corporate, spectacular",
+        "highlights": "Shanghai Tower, riverside promenade",
+        "food": "Mall food and hotel restaurants",
+        "bestTime": "Sunset",
+        "mins": 120
+      }
+    ],
+    "nature": [
+      {
+        "name": "Fuxing Park",
+        "area": "FFC",
+        "why": "French-laid-out park where retirees dance, play cards and sing. Best before 9am.",
+        "mins": 60
+      },
+      {
+        "name": "Century Park",
+        "area": "Pudong",
+        "why": "The big green one, good for cycling.",
+        "mins": 90
+      },
+      {
+        "name": "Suzhou Creek walkway",
+        "area": "Jing'an / Putuo",
+        "why": "A restored riverside walk past converted warehouses; the quieter alternative to the Bund.",
+        "mins": 90
+      },
+      {
+        "name": "Shanghai Botanical Garden or Chenshan",
+        "area": "Songjiang",
+        "why": "Worth it in magnolia season, otherwise skip.",
+        "mins": 180
+      }
+    ],
+    "shopping": [
+      {
+        "name": "Anfu Road and Wulumuqi Road",
+        "area": "FFC",
+        "why": "Independent design, concept stores, the best browsing in the city.",
+        "mins": 120
+      },
+      {
+        "name": "Nanjing Road",
+        "area": "Huangpu",
+        "why": "The famous pedestrian shopping street. Crowded and mostly chains; walk it once for the neon.",
+        "mins": 60
+      },
+      {
+        "name": "Tianzifang",
+        "area": "Dapuqiao",
+        "why": "Craft and souvenir shops in lane houses. Touristy but pleasant early.",
+        "mins": 90
+      },
+      {
+        "name": "Dongtai Road antiques (much reduced) and Yuyuan bazaar",
+        "area": "Huangpu",
+        "why": "Chops, fans, tea things and reproductions. Bargain.",
+        "mins": 90
+      },
+      {
+        "name": "Zhangyuan",
+        "area": "Jing'an",
+        "why": "Restored shikumen block turned into luxury retail. Architecturally interesting even if you buy nothing.",
+        "mins": 60
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Bund rooftop bars",
+        "area": "Huangpu",
+        "why": "You pay for the view once. Bar Rouge, Vue and the Peninsula terrace all deliver it.",
+        "mins": 120
+      },
+      {
+        "name": "Speakeasy cocktail bars",
+        "area": "FFC and Jing'an",
+        "why": "Shanghai's bar scene is Asia's most serious after Tokyo and Singapore.",
+        "mins": 150
+      },
+      {
+        "name": "Jazz at the Fairmont Peace Hotel",
+        "area": "The Bund",
+        "why": "The old jazz band in the 1929 lobby bar. Corny, historic, fun once.",
+        "mins": 120
+      },
+      {
+        "name": "Live music at Yuyintang",
+        "area": "Putuo",
+        "why": "The city's long-running independent music venue.",
+        "mins": 150
+      }
+    ]
+  },
+  "essential10": [
+    {
+      "rank": 1,
+      "name": "The Bund at dusk and again at dawn",
+      "why": "Two completely different cities in the same frame twelve hours apart.",
+      "mins": 90,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 2,
+      "name": "A long walk in the former French Concession",
+      "why": "No monuments, no queue, and the thing people remember about Shanghai.",
+      "mins": 180,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 3,
+      "name": "Xiaolongbao and a proper Shanghainese lunch",
+      "why": "The regional cooking is the most underrated thing in the city.",
+      "mins": 90,
+      "label": "Essential",
+      "popularity": 5,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 4,
+      "name": "Shanghai Museum, bronzes and ceramics",
+      "why": "Free, compact and among the best collections in the country.",
+      "mins": 150,
+      "label": "Essential",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 5
+    },
+    {
+      "rank": 5,
+      "name": "Yu Garden at opening",
+      "why": "Genuine Ming garden design; unbearable after ten in the morning.",
+      "mins": 90,
+      "label": "Recommended",
+      "popularity": 5,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 6,
+      "name": "Shanghai Tower or a Bund rooftop",
+      "why": "One elevated view. The rooftop bar is better value and better looking than the observation deck.",
+      "mins": 90,
+      "label": "Recommended",
+      "popularity": 5,
+      "cultural": 2,
+      "worth": 4
+    },
+    {
+      "rank": 7,
+      "name": "Power Station of Art or West Bund",
+      "why": "Contemporary China at scale, in buildings worth seeing regardless.",
+      "mins": 150,
+      "label": "Recommended",
+      "popularity": 3,
+      "cultural": 4,
+      "worth": 4
+    },
+    {
+      "rank": 8,
+      "name": "A water town or Suzhou",
+      "why": "The Jiangnan landscape Shanghai grew out of, half an hour to two hours away.",
+      "mins": 480,
+      "label": "Recommended",
+      "popularity": 4,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 9,
+      "name": "Jewish Refugees Museum in Hongkou",
+      "why": "An unexpected and moving corner of the city's history.",
+      "mins": 120,
+      "label": "Optional",
+      "popularity": 2,
+      "cultural": 5,
+      "worth": 4
+    },
+    {
+      "rank": 10,
+      "name": "Tianzifang",
+      "why": "Photogenic, crowded and mostly retail. Fine early, skip if pressed.",
+      "mins": 90,
+      "label": "Optional",
+      "popularity": 4,
+      "cultural": 2,
+      "worth": 2
+    }
+  ],
+  "food": {
+    "identity": "Shanghainese cooking belongs to the Jiangnan tradition: sweeter, oilier and more delicate than northern food, built on river fish, freshwater shrimp, soy and sugar rather than chilli. Locals call the signature technique nong you chi jiang, heavy oil and red sauce. Layered on top is everything that arrived by port, so the city also has China's best coffee, its most serious bar scene and long-established Cantonese, Japanese and Western cooking.",
+    "mustTry": [
+      {
+        "dish": "Xiaolongbao",
+        "what": "Thin-skinned pork dumplings with jellied stock inside that melts into soup when steamed.",
+        "why": "Invented in Nanxiang on the city's edge, and the technical benchmark for dumpling-making.",
+        "flavour": "Rich, porky, faintly sweet.",
+        "howLocalsEat": "Nip the side, drink the soup, then eat. Vinegar with ginger shreds, never soy.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Shengjianbao",
+        "what": "Thicker-skinned pork buns pan-fried until the base is crisp, sesame and scallion on top.",
+        "why": "The breakfast counterpart to xiaolongbao and, for many locals, the better dumpling.",
+        "flavour": "Crunchy bottom, soft top, soup inside.",
+        "howLocalsEat": "From a shop window, standing, two or four at a time.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Hongshao rou",
+        "what": "Pork belly braised in soy, sugar and rice wine until glossy and collapsing.",
+        "why": "The archetypal red-cooked dish and the clearest expression of the local sweet-savoury balance.",
+        "flavour": "Sweet, deep, unctuous.",
+        "howLocalsEat": "With plain rice, as part of a shared table.",
+        "importance": "Essential"
+      },
+      {
+        "dish": "Drunken shrimp or drunken crab",
+        "what": "Live freshwater shrimp or raw crab cured in strong rice wine.",
+        "why": "A genuinely local delicacy that most visitors never try.",
+        "flavour": "Sweet, alcoholic, slippery.",
+        "howLocalsEat": "As a cold starter. Be aware it is raw.",
+        "importance": "Optional, adventurous"
+      },
+      {
+        "dish": "Hairy crab",
+        "what": "Small freshwater crab steamed whole, eaten with vinegar and ginger. Autumn only.",
+        "why": "A seasonal obsession that shuts down conversation in October and November.",
+        "flavour": "Sweet roe, delicate meat, a great deal of work.",
+        "howLocalsEat": "With yellow wine, slowly, at a table of people who will show you how.",
+        "importance": "Essential if you visit in autumn"
+      },
+      {
+        "dish": "Cong you ban mian",
+        "what": "Noodles tossed in scallion oil with dried shrimp and soy.",
+        "why": "Three ingredients, no protein, and one of the great cheap bowls anywhere.",
+        "flavour": "Intensely oniony, savoury, simple.",
+        "howLocalsEat": "For lunch, alone, in five minutes.",
+        "importance": "Recommended"
+      },
+      {
+        "dish": "Xiaolongxia",
+        "what": "Spicy crayfish, seasonal, eaten with gloves.",
+        "why": "Summer street food; more Hunan than Shanghai in origin but adopted wholeheartedly.",
+        "flavour": "Chilli, garlic, beer.",
+        "howLocalsEat": "Outdoors in summer, messily, in groups.",
+        "importance": "Recommended in summer"
+      },
+      {
+        "dish": "Sheng jian and da bing you tiao breakfast",
+        "what": "Fried dough sticks, rice rolls, soy milk and pancakes from a morning shop.",
+        "why": "The four heavenly kings of Shanghai breakfast, still eaten daily.",
+        "flavour": "Savoury, plain, comforting.",
+        "howLocalsEat": "Before eight, standing.",
+        "importance": "Recommended"
+      }
+    ]
+  },
+  "mustEat10": [
+    {
+      "dish": "Xiaolongbao",
+      "where": "Jia Jia Tang Bao, or Din Tai Fung for the polished version",
+      "order": "Pork, and crab-roe if it is autumn",
+      "price": "CNY 30-90"
+    },
+    {
+      "dish": "Shengjianbao",
+      "where": "Yang's Fry Dumpling",
+      "order": "Four, plus beef vermicelli soup",
+      "price": "CNY 20-30"
+    },
+    {
+      "dish": "Scallion oil noodles",
+      "where": "A neighbourhood noodle shop in the Concession",
+      "order": "Cong you ban mian with a side of wontons",
+      "price": "CNY 15-30"
+    },
+    {
+      "dish": "Hongshao rou",
+      "where": "Old Jesse (Lao Ji Shi)",
+      "order": "Red-braised pork, plus the scallion-braised fish head",
+      "price": "CNY 150-300"
+    },
+    {
+      "dish": "Hairy crab",
+      "where": "Cheng Long Hang or any specialist in season",
+      "order": "One female, one male, with yellow wine",
+      "price": "CNY 200-500 seasonal"
+    },
+    {
+      "dish": "Wontons in soup",
+      "where": "Any shop with a queue at lunch",
+      "order": "Fresh meat and shepherd's purse",
+      "price": "CNY 15-25"
+    },
+    {
+      "dish": "Cantonese dim sum",
+      "where": "Fu Chun or a hotel dim sum room",
+      "order": "Har gow, char siu bao",
+      "price": "CNY 80-200"
+    },
+    {
+      "dish": "Spicy crayfish",
+      "where": "Shouning Road area in summer",
+      "order": "A kilo, garlic and chilli, plus beer",
+      "price": "CNY 100-200"
+    },
+    {
+      "dish": "Shanghai breakfast set",
+      "where": "A morning shop in Hongkou or Yangpu",
+      "order": "Da bing, you tiao, doujiang, ci fan tuan",
+      "price": "CNY 10-20"
+    },
+    {
+      "dish": "Coffee and a pastry",
+      "where": "Any of a hundred roasters in the Concession",
+      "order": "Filter and something almond",
+      "price": "CNY 30-60"
+    }
+  ],
+  "restaurants": {
+    "iconic": [
+      {
+        "name": "Jia Jia Tang Bao",
+        "cuisine": "Xiaolongbao",
+        "price": "Low",
+        "area": "Huangpu",
+        "desc": "Cramped, functional, and the soup dumpling locals name first. Sells out.",
+        "dishes": "Pork, crab roe",
+        "whyGo": "The benchmark, at street prices.",
+        "booking": "No, and go before noon"
+      },
+      {
+        "name": "Old Jesse (Lao Ji Shi)",
+        "cuisine": "Shanghainese",
+        "price": "Mid-high",
+        "area": "Xuhui",
+        "desc": "Tiny, legendary, ferociously popular. Home-style cooking taken seriously.",
+        "dishes": "Scallion-braised fish head, hongshao rou",
+        "whyGo": "The best-known expression of the local cuisine.",
+        "booking": "Essential, weeks ahead"
+      },
+      {
+        "name": "Fairmont Peace Hotel jazz bar",
+        "cuisine": "Bar",
+        "price": "High",
+        "area": "The Bund",
+        "desc": "1929 lobby bar with the old jazz band still playing.",
+        "dishes": "Cocktails",
+        "whyGo": "The clearest surviving piece of 1930s Shanghai.",
+        "booking": "Recommended"
+      }
+    ],
+    "bestFood": [
+      {
+        "name": "Fu He Hui",
+        "cuisine": "Vegetarian fine dining",
+        "price": "High",
+        "area": "Changning",
+        "desc": "Buddhist-influenced vegetarian tasting menus, meditative rooms.",
+        "dishes": "Set menu",
+        "whyGo": "One of the best restaurants in China, meat or not.",
+        "booking": "Essential"
+      },
+      {
+        "name": "Ultraviolet",
+        "cuisine": "Experimental",
+        "price": "Very high",
+        "area": "Secret",
+        "desc": "Ten seats, one table, multi-sensory. You are collected from a meeting point.",
+        "dishes": "Set menu",
+        "whyGo": "If you want the most-discussed dining experience in Asia.",
+        "booking": "Months ahead"
+      },
+      {
+        "name": "Fu 1088",
+        "cuisine": "Shanghainese",
+        "price": "High",
+        "area": "Jing'an",
+        "desc": "Private rooms in a 1930s villa, refined versions of local classics.",
+        "dishes": "Hongshao rou, drunken chicken",
+        "whyGo": "Shanghainese food in the setting it deserves.",
+        "booking": "Essential"
+      }
+    ],
+    "bestValue": [
+      {
+        "name": "Yang's Fry Dumpling",
+        "cuisine": "Shengjianbao",
+        "price": "Low",
+        "area": "Several",
+        "desc": "A chain, still excellent, still cheap.",
+        "dishes": "Pan-fried pork buns",
+        "whyGo": "The best five-minute meal in the city.",
+        "booking": "No"
+      },
+      {
+        "name": "Nanxiang Steamed Bun Restaurant",
+        "cuisine": "Xiaolongbao",
+        "price": "Low-mid",
+        "area": "Yu Garden",
+        "desc": "The famous one by the garden. Tourist-heavy, but the upstairs rooms are calmer and good.",
+        "dishes": "Crab roe xiaolongbao",
+        "whyGo": "Convenient after Yu Garden.",
+        "booking": "No"
+      },
+      {
+        "name": "Neighbourhood noodle shops in the Concession",
+        "cuisine": "Shanghainese noodles",
+        "price": "Low",
+        "area": "Xuhui",
+        "desc": "Unnamed, plastic-stooled, open at lunch only.",
+        "dishes": "Scallion oil noodles, wontons",
+        "whyGo": "Where the food actually is.",
+        "booking": "No"
+      }
+    ],
+    "special": [
+      {
+        "name": "Mr & Mrs Bund",
+        "cuisine": "Modern French",
+        "price": "High",
+        "area": "The Bund",
+        "desc": "Paul Pairet's less formal room, with the river outside the window.",
+        "dishes": "Lemon tart, the shareable menu",
+        "whyGo": "A special dinner with the view.",
+        "booking": "Essential"
+      },
+      {
+        "name": "Canton Table or a hotel Cantonese room",
+        "cuisine": "Cantonese",
+        "price": "High",
+        "area": "The Bund",
+        "desc": "Precise dim sum and seafood in a grand setting.",
+        "dishes": "Dim sum lunch",
+        "whyGo": "Different register, high execution.",
+        "booking": "Recommended"
+      }
+    ],
+    "casual": [
+      {
+        "name": "Shouning Road",
+        "cuisine": "Crayfish and street food",
+        "price": "Low-mid",
+        "area": "Huangpu",
+        "desc": "Summer crayfish street, loud and messy.",
+        "dishes": "Spicy crayfish",
+        "whyGo": "The best summer evening in Shanghai.",
+        "booking": "No"
+      },
+      {
+        "name": "Dongtai Road and Hongkou breakfast streets",
+        "cuisine": "Shanghai breakfast",
+        "price": "Low",
+        "area": "Hongkou",
+        "desc": "Morning-only shops selling the four heavenly kings.",
+        "dishes": "You tiao, ci fan tuan",
+        "whyGo": "Cheap, early, entirely local.",
+        "booking": "No"
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Metal Hands, Manner, Seesaw and a hundred others",
+        "cuisine": "Coffee",
+        "price": "Low",
+        "area": "FFC and Jing'an",
+        "desc": "Shanghai has more coffee shops than any city on earth and the standard is high.",
+        "dishes": "Filter, flat white",
+        "whyGo": "Fuel for a walking day, and a genuine local obsession.",
+        "booking": "No"
+      },
+      {
+        "name": "Sunflour or Baker & Spice",
+        "cuisine": "Bakery",
+        "price": "Low-mid",
+        "area": "FFC",
+        "desc": "Proper bread and pastry, a legacy of the concession years.",
+        "dishes": "Sourdough, almond croissant",
+        "whyGo": "A good breakfast before walking.",
+        "booking": "No"
+      },
+      {
+        "name": "Huxinting Teahouse",
+        "cuisine": "Tea",
+        "price": "Mid",
+        "area": "Yu Garden",
+        "desc": "The zigzag-bridge teahouse in the middle of the bazaar pond.",
+        "dishes": "Green tea and snacks",
+        "whyGo": "Touristy and lovely, especially upstairs.",
+        "booking": "No"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "name": "Morning in Fuxing Park",
+      "what": "Ballroom dancing, choirs, cards, tai chi, all before 9am.",
+      "why": "The friendliest hour in the city and completely free.",
+      "mins": 60
+    },
+    {
+      "name": "Huangpu River ferry",
+      "what": "The public commuter ferry between Puxi and Pudong for a couple of yuan.",
+      "why": "The same view as the cruise, at one percent of the price.",
+      "mins": 30
+    },
+    {
+      "name": "A cocktail bar crawl in the Concession",
+      "what": "Three or four of the small bars around Anfu and Yongkang.",
+      "why": "Shanghai's bartending is genuinely world class.",
+      "mins": 180
+    },
+    {
+      "name": "Shikumen lane wandering",
+      "what": "Push into the residential lanes off Anfu or Wukang and see laundry, mahjong and daily life.",
+      "why": "The city at domestic scale, thirty seconds from the boutiques.",
+      "mins": 60
+    },
+    {
+      "name": "Tailoring at the fabric market",
+      "what": "South Bund Fabric Market: pick cloth, get measured, collect in a few days.",
+      "why": "A shirt or coat for a fraction of the price, if your timing allows.",
+      "mins": 90
+    },
+    {
+      "name": "Hairy crab dinner in autumn",
+      "what": "A guided, messy, wine-fuelled seasonal meal.",
+      "why": "The most local thing you can do in October.",
+      "mins": 150
+    }
+  ],
+  "neighbourhoodGuide": [
+    {
+      "name": "Former French Concession",
+      "vibe": "Plane trees, low villas, coffee, boutiques",
+      "bestFor": "Walking, eating, browsing, doing nothing",
+      "sights": "Wukang Mansion, Fuxing Park, Propaganda Poster Centre",
+      "food": "Everything, particularly coffee and small restaurants",
+      "mins": 240
+    },
+    {
+      "name": "The Bund and Huangpu",
+      "vibe": "Grand, granite, riverfront",
+      "bestFor": "Architecture, views, rooftop drinks",
+      "sights": "The Bund, Yu Garden, Shanghai Museum",
+      "food": "Xiaolongbao, high-end dining",
+      "mins": 180
+    },
+    {
+      "name": "Jing'an",
+      "vibe": "Polished, temple-and-tower contrast",
+      "bestFor": "Shopping, good restaurants",
+      "sights": "Jing'an Temple, Zhangyuan",
+      "food": "Serious restaurants and bars",
+      "mins": 150
+    },
+    {
+      "name": "Xuhui and West Bund",
+      "vibe": "Riverside, cultural, spacious",
+      "bestFor": "Museums, cycling the waterfront",
+      "sights": "Long Museum, Yuz, Longhua Temple",
+      "food": "Cafes, riverside restaurants",
+      "mins": 240
+    },
+    {
+      "name": "Hongkou and North Bund",
+      "vibe": "Working city, layered history",
+      "bestFor": "Breakfast streets, Jewish quarter",
+      "sights": "Jewish Refugees Museum, 1933 Old Millfun",
+      "food": "Cheap and local",
+      "mins": 150
+    },
+    {
+      "name": "Pudong Lujiazui",
+      "vibe": "Vertical and corporate",
+      "bestFor": "One evening, one tower, one view",
+      "sights": "Shanghai Tower, riverside promenade",
+      "food": "Hotel and mall dining",
+      "mins": 120
+    }
+  ],
+  "timeGuidance": {
+    "three": "Day 1 the Bund, Yu Garden and Shanghai Museum. Day 2 the Concession on foot, all day, with a museum and a rooftop. Day 3 a water town or Suzhou.",
+    "fivePlus": "Add West Bund or Power Station of Art, Hongkou, a fabric-market fitting, a bar night, and a second unhurried Concession afternoon."
+  },
+  "dayTrips": [
+    {
+      "name": "Suzhou",
+      "travel": "25-30 min by high-speed rail",
+      "why": "Classical scholar gardens, canals and silk. The single best day trip in eastern China.",
+      "duration": "Full day",
+      "suits": "Everyone.",
+      "logistics": "Trains every few minutes from Hongqiao. Book the Humble Administrator's Garden ahead.",
+      "verdict": "Worth it"
+    },
+    {
+      "name": "Hangzhou",
+      "travel": "45-60 min by high-speed rail",
+      "why": "West Lake, tea villages and temples. Better as an overnight than a day trip.",
+      "duration": "Full day minimum, overnight better",
+      "suits": "Anyone with a spare day and a taste for landscape.",
+      "logistics": "Trains from Hongqiao constantly.",
+      "verdict": "Worth it, ideally overnight"
+    },
+    {
+      "name": "Zhujiajiao",
+      "travel": "1 hr by metro line 17",
+      "why": "The closest canal town. Pretty, restored and busy at weekends.",
+      "duration": "Half day",
+      "suits": "Anyone short of time.",
+      "logistics": "Metro all the way; go on a weekday morning.",
+      "verdict": "Worth it if you cannot reach Suzhou"
+    },
+    {
+      "name": "Wuzhen or Xitang",
+      "travel": "1.5-2 hrs by coach",
+      "why": "Larger, better-preserved water towns; Wuzhen's east gate is lovely in the evening.",
+      "duration": "Full day or overnight",
+      "suits": "Photographers, second-time visitors.",
+      "logistics": "Coach or organised transfer.",
+      "verdict": "Worth it if you stay overnight"
+    },
+    {
+      "name": "Nanjing",
+      "travel": "1.5 hrs by high-speed rail",
+      "why": "Ming walls, the tomb, and the Nanjing Massacre Memorial. Historically heavy, rewarding.",
+      "duration": "Long day or overnight",
+      "suits": "Anyone interested in modern Chinese history.",
+      "logistics": "Rail from Hongqiao.",
+      "verdict": "Only if you have extra time"
+    }
+  ],
+  "practical": {
+    "gettingAround": "The metro is excellent, cheap and signed in English; lines 2 and 10 cover most of what you want. Set up a transit code in Alipay before you arrive. Didi for taxis. The Concession is best walked, and bike-share works well on flat ground. The Maglev from Pudong airport is fun for eight minutes but drops you at Longyang Road, which is inconvenient unless you are heading east.",
+    "whenToGo": "October and November are the best: dry, mild, and hairy crab season. Late March to May is good, with magnolia and plane trees coming into leaf. Summer is hot, humid and typhoon-prone. Winter is grey, damp and colder than the latitude suggests because buildings are poorly heated. Avoid the first week of October.",
+    "howLong": {
+      "one": "The Bund, Yu Garden and a Concession walk. Rushed but coherent.",
+      "twoThree": "Add the Shanghai Museum, a rooftop, and a proper Shanghainese dinner. This is the sweet spot.",
+      "fourFive": "Add a water town or Suzhou, a contemporary art half day, and Hongkou.",
+      "week": "Use it as a base for Suzhou, Hangzhou and a water town overnight."
+    },
+    "culture": [
+      "Bring your passport; it is needed for museums, rail and hotels.",
+      "Payment is by phone. Set up Alipay or WeChat Pay with a foreign card before arrival.",
+      "A VPN installed before you land is necessary for most non-Chinese services.",
+      "Shanghainese is a distinct language, not a dialect of Mandarin, and older residents may prefer it.",
+      "Tipping is not expected.",
+      "Restaurants turn tables quickly at lunch; lingering is a dinner and cafe activity.",
+      "Book the big-name restaurants well ahead; the good small ones do not take bookings at all."
+    ]
+  },
+  "whatIdDo": [
+    {
+      "day": "Day 1",
+      "plan": "Yu Garden at opening, then walk to the Bund and along it. Shanghai Museum after lunch. Sunset from a Bund rooftop, dinner at Jia Jia Tang Bao or a Concession noodle shop."
+    },
+    {
+      "day": "Day 2",
+      "plan": "Fuxing Park before nine, then the entire day walking the Concession: Wukang Mansion, Anfu Road, the Propaganda Poster Centre, coffee twice. Cocktails, then dinner at Fu 1088 or Old Jesse if you booked."
+    },
+    {
+      "day": "Day 3",
+      "plan": "High-speed rail to Suzhou at eight. Humble Administrator's Garden, the Master of the Nets, lunch, a canal walk, back by seven."
+    },
+    {
+      "day": "Day 4",
+      "plan": "Power Station of Art or the West Bund museums, riverside cycling, Longhua Temple. Evening ferry across the river and a last look at the skyline."
+    }
+  ],
+  "quickRef": {
+    "musts": [
+      "The Bund at dusk and dawn",
+      "Former French Concession on foot",
+      "Shanghai Museum",
+      "Yu Garden at opening",
+      "One elevated view"
+    ],
+    "eats": [
+      "Xiaolongbao",
+      "Shengjianbao",
+      "Hongshao rou",
+      "Scallion oil noodles",
+      "Hairy crab in autumn"
+    ],
+    "areas": [
+      "Former French Concession",
+      "The Bund",
+      "Jing'an",
+      "West Bund",
+      "Hongkou"
+    ],
+    "experiences": [
+      "Fuxing Park at 8am",
+      "Public ferry across the Huangpu",
+      "A Concession cocktail crawl"
+    ],
+    "dayTrip": "Suzhou by high-speed rail",
+    "stay": "3-4 days"
+  },
+  "coords": {
+    "Anfu Road and Wulumuqi Road": [
+      31.213,
+      121.443
+    ],
+    "Bund rooftop bars": [
+      31.239,
+      121.49
+    ],
+    "Century Park": [
+      31.219,
+      121.552
+    ],
+    "Fairmont Peace Hotel jazz bar": [
+      31.24,
+      121.49
+    ],
+    "Former French Concession": [
+      31.213,
+      121.452
+    ],
+    "Fu 1088": [
+      31.222,
+      121.438
+    ],
+    "Fu He Hui": [
+      31.213,
+      121.418
+    ],
+    "Fuxing Park": [
+      31.216,
+      121.466
+    ],
+    "Hangzhou": [
+      30.274,
+      120.155
+    ],
+    "Hongkou and North Bund": [
+      31.256,
+      121.505
+    ],
+    "Huxinting Teahouse": [
+      31.227,
+      121.492
+    ],
+    "Jazz at the Fairmont Peace Hotel": [
+      31.24,
+      121.49
+    ],
+    "Jewish Refugees Museum": [
+      31.256,
+      121.505
+    ],
+    "Jia Jia Tang Bao": [
+      31.229,
+      121.47
+    ],
+    "Jing'an": [
+      31.224,
+      121.446
+    ],
+    "Jing'an Temple": [
+      31.224,
+      121.446
+    ],
+    "Live music at Yuyintang": [
+      31.222,
+      121.416
+    ],
+    "Longhua Temple": [
+      31.164,
+      121.451
+    ],
+    "M50": [
+      31.253,
+      121.446
+    ],
+    "Mr & Mrs Bund": [
+      31.24,
+      121.49
+    ],
+    "Nanjing": [
+      32.06,
+      118.797
+    ],
+    "Nanjing Road": [
+      31.235,
+      121.475
+    ],
+    "Nanxiang Steamed Bun Restaurant": [
+      31.227,
+      121.492
+    ],
+    "Old Jesse (Lao Ji Shi)": [
+      31.201,
+      121.442
+    ],
+    "Power Station of Art": [
+      31.187,
+      121.489
+    ],
+    "Propaganda Poster Art Centre": [
+      31.208,
+      121.435
+    ],
+    "Pudong Lujiazui": [
+      31.24,
+      121.5
+    ],
+    "Shanghai Botanical Garden or Chenshan": [
+      31.155,
+      121.45
+    ],
+    "Shanghai Museum": [
+      31.229,
+      121.475
+    ],
+    "Shanghai Tower": [
+      31.234,
+      121.505
+    ],
+    "Shikumen Open House Museum": [
+      31.221,
+      121.475
+    ],
+    "Shouning Road": [
+      31.226,
+      121.478
+    ],
+    "Speakeasy cocktail bars": [
+      31.213,
+      121.45
+    ],
+    "Suzhou": [
+      31.299,
+      120.585
+    ],
+    "Suzhou Creek walkway": [
+      31.245,
+      121.46
+    ],
+    "The Bund": [
+      31.24,
+      121.49
+    ],
+    "Tianzifang": [
+      31.208,
+      121.468
+    ],
+    "Ultraviolet": [
+      31.24,
+      121.49
+    ],
+    "West Bund museum mile": [
+      31.176,
+      121.457
+    ],
+    "Wukang Road": [
+      31.203,
+      121.437
+    ],
+    "Wuzhen or Xitang": [
+      30.745,
+      120.492
+    ],
+    "Xintiandi": [
+      31.221,
+      121.475
+    ],
+    "Yang's Fry Dumpling": [
+      31.235,
+      121.475
+    ],
+    "Yu Garden": [
+      31.227,
+      121.492
+    ],
+    "Zhangyuan": [
+      31.229,
+      121.451
+    ],
+    "Zhujiajiao": [
+      31.113,
+      121.055
+    ]
+  }
+}
