@@ -1,0 +1,327 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Tokyo",
+  "country": "Japan",
+  "lat": 35.6762,
+  "lon": 139.6503,
+  "generated": "2026-09-08",
+  "by": "Claude",
+  "note": "Converted from the Tokyo AI City Travel Report (September 2026 edition), with travel context checked against GO TOKYO, the official Tokyo travel guide. Restaurant names and price bands are planning recommendations, not live availability: verify opening hours, reservation rules and prices before travel.",
+  "glance": {
+    "why": "Tokyo is one of the world's great cities of contrasts: a hyper-efficient megacity layered over the former Edo capital, where tiny neighborhood shrines, 400-year-old food traditions, cutting-edge design, anime, fashion, gardens and some of the world's most ambitious restaurants coexist within the same transit network. Its scale can feel overwhelming, but the best Tokyo experience comes from choosing a few districts and exploring them on foot between train rides. Tokyo is not improved by adding more pins to a map; the biggest mistake is trying to 'complete' it instead of choosing districts and spending time in them.",
+    "bestFor": ["Food", "Contemporary culture", "Traditional Japanese culture", "Shopping", "Architecture", "Nightlife", "Design", "Anime and manga", "Gardens", "Neighborhood exploration"],
+    "idealStay": "4-5 days for a strong first visit; 3 days works if tightly curated; 7+ days for deeper neighborhoods, day trips and specialist interests",
+    "character": ["Vast", "Precise", "Layered", "Energetic", "Endlessly curious"],
+    "dontMiss": [
+      "Senso-ji and Asakusa",
+      "Meiji Jingu and Harajuku",
+      "Shibuya Crossing",
+      "Shinjuku at night",
+      "Tsukiji Outer Market",
+      "Tokyo Station, Marunouchi and the Imperial Palace area",
+      "One major museum or contemporary-art experience",
+      "An izakaya or yokocho evening"
+    ],
+    "neighbourhoods": [
+      "Asakusa",
+      "Ueno and Yanaka",
+      "Ginza and Nihonbashi",
+      "Shibuya, Harajuku and Omotesando",
+      "Shinjuku and Kabukicho",
+      "Shimokitazawa and Nakameguro"
+    ]
+  },
+  "history": {
+    "story": "Tokyo makes more sense when you understand that today's city is essentially several cities layered together. Edo began as a relatively small settlement, then changed dramatically when Tokugawa Ieyasu established the shogunate there in 1603. Over roughly 265 years of Tokugawa rule, peace, commerce, population growth and urban culture transformed Edo into one of the world's largest cities. In 1868, the Meiji Restoration ended the shogunate, Edo was renamed Tokyo, and the city became the imperial capital and a symbol of Japan's rapid modernization.",
+    "origins": "Edo's position on the Kanto plain, its river and bay connections, and its role as the seat of Tokugawa power made it an ideal political and commercial center. Nihonbashi, established in 1603, became the starting point of the major highways radiating from Edo and remains a symbolic 'kilometer zero' of the city.",
+    "periods": [
+      {"name": "Edo / Tokugawa era, 1603-1867", "text": "The foundational period for Tokyo's urban culture, merchant districts, theater, food stalls, gardens, crafts and many enduring traditions."},
+      {"name": "Meiji era, 1868-1912", "text": "Edo becomes Tokyo and rapidly adopts railways, Western-style architecture, new institutions and industrial infrastructure."},
+      {"name": "20th century", "text": "Tokyo experiences wartime destruction, postwar reconstruction and extraordinary economic growth, becoming a global business and cultural capital."},
+      {"name": "Late 20th to 21st century", "text": "The city continues to reinvent itself through high-density redevelopment, design, technology, pop culture, global dining and renewed interest in historic neighborhoods."}
+    ],
+    "whyItMatters": "Tokyo's history is visible rather than confined to museums. Asakusa preserves a traditional temple-and-shopping-street experience; Nihonbashi still reflects its historic commercial role; gardens such as Rikugien preserve Edo aesthetics; Ryogoku remains associated with sumo; and modern districts grew from different waves of railway, commercial and postwar development.",
+    "visible": [
+      "Edo religion and entertainment, in Asakusa: Senso-ji, Nakamise, old-style shops and the former entertainment district",
+      "Edo commerce, in Nihonbashi: the historic bridge, department stores, traditional merchants and modern towers",
+      "Tokugawa power, around the Imperial Palace, Marunouchi and Ueno: the former castle core, gardens and Tokugawa-linked sites",
+      "Traditional urban life, in Yanaka and Nezu: low-rise streets, temples, small shops and surviving neighborhood texture",
+      "Performing arts, in Ginza at Kabukiza: kabuki as a living continuation of Tokyo's theatrical culture",
+      "Sumo culture, in Ryogoku: the Kokugikan area, chanko restaurants and sumo institutions"
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {"name": "Senso-ji", "area": "Asakusa", "why": "Tokyo's essential historic temple experience. Go early for a quieter look at the temple precinct and surrounding streets.", "mins": 120},
+      {"name": "Meiji Jingu", "area": "Shibuya / Harajuku", "why": "A large forested Shinto shrine in the middle of modern Tokyo; pair it with Harajuku and Omotesando.", "mins": 90},
+      {"name": "Imperial Palace East Gardens", "area": "Chiyoda", "why": "An accessible way to see remnants of the former Edo Castle while staying central.", "mins": 90},
+      {"name": "Nezu Shrine", "area": "Bunkyo", "why": "Compact, atmospheric shrine grounds with traditional architecture and torii; excellent paired with Yanaka.", "mins": 60},
+      {"name": "Zojo-ji and Tokyo Tower", "area": "Minato", "why": "A useful old/new contrast: major Buddhist temple, cemetery and a landmark tower in one view.", "mins": 90},
+      {"name": "Ryogoku", "area": "Sumida", "why": "The historic home of sumo, with the Kokugikan arena and a strong Edo-era cultural connection.", "mins": 120}
+    ],
+    "arts": [
+      {"name": "Tokyo National Museum", "area": "Ueno", "why": "The best broad introduction to Japanese art and material culture.", "mins": 180},
+      {"name": "Mori Art Museum", "area": "Roppongi", "why": "Contemporary art plus an excellent high-rise city context.", "mins": 120},
+      {"name": "teamLab Borderless", "area": "Azabudai", "why": "Immersive digital art; best for visitors who specifically enjoy experiential installations.", "mins": 150},
+      {"name": "GINZA SIX and Ginza galleries", "area": "Ginza", "why": "Useful for contemporary design, fashion and smaller gallery-hopping.", "mins": 120},
+      {"name": "Edo-Tokyo Museum", "area": "Ryogoku", "why": "Reopened in 2026 and particularly valuable for understanding the city's transformation from Edo to Tokyo.", "mins": 150},
+      {"name": "Kabukiza", "area": "Ginza", "why": "Even without attending a full performance, the theater complex and surrounding Ginza streets are worth seeing; check the performance schedule.", "mins": 90}
+    ],
+    "neighbourhoods": [
+      {"name": "Asakusa", "character": "Temple, old shops, street food, Sumida River", "highlights": "Senso-ji, Nakamise, riverside walks", "bestTime": "Early morning into late afternoon", "mins": 210},
+      {"name": "Ueno and Yanaka", "character": "Museums, park, old residential streets, small temples", "highlights": "Tokyo National Museum, Ueno Park, Yanaka Ginza", "bestTime": "Morning into afternoon", "mins": 240},
+      {"name": "Ginza and Nihonbashi", "character": "Luxury, department stores, historic commerce, dining", "highlights": "Kabukiza, Mitsukoshi, Nihonbashi bridge", "bestTime": "Late morning into evening", "mins": 240},
+      {"name": "Shibuya, Harajuku and Omotesando", "character": "Youth culture, fashion, shrine, design", "highlights": "Shibuya Crossing, Meiji Jingu, Takeshita Street, Omotesando architecture", "bestTime": "Late morning into night", "mins": 300},
+      {"name": "Shinjuku", "character": "Skyscrapers, shopping, gardens, Kabukicho nightlife", "highlights": "Kabukicho, Shinjuku Gyoen, department stores", "bestTime": "Afternoon into late night", "mins": 300},
+      {"name": "Shimokitazawa and Nakameguro", "character": "Independent shops, cafes, music, relaxed nightlife", "highlights": "Thrift shops, live houses, Meguro River", "bestTime": "Afternoon into evening", "mins": 240}
+    ],
+    "nature": [
+      {"name": "Shinjuku Gyoen", "area": "Shinjuku", "why": "The easiest major garden to combine with a classic Tokyo day.", "mins": 120},
+      {"name": "Ueno Park", "area": "Ueno", "why": "Museums, shrines and seasonal scenery in one district.", "mins": 120},
+      {"name": "Rikugien", "area": "Bunkyo", "why": "An Edo-period landscape garden, especially rewarding in spring and autumn.", "mins": 90},
+      {"name": "Hama-rikyu Gardens", "area": "Chuo", "why": "Historic daimyo garden surrounded by modern towers; excellent paired with Tsukiji.", "mins": 90},
+      {"name": "Mount Takao", "area": "Hachioji", "why": "A realistic half-day nature escape from central Tokyo; hiking without leaving the metro area.", "mins": 300},
+      {"name": "Okutama", "area": "Western Tokyo", "why": "Deeper nature and hiking for visitors staying longer.", "mins": 480}
+    ],
+    "shopping": [
+      {"name": "Tsukiji Outer Market", "area": "Chuo", "why": "Seafood, knives, kitchenware, snacks and breakfast; think of it as a food-and-retail district rather than a wholesale fish-market visit.", "mins": 150},
+      {"name": "Ameyoko", "area": "Ueno", "why": "Dense, energetic shopping street with food, cosmetics, clothing and casual local retail.", "mins": 90},
+      {"name": "Ginza", "area": "Ginza", "why": "Department stores, luxury, Japanese craftsmanship and flagship retail.", "mins": 150},
+      {"name": "Nihonbashi", "area": "Chuo", "why": "Traditional food merchants, tea, craft, department stores and modern redevelopment.", "mins": 120},
+      {"name": "Harajuku and Omotesando", "area": "Shibuya", "why": "Fashion spectrum from youth-oriented Takeshita Street to high-end architecture and design.", "mins": 180},
+      {"name": "Jimbocho", "area": "Chiyoda", "why": "Books, curry shops and old-school intellectual Tokyo; good for browsing rather than checklist sightseeing.", "mins": 90},
+      {"name": "Akihabara", "area": "Chiyoda", "why": "Electronics, anime, manga, games and pop-culture retail; worth visiting even if you are only moderately interested.", "mins": 150}
+    ],
+    "nightlife": [
+      {"name": "Shinjuku and Kabukicho", "area": "Shinjuku", "why": "Neon, bars, karaoke, izakaya and tiny alleys; explore with normal urban awareness and avoid aggressive touts.", "mins": 180},
+      {"name": "Golden Gai", "area": "Shinjuku", "why": "Atmospheric micro-bars and a distinctive postwar urban texture; many venues are tiny and may have cover charges.", "mins": 120},
+      {"name": "Omoide Yokocho", "area": "Shinjuku", "why": "Compact drinking-and-grilling alley near Shinjuku Station.", "mins": 90},
+      {"name": "Shibuya", "area": "Shibuya", "why": "Contemporary bars, clubs, music venues and late-night food.", "mins": 180},
+      {"name": "Ebisu", "area": "Shibuya", "why": "A more relaxed restaurant-and-bar scene with strong local appeal.", "mins": 150},
+      {"name": "Tokyo skyline views", "area": "Various observatories", "why": "Choose one observatory rather than collecting several; prioritize the view that best fits your route.", "mins": 90}
+    ]
+  },
+  "essential10": [
+    {"rank": 1, "name": "Asakusa + Senso-ji", "why": "The best compact introduction to Tokyo's historic layer.", "mins": 210, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 2, "name": "Shibuya Crossing + Shibuya walk", "why": "Instantly legible modern Tokyo: density, fashion, transit and energy.", "mins": 180, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 3, "name": "Meiji Jingu + Harajuku/Omotesando", "why": "Traditional shrine in a forest followed by youth culture and design.", "mins": 210, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 4, "name": "Tsukiji Outer Market breakfast", "why": "A food-focused way to experience Tokyo's relationship with seafood and market culture.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 5, "name": "Shinjuku after dark", "why": "The city's scale and nightlife become most vivid at night.", "mins": 210, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 6, "name": "Tokyo National Museum", "why": "Adds cultural depth beyond neighborhoods and shopping.", "mins": 180, "label": "Recommended", "popularity": 4, "cultural": 5, "worth": 5},
+    {"rank": 7, "name": "Ginza + Nihonbashi", "why": "Shows the city's luxury, commerce and historical continuity.", "mins": 240, "label": "Recommended", "popularity": 5, "cultural": 4, "worth": 4},
+    {"rank": 8, "name": "One immersive Japanese food experience", "why": "Sushi, tempura, yakitori, soba or kaiseki gives more insight than another attraction.", "mins": 135, "label": "Recommended"},
+    {"rank": 9, "name": "Shinjuku Gyoen or Rikugien", "why": "Counterbalances the density with Japanese landscape design.", "mins": 150, "label": "Recommended"},
+    {"rank": 10, "name": "A neighborhood without a checklist", "why": "Choose Shimokitazawa, Yanaka, Nakameguro or Jimbocho and simply wander.", "mins": 180, "label": "Recommended"}
+  ],
+  "food": {
+    "identity": "Tokyo is less a single 'local cuisine' than Japan's greatest concentration point for regional ingredients, techniques and restaurant traditions. At the same time it has a distinct Edo/Tokyo food identity: Edomae sushi, soba, tempura, monjayaki, Fukagawa meshi and other dishes grew alongside the city's enormous Edo-period population and street-food culture. The practical takeaway is not to spend the trip chasing only famous sushi. Tokyo rewards variety: one high-quality sushi meal, one ramen lunch, soba or tempura, yakitori or izakaya, a neighborhood specialty and casual snacks give a much more complete picture. Spend less at lunch, make one reservation-worthy dinner count, and use another night for an izakaya or yokocho. Expensive does not mean better, and tipping is generally not expected, though some izakaya and bars apply a seating charge and bring a small dish before ordering.",
+    "mustTry": [
+      {"dish": "Edomae sushi", "what": "Nigiri shaped from vinegared rice and seafood; the Tokyo style developed in Edo.", "flavour": "Clean, precise, seafood-forward; chef's choice omakase is the classic format.", "importance": "Essential"},
+      {"dish": "Ramen", "what": "Wheat noodles in broth; Tokyo has enormous variety rather than one fixed style.", "flavour": "Try shoyu, shio, chicken-based or contemporary styles; observe noodle texture and broth balance.", "importance": "Essential"},
+      {"dish": "Tempura", "what": "Seafood and vegetables lightly battered and fried.", "flavour": "Delicate, crisp, not greasy; often eaten with salt and/or dipping sauce.", "importance": "Essential"},
+      {"dish": "Soba", "what": "Buckwheat noodles, hot or cold.", "flavour": "Nutty, aromatic; cold soba makes texture and dipping sauce especially apparent.", "importance": "Recommended"},
+      {"dish": "Yakitori", "what": "Chicken grilled over charcoal, often including different cuts.", "flavour": "Smoky, savory, often lightly seasoned; excellent with beer or sake.", "importance": "Essential"},
+      {"dish": "Monjayaki", "what": "Very loose savory batter cooked on a hot griddle, strongly associated with Tsukishima.", "flavour": "Soft, savory, caramelized edges; scrape small portions from the griddle.", "importance": "Recommended"},
+      {"dish": "Tonkatsu", "what": "Breaded, deep-fried pork cutlet.", "flavour": "Crisp crust, juicy pork; typically served with shredded cabbage and tonkatsu sauce.", "importance": "Recommended"},
+      {"dish": "Unagi", "what": "Grilled freshwater eel, commonly glazed and served over rice.", "flavour": "Sweet-savory, rich and fatty; usually eaten with rice.", "importance": "Recommended"},
+      {"dish": "Wagashi", "what": "Traditional Japanese sweets such as mochi, dorayaki and seasonal confections.", "flavour": "Often subtle and less sweet than Western desserts; tied closely to tea culture.", "importance": "Recommended"},
+      {"dish": "Fukagawa meshi", "what": "Clams and rice, historically associated with Tokyo's waterfront working communities.", "flavour": "Briny, savory, comforting; a distinctly Tokyo local specialty.", "importance": "Optional / deep cut"}
+    ]
+  },
+  "mustEat10": [
+    {"dish": "Edomae sushi", "where": "Sushi Dai / Toyosu area", "order": "Chef's-choice sushi or seasonal nigiri", "price": "JPY 4,000-8,000+"},
+    {"dish": "Ramen", "where": "Ginza Hachigo or a comparable specialist", "order": "Signature ramen", "price": "JPY 1,500-3,000"},
+    {"dish": "Tempura", "where": "Tempura Kondo, Ginza", "order": "Chef's tempura course", "price": "JPY 15,000-30,000+"},
+    {"dish": "Yakitori", "where": "Torishiki or a strong local yakitori counter", "order": "Omakase yakitori course", "price": "JPY 10,000-20,000+"},
+    {"dish": "Soba", "where": "Kanda Matsuya", "order": "Cold soba plus tempura", "price": "JPY 1,500-4,000"},
+    {"dish": "Tonkatsu", "where": "Tonkatsu Marugo or a Ueno-area specialist", "order": "Rosu or hire cutlet set", "price": "JPY 2,000-4,000"},
+    {"dish": "Monjayaki", "where": "Tsukishima Monja Street", "order": "Classic seafood or mixed monja", "price": "JPY 1,500-3,500"},
+    {"dish": "Unagi", "where": "Nodaiwa or an established eel specialist", "order": "Unaju or grilled eel set", "price": "JPY 5,000-10,000"},
+    {"dish": "Wagashi and tea", "where": "Toraya or an established wagashi shop", "order": "Seasonal wagashi with Japanese tea", "price": "JPY 1,000-3,000"},
+    {"dish": "Convenience-store and depachika snacks", "where": "7-Eleven, Lawson, FamilyMart and department food halls", "order": "Onigiri, egg sandwich, seasonal sweets, bento", "price": "JPY 300-2,500"}
+  ],
+  "restaurants": {
+    "iconic": [
+      {"name": "Sushi Dai", "cuisine": "Sushi", "price": "¥¥", "area": "Toyosu", "desc": "The classic first-Tokyo sushi experience.", "dishes": "Seasonal nigiri", "whyGo": "A straightforward way into Tokyo sushi without booking months ahead.", "booking": "Expect queues; check the current system and hours"},
+      {"name": "Kanda Matsuya", "cuisine": "Soba", "price": "¥", "area": "Kanda", "desc": "Historic-feeling soba institution.", "dishes": "Cold soba and tempura", "whyGo": "Shows the Edo side of Tokyo eating at an accessible price.", "booking": "Usually easier than elite omakase; still expect waits at busy times"},
+      {"name": "Tsukiji area specialists", "cuisine": "Seafood", "price": "¥-¥¥", "area": "Tsukiji", "desc": "A cluster of small seafood shops and counters in the outer market.", "dishes": "Graze across several shops rather than one destination meal", "whyGo": "Best used as a grazing route rather than a single restaurant.", "booking": "Go early; many shops have limited hours"}
+    ],
+    "bestFood": [
+      {"name": "Tempura Kondo", "cuisine": "Tempura", "price": "¥¥¥", "area": "Ginza", "desc": "Destination-level tempura focused on ingredient and frying technique.", "dishes": "Chef's tempura course", "whyGo": "One of the clearest demonstrations of Japanese frying technique.", "booking": "Reserve well ahead"},
+      {"name": "Ginza Hachigo", "cuisine": "Ramen", "price": "¥", "area": "Ginza", "desc": "High-end sensibility applied to an accessible ramen format.", "dishes": "Signature ramen", "whyGo": "Fine-dining thinking at ramen prices.", "booking": "Rules and availability can change; verify before visiting"},
+      {"name": "Torishiki", "cuisine": "Yakitori", "price": "¥¥¥", "area": "Meguro", "desc": "Highly regarded charcoal-grilled chicken experience.", "dishes": "Omakase yakitori course", "whyGo": "Yakitori taken as seriously as sushi.", "booking": "Very limited seating; advance planning essential"}
+    ],
+    "bestValue": [
+      {"name": "Neighborhood ramen shop", "cuisine": "Ramen", "price": "JPY 1,000-2,000", "area": "Shinjuku / Ikebukuro / Takadanobaba", "desc": "The everyday Tokyo lunch.", "dishes": "Specialist broth with house noodles", "whyGo": "Excellent food for the price of a coffee elsewhere.", "booking": "Walk in; queues move fast"},
+      {"name": "Soba counter", "cuisine": "Soba", "price": "JPY 800-2,000", "area": "Kanda / Nihonbashi / Asakusa", "desc": "Standing or seated soba counters across the old city.", "dishes": "Cold soba, tempura soba", "whyGo": "A quick, distinctly Edo meal between sights.", "booking": "Walk in"},
+      {"name": "Tonkatsu set meal", "cuisine": "Tonkatsu", "price": "JPY 1,500-3,000", "area": "Ueno / Ginza / Shinjuku", "desc": "Specialist cutlet shops serving set meals.", "dishes": "High-quality pork with rice and cabbage", "whyGo": "Filling, consistent and inexpensive.", "booking": "Walk in"},
+      {"name": "Depachika food hall", "cuisine": "Prepared food and sweets", "price": "JPY 500-3,000 per item", "area": "Ginza / Nihonbashi / Shinjuku", "desc": "Department-store basement food halls.", "dishes": "Bento, sweets, deli foods; ideal for sampling", "whyGo": "The best low-commitment way to taste widely.", "booking": "No"}
+    ],
+    "special": [
+      {"name": "Kaiseki or modern Japanese", "cuisine": "Kaiseki / modern Japanese", "price": "¥¥¥", "area": "Ginza, Azabu, Kagurazaka or Nihonbashi", "desc": "Seasonal multi-course Japanese dining.", "whyGo": "Prioritize the style of meal you actually enjoy over star count.", "booking": "Reserve well ahead"},
+      {"name": "Elite sushi omakase", "cuisine": "Sushi", "price": "¥¥¥¥", "area": "Ginza and beyond", "desc": "Counter omakase at the top of the Tokyo sushi world.", "whyGo": "Worthwhile if you care deeply about sushi; less important if you simply want 'the Tokyo experience'.", "booking": "Book far ahead, often through a hotel concierge"},
+      {"name": "High-floor modern Japanese or French", "cuisine": "Modern Japanese / French", "price": "¥¥¥¥", "area": "Roppongi, Shinjuku, Marunouchi", "desc": "Skyline dining rooms built around the view.", "whyGo": "Choose based on atmosphere if the goal is a celebratory evening.", "booking": "Reserve ahead"}
+    ],
+    "casual": [
+      {"name": "Izakaya evening", "cuisine": "Izakaya", "price": "¥-¥¥", "area": "Ebisu, Shinjuku, Yurakucho or a neighborhood shotengai", "desc": "Small plates, beer and sake in a noisy room.", "whyGo": "The most sociable way Tokyo eats.", "booking": "Book at peak times; many take walk-ins"},
+      {"name": "Everyday Japanese set meals", "cuisine": "Teishoku", "price": "¥", "area": "Citywide", "desc": "Oyakodon, curry, gyudon and teishoku shops.", "whyGo": "How the city actually eats on a normal day.", "booking": "No"},
+      {"name": "Monjayaki in Tsukishima", "cuisine": "Monjayaki", "price": "¥-¥¥", "area": "Tsukishima", "desc": "A street of griddle restaurants devoted to monja.", "whyGo": "A food experience specifically tied to Tokyo.", "booking": "Book at weekends"}
+    ],
+    "cafes": [
+      {"name": "Kissaten", "cuisine": "Old-school coffee shop", "price": "¥", "area": "Citywide", "desc": "Siphon or drip coffee, thick toast and pudding-style desserts.", "whyGo": "A preserved mid-century Tokyo atmosphere.", "booking": "Walk in"},
+      {"name": "Japanese tea house", "cuisine": "Tea and wagashi", "price": "¥-¥¥", "area": "Ginza, Nihonbashi, Asakusa", "desc": "Sencha or matcha served with seasonal sweets.", "whyGo": "Pair wagashi with tea rather than treating tea as an afterthought.", "booking": "Walk in; some tea rooms take bookings"},
+      {"name": "Specialty coffee", "cuisine": "Coffee", "price": "¥-¥¥", "area": "Kiyosumi-Shirakawa, Shibuya, Nakameguro", "desc": "Independent roasters and single-origin bars.", "whyGo": "Tokyo has an unusually sophisticated independent coffee scene.", "booking": "Walk in"}
+    ]
+  },
+  "experiences": [
+    {"name": "Tea ceremony", "what": "Attend a tea ceremony or tea-focused experience.", "why": "Best if you want context for Japanese hospitality, seasonality and wagashi.", "mins": 90},
+    {"name": "Cooking class", "what": "Book a sushi, wagashi, ramen or home-cooking class.", "why": "More memorable than simply photographing food.", "mins": 150},
+    {"name": "Sento (public bath)", "what": "Try a neighborhood public bath; follow bathing etiquette and wash before entering the bath.", "why": "One of the most accessible everyday cultural experiences.", "mins": 90},
+    {"name": "Sumo in Ryogoku", "what": "See sumo if a tournament or exhibition fits your dates; otherwise visit the neighborhood and learn about the sport's culture.", "why": "Ryogoku is where the sport's institutions and chanko restaurants still live.", "mins": 180},
+    {"name": "Kabuki at Kabukiza", "what": "Watch a performance, including a single-act ticket.", "why": "Even a shorter performance gives a taste of traditional theater.", "mins": 120},
+    {"name": "Izakaya with a local or food tour", "what": "Explore an izakaya with a guide.", "why": "Useful if you want help navigating menus and etiquette.", "mins": 150},
+    {"name": "Neighborhood shotengai", "what": "Visit an everyday shopping street.", "why": "It gives a better sense of lived-in Tokyo than only visiting major landmarks.", "mins": 90},
+    {"name": "Evening waterfront walk", "what": "Walk the Sumida River, Hamarikyu or Odaiba at night.", "why": "A different view of the city from the train-and-district routine.", "mins": 90},
+    {"name": "Craft-focused visit", "what": "Look at Japanese knives, ceramics, indigo, stationery or traditional sweets, especially in Nihonbashi, Kappabashi and specialist shopping districts.", "why": "Craft is where Tokyo's precision is easiest to see up close.", "mins": 120},
+    {"name": "A half-day without an itinerary", "what": "Spend one half-day deliberately unplanned.", "why": "Tokyo's strongest feature is often the quality of ordinary streets between major sights.", "mins": 240}
+  ],
+  "neighbourhoodGuide": [
+    {"name": "Asakusa", "vibe": "Traditional, touristy but atmospheric", "bestFor": "First-timers, history, street food", "sights": "Senso-ji, Nakamise, Sumida River", "mins": 240},
+    {"name": "Ueno + Yanaka", "vibe": "Cultural and old Tokyo", "bestFor": "Museums, temples, wandering", "sights": "Tokyo National Museum, Ueno Park, Yanaka Ginza", "mins": 240},
+    {"name": "Ginza + Nihonbashi", "vibe": "Polished, historic-commercial", "bestFor": "Food, luxury, design, department stores", "sights": "Kabukiza, Mitsukoshi, Nihonbashi", "food": "Fine dining and depachika food halls", "mins": 240},
+    {"name": "Tokyo Station + Marunouchi", "vibe": "Grand, modern, corporate", "bestFor": "Architecture, shopping, a first or last evening", "sights": "Tokyo Station, Imperial Palace area", "mins": 180},
+    {"name": "Shibuya", "vibe": "Energetic, youthful, global", "bestFor": "Fashion, nightlife, city spectacle", "sights": "Shibuya Crossing, Center-gai, Miyashita Park", "mins": 240},
+    {"name": "Harajuku + Omotesando", "vibe": "Youth culture giving way to luxury design", "bestFor": "Fashion, shrine, architecture", "sights": "Meiji Jingu, Takeshita Street, Omotesando", "mins": 210},
+    {"name": "Shinjuku", "vibe": "Huge, intense, vertical", "bestFor": "Nightlife, shopping, views", "sights": "Kabukicho, Shinjuku Gyoen, department stores", "mins": 300},
+    {"name": "Shimokitazawa", "vibe": "Creative, indie, relaxed", "bestFor": "Vintage, music, cafes", "sights": "Thrift shops, live houses, cafes", "mins": 180},
+    {"name": "Nakameguro + Daikanyama", "vibe": "Stylish, residential-urban", "bestFor": "Cafes, boutiques, a slower pace", "sights": "Meguro River, independent shops", "mins": 180},
+    {"name": "Akihabara", "vibe": "Loud, niche, commercial", "bestFor": "Anime, manga, games, electronics", "sights": "Arcades, specialty shops", "mins": 180},
+    {"name": "Kagurazaka", "vibe": "Elegant, layered, food-focused", "bestFor": "A traditional-modern blend", "sights": "Alleys, French and Japanese dining, shrines", "mins": 180},
+    {"name": "Kiyosumi-Shirakawa", "vibe": "Calm, design and coffee", "bestFor": "Specialty coffee, galleries", "sights": "Coffee roasters, Kiyosumi Garden", "mins": 150}
+  ],
+  "timeGuidance": {
+    "three": "Asakusa and Ueno; Meiji Jingu, Harajuku and Shibuya; Tsukiji, Ginza and a Shinjuku evening.",
+    "fivePlus": "With five days add a museum-heavy Ueno/Roppongi day, a slower neighborhood day and a deeper food experience. With seven or more, add day trips, Mount Takao or Okutama, specialist shopping, additional museums and neighborhoods outside the standard tourist circuit."
+  },
+  "dayTrips": [
+    {"name": "Kamakura", "travel": "About 1 hr", "why": "Temples, the Great Buddha, coast and a slower historic city.", "duration": "Full day", "suits": "History, temples and a relaxed pace", "verdict": "Worth it"},
+    {"name": "Hakone", "travel": "About 1.5-2 hr", "why": "Onsen, Lake Ashi, the ropeway and Fuji-area scenery.", "duration": "Full day or overnight", "suits": "Nature, hot springs and scenery", "verdict": "Worth it"},
+    {"name": "Nikko", "travel": "About 2 hr", "why": "Lavish shrines, mountains, waterfalls and a lake.", "duration": "Full day", "suits": "History and nature", "verdict": "Worth it"},
+    {"name": "Mt. Takao", "travel": "About 1 hr", "why": "Accessible hiking close to Tokyo.", "duration": "Half day", "suits": "Nature and active travelers", "verdict": "Worth it"},
+    {"name": "Yokohama", "travel": "About 30-45 min", "why": "Waterfront, Chinatown, a modern city and museums.", "duration": "Half or full day", "suits": "Urban variety", "verdict": "Only if extra time"},
+    {"name": "Kawagoe", "travel": "About 1 hr", "why": "Preserved Edo-style streets and a warehouse district.", "duration": "Half day", "suits": "History and old-town atmosphere", "verdict": "Only if extra time"},
+    {"name": "Fuji Five Lakes", "travel": "About 2+ hr", "why": "Mt. Fuji views and nature.", "duration": "Full day", "suits": "Scenery and photography", "verdict": "Only if extra time; weather dependent"}
+  ],
+  "practical": {
+    "gettingAround": "Use rail as the default: JR, Tokyo Metro, Toei Subway and private railways together reach almost every major visitor district, and the subway network alone has more than 280 stations with multilingual signage that makes it far easier than the map suggests. Get an IC card for frictionless travel - Welcome Suica and Tourist PASMO are the visitor-oriented options, and regular Suica or PASMO also work in many relevant areas. For a packed subway day, compare the cost of an IC card with the 24/48/72-hour Tokyo Subway Ticket, which covers Tokyo Metro and Toei Subway but not JR. Walking is not optional - it is part of the experience, and most neighborhoods are best understood by walking the 10-20 minutes between stations, shops and side streets. Taxis are useful late at night, with luggage, or when a group splits a fare, but are not necessary for ordinary sightseeing.",
+    "whenToGo": "Spring brings cherry blossoms and pleasant but crowded conditions - excellent, but book early. Early summer is green and warmer with a rainy season, and good for fewer crowds if rain is acceptable. Summer is hot and humid with festivals and fireworks; it is good for festivals but less comfortable for walking, so build in air-conditioned breaks and avoid scheduling every outdoor sight at midday. Autumn is mild with foliage and seasonal food, and is excellent overall. Winter is cool and dry with clear views and illuminations - excellent for city exploration and food, though daylight is shorter.",
+    "howLong": {
+      "one": "Asakusa, then Ueno or Tsukiji, then Ginza, then Shibuya or Shinjuku at night.",
+      "twoThree": "Historic Tokyo plus Meiji Jingu, Harajuku and Shibuya, plus Tsukiji and Ginza, plus Shinjuku.",
+      "fourFive": "Add a major museum, a slower neighborhood, deeper food experiences and one nature block or day trip.",
+      "week": "Add multiple day trips, specialist shopping, craft and tea experiences, less-touristed districts and repeat visits to favorite food spots."
+    },
+    "culture": [
+      "Queue calmly and let passengers exit trains before boarding.",
+      "Keep phone conversations quiet on trains; eating and drinking on commuter trains is generally frowned upon.",
+      "Do not tip at ordinary restaurants.",
+      "At temples and shrines, observe the local sequence for washing, offerings and prayers; do not treat sacred spaces like photo sets.",
+      "At small bars and izakaya, check whether there is a cover or seating charge.",
+      "Cash is still useful for small independent businesses even though card and contactless acceptance is widespread.",
+      "Trash bins can be scarce; carry a small bag for your own waste."
+    ]
+  },
+  "whatIdDo": [
+    {"day": "Day 1 - Old Tokyo", "plan": "Asakusa and Senso-ji early. Ueno museums or a Yanaka walk in the afternoon. Izakaya in Ueno or Asakusa in the evening."},
+    {"day": "Day 2 - Modern Tokyo", "plan": "Meiji Jingu in the morning. Harajuku, Omotesando and Shibuya in the afternoon. Shibuya dinner and a city night."},
+    {"day": "Day 3 - Food + scale", "plan": "Tsukiji Outer Market in the morning. Ginza, Nihonbashi and Tokyo Station in the afternoon. Shinjuku, Omoide Yokocho or Golden Gai in the evening."},
+    {"day": "Day 4 - Culture + neighborhoods", "plan": "Tokyo National Museum or the Edo-Tokyo Museum in the morning. Kiyosumi-Shirakawa or Nakameguro in the afternoon. A high-quality Japanese dinner."},
+    {"day": "Day 5 - Flexible", "plan": "Kamakura, Hakone or Mt. Takao, or a slow Tokyo neighborhood, continuing there through the afternoon and returning for a favorite district or restaurant in the evening."}
+  ],
+  "quickRef": {
+    "musts": ["Asakusa and Senso-ji", "Meiji Jingu", "Shibuya", "Tsukiji", "Shinjuku at night", "One major museum", "One serious Japanese meal"],
+    "eats": ["Edomae sushi", "Ramen", "Tempura", "Yakitori", "Soba", "Monjayaki", "Tonkatsu", "Unagi"],
+    "areas": ["Asakusa", "Ueno and Yanaka", "Ginza and Nihonbashi", "Shibuya and Harajuku", "Shinjuku", "Shimokitazawa and Nakameguro"],
+    "experiences": ["Sento", "Tea", "Izakaya", "Sumo", "Kabuki", "Craft shopping", "Shotengai wandering"],
+    "dayTrip": "Kamakura for history and coast; Hakone for onsen and Fuji scenery; Nikko for heritage and nature",
+    "stay": "4-5 days"
+  },
+  "coords": {
+    "Senso-ji": [35.7148, 139.7967],
+    "Asakusa": [35.7119, 139.7967],
+    "Asakusa + Senso-ji": [35.7148, 139.7967],
+    "Meiji Jingu": [35.6764, 139.6993],
+    "Meiji Jingu + Harajuku/Omotesando": [35.6733, 139.7010],
+    "Harajuku and Omotesando": [35.6678, 139.7075],
+    "Harajuku + Omotesando": [35.6678, 139.7075],
+    "Shibuya Crossing + Shibuya walk": [35.6595, 139.7005],
+    "Shibuya": [35.6580, 139.7016],
+    "Shibuya, Harajuku and Omotesando": [35.6640, 139.7010],
+    "Shinjuku": [35.6938, 139.7036],
+    "Shinjuku after dark": [35.6950, 139.7016],
+    "Shinjuku and Kabukicho": [35.6950, 139.7016],
+    "Golden Gai": [35.6940, 139.7048],
+    "Omoide Yokocho": [35.6934, 139.6995],
+    "Tsukiji Outer Market": [35.6654, 139.7707],
+    "Tsukiji Outer Market breakfast": [35.6654, 139.7707],
+    "Tsukiji area specialists": [35.6654, 139.7707],
+    "Ginza": [35.6717, 139.7650],
+    "Ginza + Nihonbashi": [35.6760, 139.7690],
+    "Ginza and Nihonbashi": [35.6760, 139.7690],
+    "Nihonbashi": [35.6840, 139.7745],
+    "Tokyo Station + Marunouchi": [35.6812, 139.7671],
+    "Imperial Palace East Gardens": [35.6870, 139.7570],
+    "Ueno Park": [35.7156, 139.7745],
+    "Ueno and Yanaka": [35.7200, 139.7700],
+    "Ueno + Yanaka": [35.7200, 139.7700],
+    "Tokyo National Museum": [35.7188, 139.7765],
+    "Ameyoko": [35.7090, 139.7745],
+    "Yanaka": [35.7270, 139.7660],
+    "Nezu Shrine": [35.7203, 139.7607],
+    "Zojo-ji and Tokyo Tower": [35.6580, 139.7469],
+    "Tokyo Tower": [35.6586, 139.7454],
+    "Ryogoku": [35.6960, 139.7930],
+    "Edo-Tokyo Museum": [35.6963, 139.7957],
+    "Mori Art Museum": [35.6604, 139.7292],
+    "teamLab Borderless": [35.6605, 139.7415],
+    "GINZA SIX and Ginza galleries": [35.6695, 139.7639],
+    "Kabukiza": [35.6693, 139.7676],
+    "Kabuki at Kabukiza": [35.6693, 139.7676],
+    "Shinjuku Gyoen": [35.6852, 139.7100],
+    "Shinjuku Gyoen or Rikugien": [35.6852, 139.7100],
+    "Rikugien": [35.7330, 139.7460],
+    "Hama-rikyu Gardens": [35.6597, 139.7630],
+    "Mount Takao": [35.6250, 139.2436],
+    "Mt. Takao": [35.6250, 139.2436],
+    "Okutama": [35.8090, 139.0960],
+    "Jimbocho": [35.6957, 139.7570],
+    "Akihabara": [35.6984, 139.7731],
+    "Ebisu": [35.6467, 139.7101],
+    "Shimokitazawa": [35.6613, 139.6680],
+    "Shimokitazawa and Nakameguro": [35.6530, 139.6835],
+    "Nakameguro + Daikanyama": [35.6462, 139.6990],
+    "Kagurazaka": [35.7020, 139.7400],
+    "Kiyosumi-Shirakawa": [35.6810, 139.7990],
+    "Monjayaki in Tsukishima": [35.6650, 139.7840],
+    "Tsukishima Monja Street": [35.6650, 139.7840],
+    "Evening waterfront walk": [35.7000, 139.8000],
+    "Sumo in Ryogoku": [35.6970, 139.7935],
+    "Craft-focused visit": [35.7130, 139.7880],
+    "Tokyo skyline views": [35.6858, 139.6917],
+    "Tokyo Skytree": [35.7101, 139.8107],
+    "Kamakura": [35.3192, 139.5467],
+    "Hakone": [35.2324, 139.1069],
+    "Nikko": [36.7199, 139.6982],
+    "Yokohama": [35.4437, 139.6380],
+    "Kawagoe": [35.9251, 139.4858],
+    "Fuji Five Lakes": [35.5000, 138.7600],
+    "Sushi Dai": [35.6459, 139.7854],
+    "Kanda Matsuya": [35.6947, 139.7686],
+    "Tempura Kondo": [35.6716, 139.7635],
+    "Ginza Hachigo": [35.6699, 139.7620],
+    "Torishiki": [35.6290, 139.7060],
+    "Nodaiwa": [35.6560, 139.7450],
+    "Toraya": [35.6760, 139.7390],
+    "Tonkatsu Marugo": [35.7100, 139.7720]
+  }
+}

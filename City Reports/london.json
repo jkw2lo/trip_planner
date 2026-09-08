@@ -1,0 +1,306 @@
+{
+  "schema": "cityreport.v1",
+  "city": "London",
+  "country": "United Kingdom",
+  "lat": 51.5074,
+  "lon": -0.1278,
+  "generated": "2026-09-08",
+  "by": "Claude",
+  "note": "Converted from the London AI City Travel Report (2026 edition), cross-checked against Visit London and Transport for London. Prices and opening arrangements change, so verify individual attraction and restaurant details before booking.",
+  "glance": {
+    "why": "London is one of the rare cities where imperial history, royal ceremony, world-class museums, theatre, finance, fashion, immigration and contemporary food culture all coexist within a remarkably walkable central core. The city rewards travelers who alternate major landmarks with neighborhood wandering rather than trying to treat it as a checklist. For a first visit, the strongest combination is Westminster + the Thames + the Tower/City + one or two major museums + a West End evening + several neighborhood meals. London is large enough that 4-5 days feels substantially better than a rushed 2-3 day visit. Research broadly, then curate aggressively: prioritize experiences that explain the city rather than collecting attractions simply because they are famous.",
+    "bestFor": ["History", "Museums", "Architecture", "Theatre", "Food", "Shopping", "Neighborhoods", "Parks", "Royal culture"],
+    "idealStay": "4-5 days; 6-7+ days if adding deeper museums, day trips and outer neighborhoods",
+    "character": ["Historic", "Layered", "Grand", "Cosmopolitan", "Constantly reinventing itself"],
+    "dontMiss": [
+      "Tower of London",
+      "Westminster and Big Ben",
+      "British Museum",
+      "St Paul's and the City",
+      "West End theatre",
+      "South Bank and the Thames walk",
+      "A proper pub or food experience"
+    ],
+    "neighbourhoods": [
+      "Westminster & St James's",
+      "Covent Garden and Soho",
+      "South Bank",
+      "City of London",
+      "Shoreditch and Spitalfields",
+      "Notting Hill and Kensington"
+    ]
+  },
+  "history": {
+    "story": "London makes more sense when understood as several cities layered on top of one another. Roman Londinium grew around a strategic crossing of the Thames. Medieval London developed around the City and the royal seat at Westminster. Tudor and Stuart London expanded the courtly and commercial city; the Great Fire of 1666 forced major rebuilding. The Industrial Revolution turned London into the center of a global empire, while Victorian infrastructure - railways, bridges, sewers and the Underground - created much of the physical city visitors recognize today.",
+    "origins": "The Thames made London valuable: it provided a navigable commercial route inland and a connection to the sea. The Roman settlement occupied the area around today's City of London, where traces of the Roman wall and amphitheatre remain.",
+    "periods": [
+      {"name": "Roman London", "text": "Commercial and military settlement around the Thames crossing."},
+      {"name": "Medieval London", "text": "The City becomes a dense commercial center while Westminster develops as the seat of monarchy and government."},
+      {"name": "Tudor and Stuart London", "text": "Royal power, religious upheaval, theatre and trade reshape the city."},
+      {"name": "1666 and rebuilding", "text": "The Great Fire destroys much of the medieval core; Christopher Wren's churches and St Paul's become symbols of reconstruction."},
+      {"name": "Georgian and Victorian expansion", "text": "Squares, terraces, railways, parks, bridges and the Underground connect a rapidly expanding metropolis."},
+      {"name": "20th century to today", "text": "War, decolonization, immigration and globalization turn London into a highly international city."}
+    ],
+    "whyItMatters": "London's history is unusually visible. You can move from Roman remains to medieval churches, Tudor palaces, Victorian railway architecture and contemporary skyscrapers in a single afternoon. Its food and neighborhoods also reflect centuries of migration and global exchange.",
+    "visible": [
+      "Roman: London Mithraeum, Roman Wall, Roman Amphitheatre",
+      "Medieval and Tudor: Tower of London, Westminster Abbey, Hampton Court",
+      "Great Fire and rebuilding: Monument, St Paul's Cathedral, Wren churches",
+      "Victorian: Tower Bridge, St Pancras, Natural History Museum, Victoria & Albert Museum",
+      "Modern London: South Bank, Tate Modern, City skyscrapers, regenerated King's Cross"
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {"name": "Tower of London", "area": "Tower Hill", "why": "The strongest single historical attraction for first-time visitors.", "mins": 150},
+      {"name": "Westminster Abbey", "area": "Westminster", "why": "Royal coronations, monuments and centuries of British history.", "mins": 75},
+      {"name": "Buckingham Palace", "area": "St James's", "why": "Especially worthwhile when the State Rooms are open; combine with St James's and the Royal Parks.", "mins": 120},
+      {"name": "St Paul's Cathedral", "area": "City of London", "why": "Wren's masterpiece; climb for the dome galleries and City views.", "mins": 90},
+      {"name": "Houses of Parliament and Big Ben", "area": "Westminster", "why": "Best experienced as part of a Westminster/Thames walking route.", "mins": 105},
+      {"name": "Tower Bridge", "area": "Southwark", "why": "Go inside if you want the engineering story; otherwise its exterior is one of the city's essential views.", "mins": 60}
+    ],
+    "arts": [
+      {"name": "British Museum", "area": "Bloomsbury", "why": "Extraordinary breadth; do not attempt to see everything. Choose 3-5 areas.", "mins": 150},
+      {"name": "National Gallery", "area": "Trafalgar Square", "why": "Ideal for a concentrated Old Masters visit directly on Trafalgar Square.", "mins": 105},
+      {"name": "Tate Modern", "area": "Bankside", "why": "Major modern and contemporary art plus excellent Thames-side architecture and views.", "mins": 120},
+      {"name": "Victoria and Albert Museum", "area": "South Kensington", "why": "Especially strong for design, decorative arts, fashion and craft.", "mins": 150},
+      {"name": "Natural History Museum", "area": "South Kensington", "why": "Spectacular building as much as collection; particularly worthwhile for architecture and science.", "mins": 120},
+      {"name": "Somerset House and Barbican", "area": "Strand / City", "why": "Good second-tier choices when you want contemporary culture.", "mins": 90}
+    ],
+    "neighbourhoods": [
+      {"name": "Soho and Covent Garden", "character": "Central, theatrical, busy, dining-heavy", "highlights": "Restaurants, theatre, shops and central London energy", "food": "Restaurants and bars across every price band", "bestTime": "Late afternoon into evening", "mins": 210},
+      {"name": "South Bank", "character": "Riverside, cultural, relaxed", "highlights": "Thames views, Tate Modern, Shakespeare's Globe, Borough Market and riverside walking", "food": "Borough Market and riverside dining", "bestTime": "Afternoon into evening", "mins": 180},
+      {"name": "City of London", "character": "Historic, financial, architectural", "highlights": "Dense historic core, St Paul's, Leadenhall Market, Roman remains and modern skyscrapers", "food": "Leadenhall Market and City lunch spots", "bestTime": "Weekday daytime", "mins": 180},
+      {"name": "Shoreditch and Spitalfields", "character": "Creative, youthful, eclectic", "highlights": "Street art, markets, independent shops, restaurants and nightlife", "food": "Brick Lane, Spitalfields Market, bars and restaurants", "bestTime": "Afternoon into night", "mins": 180},
+      {"name": "Notting Hill", "character": "Elegant, residential, colorful", "highlights": "Residential London, colorful streets, Portobello Road and cafes", "food": "Cafes and Portobello Road food stalls", "bestTime": "Morning, Saturday for the market", "mins": 180},
+      {"name": "Kensington", "character": "Museums, garden squares and elegant architecture", "highlights": "Museum quarter, garden squares, Kensington Gardens", "food": "Cafes and neighbourhood restaurants", "bestTime": "A slower half-day", "mins": 240}
+    ],
+    "nature": [
+      {"name": "Hyde Park and Kensington Gardens", "area": "Central west", "why": "The easiest major green-space pairing for a central itinerary.", "mins": 120},
+      {"name": "St James's Park and Green Park", "area": "Westminster", "why": "The best royal-park combination around Buckingham Palace.", "mins": 90},
+      {"name": "Regent's Park", "area": "Marylebone", "why": "Formal gardens, broad lawns and access toward Primrose Hill.", "mins": 120},
+      {"name": "Hampstead Heath", "area": "Hampstead", "why": "More natural and atmospheric; go for walking and panoramic views.", "mins": 180},
+      {"name": "Kew Gardens", "area": "Richmond", "why": "Destination-level botanical experience, best when you have half a day.", "mins": 240}
+    ],
+    "shopping": [
+      {"name": "Oxford Street and Regent Street", "area": "West End", "why": "Major high-street and flagship shopping.", "mins": 120},
+      {"name": "Covent Garden", "area": "West End", "why": "Polished shopping, food and street performance.", "mins": 120},
+      {"name": "Borough Market", "area": "Southwark", "why": "Food-focused and best treated as a tasting stop rather than a generic market.", "mins": 90},
+      {"name": "Spitalfields and Brick Lane", "area": "East London", "why": "Vintage, streetwear, independent retail and multicultural food.", "mins": 150},
+      {"name": "Portobello Road", "area": "Notting Hill", "why": "Antiques, vintage and Notting Hill atmosphere.", "mins": 120},
+      {"name": "Mayfair", "area": "Mayfair", "why": "Luxury fashion, galleries, jewelry and high-end department stores.", "mins": 120}
+    ],
+    "nightlife": [
+      {"name": "West End theatre", "area": "West End", "why": "One of London's defining cultural experiences; choose a show rather than simply wandering Leicester Square.", "mins": 165},
+      {"name": "Soho", "area": "Soho", "why": "Dense restaurant, cocktail-bar and late-night options.", "mins": 180},
+      {"name": "East London", "area": "Shoreditch", "why": "Shoreditch and surrounding areas for bars, music and a younger nightlife scene.", "mins": 180},
+      {"name": "Traditional pub evening", "area": "Anywhere central", "why": "Still one of the best low-key ways to experience London.", "mins": 120},
+      {"name": "Thames evening walk", "area": "South Bank", "why": "South Bank to Westminster or Tower Bridge for illuminated landmarks.", "mins": 90}
+    ]
+  },
+  "essential10": [
+    {"rank": 1, "name": "Tower of London", "why": "Royal fortress, prison and Crown Jewels; London's best concentrated history experience.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 2, "name": "Westminster + Big Ben + Parliament", "why": "The visual and political heart of the capital.", "mins": 105, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 3, "name": "Westminster Abbey", "why": "A direct encounter with centuries of monarchy, religion and national history.", "mins": 75, "label": "Essential"},
+    {"rank": 4, "name": "British Museum", "why": "World history at enormous scale; focus your visit instead of trying to cover everything.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 5, "name": "Thames / South Bank walk", "why": "The river gives the clearest continuous view of London's landmarks.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 6, "name": "St Paul's + City of London", "why": "Architecture, history and a useful introduction to London's oldest commercial core.", "mins": 150, "label": "Recommended", "popularity": 4, "cultural": 5, "worth": 5},
+    {"rank": 7, "name": "West End theatre", "why": "A uniquely London evening and one of the city's strongest cultural exports.", "mins": 165, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 8, "name": "National Gallery", "why": "One of the world's great painting collections in an extremely central location.", "mins": 105, "label": "Recommended"},
+    {"rank": 9, "name": "Borough Market + Southwark", "why": "Food, riverside atmosphere and historic London in one compact area.", "mins": 90, "label": "Recommended", "popularity": 4, "cultural": 3, "worth": 4},
+    {"rank": 10, "name": "Soho / Covent Garden evening", "why": "The easiest way to experience central London's dining, shopping and nightlife energy.", "mins": 180, "label": "Essential"}
+  ],
+  "food": {
+    "identity": "London's food identity is less about one cuisine than about extraordinary density and diversity. Traditional British food - fish and chips, pies, Sunday roast, full English breakfast and afternoon tea - still matters, but modern London is equally defined by Indian, Middle Eastern, Chinese, Southeast Asian, Caribbean, African, European and contemporary British cooking. The key is to eat both sides of the city: one deliberately traditional meal and several meals in neighborhoods shaped by immigration.",
+    "mustTry": [
+      {"dish": "Fish and chips", "what": "Crisp battered fish with chips; quality depends heavily on frying and fish freshness.", "importance": "Essential"},
+      {"dish": "Sunday roast", "what": "Roast meat with potatoes, vegetables, gravy and Yorkshire pudding; best in a good pub.", "importance": "Recommended"},
+      {"dish": "Full English breakfast", "what": "Eggs, bacon, sausage, toast plus combinations of beans, mushrooms, tomatoes and black pudding.", "importance": "Recommended"},
+      {"dish": "Pie and mash", "what": "A deeply traditional London working-class combination; more historical than universally beloved.", "importance": "Optional"},
+      {"dish": "Afternoon tea", "what": "Tea, sandwiches, scones and pastries; choose for the ritual and setting rather than hunger.", "importance": "Recommended"},
+      {"dish": "Indian/British curry", "what": "London's South Asian food culture is foundational to the city's modern culinary identity.", "importance": "Essential"},
+      {"dish": "Jerk and Caribbean food", "what": "A major part of London's multicultural food culture, especially in northwest and south London.", "importance": "Recommended"},
+      {"dish": "Dim sum and Cantonese food", "what": "Chinatown and broader London offer excellent Cantonese dining beyond tourist staples.", "importance": "Recommended"},
+      {"dish": "Borough Market specialties", "what": "Use the market to sample individual products rather than expecting one 'London dish'.", "importance": "Recommended"},
+      {"dish": "British cheese with ale or cider", "what": "A good pub or specialty shop can provide a compact introduction to regional British produce.", "importance": "Optional"}
+    ]
+  },
+  "mustEat10": [
+    {"dish": "Fish & chips", "where": "The Golden Hind", "order": "Classic fish and chips in Marylebone", "price": "GBP 15-25"},
+    {"dish": "Indian/British curry", "where": "Dishoom", "order": "Black daal + biryani/house specialties", "price": "GBP 20-35 pp"},
+    {"dish": "Indian fine dining", "where": "Gymkhana", "order": "Tasting menu / signature dishes", "price": "GBP 100+ pp"},
+    {"dish": "Dim sum", "where": "Royal China Club", "order": "Dim sum lunch", "price": "GBP 30-50 pp"},
+    {"dish": "British pub food", "where": "The Harwood Arms", "order": "Game and seasonal British cooking", "price": "GBP 50-90 pp"},
+    {"dish": "Afternoon tea", "where": "Fortnum & Mason", "order": "Classic afternoon tea", "price": "GBP 70-100 pp"},
+    {"dish": "Modern British", "where": "St John", "order": "Roast bone marrow + seasonal dishes", "price": "GBP 45-75 pp"},
+    {"dish": "Caribbean", "where": "Roti King", "order": "Roti canai + curry dishes", "price": "GBP 10-20 pp"},
+    {"dish": "Market food", "where": "Borough Market", "order": "Graze across several vendors", "price": "GBP 15-30"},
+    {"dish": "Indian street food", "where": "Hoppers", "order": "Sri Lankan hoppers + curries", "price": "GBP 25-40 pp"}
+  ],
+  "restaurants": {
+    "iconic": [
+      {"name": "Dishoom", "cuisine": "Indian / Bombay-inspired", "price": "££", "area": "Soho / Covent Garden / Shoreditch and other locations", "desc": "A polished, accessible introduction to London's Indian restaurant culture with strong atmosphere.", "dishes": "House black daal, biryani, naan, breakfast if visiting early", "whyGo": "The food, design and London context work together, which makes it genuinely useful for a first-time visitor.", "booking": "Queues are common; arrive early or check booking options"},
+      {"name": "Rules", "cuisine": "Traditional British", "price": "£££", "area": "Covent Garden", "desc": "Historic dining room and theatrical atmosphere; one of London's classic restaurant experiences.", "dishes": "Classic British dishes and seasonal specials", "whyGo": "Go for the sense of place as much as the food.", "booking": "Advance booking strongly recommended"}
+    ],
+    "bestFood": [
+      {"name": "Gymkhana", "cuisine": "Indian fine dining", "price": "££££", "area": "Mayfair", "desc": "Highly polished Indian cooking with deep flavors and a destination-restaurant feel.", "dishes": "Tasting menu or signature curries and grills", "whyGo": "One of the strongest choices when the meal itself is the primary objective.", "booking": "Book well ahead"},
+      {"name": "St John", "cuisine": "Modern British", "price": "£££", "area": "Smithfield", "desc": "A landmark of modern British cooking, known for nose-to-tail philosophy and understated surroundings.", "dishes": "Bone marrow, seasonal offal or daily specials", "whyGo": "A distinctly London interpretation of serious British food.", "booking": "Reservations are useful, especially for dinner"}
+    ],
+    "bestValue": [
+      {"name": "Roti King", "cuisine": "Malaysian / Singaporean", "price": "£", "area": "Euston / central locations", "desc": "Casual, inexpensive and intensely flavorful.", "dishes": "Roti canai with curry; add a rice or noodle dish", "whyGo": "Excellent value and a reminder that London food is not limited to British classics.", "booking": "Usually casual; queues can occur"},
+      {"name": "Hoppers", "cuisine": "Sri Lankan / South Indian", "price": "££", "area": "Soho / King's Cross", "desc": "Energetic Sri Lankan cooking centered on hoppers, curries and short eats.", "dishes": "Egg hopper, curry, dosa-style dishes and sambols", "whyGo": "High flavor-to-cost ratio and a strong representation of London's South Asian food scene.", "booking": "Booking recommended at peak times"}
+    ],
+    "special": [
+      {"name": "The Ledbury", "cuisine": "Modern European / British", "price": "££££", "area": "Notting Hill", "desc": "Destination-level fine dining with highly polished seasonal cooking.", "dishes": "Tasting menu", "whyGo": "For travelers who want a serious London food splurge.", "booking": "Book far ahead"},
+      {"name": "Sketch", "cuisine": "Modern European / Afternoon tea", "price": "££££", "area": "Mayfair", "desc": "Highly designed dining environment with a strong experiential component.", "dishes": "Afternoon tea or a higher-end dining experience depending on room", "whyGo": "Best for atmosphere, design and the feeling of a special London occasion.", "booking": "Advance booking essential"}
+    ],
+    "casual": [
+      {"name": "Borough Market vendors", "cuisine": "Market / international", "price": "£-££", "area": "Southwark", "desc": "A concentrated collection of specialty food stalls and shops.", "dishes": "Graze: cheese, baked goods, sandwiches, produce and prepared food", "whyGo": "Excellent for flexible eating while sightseeing.", "booking": "No reservation; go earlier for a calmer experience"},
+      {"name": "The Harwood Arms", "cuisine": "British pub / Michelin-starred", "price": "£££", "area": "Fulham", "desc": "A rare combination of serious cooking and pub character.", "dishes": "Game and seasonal British dishes", "whyGo": "Ideal if you want a distinctly British meal without formal fine-dining theater.", "booking": "Book ahead"}
+    ],
+    "cafes": [
+      {"name": "Fortnum & Mason", "cuisine": "Afternoon tea / British", "price": "£££", "area": "Piccadilly", "desc": "One of London's classic tea institutions and a useful stop for British food culture.", "dishes": "Afternoon tea and tea retail", "whyGo": "Best for understanding the ceremonial side of British tea culture.", "booking": "Book afternoon tea in advance"},
+      {"name": "Monmouth Coffee", "cuisine": "Coffee", "price": "££", "area": "Covent Garden / Borough", "desc": "Long-running specialty coffee institution in central London.", "dishes": "Filter coffee or espresso-based drinks", "whyGo": "Good for a concise specialty-coffee stop while sightseeing.", "booking": "Walk-in; queues possible"}
+    ]
+  },
+  "experiences": [
+    {"name": "West End play or musical", "what": "See a West End show rather than treating theatre as an optional add-on.", "why": "It is one of London's defining cultural exports.", "mins": 165},
+    {"name": "A proper pub meal", "what": "Have a full meal in a pub and spend time there rather than simply ordering a drink.", "why": "Pub culture is still one of the best low-key ways to experience London.", "mins": 120},
+    {"name": "Thames river journey at sunset", "what": "Take a river boat around sunset.", "why": "The river is the city's most useful sightseeing axis.", "mins": 90},
+    {"name": "Afternoon tea", "what": "Do afternoon tea once, ideally somewhere chosen for setting and service rather than novelty.", "why": "The ritual is the point more than the food.", "mins": 120},
+    {"name": "Neighborhood market", "what": "Explore Borough, Spitalfields or Portobello rather than only shopping in malls.", "why": "Markets show the city's food culture and street life at close range.", "mins": 120},
+    {"name": "Guided historical walk", "what": "Take a walk focused on Roman London, the Great Fire, royal London or the City.", "why": "London's layered history makes far more sense on foot with a guide.", "mins": 120},
+    {"name": "A museum visit with a theme", "what": "Visit a major museum with a deliberate theme instead of attempting the entire collection.", "why": "Focus is the only way to enjoy collections at this scale.", "mins": 150},
+    {"name": "Royal-park walking route", "what": "Walk St James's Park to Buckingham Palace, Green Park and Hyde Park.", "why": "It links the ceremonial city with its best green space in one route.", "mins": 120},
+    {"name": "A focused neighborhood meal", "what": "Explore London's food culture through Indian, Caribbean, Cantonese or Sri Lankan cooking in the neighborhood it belongs to.", "why": "Immigration is central to how London eats.", "mins": 120},
+    {"name": "Ride the Underground as transportation", "what": "Use the Tube as transport, not as an attraction.", "why": "London becomes much easier once the network clicks.", "mins": 30}
+  ],
+  "neighbourhoodGuide": [
+    {"name": "Westminster & St James's", "vibe": "Ceremonial, royal, political", "bestFor": "First-time landmarks, Buckingham Palace, Westminster Abbey, Big Ben, parks", "sights": "Westminster Abbey, Parliament, Buckingham Palace, St James's Park", "mins": 180},
+    {"name": "Covent Garden & Soho", "vibe": "Central, theatrical, busy, dining-heavy", "bestFor": "Theatre, restaurants, shopping and evening energy", "sights": "West End theatres, Covent Garden piazza, Soho streets", "food": "Restaurants, cocktail bars and late-night food", "mins": 210},
+    {"name": "South Bank & Southwark", "vibe": "Riverside, cultural, relaxed", "bestFor": "Thames views, Tate Modern, Globe, Borough Market", "sights": "Tate Modern, Shakespeare's Globe, Thames walk", "food": "Borough Market", "mins": 180},
+    {"name": "City of London", "vibe": "Historic, financial, architectural", "bestFor": "St Paul's, Roman remains, markets, skyscrapers and historic lanes", "sights": "St Paul's Cathedral, Leadenhall Market, London Mithraeum, Monument", "mins": 180},
+    {"name": "Shoreditch & Spitalfields", "vibe": "Creative, youthful, eclectic", "bestFor": "Street art, vintage, food and nightlife", "sights": "Brick Lane, Spitalfields Market, street art", "food": "Multicultural food, bars and restaurants", "mins": 180},
+    {"name": "Notting Hill & Kensington", "vibe": "Elegant, residential, colorful", "bestFor": "Architecture, museums, Portobello Road and slower wandering", "sights": "Portobello Road, V&A, Natural History Museum, Kensington Gardens", "mins": 240},
+    {"name": "Camden & Regent's Park", "vibe": "Alternative, lively, green", "bestFor": "Markets, music history and park walks", "sights": "Camden Market, Regent's Park, Primrose Hill", "mins": 240}
+  ],
+  "timeGuidance": {
+    "three": "Prioritize Westminster, the Tower and the City, one major museum, South Bank and the Thames, and one West End evening.",
+    "fivePlus": "With 4-5 days add Soho and Covent Garden, a second museum, a market or food neighborhood and more relaxed park time. With more than five days, explore Hampstead, Greenwich, Kew, Camden, Notting Hill, deeper museums and a day trip."
+  },
+  "dayTrips": [
+    {"name": "Windsor", "travel": "About 40-60 min", "why": "Royal history and Windsor Castle; the easiest high-value royal day trip.", "duration": "Half or full day", "suits": "First-time visitors, history and royal fans", "verdict": "Worth it"},
+    {"name": "Oxford", "travel": "About 1 hr", "why": "Historic university city with architecture, colleges and museums.", "duration": "Full day", "suits": "History, architecture and academic atmosphere", "verdict": "Worth it"},
+    {"name": "Cambridge", "travel": "About 1-1.25 hr", "why": "College architecture, river punting and a compact historic core.", "duration": "Full day", "suits": "Architecture and leisurely exploration", "verdict": "Worth it"},
+    {"name": "Bath", "travel": "About 1.5 hr", "why": "Roman Baths and Georgian architecture; better with a full day.", "duration": "Full day", "suits": "History and architecture lovers", "verdict": "Only if you have extra time"},
+    {"name": "Stonehenge", "travel": "About 1.5-2 hr", "why": "Major prehistoric monument, but the trip is logistics-heavy.", "duration": "Full day", "suits": "Archaeology and history enthusiasts", "verdict": "Only if you have extra time"},
+    {"name": "Brighton", "travel": "About 1-1.25 hr", "why": "Seaside city with a distinctive alternative culture and the Royal Pavilion.", "duration": "Full day", "suits": "Food, seaside and nightlife", "verdict": "Only if you have extra time"}
+  ],
+  "practical": {
+    "gettingAround": "Use the Underground, Elizabeth line, Overground, buses and walking as the default. Contactless payment is usually the simplest option for visitors; Oyster remains useful if you do not have a suitable contactless card or device. Always use the same card or device when touching in and out so the system can calculate fares and apply capping. Walking is excellent for linking nearby central sights, but do not underestimate distances between zones. The Tube is fastest for many cross-city journeys, while buses are often better for seeing the city while moving. Taxis and ride-hailing are useful late at night or with luggage, but rarely necessary for ordinary sightseeing. Use Thames river services when the route is genuinely useful rather than treating every boat ride as an attraction.",
+    "whenToGo": "Spring offers an excellent balance of greenery, daylight and walking weather. Summer has the longest days and fullest event calendar, but higher crowds and prices. Autumn brings a strong museum and theatre season with attractive parks, and is generally a good city-break period. Winter is colder and darker, but excellent for theatre, museums, shopping and festive atmosphere.",
+    "howLong": {
+      "one": "Westminster, the Thames, one major landmark and a central dinner or theatre evening.",
+      "twoThree": "Enough for the classic first-timer circuit, but still rushed.",
+      "fourFive": "The ideal balance of major sights plus neighborhood exploration.",
+      "week": "Best for travelers who want museums, food neighborhoods, parks and day trips."
+    },
+    "culture": [
+      "Queueing is expected and generally orderly.",
+      "On escalators, stand on the right and walk on the left.",
+      "Pub culture is casual; order at the bar unless table service is indicated.",
+      "Tipping is not mandatory in the American sense; check whether a service charge is already included.",
+      "Londoners generally value personal space and efficient, unobtrusive behavior on public transport."
+    ]
+  },
+  "whatIdDo": [
+    {"day": "Day 1 - Royal & Westminster", "plan": "Start at Westminster Abbey, then Parliament and Big Ben, walk through St James's Park to Buckingham Palace and Green Park. Dinner in Soho and a West End show."},
+    {"day": "Day 2 - Tower & historic London", "plan": "Tower of London in the morning, then Tower Bridge, walk west along the Thames to Borough Market, Tate Modern or Shakespeare's Globe, and a riverside evening."},
+    {"day": "Day 3 - Museum + central London", "plan": "British Museum in the morning, Covent Garden, lunch, National Gallery and Trafalgar Square, Soho wandering, dinner."},
+    {"day": "Day 4 - Neighborhood London", "plan": "Notting Hill and Portobello Road, or Shoreditch and Spitalfields depending on taste, a slower lunch, park or cafe time, and an excellent dinner."},
+    {"day": "Day 5 - Flexible / day trip", "plan": "Choose Windsor, Greenwich, Kew, Hampstead Heath, another major museum, or simply use the day for food, shopping and places missed earlier."}
+  ],
+  "quickRef": {
+    "musts": ["Tower of London", "Westminster and Big Ben", "Westminster Abbey", "British Museum", "Thames and South Bank", "West End theatre"],
+    "eats": ["Fish and chips", "British pub food or Sunday roast", "Indian/British curry", "Afternoon tea", "Full English breakfast"],
+    "areas": ["Westminster and St James's", "Soho and Covent Garden", "South Bank", "City of London", "Shoreditch and Spitalfields", "Notting Hill and Kensington"],
+    "experiences": ["A West End show", "A pub meal", "The Thames at sunset", "Afternoon tea", "Neighborhood food exploration"],
+    "dayTrip": "Windsor for the easiest royal and history addition; Oxford for a broader cultural day",
+    "stay": "4-5 days"
+  },
+  "coords": {
+    "Tower of London": [51.5081, -0.0759],
+    "Westminster Abbey": [51.4994, -0.1273],
+    "Westminster + Big Ben + Parliament": [51.5007, -0.1246],
+    "Houses of Parliament and Big Ben": [51.5007, -0.1246],
+    "Buckingham Palace": [51.5014, -0.1419],
+    "St Paul's Cathedral": [51.5138, -0.0984],
+    "St Paul's + City of London": [51.5138, -0.0984],
+    "Tower Bridge": [51.5055, -0.0754],
+    "British Museum": [51.5194, -0.1270],
+    "National Gallery": [51.5089, -0.1283],
+    "Tate Modern": [51.5076, -0.0994],
+    "Victoria and Albert Museum": [51.4966, -0.1722],
+    "Natural History Museum": [51.4967, -0.1764],
+    "Somerset House and Barbican": [51.5110, -0.1170],
+    "Shakespeare's Globe": [51.5081, -0.0972],
+    "London Mithraeum": [51.5128, -0.0906],
+    "Monument": [51.5102, -0.0860],
+    "Leadenhall Market": [51.5128, -0.0834],
+    "Hampton Court": [51.4036, -0.3378],
+    "St Pancras": [51.5308, -0.1257],
+    "Trafalgar Square": [51.5080, -0.1281],
+    "Soho": [51.5137, -0.1341],
+    "Soho and Covent Garden": [51.5127, -0.1290],
+    "Soho / Covent Garden evening": [51.5127, -0.1290],
+    "Covent Garden": [51.5117, -0.1240],
+    "Covent Garden & Soho": [51.5127, -0.1290],
+    "South Bank": [51.5060, -0.1150],
+    "South Bank & Southwark": [51.5055, -0.0980],
+    "Thames / South Bank walk": [51.5060, -0.1150],
+    "Thames evening walk": [51.5060, -0.1150],
+    "City of London": [51.5155, -0.0922],
+    "Shoreditch and Spitalfields": [51.5230, -0.0770],
+    "Shoreditch & Spitalfields": [51.5230, -0.0770],
+    "East London": [51.5265, -0.0784],
+    "Spitalfields and Brick Lane": [51.5205, -0.0730],
+    "Notting Hill": [51.5090, -0.1960],
+    "Notting Hill & Kensington": [51.5040, -0.1860],
+    "Kensington": [51.4988, -0.1749],
+    "Camden & Regent's Park": [51.5390, -0.1426],
+    "Westminster & St James's": [51.5010, -0.1350],
+    "Hyde Park and Kensington Gardens": [51.5073, -0.1657],
+    "St James's Park and Green Park": [51.5027, -0.1341],
+    "Royal-park walking route": [51.5027, -0.1341],
+    "Regent's Park": [51.5313, -0.1570],
+    "Hampstead Heath": [51.5608, -0.1629],
+    "Kew Gardens": [51.4787, -0.2956],
+    "Oxford Street and Regent Street": [51.5152, -0.1418],
+    "Borough Market": [51.5055, -0.0910],
+    "Borough Market + Southwark": [51.5055, -0.0910],
+    "Portobello Road": [51.5170, -0.2050],
+    "Mayfair": [51.5100, -0.1470],
+    "West End theatre": [51.5103, -0.1300],
+    "West End play or musical": [51.5103, -0.1300],
+    "Greenwich": [51.4826, -0.0077],
+    "Windsor": [51.4839, -0.6044],
+    "Oxford": [51.7520, -1.2577],
+    "Cambridge": [52.2053, 0.1218],
+    "Bath": [51.3811, -2.3590],
+    "Stonehenge": [51.1789, -1.8262],
+    "Brighton": [50.8225, -0.1372],
+    "Dishoom": [51.5122, -0.1249],
+    "Rules": [51.5116, -0.1226],
+    "Gymkhana": [51.5089, -0.1428],
+    "St John": [51.5209, -0.1015],
+    "Roti King": [51.5290, -0.1330],
+    "Hoppers": [51.5135, -0.1349],
+    "The Ledbury": [51.5165, -0.2013],
+    "Sketch": [51.5127, -0.1416],
+    "The Harwood Arms": [51.4820, -0.1990],
+    "Fortnum & Mason": [51.5081, -0.1385],
+    "Monmouth Coffee": [51.5145, -0.1265],
+    "The Golden Hind": [51.5185, -0.1520],
+    "Royal China Club": [51.5190, -0.1530]
+  }
+}
