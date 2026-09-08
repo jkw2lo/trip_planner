@@ -85,6 +85,32 @@ the morning, afternoon and evening blocks move around them, and only into slots 
 thing is actually suited to. A full-day trip to the Great Wall won't get slotted into
 an evening.
 
+**Folding a day** — the caret at the left of any day header collapses it to a single
+line: what's on it, in order, plus a word about the notes and images underneath. Ten
+days is a lot of screen and you are usually working on one of them. **Fold all**,
+**Open all** and **Fold the finalised** sit above the list. A folded day still works:
+drop something on it and it lands there, and the chips on it can be dragged straight
+off onto another day. Folding never costs you a drop.
+
+**Finalising a day** — the padlock in the day header means *plans are settled*. The
+whole day freezes: activities, meals, transport, the day note, the sticky notes and
+the city. Nothing can be dragged in or out, the ↑ ↓ swap and Optimise order refuse it,
+and it greys out everywhere else. One click gives it all back. It is the difference
+between a day you have not filled in and a day you have finished with — the board
+could not tell them apart before.
+
+**Moving something to a day that's off-screen** — pick anything up and a list of every
+day appears in the gutter beside the day you took it from, with that day's own row
+under your cursor: the day before and the day after are a few pixels away, and the far
+end of the trip is a short slide rather than a scroll. Drop it on a day and it lands
+there in the slot it already had, so an evening thing stays an evening thing. Hover a
+day for a beat and its slots fan out if you want a different one; there's a row at the
+bottom for putting it back in your magnets. It only exists while you are dragging, it
+never covers the day card you might be rearranging, and the board scrolls on its own if
+you drag near the top or bottom edge. Every move offers an **Undo**.
+
+Not a dragger? The magnet editor has a **Which day** picker that does the same thing.
+
 ### To-do
 
 Four columns — Before, Pack, There, Done — with a magnet tray of the things that are
@@ -235,13 +261,36 @@ the whole render is wrapped so a bad trip shows an error instead of a blank page
 
 ### Tests
 
-There's a Node harness that runs the app against a DOM shim: **402 checks** covering
-the planning logic, the maps, the decks, coverage and gap arithmetic, the display
-settings, and a set of deliberately malformed trips. It also parses the file the way
-a browser would, which catches a class of bug Node's parser silently accepts.
+`tests/day-moves.test.js` runs the app against a DOM shim in plain Node — no
+dependencies, no install:
 
-It lives outside this folder in the working directory — ask Claude to re-run it after
-any change.
+```
+node tests/day-moves.test.js
+```
+
+68 checks covering folding, finalising, moving between days, the "same slot" rule,
+undo, and the day-swap and ordering behaviour it would be easy to break.
+
+Two more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
+
+```
+node tests/browser.test.js     # 38 checks
+node tests/drag.test.js        # 13 checks
+```
+
+The first: the board renders, days fold and lock, the rail opens beside the right day
+with the right days droppable, its slot fan-out is positioned and not clipped, a drop
+moves the right thing and can be undone, and the editor's day picker works.
+
+The second is about the gesture itself, which is easy to break and hard to notice:
+that a real mouse drag picks things up with folded days on screen, that the page does
+not change height under the cursor while a drag is starting, that a drag which fails
+to take is not read as a click into the editor, and that a rail left behind by a drag
+that never ended gets cleared instead of sitting there swallowing clicks.
+
+An earlier and much larger harness (402 checks over the maps, decks, coverage and
+malformed trips) was written outside this folder and is not in the repo. Ask Claude to
+re-run whatever harness you have after any change.
 
 ---
 

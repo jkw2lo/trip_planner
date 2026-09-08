@@ -349,6 +349,84 @@ h2{font-size:calc(17px * var(--ts));letter-spacing:-.01em;margin:0 0 10px}
 .ovhint .btn{margin-left:6px}
 @media (max-width:700px){.ovname{width:70px;font-size:calc(11px * var(--ts))}}
 
+/* ---------- folding, finalising, and the rail that shows up mid-drag ---------- */
+.caltools{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 10px}
+.caltools .ctlab{font-size:calc(10px * var(--ts));font-weight:650;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--ink2)}
+.ctbtn{border:1px solid var(--line);background:var(--paper2);border-radius:999px;padding:3px 11px;
+  font-size:calc(12px * var(--ts));color:var(--ink2);cursor:pointer;transition:.12s}
+.ctbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent);background:var(--accent2)}
+.ctbtn:disabled{opacity:.32;cursor:default}
+.ctnote{font-size:calc(11.5px * var(--ts));color:var(--ink2);font-style:italic}
+
+.dayfold{width:20px;height:20px;border:1px solid transparent;border-radius:6px;background:transparent;
+  color:var(--ink2);cursor:pointer;font-size:calc(10px * var(--ts));line-height:1;padding:0;flex:none}
+.dayfold:hover{border-color:var(--line);background:var(--paper);color:var(--ink)}
+.lockbtn{border:1px solid var(--line);border-radius:6px;background:var(--paper2);color:var(--ink2);
+  cursor:pointer;font-size:calc(11px * var(--ts));line-height:1;padding:2px 7px}
+.lockbtn:hover{border-color:var(--accent);color:var(--accent)}
+.lockbtn.on{border-color:#bcd6cb;background:var(--accent2);color:var(--accent)}
+.day.locked{border-color:#bcd6cb}
+.day.locked>.dayhead{background:repeating-linear-gradient(135deg,rgba(31,92,77,.055) 0 7px,transparent 7px 15px);
+  border-bottom-color:#cadfd8}
+.finchip{display:inline-flex;align-items:center;gap:5px;border:1px solid #bcd6cb;background:var(--accent2);
+  color:var(--accent);border-radius:999px;padding:1px 8px;font-size:calc(10px * var(--ts));
+  text-transform:uppercase;letter-spacing:.07em;font-weight:650}
+.magnet.frozen{cursor:default;box-shadow:none;background:#F8F6F1}
+.magnet.frozen:hover{transform:none;box-shadow:none}
+.day.locked .slot,.day.locked .meal,.day.locked .transit{background-image:none}
+.lockedhint{font-size:calc(11.5px * var(--ts));color:var(--ink2);font-style:italic;padding:2px 0}
+
+/* a folded day is one line, and you can still drop on it */
+.day.folded>.dayhead{border-bottom:0}
+.dsum{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:0 13px 10px}
+.dsum .dsumn{font-size:calc(11.5px * var(--ts));color:var(--ink2)}
+.dsumchip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--paper);
+  border-radius:999px;padding:1px 9px;font-size:calc(11.5px * var(--ts));max-width:210px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dsumchip i{width:6px;height:6px;border-radius:50%;background:var(--c,var(--m-note));flex:none}
+.dsumchip[draggable="true"]{cursor:grab;user-select:none}
+.dsumchip[draggable="true"]:hover{border-color:#c3b9a6;background:var(--paper2)}
+.dsumchip.dragging{opacity:.35}
+/* while something is in the air, folded days show they will take it — a border
+   style only, because anything that changes size mid-drag moves the target */
+body.dragging .day.folded{border-style:dashed;border-color:#c3b9a6}
+body.dragging .day.folded.drop-on{border-style:solid}
+
+/* the rail: only exists while something is in the air */
+#dayrail{position:fixed;left:0;top:0;z-index:180;
+  width:calc(152px * var(--ts));max-height:76vh;display:flex;flex-direction:column;
+  background:rgba(251,249,245,.98);border:1px solid #cdc3b2;border-radius:13px;
+  box-shadow:var(--shadow-lift);padding:7px;opacity:0;pointer-events:none;
+  transform:scale(.97);transition:opacity .12s ease,transform .12s ease}
+#dayrail.on{opacity:1;transform:none;pointer-events:auto}
+.railhead{font-size:calc(9.5px * var(--ts));text-transform:uppercase;letter-spacing:.08em;
+  color:var(--ink2);font-weight:650;padding:1px 6px 7px}
+.railscroll{overflow-y:auto;display:flex;flex-direction:column;gap:2px;min-height:0}
+.railrow{position:relative;display:flex;align-items:center;gap:6px;border:1px solid transparent;
+  border-radius:8px;padding:4px 7px;font-size:calc(12px * var(--ts));background:var(--paper2)}
+.railrow[data-drop]{cursor:copy}
+.railrow[data-drop]:hover{border-color:#d3cabb}
+.railrow .rd{font-family:ui-monospace,Menlo,monospace;font-weight:650;font-size:calc(10px * var(--ts));
+  color:var(--ink2);min-width:17px;text-align:right}
+.railrow .rcity{width:6px;height:6px;border-radius:50%;background:var(--tint,#d3cabb);flex:none}
+.railrow .rlab{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.railrow .rn{font-size:calc(9.5px * var(--ts));color:var(--ink2);background:var(--line);
+  border-radius:999px;padding:0 6px;line-height:1.6}
+.railrow .rn.zero{background:transparent;opacity:.5}
+.railrow.here{opacity:.55;outline:1px dashed #d3cabb}
+.railrow.here .rn{background:transparent;font-style:italic}
+.railrow.locked{opacity:.5}
+.railtray{margin-top:6px;border-top:1px solid var(--line);border-radius:0 0 8px 8px;padding-top:7px;color:var(--ink2)}
+.railslots.toright{right:auto;left:calc(100% - 11px)}
+.railslots{position:absolute;right:calc(100% - 11px);display:flex;flex-direction:column;gap:2px;
+  background:var(--paper2);border:1px solid #d3cabb;border-radius:9px;padding:4px;
+  box-shadow:var(--shadow-lift);width:calc(126px * var(--ts))}
+.railslot{border:1px solid transparent;border-radius:6px;padding:3px 8px;background:var(--paper);
+  font-size:calc(11.5px * var(--ts));color:var(--ink2);white-space:nowrap}
+.railslot:hover{border-color:#d3cabb;color:var(--ink)}
+@media (max-width:820px){#dayrail{width:118px}.railslots{width:112px}}
+
 /* ---------- calendar ---------- */
 .cal{display:flex;flex-direction:column;gap:12px}
 .day{background:var(--paper2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
@@ -1920,6 +1998,8 @@ function normalize(t){
   t.dayImages = t.dayImages || {};
   t.stickies = t.stickies || {};
   t.dayPin = t.dayPin || {};
+  t.dayLock = t.dayLock || {};
+  t.dayFold = t.dayFold || {};
   t.stays = Array.isArray(t.stays) ? t.stays : [];
   t.stays.forEach(st=>{
     st.images = Array.isArray(st.images) ? st.images : [];
@@ -1999,6 +2079,7 @@ function estimateMins(modeId, from, to){
 }
 let lastDeleted = null;
 let lastOptimise = null;
+let lastMove = null;
 const fmtKm = km => km < 1 ? Math.round(km*1000)+"m" : km.toFixed(1)+"km";
 function toastUndo(msg, act){
   const old = document.querySelector(".toast");
@@ -2073,6 +2154,51 @@ function computeDayCities(t){
   return map;
 }
 function magnetsIn(t, pred){ return t.magnets.filter(pred).sort((a,b)=>(a.order||0)-(b.order||0)); }
+
+/* ---------- days folded away, and days that are settled ----------
+   Two different ideas, deliberately kept apart. Folding is about clutter: ten
+   days is a lot of screen and you are usually working on one of them. Finalising
+   is about intent: this day is booked, stop moving it. You fold days that are
+   done and days you have not started; you finalise only the ones that are real. */
+function dayFolded(t, day){ return !!(t && t.dayFold && t.dayFold[day]); }
+function dayLocked(t, day){ return !!(t && t.dayLock && t.dayLock[day]); }
+function toggleDayFold(t, day){
+  t.dayFold = t.dayFold || {};
+  if(t.dayFold[day]) delete t.dayFold[day]; else t.dayFold[day] = true;
+  save(); render();
+}
+function toggleDayLock(t, day){
+  t.dayLock = t.dayLock || {};
+  if(t.dayLock[day]){
+    delete t.dayLock[day];
+    save(); render();
+    toast(dayLabel(day)+" unlocked — it can move again");
+  }else{
+    t.dayLock[day] = true;
+    save(); render();
+    toast(dayLabel(day)+" is finalised — nothing moves in or out");
+  }
+}
+function foldDays(t, mode){
+  const days = tripDays(t);
+  t.dayFold = t.dayFold || {};
+  if(mode==="none") t.dayFold = {};
+  else if(mode==="all") days.forEach(d=>{ t.dayFold[d] = true; });
+  else if(mode==="locked") days.forEach(d=>{ if(dayLocked(t, d)) t.dayFold[d] = true; });
+  save(); render();
+}
+/* what a folded day says about itself in one line */
+function daySummary(t, day){
+  const all = magnetsIn(t, m=>m.board==="cal" && m.day===day);
+  return {
+    acts:  all.filter(m=>m.slot!=="transit" && m.slot!=="lunch" && m.slot!=="dinner"),
+    meals: all.filter(m=>m.slot==="lunch" || m.slot==="dinner"),
+    trans: all.filter(m=>m.slot==="transit"),
+    notes: !!dayNote(t, day),
+    stickies: stickies(t, day).length,
+    images: dayImages(t, day).length
+  };
+}
 
 function newTripObject(data){
   const t = {
@@ -6146,13 +6272,15 @@ function magnetHTML(m, opts){
   const vague = !m.cardId && !m.place && m.board==="cal" && m.kind!=="fly" && m.kind!=="move";
   const optTag = m.optional ? '<span class="optbadge" title="Optional — decide on the day">opt</span>' : "";
   const stamp = o.stamp ? " stamp" : "";
-  return `<div class="magnet ${k.cls} ${m.locked?"locked":""} ${vague?"vague":""} ${m.optional?"optional":""}${stamp}" data-mag="${m.id}"
-      draggable="${m.locked?"false":"true"}" title="${esc(m.label)}${noteText?" — "+esc(noteText):""}">
+  // frozen: the day it sits on is finalised, so it is readable but immovable
+  const frozen = !!o.frozen;
+  return `<div class="magnet ${k.cls} ${m.locked?"locked":""} ${vague?"vague":""} ${m.optional?"optional":""}${stamp}${frozen?" frozen":""}" data-mag="${m.id}"
+      draggable="${(m.locked||frozen)?"false":"true"}" title="${esc(m.label)}${noteText?" — "+esc(noteText):""}">
       <span class="ic">${k.ic}</span>
       <span class="body"><span class="lbl">${optTag}${m.time?`<b class="mtime">${esc(fmt12(m.time))}</b>`:""}${esc(m.label)}</span>${sub}</span>
-      ${o.stamp ? "" : `<button class="pin" data-act="lock" data-mag="${m.id}"
+      ${o.stamp || frozen ? "" : `<button class="pin" data-act="lock" data-mag="${m.id}"
         title="${m.locked?"Locked — click to unpin":"Pin this down"}">${m.locked?"\u{1F4CD}":"\u{1F4CC}"}</button>`}
-      ${o.stamp || m.kind==="fly" ? "" : `<button class="trash" data-act="delmag" data-mag="${m.id}" title="Remove">\u{1F5D1}</button>`}
+      ${o.stamp || frozen || m.kind==="fly" ? "" : `<button class="trash" data-act="delmag" data-mag="${m.id}" title="Remove">\u{1F5D1}</button>`}
     </div>`;
 }
 
@@ -6229,8 +6357,29 @@ function orderBetween(t, target, beforeId){
   return prev + (next - prev)/2;
 }
 function moveMagnet(t, magId, target, beforeId){
+  lastMove = null;
+  const pre = target.split(":");
+  const existing = t.magnets.find(x=>x.id===magId);
+  // a finalised day is finalised both ways: nothing leaves it, nothing lands on it
+  if(existing && existing.board==="cal" && existing.day && dayLocked(t, existing.day)){
+    toast(dayLabel(existing.day)+" is finalised — unlock the day to move this");
+    return;
+  }
+  if((pre[0]==="cal" || pre[0]==="transit") && dayLocked(t, pre[1])){
+    toast(dayLabel(pre[1])+" is finalised — unlock it to drop anything on it");
+    return;
+  }
   const m = resolveDragged(t, magId);
   if(!m || m.locked) return;
+  // "same" means whatever slot it is already in. The rail drops that way, so an
+  // evening thing moved to another day is still an evening thing.
+  if(pre[0]==="cal" && pre[2]==="same"){
+    const keep = (m.board==="cal" && m.slot && m.slot!=="transit") ? m.slot
+               : (m.time ? slotForTime(m.time) : "morning");
+    target = "cal:"+pre[1]+":"+keep;
+  }
+  lastMove = {trip:t.id, id:m.id, prev:{board:m.board, day:m.day||null, slot:m.slot||null,
+              col:m.col||null, order:m.order||0, kind:m.kind}};
   const newOrder = orderBetween(t, target, beforeId);
   const wasVague = !m.cardId && !m.place;
   const cameFromTray = m.board === "tray";
@@ -6923,31 +7072,36 @@ function addSticky(t, day){
 }
 function stickyHTML(t, day){
   const list = stickies(t, day);
+  const locked = dayLocked(t, day);
   return `<div class="pad">
-    <label>Notes to self<button class="padadd" data-act="addsticky" data-day="${day}"
-      title="New sticky note">+</button></label>
+    <label>Notes to self${locked ? "" : `<button class="padadd" data-act="addsticky" data-day="${day}"
+      title="New sticky note">+</button>`}</label>
     <div class="stickies">
       ${list.map(n=>`<div class="sticky" style="--s:${esc(n.color||STICKY_COLORS[0][0])}">
-        <textarea data-act="stickytext" data-sticky="${n.id}" data-day="${day}"
+        <textarea data-act="stickytext" data-sticky="${n.id}" data-day="${day}" ${locked?"readonly":""}
           rows="2" placeholder="…">${esc(n.text||"")}</textarea>
-        <div class="stickyacts">
+        <div class="stickyacts" ${locked?'style="display:none"':""}>
           <button class="sbtn" data-act="stickycolor" data-sticky="${n.id}" data-day="${day}"
             title="Change colour">◍</button>
           <button class="sbtn" data-act="stickydel" data-sticky="${n.id}" data-day="${day}"
             title="Remove">×</button>
         </div>
-      </div>`).join("") || `<button class="stickyempty" data-act="addsticky" data-day="${day}">
-        Jot something down</button>`}
+      </div>`).join("") || (locked
+        ? `<div class="lockedhint">no notes</div>`
+        : `<button class="stickyempty" data-act="addsticky" data-day="${day}">
+        Jot something down</button>`)}
     </div>
   </div>`;
 }
 function padImageHTML(t, day){
   const imgs = dayImages(t, day);
   const pin = pinnedImage(t, day);
+  const locked = dayLocked(t, day);
   if(!imgs.length){
     return `<div class="padimg">
       <label>Image</label>
-      <button class="diadd wide" data-act="addimg" data-day="${day}">+<span>add an image</span></button>
+      ${locked ? `<div class="lockedhint">no image</div>`
+        : `<button class="diadd wide" data-act="addimg" data-day="${day}">+<span>add an image</span></button>`}
     </div>`;
   }
   return `<div class="padimg">
@@ -6973,10 +7127,11 @@ function dayExtrasHTML(t, day){
   const note = dayNote(t, day);
   const imgs = dayImages(t, day);
   const pinId = (t.dayPin||{})[day];
+  const locked = dayLocked(t, day);
   return `<div class="dayextras">
     <div class="dnote">
       <label>Notes</label>
-      <textarea class="inp" data-act="daynote" data-day="${day}" rows="${note?3:2}"
+      <textarea class="inp" data-act="daynote" data-day="${day}" rows="${note?3:2}" ${locked?"readonly":""}
         placeholder="Anything for this day — booking references, who you're meeting, what to remember">${esc(note)}</textarea>
     </div>
     <div class="dimgs">
@@ -6989,7 +7144,7 @@ function dayExtrasHTML(t, day){
             ${im.caption?`<span class="dicap">${esc(im.caption)}</span>`:""}
             ${(im.strokes||[]).length?`<span class="dimark">${im.strokes.length}</span>`:""}
           </button>`).join("")}
-        ${imgs.length < MAX_DAY_IMAGES
+        ${imgs.length < MAX_DAY_IMAGES && !locked
           ? `<button class="diadd" data-act="addimg" data-day="${day}">+<span>add</span></button>` : ""}
       </div>
     </div>
@@ -7020,6 +7175,10 @@ function moveDay(day, dir){
   const i = days.indexOf(day);
   const j = i + dir;
   if(i < 0 || j < 0 || j >= days.length){ toast("Nowhere to move it to"); return; }
+  if(dayLocked(t, day) || dayLocked(t, days[j])){
+    toast("One of those two days is finalised \u2014 unlock it first");
+    return;
+  }
   if(swapDays(t, day, days[j])){
     save(); render();
     toast(dayLabel(day) + " swapped with " + dayLabel(days[j]));
@@ -7756,61 +7915,140 @@ function calendarHTML(t, days){
   const dayCities = computeDayCities(t);
   const overview = overviewHTML(t, days);
   const today = todayStr();
-  return overview + staysHTML(t, days) + `<div class="cal">` + days.map((d,i)=>{
-    const dt = parseD(d);
-    const cid = dayCities[d];
-    const cityOpts = t.cities.map(c=>
-      `<option value="${c.id}" ${c.id===cid?"selected":""}>${esc(c.name)}</option>`).join("");
-    const slots = SLOTS.map(s=>{
-      const ms = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot===s.id);
-      return `<div class="slot" data-drop="cal:${d}:${s.id}">
-        <h4>${s.label}</h4>
-        <div class="stack">${ms.map(magnetHTML).join("") || '<div class="placeholder">drop here</div>'}</div>
-      </div>`;
-    }).join("");
-    const trans = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot==="transit");
-    const meals = MEALS.map(ml=>{
-      const got = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot===ml.id);
-      return `<div class="meal" data-drop="cal:${d}:${ml.id}">
-        <span class="mlab">${ml.label}</span>
-        ${got.length ? got.map(magnetHTML).join("")
-          : `<button class="mpick" data-act="pickmeal" data-day="${d}" data-meal="${ml.id}">
-               Where for ${ml.label.toLowerCase()}?</button>`}
-      </div>`;
-    }).join("");
-    return `<div class="day ${d===today?"today":""}">
-      <div class="dayhead">
-        <span class="dnum">${MON[dt.getMonth()]} ${d2(dt.getDate())}</span>
-        <span class="dow">${DOW[dt.getDay()]}</span>
-        <span class="idx">Day ${i+1}</span>
-        <span class="daymove">
-          <button class="mvbtn" data-act="moveday" data-day="${d}" data-dir="-1"
-            ${i===0?"disabled":""} title="Swap this day's plan with ${i===0?"":esc(dayLabel(days[i-1]))}">↑</button>
-          <button class="mvbtn" data-act="moveday" data-day="${d}" data-dir="1"
-            ${i===days.length-1?"disabled":""} title="Swap this day's plan with ${i===days.length-1?"":esc(dayLabel(days[i+1]))}">↓</button>
-        </span>
-        <select class="basecity" data-act="setcity" data-day="${d}">${cityOpts}</select>
-        <div class="wx">${wxHTML(t, d, cid)}</div>
-      </div>
-      <div class="daybody ${secHidden("pad")?"nopad":""}">
-        ${secHidden("pad") ? "" : dayPadHTML(t, d)}
-        <div class="daymain">
-          <div class="slots">${slots}</div>
-          ${secHead("map", "Map & order")}
-          ${secHidden("map") ? "" : dayMapHTML(t, d)}
-          ${secHead("meals", "Meals")}
-          ${secHidden("meals") ? "" : `<div class="meals">${meals}</div>`}
-          ${secHead("extras", "Notes & images")}
-          ${secHidden("extras") ? "" : dayExtrasHTML(t, d)}
-          ${secHead("transit", "Getting around",
-            secHidden("transit") ? "" : `<button class="btn sm" data-act="addtransport" data-day="${d}">+ transport</button>`)}
-          ${secHidden("transit") ? "" : `<div class="transit" data-drop="transit:${d}">
-            <div class="stack">${trans.map(magnetHTML).join("") || '<div class="placeholder">trains, buses, transfers…</div>'}</div>
-          </div>`}
-        </div>
-      </div>
+  const nFold = days.filter(d=>dayFolded(t, d)).length;
+  const nLock = days.filter(d=>dayLocked(t, d)).length;
+  const bits = [];
+  if(nFold) bits.push(nFold + " folded");
+  if(nLock) bits.push(nLock + " finalised");
+  const tools = `<div class="caltools">
+    <span class="ctlab">Days</span>
+    <button class="ctbtn" data-act="foldall" data-mode="all" ${nFold===days.length?"disabled":""}
+      title="Fold every day to a single line">Fold all</button>
+    <button class="ctbtn" data-act="foldall" data-mode="none" ${nFold?"":"disabled"}
+      title="Open every day back up">Open all</button>
+    ${nLock ? `<button class="ctbtn" data-act="foldall" data-mode="locked"
+      title="Get the settled days out of the way">Fold the finalised</button>` : ""}
+    <span class="ctnote">${esc(bits.join(" \u00b7 "))}</span>
+  </div>`;
+  return overview + staysHTML(t, days) + tools + `<div class="cal">` +
+    days.map((d,i)=>dayCardHTML(t, d, i, days, dayCities[d], today)).join("") + `</div>`;
+}
+
+/* One day. Two things change its shape: folded (one line instead of a card) and
+   finalised (everything still shows, nothing can be moved). They compose — a
+   finalised day can be folded away, which is the usual reason to fold one. */
+function dayCardHTML(t, d, i, days, cid, today){
+  const locked = dayLocked(t, d);
+  const folded = dayFolded(t, d);
+  const cls = ["day"];
+  if(d===today) cls.push("today");
+  if(locked) cls.push("locked");
+  if(folded) cls.push("folded");
+  const dropAttr = (folded && !locked) ? ` data-drop="cal:${d}:same"` : "";
+  return `<div class="${cls.join(" ")}"${dropAttr}>
+    ${dayHeadHTML(t, d, i, days, cid, folded, locked)}
+    ${folded ? dayFoldedHTML(t, d, locked) : dayOpenHTML(t, d, locked)}
+  </div>`;
+}
+
+function dayHeadHTML(t, d, i, days, cid, folded, locked){
+  const dt = parseD(d);
+  const city = cityById(t, cid);
+  const cityOpts = t.cities.map(c=>
+    `<option value="${c.id}" ${c.id===cid?"selected":""}>${esc(c.name)}</option>`).join("");
+  const n = t.magnets.filter(m=>m.board==="cal" && m.day===d && m.kind!=="fly").length;
+  return `<div class="dayhead">
+    <button class="dayfold" data-act="dayfold" data-day="${d}"
+      title="${folded?"Open "+esc(dayLabel(d)):"Fold "+esc(dayLabel(d))+" away"}"
+      aria-expanded="${folded?"false":"true"}">${folded?"\u25B8":"\u25BE"}</button>
+    <span class="dnum">${MON[dt.getMonth()]} ${d2(dt.getDate())}</span>
+    <span class="dow">${DOW[dt.getDay()]}</span>
+    <span class="idx">Day ${i+1}</span>
+    ${folded && n ? `<span class="idx">${n}</span>` : ""}
+    <span class="daymove">
+      <button class="mvbtn" data-act="moveday" data-day="${d}" data-dir="-1"
+        ${i===0?"disabled":""} title="Swap this day's plan with ${i===0?"":esc(dayLabel(days[i-1]))}">\u2191</button>
+      <button class="mvbtn" data-act="moveday" data-day="${d}" data-dir="1"
+        ${i===days.length-1?"disabled":""} title="Swap this day's plan with ${i===days.length-1?"":esc(dayLabel(days[i+1]))}">\u2193</button>
+    </span>
+    <button class="lockbtn ${locked?"on":""}" data-act="daylock" data-day="${d}"
+      title="${locked?"Finalised \u2014 click to unlock this day":"Plans finalised? Lock this day so nothing moves"}"
+      >${locked?"\u{1F512}":"\u{1F513}"}</button>
+    ${locked ? `<span class="finchip">finalised</span>` : ""}
+    ${locked
+      ? `<span class="basecity" title="Unlock the day to change the city">${esc(city?city.name:"\u2014")}</span>`
+      : `<select class="basecity" data-act="setcity" data-day="${d}">${cityOpts}</select>`}
+    <div class="wx">${wxHTML(t, d, cid)}</div>
+  </div>`;
+}
+
+/* Folded: one readable line, and — only while something is being dragged — a row
+   of slot targets, so a fold never costs you a drop. */
+function dayFoldedHTML(t, d, locked){
+  const s = daySummary(t, d);
+  const items = s.acts.concat(s.meals);
+  const chips = items.slice(0,4).map(m=>
+    `<span class="dsumchip" style="--c:var(--m-${m.kind})" data-mag="${m.id}"
+       draggable="${(locked || m.locked)?"false":"true"}"
+       title="${esc(m.label)}${locked?"":" — drag it somewhere else, or click to open it"}"
+       ><i></i>${esc(m.label)}</span>`).join("");
+  const more = items.length>4 ? `<span class="dsumn">+${items.length-4} more</span>` : "";
+  const extras = [];
+  if(s.trans.length) extras.push(s.trans.length + (s.trans.length===1?" transfer":" transfers"));
+  if(s.stickies)     extras.push(s.stickies + (s.stickies===1?" sticky":" stickies"));
+  if(s.notes)        extras.push("a day note");
+  if(s.images)       extras.push(s.images + (s.images===1?" image":" images"));
+  const tail = extras.length ? `<span class="dsumn">\u00b7 ${esc(extras.join(" \u00b7 "))}</span>` : "";
+  const line = items.length
+    ? chips + more + tail
+    : `<span class="dsumn">${locked?"Finalised as an empty day":"Nothing planned yet"}${
+        extras.length ? " \u00b7 " + esc(extras.join(" \u00b7 ")) : ""}</span>`;
+  // no slot picker down here: the whole folded card takes a drop (keeping the slot
+  // the thing already had) and the rail is where you pick a different one
+  return `<div class="dsum">${line}</div>`;
+}
+
+function dayOpenHTML(t, d, locked){
+  const drop = id => locked ? "" : ` data-drop="${id}"`;
+  const slots = SLOTS.map(s=>{
+    const ms = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot===s.id);
+    return `<div class="slot"${drop("cal:"+d+":"+s.id)}>
+      <h4>${s.label}</h4>
+      <div class="stack">${ms.map(m=>magnetHTML(m, {frozen:locked})).join("")
+        || (locked ? '<div class="lockedhint">nothing here</div>'
+                   : '<div class="placeholder">drop here</div>')}</div>
     </div>`;
-  }).join("") + `</div>`;
+  }).join("");
+  const trans = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot==="transit");
+  const meals = MEALS.map(ml=>{
+    const got = magnetsIn(t, m=>m.board==="cal"&&m.day===d&&m.slot===ml.id);
+    return `<div class="meal"${drop("cal:"+d+":"+ml.id)}>
+      <span class="mlab">${ml.label}</span>
+      ${got.length ? got.map(m=>magnetHTML(m, {frozen:locked})).join("")
+        : locked ? `<span class="lockedhint">not set</span>`
+        : `<button class="mpick" data-act="pickmeal" data-day="${d}" data-meal="${ml.id}">
+             Where for ${ml.label.toLowerCase()}?</button>`}
+    </div>`;
+  }).join("");
+  return `<div class="daybody ${secHidden("pad")?"nopad":""}">
+    ${secHidden("pad") ? "" : dayPadHTML(t, d)}
+    <div class="daymain">
+      <div class="slots">${slots}</div>
+      ${secHead("map", "Map & order")}
+      ${secHidden("map") ? "" : dayMapHTML(t, d)}
+      ${secHead("meals", "Meals")}
+      ${secHidden("meals") ? "" : `<div class="meals">${meals}</div>`}
+      ${secHead("extras", "Notes & images")}
+      ${secHidden("extras") ? "" : dayExtrasHTML(t, d)}
+      ${secHead("transit", "Getting around",
+        (secHidden("transit") || locked) ? "" : `<button class="btn sm" data-act="addtransport" data-day="${d}">+ transport</button>`)}
+      ${secHidden("transit") ? "" : `<div class="transit"${drop("transit:"+d)}>
+        <div class="stack">${trans.map(m=>magnetHTML(m, {frozen:locked})).join("")
+          || (locked ? '<div class="lockedhint">nothing booked</div>'
+                     : '<div class="placeholder">trains, buses, transfers\u2026</div>')}</div>
+      </div>`}
+    </div>
+  </div>`;
 }
 
 function noDaysHTML(t){
@@ -7915,6 +8153,7 @@ function wireOverview(){
       if(!ovDrag || !(e.buttons & 1)) return;
       if(cell.getAttribute("data-city") !== ovDrag.city) return;
       const t = trip();
+      if(dayLocked(t, cell.getAttribute("data-day"))) return;   // a finalised day keeps its city
       pinDay(t, cell.getAttribute("data-day"), ovDrag.city);
       ovDrag.touched = true;
       cell.classList.add("on");
@@ -7952,17 +8191,30 @@ function wireDnD(){
       dragId = el.getAttribute("data-mag");
       e.dataTransfer.effectAllowed = "move";
       try{ e.dataTransfer.setData("text/plain", dragId); }catch(_){}
-      el.classList.add("dragging");
+      // Everything else waits a tick. Touching the DOM inside dragstart is how you
+      // lose a drag: the browser is still taking the drag image and deciding the
+      // gesture happened, and Safari in particular just cancels.
+      const at = {x:e.clientX, y:e.clientY};
+      setTimeout(()=>{
+        if(!dragActive) return;              // already over by the time we got here
+        el.classList.add("dragging");
+        beginDrag(dragId, el, at);
+      }, 0);
+      dragActive = true;
     });
-    el.addEventListener("dragend", ()=>{ el.classList.remove("dragging"); dragId=null; });
+    el.addEventListener("dragend", ()=>{ el.classList.remove("dragging"); dragId=null; endDrag(); });
   });
   document.querySelectorAll("[data-drop]").forEach(z=>{
     z.addEventListener("dragover", e=>{ e.preventDefault(); e.dataTransfer.dropEffect="move";
-      z.classList.add("drop-on"); });
+      // a folded day is itself a drop zone with smaller ones inside it, so only
+      // the innermost one under the cursor lights up
+      if(e.target.closest("[data-drop]") === z) z.classList.add("drop-on");
+      else z.classList.remove("drop-on"); });
     z.addEventListener("dragleave", e=>{ if(!z.contains(e.relatedTarget)) z.classList.remove("drop-on"); });
     z.addEventListener("drop", e=>{
       e.preventDefault(); e.stopPropagation();
       z.classList.remove("drop-on");
+      endDrag();
       let id = dragId;
       if(!id){ try{ id = e.dataTransfer.getData("text/plain"); }catch(_){} }
       if(!id) return;
@@ -7978,6 +8230,250 @@ function wireDnD(){
       dragId = null;
     });
   });
+}
+
+/* =========================================================
+   9b. THE DAY RAIL
+   The complaint this answers: on a ten-day trip the day you want to move
+   something to is almost always off-screen, so a drag becomes a fight with the
+   scrollbar — pick the thing up, scroll with it, hope nothing scrolls back.
+
+   So: while — and only while — something is in the air, a list of every day
+   appears pinned to the edge of the window. Drop on a row and the thing lands on
+   that day in the slot it already had, which is nearly always what you meant.
+   Hover a row for a beat and its slots fan out to the left if you want a
+   different one. It sits over the side column and never over the day cards, so
+   rearranging inside a day is exactly as it was.
+   ========================================================= */
+const RAIL_TARGETS = SLOTS.concat(MEALS).map(s=>({label:s.label, t:"cal:{d}:"+s.id}))
+  .concat([{label:"Getting around", t:"transit:{d}"}]);
+let rail = null;
+
+let dragActive = false;
+function beginDrag(magId, srcEl, at){
+  document.body.classList.add("dragging");
+  openRail(magId, srcEl, at);
+  startDragScroll();
+}
+function endDrag(){
+  dragActive = false;
+  document.body.classList.remove("dragging");
+  closeRail();
+  stopDragScroll();
+}
+/* A drag can end without telling anyone — the element it started on gets replaced
+   by a render, the window loses focus, the browser gives up. A rail left behind
+   would sit there swallowing clicks, which looks exactly like "drag and drop
+   stopped working", so anything that proves no drag is running clears it. */
+function dragWatchdog(){
+  if(!dragActive && (rail || document.body.classList.contains("dragging"))) endDrag();
+}
+document.addEventListener("mousemove", dragWatchdog);
+document.addEventListener("pointerdown", dragWatchdog);
+
+/* If a drag fails to take — a slip of the trackpad, a browser that decided the
+   gesture was not one — the mouseup still arrives as a click, and clicking a magnet
+   opens its editor. Getting the edit box when you meant to move something is worse
+   than nothing happening, so a press that travelled is not a click. */
+let magPress = null;
+document.addEventListener("pointerdown", e=>{
+  const mg = e.target && e.target.closest ? e.target.closest("[data-mag]") : null;
+  magPress = mg ? {x:e.clientX, y:e.clientY} : null;
+});
+function pressTravelled(e){
+  if(!magPress) return false;
+  return Math.abs(e.clientX - magPress.x) > 6 || Math.abs(e.clientY - magPress.y) > 6;
+}
+window.addEventListener("blur", ()=>{ dragActive = false; endDrag(); });
+function closeRail(){
+  if(!rail) return;
+  clearTimeout(rail.timer);
+  if(rail.el && rail.el.parentNode) rail.el.parentNode.removeChild(rail.el);
+  rail = null;
+}
+function openRail(magId, srcEl, at){
+  closeRail();
+  if(view.name!=="trip" || view.tab!=="cal") return;
+  const t = trip();
+  if(!t) return;
+  const days = tripDays(t);
+  if(days.length < 2) return;            // one day: there is nowhere else to go
+  const src = t.magnets.find(m=>m.id===magId);
+  const srcDay = (src && src.board==="cal") ? src.day : null;
+  const dc = computeDayCities(t);
+  const el = document.createElement("div");
+  el.id = "dayrail";
+  el.innerHTML = `<div class="railhead">Drop on a day</div>
+    <div class="railscroll">${days.map((d,i)=>{
+      const locked = dayLocked(t, d);
+      const here = d === srcDay;
+      const n = t.magnets.filter(m=>m.board==="cal" && m.day===d && m.kind!=="fly").length;
+      const ci = t.cities.findIndex(c=>c.id===dc[d]);
+      const open = (!locked && !here) ? ` data-drop="cal:${d}:same" data-day="${d}"` : "";
+      return `<div class="railrow ${locked?"locked":""} ${here?"here":""}"${open}
+        style="--tint:${ci>=0?cityTint(ci):"#d3cabb"}"
+        title="${esc(dayLabel(d))}${locked?" — finalised":here?" — where it is now":""}">
+        <span class="rd">${i+1}</span><span class="rcity"></span>
+        <span class="rlab">${esc(dayLabel(d))}</span>
+        ${locked ? `<span class="rn">\u{1F512}</span>`
+          : here ? `<span class="rn">here</span>`
+          : `<span class="rn ${n?"":"zero"}">${n}</span>`}
+      </div>`;
+    }).join("")}</div>
+    <div class="railrow railtray" data-drop="tray" title="Off the calendar, back into your magnets">
+      <span class="rd">↩</span><span class="rlab">Your magnets</span></div>`;
+  el.style.visibility = "hidden";
+  document.body.appendChild(el);
+  rail = {el, magId, timer:null, leave:null, openRow:null, armed:null, box:null, side:"left"};
+  positionRail(el, srcEl, at);
+  el.style.visibility = "";
+
+  el.addEventListener("dragover", e=>{
+    railScroll(el, e.clientY);
+    const z = e.target.closest("[data-drop]");
+    if(!z) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+    z.classList.add("drop-on");
+    if(rail) clearTimeout(rail.leave);
+    if(z.classList.contains("railslot")) return;      // already on the fan-out
+    railArm(z.classList.contains("railrow") ? z : null);
+  });
+  el.addEventListener("dragleave", e=>{
+    const z = e.target.closest("[data-drop]");
+    if(z && !z.contains(e.relatedTarget)) z.classList.remove("drop-on");
+    // leaving the rail closes the fan-out, but not instantly: the trip from a row
+    // to its own slots passes over a sliver of page in between
+    if(rail && !el.contains(e.relatedTarget)){
+      clearTimeout(rail.leave);
+      rail.leave = setTimeout(railCloseSlots, 400);
+    }
+  });
+  el.addEventListener("drop", e=>{
+    const z = e.target.closest("[data-drop]");
+    if(!z) return;
+    e.preventDefault(); e.stopPropagation();
+    railDrop(z.getAttribute("data-drop"));
+  });
+  requestAnimationFrame(()=>{ if(rail && rail.el===el) el.classList.add("on"); });
+}
+/* Put it beside the day you are dragging from, with that day's own row under the
+   pointer — so the day before and the day after are a few pixels away, and the far
+   end of the trip is a short slide rather than a scroll. It goes in the gutter to
+   the right of the day card where there is room, so it never lands on top of the
+   card you might be rearranging. */
+function positionRail(el, srcEl, at){
+  const W = el.offsetWidth, H = el.offsetHeight;
+  const pad = 8;
+  const host = (srcEl && srcEl.closest) ? (srcEl.closest(".day") || srcEl.closest(".traycol")
+                || srcEl.closest(".discovercol") || srcEl) : null;
+  const hr = host && host.getBoundingClientRect ? host.getBoundingClientRect() : null;
+  const sr = (srcEl && srcEl.getBoundingClientRect) ? srcEl.getBoundingClientRect() : null;
+  const py = (at && at.y) ? at.y : (sr ? sr.top + sr.height/2 : window.innerHeight/2);
+
+  let left = hr ? hr.right + 12 : window.innerWidth - W - 14;
+  let side = "left";                                  // which way the fan-out opens
+  if(left + W > window.innerWidth - pad){
+    left = (hr ? hr.left : window.innerWidth) - W - 12;
+    side = "left";
+  }else{
+    side = "right";
+  }
+  left = Math.max(pad, Math.min(left, window.innerWidth - W - pad));
+
+  const sc = el.querySelector(".railscroll");
+  const here = el.querySelector(".railrow.here");
+  if(sc && here && sc.scrollHeight > sc.clientHeight + 1){
+    sc.scrollTop = Math.max(0, Math.min(sc.scrollHeight - sc.clientHeight,
+      here.offsetTop - sc.offsetTop - sc.clientHeight/2 + here.offsetHeight/2));
+  }
+  // offsetTop is measured against the rail, so this is where that row will sit
+  const anchor = here ? (here.offsetTop - (sc ? sc.scrollTop : 0) + here.offsetHeight/2) : H/2;
+  let top = py - anchor;
+  top = Math.max(pad, Math.min(top, window.innerHeight - H - pad));
+
+  el.style.left = Math.round(left) + "px";
+  el.style.top  = Math.round(top) + "px";
+  el.style.transformOrigin = side === "right" ? "center left" : "center right";
+  if(rail) rail.side = side;
+}
+/* a long trip does not fit: nudge the list along when you hover its ends */
+function railScroll(el, y){
+  const sc = el.querySelector(".railscroll");
+  if(!sc || sc.scrollHeight <= sc.clientHeight) return;
+  const r = sc.getBoundingClientRect();
+  if(y < r.top + 24) sc.scrollTop -= 14;
+  else if(y > r.bottom - 24) sc.scrollTop += 14;
+}
+/* hovering a row for a beat fans its slots out; anything shorter is a pass-over.
+   The fan-out is a child of the rail rather than of the row, because the list of
+   days scrolls and a scrolling box clips whatever hangs outside it. */
+function railCloseSlots(){
+  if(!rail) return;
+  clearTimeout(rail.timer);
+  if(rail.box && rail.box.parentNode) rail.box.parentNode.removeChild(rail.box);
+  rail.box = null; rail.openRow = null; rail.armed = null;
+}
+function railArm(row){
+  if(!rail) return;
+  // dragover repeats for as long as the pointer sits there, so a row already
+  // waiting its turn must not restart its own timer — that is a wait that never ends
+  if(rail.openRow === row || rail.armed === row) return;
+  clearTimeout(rail.timer);
+  if(!row || !row.getAttribute("data-day")){ railCloseSlots(); return; }
+  railCloseSlots();
+  rail.armed = row;
+  rail.timer = setTimeout(()=>{
+    if(!rail || !row.isConnected) return;
+    const sc = rail.el.querySelector(".railscroll");
+    const day = row.getAttribute("data-day");
+    const box = document.createElement("div");
+    // fan out into whichever side has the room
+    box.className = "railslots" + (rail.side === "right" ? " toright" : "");
+    // offsetTop is already measured against the rail, which is the positioned
+    // ancestor here; only the list's own scrolling has to be taken off
+    box.style.top = Math.max(6, row.offsetTop - (sc ? sc.scrollTop : 0) - 3) + "px";
+    box.innerHTML = RAIL_TARGETS.map(x=>
+      `<div class="railslot" data-drop="${x.t.replace("{d}", day)}">${esc(x.label)}</div>`).join("");
+    rail.el.appendChild(box);
+    rail.box = box; rail.openRow = row; rail.armed = null;
+  }, 220);
+}
+function railDrop(target){
+  const t = trip();
+  const id = rail ? rail.magId : dragId;
+  const y = window.scrollY;
+  endDrag();
+  if(!t || !id || !target) return;
+  moveMagnet(t, id, target, null);
+  window.scrollTo(0, y);                 // you asked to stay where you were
+  const p = target.split(":");
+  if(!lastMove) return;                  // it refused — it has already said why
+  if(p[0]==="tray") toastUndo("Back in your magnets", "undomove");
+  else toastUndo("Moved to " + dayLabel(p[1]), "undomove");
+}
+
+/* Dragging near the top or bottom of the window scrolls the board, which is what
+   every other planner does and this one did not. */
+let dragScroll = {on:false, y:0, raf:0, overRail:false};
+function startDragScroll(){
+  dragScroll.on = true; dragScroll.y = 0; dragScroll.overRail = false;
+  tickDragScroll();
+}
+function stopDragScroll(){
+  dragScroll.on = false;
+  if(dragScroll.raf) cancelAnimationFrame(dragScroll.raf);
+  dragScroll.raf = 0;
+}
+function tickDragScroll(){
+  if(!dragScroll.on) return;
+  dragScroll.raf = requestAnimationFrame(tickDragScroll);
+  if(!dragScroll.y || dragScroll.overRail) return;
+  const h = window.innerHeight, EDGE = 110;
+  let v = 0;
+  if(dragScroll.y < EDGE) v = dragScroll.y - EDGE;
+  else if(dragScroll.y > h - EDGE) v = dragScroll.y - (h - EDGE);
+  if(v) window.scrollBy(0, Math.max(-28, Math.min(28, v/3.5)));
 }
 
 /* =========================================================
@@ -8116,6 +8612,25 @@ function syncEditor(){
   const k=g("e-kind");  if(k) m.kind = k;
   const h=g("e-hour");
   if(h!=null) m.time = h ? h+":"+(g("e-min")||"00") : "";
+  // dragging is the fast way; this is the way that always works
+  const nd = g("e-day"), ns = g("e-slot");
+  if(nd != null && m.kind !== "fly"){
+    if(nd === "tray"){
+      if(m.board !== "tray"){ m.board="tray"; m.day=null; m.slot=null; m.col=null; }
+    }else if(dayLocked(t, nd)){
+      toast(dayLabel(nd)+" is finalised — unlock it first");
+    }else{
+      const slot = ns || "morning";
+      if(m.board!=="cal" || m.day!==nd || m.slot!==slot){
+        if(m.board==="cal" && m.day && dayLocked(t, m.day)){
+          toast(dayLabel(m.day)+" is finalised — unlock it first");
+        }else{
+          m.board="cal"; m.day=nd; m.slot=slot; m.col=null;
+          m.order = orderBetween(t, slot==="transit" ? "transit:"+nd : "cal:"+nd+":"+slot, null);
+        }
+      }
+    }
+  }
 }
 function drawEditor(){
   const t = trip();
@@ -8130,6 +8645,31 @@ function drawEditor(){
     const c = m.cityId ? cityById(t, m.cityId) : null;
     return c ? c.name : (t.cities[0] ? t.cities[0].name : "");
   })();
+  // Where does it sit? Same job as a drag, for when dragging is a nuisance —
+  // a long trip, a trackpad, or a day that is nowhere near the one you are on.
+  const allDays = tripDays(t);
+  const whenBlock = (m.kind==="fly" || !allDays.length) ? "" : `
+    <div class="field">
+      <label>Which day</label>
+      <div class="row">
+        <select class="inp" id="e-day" data-act="e-day">
+          <option value="tray" ${m.board!=="cal"?"selected":""}>Not on a day yet — your magnets</option>
+          ${allDays.map((dd,ix)=>{
+            const lk = dayLocked(t, dd), on = (m.board==="cal" && m.day===dd);
+            return `<option value="${dd}" ${on?"selected":""} ${lk&&!on?"disabled":""}
+              >Day ${ix+1} · ${esc(dayLabel(dd))}${lk?" · finalised":""}</option>`;
+          }).join("")}
+        </select>
+        <select class="inp" id="e-slot" data-act="e-slot" style="flex:none;width:auto"
+          ${m.board!=="cal"?"disabled":""}>
+          ${SLOTS.concat(MEALS).map(sl=>
+            `<option value="${sl.id}" ${m.slot===sl.id?"selected":""}>${sl.label}</option>`).join("")}
+          <option value="transit" ${m.slot==="transit"?"selected":""}>Getting around</option>
+        </select>
+      </div>
+      <div class="hint">Moves it there as if you had dragged it. Finalised days are greyed out.</div>
+    </div>`;
+
   const fr = edState.find || {};
   const findBlock = `
     <div class="field findbox">
@@ -8206,6 +8746,7 @@ function drawEditor(){
     <div class="field"><label>Label</label><input class="inp" id="e-label" value="${esc(m.label)}"></div>
     <div class="field"><label>Note</label><input class="inp" id="e-note" value="${esc(m.note||"")}" placeholder="time, booking ref, who you're with…"></div>
     <div class="field"><label>Type</label><select class="inp" id="e-kind">${kinds}</select></div>
+    ${whenBlock}
     <div class="field"><label>Time <span style="font-weight:400;text-transform:none;letter-spacing:0">(optional)</span></label>
       ${timeSelectHTML(m.time)}
       <div class="hint">On the hour or half hour. Leave it blank if you don't know yet —
@@ -8665,16 +9206,39 @@ function importAll(file){
 /* =========================================================
    14. EVENTS
    ========================================================= */
+/* Everything below that carries a data-day and changes something goes through
+   one gate, so "finalised" means the same thing everywhere instead of being
+   remembered case by case. */
+const DAY_EDIT_ACTS = {moveday:1, optday:1, addimg:1, addsticky:1, stickydel:1, stickycolor:1,
+                       pinimg:1, pickmeal:1, addtransport:1, "anno-open":1, setday:1};
+
 document.addEventListener("click", e=>{
   const el = e.target.closest("[data-act]");
   if(!el) {
-    // click a magnet body -> edit
+    // click a magnet body -> edit, unless the day it sits on is settled
     const mg = e.target.closest("[data-mag]");
-    if(mg && view.name==="trip") openMagnetEditor(mg.getAttribute("data-mag"));
+    if(mg && pressTravelled(e)) return;          // that was a drag, however it ended
+    if(mg && view.name==="trip"){
+      const tt = trip();
+      const m0 = tt && tt.magnets.find(x=>x.id===mg.getAttribute("data-mag"));
+      if(m0 && m0.board==="cal" && m0.day && dayLocked(tt, m0.day)){
+        toast(dayLabel(m0.day)+" is finalised — unlock the day to edit this");
+        return;
+      }
+      openMagnetEditor(mg.getAttribute("data-mag"));
+    }
     return;
   }
   const act = el.getAttribute("data-act");
   const t = view.tripId ? trip() : null;
+
+  if(t && DAY_EDIT_ACTS[act]){
+    const gd = el.getAttribute("data-day");
+    if(gd && dayLocked(t, gd)){
+      toast(dayLabel(gd)+" is finalised — unlock the day to change it");
+      return;
+    }
+  }
 
   switch(act){
     case "home": view={name:"home",tripId:null,tab:"cal"}; wiz=null; stState=null; closeModal(); render(); break;
@@ -8845,6 +9409,24 @@ document.addEventListener("click", e=>{
     case "sectoggle": toggleSec(el.getAttribute("data-sec")); break;
     case "secall": prefs().hide = {}; save(); render(); break;
     case "moveday": moveDay(el.getAttribute("data-day"), Number(el.getAttribute("data-dir"))); break;
+    case "dayfold": toggleDayFold(t, el.getAttribute("data-day")); break;
+    case "daylock": toggleDayLock(t, el.getAttribute("data-day")); break;
+    case "foldall": foldDays(t, el.getAttribute("data-mode")); break;
+    case "undomove": {
+      if(!lastMove) break;
+      const tt = DB.trips.find(x=>x.id===lastMove.trip);
+      const mm = tt && tt.magnets.find(x=>x.id===lastMove.id);
+      if(mm){
+        mm.board = lastMove.prev.board; mm.day = lastMove.prev.day;
+        mm.slot = lastMove.prev.slot;   mm.col = lastMove.prev.col;
+        mm.order = lastMove.prev.order; mm.kind = lastMove.prev.kind;
+        save(); render();
+      }
+      lastMove = null;
+      const el2 = document.querySelector(".toast");
+      if(el2) el2.remove();
+      break;
+    }
     case "addsticky": addSticky(t, el.getAttribute("data-day")); break;
     case "stickydel": {
       const day = el.getAttribute("data-day"), id = el.getAttribute("data-sticky");
@@ -9189,6 +9771,7 @@ document.addEventListener("input", e=>{
   const t = trip();
   if(!t) return;
   const day = el.getAttribute("data-day");
+  if(dayLocked(t, day)) return;
   if(el.getAttribute("data-act") === "stickytext"){
     const n = ((t.stickies||{})[day] || []).find(x=>x.id===el.getAttribute("data-sticky"));
     if(n) n.text = el.value;
@@ -9208,9 +9791,12 @@ document.addEventListener("change", e=>{
   const act = el.getAttribute("data-act");
   if(act==="setcity"){
     const t = trip();
-    pinDay(t, el.getAttribute("data-day"), el.value);
+    const day = el.getAttribute("data-day");
+    if(dayLocked(t, day)){ toast(dayLabel(day)+" is finalised"); render(); return; }
+    pinDay(t, day, el.value);
     save(); render();
   }
+  if(act==="e-day" || act==="e-slot"){ syncEditor(); drawEditor(); }
   if(act==="citycode"){
     wiz.cities[+el.getAttribute("data-i")].code = el.value.toUpperCase().trim();
   }
@@ -9240,7 +9826,16 @@ document.addEventListener("keydown", e=>{
   }
 });
 
-document.addEventListener("dragover", e=>{ if(e.target.closest("[data-drop]")) e.preventDefault(); });
+document.addEventListener("dragover", e=>{
+  const tgt = e.target && e.target.closest ? e.target : null;
+  if(tgt && tgt.closest("[data-drop]")) e.preventDefault();
+  dragScroll.y = e.clientY;
+  dragScroll.overRail = !!(tgt && tgt.closest("#dayrail"));
+});
+// a drop re-renders the board, so the element that started the drag can be gone
+// before dragend would have fired. Belt and braces.
+document.addEventListener("drop", ()=>{ dragId = null; endDrag(); });
+window.addEventListener("dragend", ()=>{ dragId = null; endDrag(); });
 
 /* =========================================================
    15. ROUTER + INIT
