@@ -91,6 +91,20 @@ h2{font-size:calc(17px * var(--ts));letter-spacing:-.01em;margin:0 0 10px}
 .newcard:hover{background:var(--paper2);color:var(--ink);border-color:var(--accent)}
 .newcard .plus{font-size:calc(26px * var(--ts));line-height:1}
 .empty{padding:56px 0;text-align:center;color:var(--ink2)}
+.newcard.sample{border-style:solid;border-color:#E0CDB0;background:#FDFAF3;gap:3px;padding:0 18px}
+.newcard.sample:hover{border-color:#B4703A;color:var(--ink);background:#FBF4E8}
+.newcard.sample .plus{font-size:calc(17px * var(--ts));color:#B4703A}
+.newcard.sample em{font-style:normal;font-size:calc(11.5px * var(--ts));color:var(--ink2);
+  line-height:1.4;max-width:210px}
+.trip-card.sample{border-color:#E0CDB0;background:#FDFAF3}
+.samptag{position:absolute;top:14px;right:32px;font-size:calc(9.5px * var(--ts));font-weight:700;
+  text-transform:uppercase;letter-spacing:.09em;color:#B4703A;background:#F6EBD9;
+  border-radius:999px;padding:2px 8px}
+.demobar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px;
+  background:#FDF6E9;border:1px solid #E7D5B4;border-radius:11px;padding:10px 14px;
+  font-size:calc(12.5px * var(--ts));color:#6E5730;line-height:1.5}
+.demobar b{color:#4E3D1E}
+.demobar .btn{margin-left:auto}
 
 /* ---------- wizard ---------- */
 .wiz{max-width:640px;margin:0 auto}
@@ -209,7 +223,10 @@ h2{font-size:calc(17px * var(--ts));letter-spacing:-.01em;margin:0 0 10px}
   width:20px;height:20px;border-radius:6px;font-size:calc(13px * var(--ts));line-height:1;padding:0;margin-left:auto;
   flex:none}
 .colhide:hover{border-color:var(--accent);color:var(--accent)}
-.colhide.loose{display:block;margin:0 0 -6px auto;position:relative;z-index:2}
+/* sticky is already a containing block, so this hangs off the column itself
+   rather than taking a row of its own at the top of it */
+.colhide.loose{position:absolute;top:13px;right:14px;margin:0;z-index:3}
+.discovercol .deckpanel h3,.discovercol .shortpanel h3{padding-right:26px}
 @media (max-width:1260px){
   .colfold{min-height:0;padding:7px 10px}
   .colfold span{writing-mode:horizontal-tb}
@@ -603,23 +620,27 @@ body[data-scale="110"]{--ts:1.09}
 body[data-scale="125"]{--ts:1.2}
 body.printing{--ts:1}
 
-.viewctl{display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:10px}
+/* one row, one height: --vh is the height every control in here agrees on */
+.viewctl{display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:10px;
+  --vh:calc(26px * var(--ts))}
 .tsize{display:inline-flex;align-items:center;gap:1px;border:1px solid var(--line);
-  border-radius:999px;background:var(--paper2);padding:1px}
+  border-radius:999px;background:var(--paper2);padding:0 2px;height:var(--vh);box-sizing:border-box}
 .vbtn{border:0;background:transparent;color:var(--ink2);cursor:pointer;border-radius:999px;
-  padding:3px 8px;line-height:1.1;font-family:inherit}
+  padding:0 7px;min-width:calc(20px * var(--ts));height:calc(100% - 4px);
+  display:inline-flex;align-items:center;justify-content:center;line-height:1;font-family:inherit}
 .vbtn:hover:not(:disabled){background:var(--line);color:var(--ink)}
 .vbtn:disabled{opacity:.3;cursor:default}
 .vbtn.small{font-size:calc(10.5px * var(--ts))}
-.vbtn.big{font-size:calc(15px * var(--ts));font-weight:600}
+.vbtn.big{font-size:calc(14.5px * var(--ts));font-weight:600}
 .vpct{font-family:ui-monospace,Menlo,monospace;font-size:calc(10.5px * var(--ts));color:var(--ink2);
-  min-width:34px;text-align:center}
+  min-width:calc(32px * var(--ts));text-align:center;line-height:1}
 .vbtn.wide{border:1px solid var(--line);background:var(--paper2);font-size:calc(11.5px * var(--ts));
-  padding:4px 10px;display:inline-flex;align-items:center;gap:6px;list-style:none}
+  padding:0 11px;height:100%;box-sizing:border-box;
+  display:inline-flex;align-items:center;gap:6px;list-style:none}
 .vbtn.wide::-webkit-details-marker{display:none}
 .vbtn.wide i{font-style:normal;font-size:calc(10px * var(--ts));background:var(--accent2);color:var(--accent);
   border-radius:999px;padding:1px 6px}
-.secmenu{position:relative}
+.secmenu{position:relative;height:var(--vh);display:flex;align-items:stretch}
 .secpop{position:absolute;right:0;top:calc(100% + 6px);z-index:40;width:214px;
   background:var(--paper2);border:1px solid var(--line);border-radius:11px;padding:9px;
   box-shadow:0 14px 34px -14px rgba(35,32,28,.42)}
@@ -974,16 +995,18 @@ body.printing{--ts:1}
 .fcard[data-hint="maybe"] .fs-maybe,.fcard[data-hint="skip"] .fs-skip{opacity:1}
 .dpad{display:grid;grid-template-columns:1fr auto 1fr;gap:9px;align-items:center}
 .dpadmid{display:flex;flex-direction:column;gap:7px}
-.vbtn{border:1px solid var(--line);background:var(--paper2);border-radius:11px;padding:10px 12px;
+/* the deck's own buttons — same name, different job, so they stay inside .dpad */
+.dpad .vbtn{border:1px solid var(--line);background:var(--paper2);border-radius:11px;padding:10px 12px;
+  height:auto;min-width:0;
   display:flex;align-items:center;justify-content:center;gap:7px;font-size:calc(13px * var(--ts));font-weight:550;transition:.12s}
-.vbtn .vic{font-size:calc(15px * var(--ts))}
-.vbtn em{font-style:normal;font-size:calc(11px * var(--ts));color:var(--ink2);font-family:ui-monospace,Menlo,monospace}
-.dpadmid .vbtn{padding:6px 12px;font-size:calc(12.5px * var(--ts))}
-.vbtn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
-.v-must:hover{border-color:var(--m-stay);color:var(--m-stay)}
-.v-no:hover{border-color:#B3402C;color:#B3402C}
-.v-maybe:hover{border-color:var(--m-see);color:var(--m-see)}
-.v-skip:hover{border-color:var(--ink2)}
+.dpad .vbtn .vic{font-size:calc(15px * var(--ts))}
+.dpad .vbtn em{font-style:normal;font-size:calc(11px * var(--ts));color:var(--ink2);font-family:ui-monospace,Menlo,monospace}
+.dpad .dpadmid .vbtn{padding:6px 12px;font-size:calc(12.5px * var(--ts))}
+.dpad .vbtn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.dpad .v-must:hover{border-color:var(--m-stay);color:var(--m-stay)}
+.dpad .v-no:hover{border-color:#B3402C;color:#B3402C}
+.dpad .v-maybe:hover{border-color:var(--m-see);color:var(--m-see)}
+.dpad .v-skip:hover{border-color:var(--ink2)}
 .deckhint{text-align:center;font-size:calc(12px * var(--ts));color:var(--ink2);margin:11px 0 0}
 .cheer{text-align:center;padding:6px 0 14px}
 .cheer .big{font-size:calc(24px * var(--ts));font-weight:650;letter-spacing:-.02em;display:block;color:var(--accent)}
@@ -2301,9 +2324,10 @@ function renderHome(){
     const d = parseD(t.arr.date);
     const n = tripDays(t).length;
     const past = t.dep.date < todayStr();
-    return `<div class="trip-card" data-act="open" data-id="${t.id}">
-      <span class="strip" style="background:${past?"var(--m-note)":"var(--accent)"}"></span>
+    return `<div class="trip-card ${t.demo?"sample":""}" data-act="open" data-id="${t.id}">
+      <span class="strip" style="background:${t.demo?"#B4703A":past?"var(--m-note)":"var(--accent)"}"></span>
       <button class="card-x" data-act="del" data-id="${t.id}" title="Delete trip">×</button>
+      ${t.demo?'<span class="samptag">sample</span>':""}
       <div class="codes">${codes || '<span class="code">—</span>'}</div>
       ${t.name?`<div class="nm">${esc(t.name)}</div>`:""}
       <div class="when">${MON[d.getMonth()]} ${String(d.getFullYear()).slice(2)}</div>
@@ -2316,10 +2340,203 @@ function renderHome(){
     <p class="sub">Every trip is a board. Ideas start as magnets and get pinned down as they firm up.</p>
     <div class="trip-grid">
       <button class="newcard" data-act="new"><span class="plus">+</span><span>New trip</span></button>
+      ${DB.trips.some(x=>x.id===DEMO_ID) ? "" : `
+        <button class="newcard sample" data-act="demo">
+          <span class="plus">◆</span><span>Open a sample trip</span>
+          <em>Eight days, three cities, filled in — to see what the board does</em>
+        </button>`}
       ${cards}
     </div>
-    ${trips.length?"":'<div class="empty">No trips yet. Start one and the board will ask you what it needs.</div>'}
+    ${trips.length?"":`<div class="empty">Nothing here yet. Start a trip and the board will ask
+       you what it needs — or open the sample first and pull it apart.</div>`}
     <input type="file" id="importfile" accept="application/json" class="hide">`;
+}
+
+/* =========================================================
+   5a2. THE SAMPLE TRIP
+   A deck, a coverage map, a hotel strip that thinks in nights, days you can pin
+   down and fold away: all of it makes sense the moment you see one filled in, and
+   almost none of it makes sense against an empty board. So the landing page carries
+   a finished trip you can open, pull apart and throw away.
+
+   It is built rather than stored. The dates count forward from today, so it is never
+   a trip that already happened, and every place in it is looked up in the city
+   reports that ship inside this file — which means its maps, its clustering and its
+   walking distances are as real as the ones on a trip of your own.
+   ========================================================= */
+const DEMO_ID = "sample-trip";
+const DEMO_CITIES = [
+  {id:"dc-bj", name:"Beijing",  country:"China", lat:39.9042, lon:116.4074, code:"PEK", slug:"beijing"},
+  {id:"dc-sz", name:"Suzhou",   country:"China", lat:31.2989, lon:120.5853, code:"",    slug:"suzhou"},
+  {id:"dc-sh", name:"Shanghai", country:"China", lat:31.2304, lon:121.4737, code:"PVG", slug:"shanghai"}
+];
+/* day index · slot · kind · label · which report to look the place up in · extras */
+const DEMO_PLAN = [
+  [0,"afternoon","see","Tiananmen Square","beijing",{note:"straight in from the airport, nothing ambitious"}],
+  [0,"dinner","eat","Siji Minfu","beijing",{note:"duck, the everyday one"}],
+
+  [1,"morning","see","Forbidden City","beijing",{time:"08:30", locked:true, note:"south gate, walk north"}],
+  [1,"lunch","eat","Baoyuan Dumpling House","beijing",{}],
+  [1,"afternoon","see","Jingshan Park","beijing",{note:"straight after, for the view back over the roofs"}],
+  [1,"evening","do","Houhai lakeside","beijing",{optional:true}],
+  [1,"transit","move","Metro line 1 to Tiananmen East","beijing",{mode:"metro", mins:25}],
+
+  [2,"morning","see","Great Wall at Mutianyu","beijing",{time:"07:30", locked:true, note:"car booked, back by four"}],
+  [2,"afternoon","see","Ming Tombs and Sacred Way","beijing",{optional:true, note:"only if the Wall does not eat the day"}],
+  [2,"dinner","eat","Jing Yaa Tang","beijing",{}],
+
+  [3,"morning","see","Temple of Heaven","beijing",{time:"07:00", note:"7am, while it still belongs to the neighbourhood"}],
+  [3,"lunch","eat","Haiwanju","beijing",{}],
+  [3,"afternoon","see","798 Art District","beijing",{optional:true}],
+  [3,"evening","do","Peking opera at Huguang Guild Hall","beijing",{optional:true, note:"an hour is plenty"}],
+
+  [4,"transit","move","High-speed rail to Suzhou","beijing",{mode:"hsr", time:"08:40", toCity:"dc-sz", mins:270}],
+  [4,"afternoon","see","Humble Administrator's Garden","suzhou",{note:"go late, the tour groups thin out"}],
+  [4,"dinner","eat","Songhelou","suzhou",{}],
+  [4,"evening","do","Pingjiang Road","suzhou",{}],
+
+  [5,"morning","see","Tiger Hill","suzhou",{}],
+  [5,"lunch","eat","Wumen Renjia","suzhou",{}],
+  [5,"transit","move","Train to Shanghai","suzhou",{mode:"hsr", time:"17:10", toCity:"dc-sh", mins:35}],
+  [5,"evening","see","The Bund","shanghai",{note:"lit up by the time we get there"}],
+
+  [6,"morning","see","Yu Garden","shanghai",{}],
+  [6,"lunch","eat","Nanxiang Steamed Bun Restaurant","shanghai",{}],
+  [6,"afternoon","do","Former French Concession","shanghai",{note:"Wukang Road, then wherever"}],
+  [6,"evening","do","Jazz at the Fairmont Peace Hotel","shanghai",{optional:true}],
+
+  [7,"morning","see","Shanghai Museum","shanghai",{note:"bags at the hotel desk"}],
+  [7,"lunch","eat","Jia Jia Tang Bao","shanghai",{}]
+];
+const DEMO_SHORTLIST = [
+  ["dc-bj","see","Summer Palace","beijing",{optional:true}],
+  ["dc-bj","see","Lama Temple","beijing",{}],
+  ["dc-sh","see","M50","shanghai",{}],
+  ["dc-sh","see","Power Station of Art","shanghai",{optional:true}]
+];
+const DEMO_TRAY = [
+  ["do","A tea house with a garden", null, null],
+  ["see","Propaganda Poster Art Centre","shanghai","Propaganda Poster Art Centre"]
+];
+const DEMO_TODO = [
+  ["before","Visa — ten working days, do it first","note"],
+  ["before","eSIM before we fly, the airport one is a rip","note"],
+  ["pack","Shoes that survive 20,000 steps a day","note"],
+  ["pack","Adapter — two-pin, and one for the camera","note"],
+  ["there","Cash for the small places, most of them won't take a foreign card","note"],
+  ["done","Flights, both ends","note"],
+  ["done","Car for the Wall day","stay"]
+];
+const DEMO_EATS = [
+  ["dc-bj","Zhajiangmian, anywhere that looks busy"],
+  ["dc-bj","Jianbing from a stall, before 9am"],
+  ["dc-sz","Squirrel fish, once, for the theatre of it"],
+  ["dc-sh","Scallion oil noodles"],
+  ["dc-sh","Xiaolongbao, standing up"]
+];
+const DEMO_VERDICTS = {
+  "dc-bj": {must:["Forbidden City","Great Wall at Mutianyu","Temple of Heaven"],
+            maybe:["Summer Palace","Lama Temple"], no:["Olympic Forest Park"]},
+  "dc-sh": {must:["The Bund","Yu Garden"], maybe:["M50"], no:[]}
+};
+
+function demoPlace(slug, name){
+  const r = REPORTS[slug];
+  const c = r && r.coords && r.coords[name];
+  return (c && c.length === 2 && isNum(c[0]) && isNum(c[1]))
+    ? {lat:c[0], lon:c[1], area:""} : null;
+}
+function buildDemoTrip(){
+  const d0 = addDays(todayStr(), 24);
+  const D = i => addDays(d0, i);
+  const t = {
+    id: DEMO_ID, demo: true,
+    name: "Sample trip — poke at anything",
+    createdAt: Date.now(),
+    arr: {date:D(0), time:"09:15", code:"PEK", flightNo:"CA 984"},
+    dep: {date:D(7), time:"18:40", code:"PVG", flightNo:"MU 587"},
+    cities: DEMO_CITIES.map(c=>({id:c.id, name:c.name, country:c.country,
+                                lat:c.lat, lon:c.lon, code:c.code})),
+    interests: ["history","food","art","markets"],
+    custom: {}, pace: "balanced",
+    dayCity: {}, dayNotes: {}, dayImages: {}, stickies: {}, dayPin: {},
+    dayLock: {}, dayFold: {},
+    stays: [], magnets: [],
+    wx: {seasonal:{}, live:{}, liveAt:null},
+    decks: {}, verdicts: {}, tray: {dismissed:[]}
+  };
+  let order = 1000;
+  const push = m => { t.magnets.push(Object.assign({id:uid(), note:"", locked:false,
+                        order:(order += 100)}, m)); };
+
+  // the two flights are the only things that cannot move
+  push({kind:"fly", board:"cal", day:t.arr.date, slot:"morning", time:t.arr.time, locked:true,
+        label:"Land PEK 9:15am", note:t.arr.flightNo, order:-1000});
+  push({kind:"fly", board:"cal", day:t.dep.date, slot:"evening", time:t.dep.time, locked:true,
+        label:"Fly out PVG 6:40pm", note:t.dep.flightNo, order:9000});
+
+  DEMO_PLAN.forEach(([di, slot, kind, label, slug, extra])=>{
+    push(Object.assign({kind, board:"cal", day:D(di), slot, label,
+                        place: demoPlace(slug, label)}, extra||{}));
+  });
+  DEMO_SHORTLIST.forEach(([col, kind, label, slug, extra])=>{
+    push(Object.assign({kind, board:"short", col, label, place:demoPlace(slug, label)}, extra||{}));
+  });
+  DEMO_TRAY.forEach(([kind, label, slug, name])=>{
+    push({kind, board:"tray", label, place: slug ? demoPlace(slug, name) : null});
+  });
+  DEMO_TODO.forEach(([col, label, kind])=>{ push({kind, board:"todo", col, label}); });
+  DEMO_EATS.forEach(([col, label])=>{ push({kind:"eat", board:"eats", col, label}); });
+
+  // which city each day belongs to — the transport magnets above agree with these
+  t.dayCity[D(0)] = "dc-bj";
+  t.dayCity[D(4)] = "dc-sz";
+  t.dayCity[D(6)] = "dc-sh";
+
+  t.stays = [
+    {id:uid(), name:"The Orchid", area:"Gulou", cityId:"dc-bj", from:D(0), to:D(4),
+     checkIn:"15:00", checkOut:"12:00", status:"booked", link:"", note:"Hutong courtyard. Tiny rooms, the roof makes up for it.", images:[]},
+    {id:uid(), name:"Pingjiang guesthouse", area:"Pingjiang", cityId:"dc-sz", from:D(4), to:D(5),
+     checkIn:"14:00", checkOut:"11:00", status:"idea", link:"", note:"One of three we are still choosing between.", images:[]},
+    {id:uid(), name:"Ruijin Hotel", area:"Former French Concession", cityId:"dc-sh", from:D(5), to:D(7),
+     checkIn:"15:00", checkOut:"12:00", status:"booked", link:"", note:"", images:[]}
+  ];
+
+  t.dayNotes[D(2)] = "Driver picks us up at 7:30 from the hotel. ¥900 for the day, cash, agreed.";
+  t.dayNotes[D(7)] = "Out by noon, bags at the desk, airport three hours before the flight.";
+  t.stickies[D(0)] = [{id:uid(), text:"We land at 9:15 — don't plan anything real today.", color:STICKY_COLORS[0][0]}];
+  t.stickies[D(4)] = [{id:uid(), text:"Rail tickets on my phone. Passport at the gate, not the ticket.", color:STICKY_COLORS[1][0]},
+                      {id:uid(), text:"Left luggage at Suzhou station if the room isn't ready", color:STICKY_COLORS[2][0]}];
+
+  // the Wall day is settled: a car, a time, nothing to rearrange
+  t.dayLock[D(2)] = true;
+
+  Object.keys(DEMO_VERDICTS).forEach(cid=>{
+    const v = DEMO_VERDICTS[cid];
+    Object.keys(v).forEach(verdict=>{
+      v[verdict].forEach(name=>{ t.verdicts[cardId(cid, name)] = verdict; });
+    });
+  });
+  return normalize(t);
+}
+function openDemoTrip(){
+  let t = DB.trips.find(x=>x.id === DEMO_ID);
+  if(!t){
+    t = buildDemoTrip();
+    DB.trips.push(t);
+    save();
+  }
+  view = {name:"trip", tripId:DEMO_ID, tab:"cal"};
+  guide = {city:null, q:"", results:null, paste:false};
+  render();
+  fetchSeasonal(t);
+  resolveReports(t);
+}
+function deleteDemoTrip(){
+  DB.trips = DB.trips.filter(x=>x.id !== DEMO_ID);
+  view = {name:"home", tripId:null, tab:"cal"};
+  save(); render();
+  toast("Sample deleted — your own trips are untouched");
 }
 
 /* =========================================================
@@ -6662,6 +6879,11 @@ function renderTrip(){
         <button class="btn sm" data-act="settings">Trip settings</button>
       </div>
     </div>
+    ${t.demo ? `<div class="demobar">
+      <b>This one is a sample.</b> Everything in it is real — drag it about, pin things
+      down, fold days away, open the deck. Nothing here is yours, so break it freely.
+      <button class="btn sm" data-act="deldemo">Delete the sample</button>
+    </div>` : ""}
     <div class="tabs">
       <button class="tab ${view.tab==="cal"?"on":""}" data-act="tab" data-tab="cal">Calendar<span class="n">${nCal}</span></button>
       <button class="tab ${view.tab==="todo"?"on":""}" data-act="tab" data-tab="todo">To-do<span class="n">${nTodo}</span></button>
@@ -9609,6 +9831,12 @@ document.addEventListener("click", e=>{
   switch(act){
     case "home": view={name:"home",tripId:null,tab:"cal"}; wiz=null; stState=null; closeModal(); render(); break;
     case "new": startWizard(); break;
+    case "demo": openDemoTrip(); break;
+    case "deldemo": {
+      if(confirm("Delete the sample trip? You can always open a fresh one from the front page."))
+        deleteDemoTrip();
+      break;
+    }
     case "open": view={name:"trip",tripId:el.getAttribute("data-id"),tab:"cal"};
       guide={city:null,q:"",results:null,paste:false}; render();
       { const tt=trip(); if(tt){ fetchSeasonal(tt); resolveReports(tt); } } break;

@@ -46,6 +46,20 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   eq("ten day cards render", await page.locator('.cal > .day').count(), 10);
   ok("no page errors on load", errors.length === 0, errors.join(" | "));
 
+  // ---- the controls line up ----
+  const rows = await page.evaluate(() => {
+    const r = s => { const e = document.querySelector(s); if (!e) return null;
+      const b = e.getBoundingClientRect(); return {top: Math.round(b.top), h: Math.round(b.height)}; };
+    return {tsize: r('.tsize'), sections: r('.vbtn.wide'), tray: r('.tray'),
+            deck: r('.discovercol .deckpanel, .discovercol .shortpanel')};
+  });
+  eq("the text-size control is the same height as the button beside it",
+     rows.tsize.h, rows.sections.h);
+  eq("and sits on the same line", rows.tsize.top, rows.sections.top);
+  ok("the two side columns start level with each other",
+     Math.abs(rows.tray.top - rows.deck.top) <= 1,
+     "tray=" + rows.tray.top + " discover=" + rows.deck.top);
+
   // ---- fold ----
   const day10 = '2026-11-29';
   await page.click(`.dayfold[data-day="${day10}"]`);
@@ -87,7 +101,9 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   const place = await page.evaluate(() => {
     const r = document.querySelector('#dayrail').getBoundingClientRect();
     const d = document.querySelector('.magnet[data-mag="m1"]').closest('.day').getBoundingClientRect();
-    return {gap: Math.round(r.left - d.right), onScreen: r.top >= 0 && r.bottom <= innerHeight};
+    const here = document.querySelector('#dayrail .railrow.here').getBoundingClientRect();
+    return {gap: Math.round(r.left - d.right), onScreen: r.top >= 0 && r.bottom <= innerHeight,
+            hereY: Math.round(here.top + here.height/2)};
   });
   ok("the rail opens in the gutter beside the day, not at the window edge",
      place.gap >= 0 && place.gap < 40, "gap=" + place.gap);
@@ -99,7 +115,7 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   ok("plus a way back to the magnets", await page.locator('#dayrail .railtray').count() === 1);
   eq("the board knows a drag is running", await page.locator('body.dragging').count(), 1);
 
-  // force a re-render while the drag is live — this used to double-wire the rail
+  // a render in the middle of a drag used to double-wire the rail's rows
   await page.evaluate(() => render());
   await page.waitForTimeout(50);
   eq("the rail survives a re-render mid-drag", await page.locator('#dayrail').count(), 1);
@@ -125,7 +141,7 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   eq("dropping on the rail moves it to that day", m1.day, "2026-11-20");
   eq("and keeps the slot it had", m1.slot, "evening");
   eq("the rail goes away afterwards", await page.locator('#dayrail').count(), 0);
-  // other toasts can pile up behind this one, so find the one carrying the undo
+  // other toasts can pile up behind it, so find the one carrying the undo
   const undoToast = page.locator('.toast').filter({has: page.locator('.undo')}).last();
   ok("with an undo offered", (await undoToast.textContent()).includes("Moved to Nov 20"));
   await undoToast.locator('.undo').click();

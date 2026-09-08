@@ -12,6 +12,13 @@ Everything here is drag-and-drop instead of typing, and everything you drop can 
 
 Double-click **`Trip Board.html`**. It opens in your browser and that's the whole app.
 
+**Start with the sample.** The front page offers a finished trip — eight days across
+Beijing, Suzhou and Shanghai, with hotels, a settled day, a waiting list, notes and
+half a deck swiped. Almost nothing here explains itself on an empty board, and all of
+it explains itself on a full one. It is a real trip, not a screenshot: drag things
+about, break it, delete it when you are done. It is rebuilt from today's date each
+time, so it is never a trip that already happened.
+
 Your trips save automatically to that browser's storage. That's a real place and it
 persists, but it's tied to one browser on one computer — so the first thing worth
 doing is **linking a file**:
@@ -305,13 +312,14 @@ node tests/day-moves.test.js
 68 checks covering folding, finalising, moving between days, the "same slot" rule,
 undo, and the day-swap and ordering behaviour it would be easy to break.
 
-Four more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
+Five more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
 
 ```
-node tests/browser.test.js     # 39 checks
+node tests/browser.test.js     # 42 checks
 node tests/drag.test.js        # 13 checks
 node tests/maps.test.js        # 16 checks
 node tests/reports.test.js     # 17 checks
+node tests/sample.test.js      # 23 checks
 ```
 
 The first: the board renders, days fold and lock, the rail opens beside the right day
@@ -326,6 +334,11 @@ tile falls back to the drawn grid rather than a blank box.
 `reports.test.js` covers the built-in reports — that they load with no folder linked,
 render, feed the decks and the food list, are searchable, and that the prompt is there
 and carries the format.
+
+`sample.test.js` opens the front page with empty storage, the way a new user does, and
+checks the sample trip is a real one: eight days, three cities, three hotels, every
+activity carrying real coordinates, a finalised day, stickies, a waiting list, and all
+five tabs populated.
 
 `drag.test.js` is about the gesture itself, which is easy to break and hard to notice:
 that a real mouse drag picks things up with folded days on screen, that the page does
