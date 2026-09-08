@@ -111,6 +111,20 @@ you drag near the top or bottom edge. Every move offers an **Undo**.
 
 Not a dragger? The magnet editor has a **Which day** picker that does the same thing.
 
+**Maps** — every map on the board has two modes, and the button in the *Map & order*
+strip switches all of them at once:
+
+- **Street map** (the default) — real tiles from OpenStreetMap under your stops, so you
+  can see the park, the river, and the six lanes of traffic between two things you put
+  on the same morning. It needs the network, and the tile server sees roughly which
+  corner of the world you are looking at. Tiles load only for days you scroll to.
+- **Plain map** — the original: drawn from coordinates, no network, nothing sent
+  anywhere, and it prints. If tiles cannot load, this comes back on its own and says so.
+
+A day with nothing pinned yet now shows the city itself rather than an empty
+rectangle, so there is always something to place things against. **Open in Maps** hands
+that day's stops to Google Maps as a route.
+
 ### To-do
 
 Four columns — Before, Pack, There, Done — with a magnet tray of the things that are
@@ -119,7 +133,7 @@ still have to think about.
 
 ### Coverage
 
-A drawn map per city with every planned day laid over the last. It answers a
+A map per city with every planned day laid over the last. It answers a
 different question from the calendar: *have I actually seen enough of this place, or
 am I covering the same six blocks three times?*
 
@@ -154,7 +168,14 @@ visitor have heard of this", and keeps hospitals and office blocks out.
 
 ## City Reports
 
-The `City Reports/` folder holds long-form guides in `cityreport.v1` format:
+**Ten cities are already inside the file** — Beijing, Shanghai, Tianjin, Suzhou,
+Hangzhou, Tokyo, London, Sydney, Melbourne and New York. Open the app on any of them
+and the guides tab, the deck and the food list are full on the first run, with no
+folder to link and nothing to import. They are marked *built in*, and they are the
+lowest-priority source: put your own `beijing.json` in a linked folder, or paste one
+in, and yours takes over and is never overwritten.
+
+The `City Reports/` folder holds the same guides as files, in `cityreport.v1` format:
 
 ```
 City Reports/
@@ -170,9 +191,15 @@ that lets the app cluster and map what the report mentions.
 When you create a trip, the app **loads** any report it already has rather than
 regenerating it. Reports feed the decks, the food panel and the guide tab.
 
-**To add a city:** ask Claude for a report in `cityreport.v1` format and save it into
-this folder as `cityname.json` — lowercase, no spaces. The trip settings screen will
-write the exact prompt for you. You can also paste one straight into the app.
+**To add a city:** the guides tab carries the prompt. Open *The prompt for writing
+one*, copy it, and hand it to Claude or any other model — it names your cities and
+carries the whole format with it, including the `coords` block the planner needs, so
+what comes back is a file rather than an essay. Paste the JSON straight back into the
+app, or save it as `cityname.json` (lowercase, no spaces) in your folder.
+
+If Claude is already looking at your City Reports folder, the short version — *"write
+a city report for X in cityreport.v1 and save it into my City Reports folder"* — is
+enough, and there's a button for that too.
 
 Link the folder once via the guides tab and the app remembers it.
 
@@ -217,9 +244,12 @@ only when it needs them:
 | Places | OpenStreetMap (Overpass), Nominatim | building a deck for a city with no report |
 | Notability | Wikidata, Wikipedia | ranking those places |
 | PDF and image reading | pdf.js, tesseract.js from cdnjs | only when you drop a file in |
+| Map tiles | OpenStreetMap | street-map mode only, and only for days on screen |
 
-Maps are **drawn, not tiled** — plain SVG from coordinates. That means they work
-offline, they print, and no map provider sees where you're going.
+Maps come in two modes. **Plain map** is the original promise — plain SVG drawn from
+coordinates, so it works offline, it prints, and no map provider sees where you are
+going. **Street map** trades that for real streets from OpenStreetMap. One button,
+everywhere, and it remembers which you chose.
 
 ---
 
@@ -228,6 +258,10 @@ offline, they print, and no map provider sees where you're going.
 - File linking needs a Chromium browser. Safari and Firefox get browser storage only.
 - Images are downscaled to 1200px and stored inside your trip file, so a trip with
   many screenshots gets large. Three per day, four per hotel is the cap.
+- The ten built-in city reports are about 300KB of the file. That is the price of the
+  guides tab having something in it before you have set anything up.
+- Street-map mode needs the network. It falls back to the drawn map on its own, but a
+  printed page carries only the tiles that had already loaded.
 - A trip longer than 400 days is refused as a data error rather than rendered.
 - Live decks depend on OpenStreetMap coverage. Sparse regions give thin decks — a
   city report is the fix.
@@ -236,7 +270,7 @@ offline, they print, and no map provider sees where you're going.
 
 ## Under the hood
 
-One self-contained HTML file, about 9,300 lines. No build step, no framework, no
+One self-contained HTML file, about 9,700 lines plus the reports that ship inside it. No build step, no framework, no
 dependencies to install. Open it in an editor and it's all there: the CSS at the top,
 then data tables, then the app in numbered sections.
 
@@ -271,18 +305,29 @@ node tests/day-moves.test.js
 68 checks covering folding, finalising, moving between days, the "same slot" rule,
 undo, and the day-swap and ordering behaviour it would be easy to break.
 
-Two more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
+Four more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
 
 ```
-node tests/browser.test.js     # 38 checks
+node tests/browser.test.js     # 39 checks
 node tests/drag.test.js        # 13 checks
+node tests/maps.test.js        # 16 checks
+node tests/reports.test.js     # 17 checks
 ```
 
 The first: the board renders, days fold and lock, the rail opens beside the right day
 with the right days droppable, its slot fan-out is positioned and not clipped, a drop
 moves the right thing and can be undone, and the editor's day picker works.
 
-The second is about the gesture itself, which is easy to break and hard to notice:
+`maps.test.js` stubs the tile server, so it never touches the network, and checks the
+part that is easy to get subtly wrong: that a marker lands exactly where its own tile
+says it should, that the switch works both ways and is remembered, and that a failed
+tile falls back to the drawn grid rather than a blank box.
+
+`reports.test.js` covers the built-in reports — that they load with no folder linked,
+render, feed the decks and the food list, are searchable, and that the prompt is there
+and carries the format.
+
+`drag.test.js` is about the gesture itself, which is easy to break and hard to notice:
 that a real mouse drag picks things up with folded days on screen, that the page does
 not change height under the cursor while a drag is starting, that a drag which fails
 to take is not read as a click into the editor, and that a rail left behind by a drag

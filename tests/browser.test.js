@@ -99,6 +99,10 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   ok("plus a way back to the magnets", await page.locator('#dayrail .railtray').count() === 1);
   eq("the board knows a drag is running", await page.locator('body.dragging').count(), 1);
 
+  // force a re-render while the drag is live — this used to double-wire the rail
+  await page.evaluate(() => render());
+  await page.waitForTimeout(50);
+  eq("the rail survives a re-render mid-drag", await page.locator('#dayrail').count(), 1);
   const row1 = '#dayrail .railrow[data-day="2026-11-20"]';
   await fire(row1, 'dragover', {clientX: 1380, clientY: 300});
   await page.waitForTimeout(400);
@@ -121,8 +125,10 @@ const eq = (n, a, b) => ok(n, a === b, JSON.stringify(a) + " !== " + JSON.string
   eq("dropping on the rail moves it to that day", m1.day, "2026-11-20");
   eq("and keeps the slot it had", m1.slot, "evening");
   eq("the rail goes away afterwards", await page.locator('#dayrail').count(), 0);
-  ok("with an undo offered", (await page.locator('.toast').last().innerText()).includes("Moved to Nov 20"));
-  await page.locator('.toast .undo').last().click();
+  // other toasts can pile up behind this one, so find the one carrying the undo
+  const undoToast = page.locator('.toast').filter({has: page.locator('.undo')}).last();
+  ok("with an undo offered", (await undoToast.textContent()).includes("Moved to Nov 20"));
+  await undoToast.locator('.undo').click();
   const m1b = await page.evaluate(() =>
     JSON.parse(localStorage.getItem("tripBoard.v1")).trips[0].magnets.find(m => m.id === "m1"));
   eq("and undo puts it back", m1b.day, "2026-11-29");
