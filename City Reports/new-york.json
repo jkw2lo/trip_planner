@@ -1,0 +1,332 @@
+{
+  "schema": "cityreport.v1",
+  "city": "New York",
+  "country": "United States",
+  "lat": 40.7128,
+  "lon": -74.0060,
+  "generated": "2026-09-08",
+  "by": "Claude",
+  "note": "Written September 2026. Fares checked against the MTA: the subway and bus base fare rose to $3.00 in January 2026, OMNY caps a week of rides at $35, and the unlimited MetroCard passes have been retired. Restaurants and opening arrangements change, so confirm before you go.",
+  "glance": {
+    "why": "New York is a walking city disguised as a skyline. The famous sights are mostly worth doing once and quickly; what the city actually rewards is covering ground on foot, block by block, between neighbourhoods that change character in a hundred metres. Manhattan below 59th Street and the western edge of Brooklyn will hold a first visit comfortably, and the single best decision a visitor makes is to spend less time in observation decks and more time eating, walking and going to something - a show, a game, a gig, a museum with one exhibition you actually want to see.",
+    "bestFor": ["Museums", "Food", "Theatre and live performance", "Architecture", "Walking", "Shopping", "Nightlife", "Neighbourhoods", "Parks"],
+    "idealStay": "4-5 days for a first visit; 6-7 to include outer-borough neighbourhoods and a slower pace",
+    "character": ["Dense", "Vertical", "Fast", "Loud", "Endlessly specific"],
+    "dontMiss": [
+      "Central Park, entered on foot and crossed slowly",
+      "The Metropolitan Museum of Art, with a plan and a time limit",
+      "The Brooklyn Bridge walked toward Manhattan at dusk",
+      "A Broadway or off-Broadway show",
+      "The 9/11 Memorial and the harbour from the Staten Island Ferry",
+      "Greenwich Village and the West Village on foot",
+      "One meal each in Chinatown, a deli, and a neighbourhood in another borough"
+    ],
+    "neighbourhoods": [
+      "Greenwich Village and the West Village",
+      "Lower East Side and Chinatown",
+      "SoHo, Nolita and Tribeca",
+      "Upper West and Upper East Sides",
+      "Williamsburg and Greenpoint",
+      "Harlem"
+    ]
+  },
+  "history": {
+    "story": "New York was Lenape land, then a Dutch trading post called New Amsterdam in 1624, taken by the English forty years later and renamed. Its harbour made it the continent's port, the Erie Canal in 1825 made it the outlet for a continent's goods, and immigration made it the country's largest city - German and Irish first, then Italian, Eastern European Jewish, and after 1965 Caribbean, Latin American, Chinese, South Asian and West African. The consolidation of the five boroughs in 1898, the elevator and the steel frame, the subway in 1904, the Great Migration and the Harlem Renaissance, the postwar boom, the near-bankruptcy and crime of the 1970s and 80s, gentrification, September 11 and the pandemic are all still legible in specific streets.",
+    "origins": "The deep, protected harbour at the mouth of the Hudson is the whole reason for the city. Manhattan's hard schist bedrock is why the towers could be built where they were, and the 1811 grid above Houston Street is why navigating uptown is trivial and downtown is not.",
+    "periods": [
+      {"name": "Lenapehoking and New Amsterdam, to 1664", "text": "Lenape land becomes a Dutch trading company outpost; the street pattern of the Financial District still follows it."},
+      {"name": "Port city, 1825-1890", "text": "The Erie Canal makes New York the country's commercial gateway; tenement districts fill with new arrivals."},
+      {"name": "Immigrant city, 1880-1924", "text": "Ellis Island, the Lower East Side tenements, and the political machines and labour movements that came with them."},
+      {"name": "Skyscraper city, 1900-1940", "text": "The subway, the Woolworth, Chrysler and Empire State buildings, and Rockefeller Center define the skyline and the idea of the city."},
+      {"name": "Harlem Renaissance and the Great Migration", "text": "Black American life and culture reshape uptown and, through it, American music and letters."},
+      {"name": "Crisis and reinvention, 1970s-", "text": "Fiscal collapse, crime, AIDS and the artistic explosion that accompanied them; then the safer, richer and more expensive city that followed, and the long recovery from September 11."}
+    ],
+    "whyItMatters": "New York's history is mostly domestic rather than monumental - it is in tenement stairwells, subway tile, brownstone stoops and the shopfronts of businesses that outlived their neighbourhoods. That is why the Tenement Museum tells the city's story better than most of its grander institutions.",
+    "visible": [
+      "Dutch and colonial: the crooked streets of the Financial District, Fraunces Tavern, Trinity Church",
+      "Immigrant New York: the Lower East Side tenements, the Tenement Museum, Ellis Island",
+      "Gilded Age: the Met, Grand Central Terminal, Fifth Avenue mansions turned museums",
+      "Skyscraper era: the Chrysler and Empire State buildings, Rockefeller Center, the Woolworth Building",
+      "Modern city: the High Line, Hudson Yards, the 9/11 Memorial and Museum"
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {"name": "Brooklyn Bridge", "area": "Downtown Brooklyn to Manhattan", "why": "Walk it toward Manhattan, late afternoon, and continue into Dumbo or the Financial District. Free, and the best thirty minutes in the city.", "mins": 60},
+      {"name": "9/11 Memorial and Museum", "area": "Financial District", "why": "The memorial pools are free and quietly devastating; the museum is thorough and heavy, so allow time and headspace.", "mins": 150},
+      {"name": "Statue of Liberty and Ellis Island", "area": "New York Harbor", "why": "The Ellis Island immigration museum is the substantive half. If time is short, the free Staten Island Ferry passes the statue instead.", "mins": 300},
+      {"name": "Grand Central Terminal", "area": "Midtown East", "why": "Ten minutes for the concourse ceiling, longer if you eat downstairs. A working building, not an attraction.", "mins": 45},
+      {"name": "Tenement Museum", "area": "Lower East Side", "why": "Guided tours through restored apartments of actual families; the best single hour of history in New York.", "mins": 90},
+      {"name": "Empire State Building or Top of the Rock", "area": "Midtown", "why": "Choose one. Top of the Rock puts the Empire State in your photo; the Empire State puts you in the more famous building.", "mins": 120}
+    ],
+    "arts": [
+      {"name": "Metropolitan Museum of Art", "area": "Upper East Side", "why": "Too big to see. Pick three departments - Egyptian, European painting, the American Wing, Arms and Armor - and leave before you are exhausted.", "mins": 180},
+      {"name": "Museum of Modern Art", "area": "Midtown", "why": "The best modern collection in the world and a building designed to move crowds through it. Go at opening or on a late evening.", "mins": 150},
+      {"name": "American Museum of Natural History", "area": "Upper West Side", "why": "The dioramas, the blue whale and the Gilder Center; the most rewarding museum in the city for children.", "mins": 180},
+      {"name": "The Frick Collection", "area": "Upper East Side", "why": "A Gilded Age mansion full of masterpieces, reopened in 2025 after a long renovation; small enough to finish in one visit.", "mins": 90},
+      {"name": "Whitney Museum of American Art", "area": "Meatpacking District", "why": "American art in a Renzo Piano building with terraces over the High Line.", "mins": 120},
+      {"name": "The Met Cloisters", "area": "Fort Tryon Park, Upper Manhattan", "why": "Medieval art in a reassembled monastery above the Hudson. Worth the subway ride for the quiet alone.", "mins": 150}
+    ],
+    "neighbourhoods": [
+      {"name": "Greenwich Village and the West Village", "character": "Low brick, crooked streets, the pre-grid city", "highlights": "Washington Square Park, Bleecker Street, the jazz clubs, Stonewall", "food": "Old Italian, wine bars, small restaurants worth booking", "bestTime": "Late afternoon into evening", "mins": 210},
+      {"name": "Lower East Side and Chinatown", "character": "Tenements, bars, dumplings, layered migration", "highlights": "Tenement Museum, Orchard Street, Doyers Street, the Bowery", "food": "Chinese, Jewish delis and appetising shops, cocktail bars", "bestTime": "Afternoon into night", "mins": 240},
+      {"name": "SoHo, Nolita and Tribeca", "character": "Cast-iron warehouses, shopping, cobbles", "highlights": "Cast-iron district, Elizabeth Street, Tribeca lofts", "food": "Cafes, expensive lunch, good bakeries", "bestTime": "Daytime", "mins": 180},
+      {"name": "Upper West Side and Central Park", "character": "Pre-war apartment blocks, families, museums", "highlights": "Central Park's west side, the Natural History Museum, Lincoln Center", "food": "Delis, diners, neighbourhood Italian", "bestTime": "Morning", "mins": 210},
+      {"name": "Williamsburg and Greenpoint", "character": "Brooklyn waterfront, warehouses, Polish and hipster layers", "highlights": "Domino Park, the East River skyline view, Bedford Avenue", "food": "Some of the city's best casual restaurants and bakeries", "bestTime": "Afternoon into night", "mins": 240},
+      {"name": "Harlem", "character": "Brownstones, boulevards, deep cultural history", "highlights": "Apollo Theater, the Studio Museum, Sunday gospel, 125th Street", "food": "Southern food, West African, Caribbean", "bestTime": "Daytime into early evening", "mins": 180}
+    ],
+    "nature": [
+      {"name": "Central Park", "area": "Manhattan", "why": "Enter at 59th and walk north to the Ramble and the Reservoir rather than doing a loop of the south end with everyone else.", "mins": 150},
+      {"name": "The High Line", "area": "Chelsea", "why": "An elevated rail viaduct turned park; twenty blocks, crowded at midday, best early or at dusk.", "mins": 90},
+      {"name": "Brooklyn Bridge Park", "area": "Dumbo and Brooklyn Heights", "why": "The best skyline view in the city, plus a carousel, piers and the Promenade above it.", "mins": 120},
+      {"name": "Prospect Park", "area": "Brooklyn", "why": "The same designers as Central Park, with better meadows and fewer visitors. Pair with the Botanic Garden.", "mins": 150},
+      {"name": "Staten Island Ferry", "area": "New York Harbor", "why": "Free, twenty-five minutes each way, passes the Statue of Liberty. The best-value thing in New York.", "mins": 60},
+      {"name": "Governors Island", "area": "New York Harbor", "why": "A car-free island with hammocks, hills and skyline views; seasonal ferry from Lower Manhattan.", "mins": 180}
+    ],
+    "shopping": [
+      {"name": "SoHo", "area": "SoHo", "why": "Flagships and boutiques under cast iron; the buildings are as good as the shops.", "mins": 120},
+      {"name": "Fifth Avenue and Midtown", "area": "Midtown", "why": "Department stores and flagship spectacle; efficient if you want it, skippable if you do not.", "mins": 120},
+      {"name": "Lower East Side and Nolita", "area": "Downtown", "why": "Independent designers, vintage, and small shops that still feel like the owner is inside.", "mins": 120},
+      {"name": "Chelsea Market", "area": "Chelsea", "why": "Food hall in a former Nabisco factory at the foot of the High Line; busy but useful.", "mins": 90},
+      {"name": "Brooklyn Flea and Smorgasburg", "area": "Brooklyn", "why": "Weekend markets for vintage and street food; check the season and location before going.", "mins": 120},
+      {"name": "Strand and the bookshops", "area": "Union Square and downtown", "why": "Eighteen miles of books, plus McNally Jackson and the small shops downtown.", "mins": 90}
+    ],
+    "nightlife": [
+      {"name": "Broadway and off-Broadway", "area": "Theater District and downtown", "why": "The reason many people come. Off-Broadway is cheaper, often better, and easier to book.", "mins": 180},
+      {"name": "Jazz in the West Village", "area": "West Village", "why": "The Village Vanguard, Smalls and Blue Note within a few blocks; the Vanguard is the one to book.", "mins": 150},
+      {"name": "Lower East Side bars", "area": "Lower East Side", "why": "The densest run of bars downtown, from dives to cocktail rooms with no sign.", "mins": 180},
+      {"name": "Brooklyn live music", "area": "Williamsburg, Bushwick", "why": "Warehouse venues and small rooms; where most of the interesting bookings are.", "mins": 180},
+      {"name": "Comedy clubs", "area": "Village and Midtown", "why": "The Comedy Cellar and its neighbours run several shows a night with famous drop-ins.", "mins": 120},
+      {"name": "A game at the Garden or the ballpark", "area": "Midtown, Bronx, Queens", "why": "Knicks or Rangers at Madison Square Garden, Yankees or Mets in summer; the crowd is the event.", "mins": 210}
+    ]
+  },
+  "essential10": [
+    {"rank": 1, "name": "Central Park on foot", "why": "Cross it rather than circle it: the Ramble, the Reservoir and the Bethesda Terrace in one slow walk.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 2, "name": "Metropolitan Museum of Art", "why": "One of the two or three great museums on earth. Choose three departments and accept that you are not seeing it.", "mins": 180, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 3, "name": "Brooklyn Bridge at dusk", "why": "Walk from Brooklyn toward Manhattan as the lights come on, then eat in Dumbo or downtown.", "mins": 90, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 4, "name": "A Broadway or off-Broadway show", "why": "Live performance is the city's deepest cultural resource. Off-Broadway is cheaper and frequently better.", "mins": 180, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 5, "name": "Downtown walking day: Village to Lower East Side", "why": "The pre-grid streets, the tenements and the food are the actual texture of New York.", "mins": 240, "label": "Essential", "popularity": 3, "cultural": 5, "worth": 5},
+    {"rank": 6, "name": "9/11 Memorial, and the harbour by ferry", "why": "The memorial pools plus the free Staten Island Ferry give you the modern city and its harbour in one afternoon.", "mins": 210, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 7, "name": "Museum of Modern Art", "why": "The collection that defined how modern art is told. Book a timed entry and go early.", "mins": 150, "label": "Recommended", "popularity": 5, "cultural": 5, "worth": 4},
+    {"rank": 8, "name": "An outer-borough neighbourhood", "why": "Williamsburg, Astoria, Flushing, Sunset Park or Jackson Heights - where most New Yorkers actually live and eat.", "mins": 210, "label": "Recommended", "popularity": 3, "cultural": 5, "worth": 5},
+    {"rank": 9, "name": "One observation deck", "why": "Top of the Rock, the Empire State, Edge or Summit. Pick one, at sunset, and skip the others.", "mins": 120, "label": "Recommended", "popularity": 5, "cultural": 3, "worth": 3},
+    {"rank": 10, "name": "The High Line and Chelsea galleries", "why": "An elevated park through the gallery district; do the galleries on a Thursday when openings run.", "mins": 150, "label": "Recommended", "popularity": 4, "cultural": 4, "worth": 4}
+  ],
+  "food": {
+    "identity": "New York's food identity is immigration plus competition. The city has no cuisine of its own beyond a handful of forms it perfected - the bagel and appetising counter, the pastrami sandwich, the coal-oven and then the by-the-slice pizza, the Cantonese-American dining room, the diner - and beyond those it simply has the best version of almost everything, somewhere, usually far from Midtown. The instinct that ruins visits is eating near the sights. The instinct that saves them is picking a neighbourhood, taking the subway there and eating what it is known for: Sichuan in Flushing, Colombian and Indian in Jackson Heights, Middle Eastern in Bay Ridge, Dominican in Washington Heights.",
+    "mustTry": [
+      {"dish": "A bagel with lox and cream cheese", "what": "Boiled-then-baked bagel, sliced salmon, cream cheese, from an appetising shop or a corner bagel counter.", "why": "The most specifically New York breakfast there is, from the city's Eastern European Jewish history.", "flavour": "Chewy, salty, cold and rich all at once.", "howLocalsEat": "Standing up, in the morning, ordered fast and precisely.", "importance": "Essential"},
+      {"dish": "Pastrami on rye", "what": "Hand-cut cured and smoked beef, piled on rye with mustard, at a Jewish deli.", "why": "One of the few dishes the city genuinely invented and still does better than anywhere.", "flavour": "Peppery, fatty, enormous.", "howLocalsEat": "Split it, and never ask for mayonnaise.", "importance": "Essential"},
+      {"dish": "Pizza, both kinds", "what": "A plain slice from a counter, and a coal- or wood-oven pie from a sit-down place.", "why": "The slice is daily life; the pie is the craft version.", "flavour": "Thin, foldable, and better after 11pm.", "howLocalsEat": "Folded lengthwise, standing at the counter.", "importance": "Essential"},
+      {"dish": "Chinatown dumplings and noodles", "what": "Soup dumplings, hand-pulled noodles and roast meats in Manhattan's Chinatown, Sunset Park or Flushing.", "why": "New York's Chinese food is regionally deep in a way few western cities match.", "flavour": "Varies wildly by region - go where the menu is specific.", "importance": "Essential"},
+      {"dish": "The halal cart", "what": "Chicken and rice with white sauce and hot sauce, from a street cart.", "why": "The city's default late-night and lunch-hour meal.", "flavour": "Spiced, greasy, deeply satisfying.", "howLocalsEat": "In a foil tray, walking.", "importance": "Recommended"},
+      {"dish": "A diner breakfast", "what": "Eggs, home fries, endless filter coffee in a booth.", "why": "A vanishing but still-living form, and the cheapest sit-down meal in Manhattan.", "flavour": "Unremarkable and entirely the point.", "importance": "Recommended"},
+      {"dish": "Oysters and a martini", "what": "East Coast oysters at a raw bar, with something cold and dry.", "why": "The city was built on oyster beds, and the raw bar remains one of its best rooms.", "flavour": "Briny, cold, mineral.", "importance": "Recommended"},
+      {"dish": "Queens street food", "what": "Colombian arepas, Tibetan momos, Indian sweets, Mexican tacos - often on one block in Jackson Heights.", "why": "The most diverse eating in the United States, and mostly under fifteen dollars.", "importance": "Essential"},
+      {"dish": "Cheesecake and black-and-white cookies", "what": "Dense baked cheesecake, and the flat iced cookie every deli sells.", "why": "The city's two classic sweets, both better than their reputations.", "importance": "Optional"},
+      {"dish": "A tasting menu, once", "what": "The city's fine dining, from Le Bernardin's seafood to smaller counters downtown.", "why": "New York's high end is genuinely world-class if the budget allows one.", "importance": "Optional"}
+    ]
+  },
+  "mustEat10": [
+    {"dish": "Bagel with lox", "where": "Russ & Daughters, Lower East Side", "order": "Sturgeon or lox on an everything bagel", "price": "USD 18-28"},
+    {"dish": "Pastrami on rye", "where": "Katz's Delicatessen", "order": "Pastrami on rye, extra pickles, split between two", "price": "USD 28-35"},
+    {"dish": "A plain slice", "where": "Joe's Pizza, Greenwich Village", "order": "Two plain slices, standing", "price": "USD 6-10"},
+    {"dish": "Coal-oven pizza", "where": "Lucali or a Brooklyn pizzeria worth queueing for", "order": "A plain pie and one topping", "price": "USD 30-50"},
+    {"dish": "Soup dumplings", "where": "Manhattan Chinatown or Flushing", "order": "Xiao long bao plus hand-pulled noodles", "price": "USD 15-30"},
+    {"dish": "Halal cart chicken and rice", "where": "Any cart with a queue after dark", "order": "Chicken over rice, white sauce, a little hot sauce", "price": "USD 10-14"},
+    {"dish": "Oysters", "where": "Grand Central Oyster Bar", "order": "A dozen East Coast oysters at the counter", "price": "USD 35-60"},
+    {"dish": "Neighbourhood Italian", "where": "Via Carota or a West Village room", "order": "The vegetables, the pasta, a glass of red", "price": "USD 60-90 pp"},
+    {"dish": "Queens street food", "where": "Roosevelt Avenue, Jackson Heights", "order": "Arepas, momos and whatever the longest queue is for", "price": "USD 10-25"},
+    {"dish": "One serious dinner", "where": "Le Bernardin or a downtown counter", "order": "The tasting menu", "price": "USD 200-400 pp"}
+  ],
+  "restaurants": {
+    "iconic": [
+      {"name": "Katz's Delicatessen", "cuisine": "Jewish deli", "price": "Mid", "area": "Lower East Side", "desc": "A cafeteria-system deli that has been carving pastrami since 1888.", "dishes": "Pastrami on rye, matzo ball soup", "whyGo": "The single most recognisable meal in New York, and it lives up to it.", "booking": "No; take a ticket and hold onto it"},
+      {"name": "Russ & Daughters", "cuisine": "Appetising", "price": "Mid", "area": "Lower East Side", "desc": "A century-old smoked-fish counter, with a sit-down cafe around the corner.", "dishes": "Lox, sturgeon, whitefish salad on a bagel", "whyGo": "The best short lesson in Jewish New York available.", "booking": "Counter is walk-in; the cafe takes bookings"},
+      {"name": "Grand Central Oyster Bar", "cuisine": "Seafood", "price": "Mid-high", "area": "Grand Central Terminal", "desc": "Vaulted tile ceilings under the station, open since 1913.", "dishes": "Oysters at the counter, pan roast", "whyGo": "A great room and a genuinely good raw bar in the middle of Midtown.", "booking": "Counter seats are first come"}
+    ],
+    "bestFood": [
+      {"name": "Le Bernardin", "cuisine": "French seafood", "price": "High", "area": "Midtown", "desc": "Decades at the top of the city's fine dining, built entirely on fish.", "dishes": "The tasting menu", "whyGo": "If you spend once, spend here.", "booking": "Book a month ahead"},
+      {"name": "Via Carota", "cuisine": "Italian", "price": "Mid-high", "area": "West Village", "desc": "A small room doing vegetables and pasta better than places charging three times as much.", "dishes": "Insalata verde, cacio e pepe, the roast", "whyGo": "The best neighbourhood restaurant in Manhattan.", "booking": "Limited bookings; expect a wait"},
+      {"name": "Xi'an Famous Foods", "cuisine": "Chinese, Shaanxi", "price": "Low", "area": "Multiple locations", "desc": "Hand-ripped noodles and cumin lamb from a chain that started in a Flushing basement.", "dishes": "Spicy cumin lamb noodles", "whyGo": "Fifteen dollars for one of the most distinctive meals in the city.", "booking": "No"}
+    ],
+    "bestValue": [
+      {"name": "Joe's Pizza", "cuisine": "Pizza", "price": "Low", "area": "Greenwich Village and branches", "desc": "A counter, a slice, and nowhere to sit.", "dishes": "Two plain slices", "whyGo": "The New York slice at its most correct.", "booking": "No"},
+      {"name": "Jackson Heights food streets", "cuisine": "South Asian, Latin American, Tibetan", "price": "Low", "area": "Queens", "desc": "Roosevelt Avenue and the blocks around it: momos, arepas, tacos, sweets.", "dishes": "Whatever the longest queue is for", "whyGo": "The most interesting cheap eating in the country.", "booking": "No"},
+      {"name": "Halal carts", "cuisine": "Street food", "price": "Low", "area": "Citywide", "desc": "Chicken and rice from a cart, at almost any hour.", "dishes": "Chicken over rice, white sauce", "whyGo": "The city's true default meal.", "booking": "No"}
+    ],
+    "special": [
+      {"name": "Le Bernardin", "cuisine": "French seafood", "price": "High", "area": "Midtown", "desc": "Formal, precise and reliably extraordinary.", "dishes": "Tasting menu", "whyGo": "The safest choice for a once-in-a-trip dinner.", "booking": "Book a month ahead"},
+      {"name": "Gramercy Tavern", "cuisine": "American", "price": "High", "area": "Flatiron", "desc": "A warmer kind of fine dining, with a walk-in tavern room at the front.", "dishes": "Tasting menu in the dining room, or the tavern menu at the bar", "whyGo": "New York hospitality at its most polished without being stiff.", "booking": "Dining room needs booking; tavern takes walk-ins"}
+    ],
+    "casual": [
+      {"name": "A corner diner", "cuisine": "American", "price": "Low", "area": "Citywide", "desc": "Booths, filter coffee refills and a menu with eleven pages.", "dishes": "Eggs, home fries, rye toast", "whyGo": "The cheapest sit-down breakfast in Manhattan and a disappearing institution.", "booking": "No"},
+      {"name": "Chinatown noodle shops", "cuisine": "Chinese", "price": "Low", "area": "Manhattan Chinatown", "desc": "Small rooms doing one thing - noodles, roast meats, dumplings - very well.", "dishes": "Hand-pulled noodles, roast pork over rice", "whyGo": "Excellent food for under twenty dollars, minutes from the bridge.", "booking": "No"},
+      {"name": "Smorgasburg", "cuisine": "Street food market", "price": "Low-mid", "area": "Brooklyn, seasonal", "desc": "Weekend outdoor food market on the Brooklyn waterfront and in Prospect Park.", "dishes": "Graze across several stalls", "whyGo": "The most efficient way to eat widely in one afternoon.", "booking": "No; check the season and location"}
+    ],
+    "cafes": [
+      {"name": "Veniero's or an old Italian pasticceria", "cuisine": "Pastry", "price": "Low", "area": "East Village", "desc": "Cannoli, cheesecake and marble counters from the Italian East Village.", "dishes": "Cheesecake, cannoli, espresso", "whyGo": "A surviving piece of a neighbourhood that has otherwise changed completely.", "booking": "No"},
+      {"name": "Devocion or a Brooklyn roaster", "cuisine": "Coffee", "price": "Low-mid", "area": "Williamsburg", "desc": "Bright, plant-filled rooms with serious single-origin coffee.", "dishes": "Filter coffee, a pastry", "whyGo": "Where the city's coffee scene actually lives.", "booking": "No"},
+      {"name": "Levain Bakery", "cuisine": "Bakery", "price": "Low", "area": "Upper West Side and branches", "desc": "Enormous, deliberately underbaked cookies, with a queue outside.", "dishes": "Chocolate chip walnut cookie", "whyGo": "Worth the queue once, on the way into Central Park.", "booking": "No"}
+    ]
+  },
+  "experiences": [
+    {"name": "Walk the Brooklyn Bridge at dusk", "what": "Start on the Brooklyn side and walk toward the skyline as the lights come on.", "why": "Free, twenty minutes, and better than any observation deck.", "mins": 60},
+    {"name": "Ride the Staten Island Ferry", "what": "Round trip past the Statue of Liberty, on the deck at the back.", "why": "Free, and the harbour is how the city makes sense.", "mins": 60},
+    {"name": "See a show", "what": "Broadway, off-Broadway, or a play in a hundred-seat room downtown.", "why": "The depth of live performance here is the city's real cultural advantage.", "mins": 180},
+    {"name": "Jazz at the Village Vanguard", "what": "A basement room that has run continuously since 1935.", "why": "The most storied jazz club in the world, and still a working one.", "mins": 150},
+    {"name": "Eat a neighbourhood in another borough", "what": "Flushing, Jackson Heights, Sunset Park, Astoria or Arthur Avenue in the Bronx.", "why": "It is where the city actually eats, and the subway makes it easy.", "mins": 210},
+    {"name": "Sunday gospel or live music in Harlem", "what": "A church service that welcomes visitors, or a set at a Harlem club.", "why": "Harlem's cultural history is a living thing, not a plaque.", "mins": 150},
+    {"name": "A game", "what": "Knicks or Rangers at the Garden, Yankees or Mets in summer.", "why": "The crowd, the food and the ritual are the point more than the sport.", "mins": 210},
+    {"name": "Gallery hopping in Chelsea", "what": "The blocks between 10th and 11th Avenues, free, on a Thursday.", "why": "The commercial art world at full volume, and no admission fee.", "mins": 120},
+    {"name": "Cross Central Park on foot", "what": "Enter at one corner and come out the other, taking the paths that look wrong.", "why": "The park was designed to be wandered, not photographed.", "mins": 150},
+    {"name": "Ride the subway late", "what": "Take a train somewhere specific after 10pm.", "why": "The city's 24-hour subway is a genuine oddity and the fastest way anywhere.", "mins": 45}
+  ],
+  "neighbourhoodGuide": [
+    {"name": "Greenwich Village and West Village", "vibe": "Low brick, crooked pre-grid streets, old money and jazz", "bestFor": "Walking, dinner, jazz clubs", "sights": "Washington Square Park, Bleecker Street, Stonewall National Monument", "food": "Italian, wine bars, Via Carota, Joe's Pizza", "mins": 210},
+    {"name": "Lower East Side and Chinatown", "vibe": "Tenements, dumplings, bars, layered migration", "bestFor": "History, cheap food, nightlife", "sights": "Tenement Museum, Doyers Street, Orchard Street", "food": "Katz's, Russ & Daughters, Chinatown noodles", "mins": 240},
+    {"name": "SoHo, Nolita and Tribeca", "vibe": "Cast iron, cobbles, shopping", "bestFor": "Shopping, architecture, lunch", "sights": "Cast-iron district, Elizabeth Street, Tribeca lofts", "food": "Bakeries, expensive lunch spots", "mins": 180},
+    {"name": "Midtown", "vibe": "Vertical, commercial, crowded", "bestFor": "Theatre, MoMA, one observation deck, Grand Central", "sights": "Rockefeller Center, Grand Central, Times Square (once, briefly)", "food": "Oyster Bar, hotel bars, Koreatown on 32nd Street", "mins": 210},
+    {"name": "Upper West and Upper East Sides", "vibe": "Pre-war apartments, museums, families", "bestFor": "Museums and Central Park", "sights": "The Met, Natural History, the Frick, Lincoln Center", "food": "Delis, diners, Levain", "mins": 240},
+    {"name": "Harlem", "vibe": "Brownstones, wide boulevards, deep history", "bestFor": "Music, Southern and West African food, architecture", "sights": "Apollo Theater, Studio Museum, Striver's Row", "food": "Southern, Senegalese, Caribbean", "mins": 180},
+    {"name": "Williamsburg and Greenpoint", "vibe": "Waterfront Brooklyn, warehouses, Polish and design layers", "bestFor": "Restaurants, bars, live music, skyline views", "sights": "Domino Park, the East River ferry, Bedford Avenue", "food": "Some of the city's best casual cooking", "mins": 240},
+    {"name": "Brooklyn Heights and Dumbo", "vibe": "Brownstones, cobbles, bridge views", "bestFor": "The Promenade, the bridge walk, a slow afternoon", "sights": "Brooklyn Heights Promenade, Brooklyn Bridge Park, Dumbo cobbles", "food": "Pizza, waterfront cafes", "mins": 180},
+    {"name": "Queens: Astoria, Jackson Heights, Flushing", "vibe": "The most diverse urban area in the country", "bestFor": "Eating, and seeing how New York actually lives", "sights": "Museum of the Moving Image, Flushing markets, Roosevelt Avenue", "food": "Greek, Colombian, Tibetan, Sichuan, Indian", "mins": 210}
+  ],
+  "timeGuidance": {
+    "three": "Day 1 downtown: the Village, the Lower East Side, the Brooklyn Bridge at dusk. Day 2 uptown: Central Park and the Met, with a show at night. Day 3 the harbour and the 9/11 Memorial, then Chelsea and the High Line.",
+    "fivePlus": "Add MoMA, a full outer-borough eating day in Queens or Brooklyn, Harlem, a second park - Prospect or Governors Island - and one thing booked in advance that you would not do at home: a game, a gig, a jazz set or an off-Broadway play."
+  },
+  "dayTrips": [
+    {"name": "Storm King Art Center", "travel": "About 1.5 hr", "why": "Monumental sculpture across five hundred acres of the Hudson Valley.", "duration": "Full day", "suits": "Art and walking, best in spring or autumn.", "logistics": "Seasonal bus from Port Authority, or a train to Beacon plus a taxi.", "verdict": "Worth it"},
+    {"name": "Hudson Valley: Beacon and Dia", "travel": "About 1.5 hr by train", "why": "Dia Beacon's enormous minimalist galleries in a former printing factory, plus a walkable river town.", "duration": "Full day", "suits": "Contemporary art, easily done without a car.", "logistics": "Metro-North from Grand Central to Beacon; walk from the station.", "verdict": "Worth it"},
+    {"name": "The Rockaways or Coney Island", "travel": "About 1-1.5 hr by subway", "why": "Ocean beach, boardwalk and the old amusement park, reachable on a subway fare.", "duration": "Half or full day", "suits": "Summer, and anyone who wants the sea without leaving the city.", "logistics": "Subway or the NYC Ferry to Rockaway; go early on hot weekends.", "verdict": "Worth it"},
+    {"name": "Philadelphia", "travel": "About 1.5 hr by train", "why": "Colonial history, a great art museum and a very different American city.", "duration": "Full day", "suits": "History, and a second city on a longer trip.", "logistics": "Amtrak from Penn Station; book ahead for cheaper fares.", "verdict": "Only if you have extra time"},
+    {"name": "The Hamptons or Long Island beaches", "travel": "About 2-3 hr", "why": "Atlantic beaches and small towns, busy in season.", "duration": "Full day or overnight", "suits": "Summer weekends, ideally with a car.", "logistics": "LIRR from Penn Station; slow, and worse on Friday evenings.", "verdict": "Only if you have extra time"},
+    {"name": "Washington DC", "travel": "About 3 hr by train", "why": "Monuments and the Smithsonian museums, most of them free.", "duration": "Long day or overnight", "suits": "Better as an overnight than a day trip.", "logistics": "Amtrak from Penn Station; the day version means six hours on a train.", "verdict": "Only if you have extra time"}
+  ],
+  "practical": {
+    "gettingAround": "The subway runs 24 hours and is the correct default. Tap a contactless card, phone or watch straight on the OMNY reader - the base fare rose to $3.00 in January 2026, and OMNY caps you at $35 for a week of subway and local bus rides, which replaced the old unlimited MetroCard passes. Buses are slower but useful crosstown. Above Houston Street the grid makes navigation trivial: avenues run north-south, streets east-west, and twenty blocks is roughly a mile. Below it, carry a map. Walking is genuinely the fastest way to cover short distances in Manhattan, taxis and rideshares are slow in Midtown traffic, and the NYC Ferry is a cheap, scenic way to reach Brooklyn and Queens. For the airports, the AirTrain plus subway or rail from JFK and Newark is far cheaper than a car, and about as fast in traffic.",
+    "whenToGo": "Autumn, September to early November, is the best season: clear, cool and the full cultural calendar. Spring, April to June, is nearly as good, with parks at their best. Summer is hot, humid and can be unpleasant in the subway, but the city empties slightly and the outdoor programme - concerts, films in the parks, rooftops, beaches - is at full strength. Winter is cold and grey, but it is the cheapest season, the museums and theatres are the point, and the two weeks around Christmas are an expensive, crowded spectacle that some people specifically travel for.",
+    "howLong": {
+      "one": "Central Park, the Met or MoMA, a walk downtown through the Village, and the Brooklyn Bridge at dusk.",
+      "twoThree": "Add the harbour, the Lower East Side, a show and one observation deck. The classic first visit, still rushed.",
+      "fourFive": "The right length: two museums, two neighbourhood walking days, an outer borough and something booked in advance.",
+      "week": "Add Queens and the Bronx, Prospect Park and Brooklyn's museums, a Hudson Valley day trip and time to repeat what you liked."
+    },
+    "culture": [
+      "Tipping is expected and is not optional: 18-20 per cent in restaurants and bars, a dollar or two per drink at a bar counter.",
+      "Sales tax is added at the register, so the shelf price is never the final price.",
+      "Walk fast, stand to the right on escalators, and step out of the pedestrian flow before stopping to look at your phone.",
+      "Order quickly and specifically at delis, bagel counters and pizza windows; the queue behind you is the reason.",
+      "Subway platforms are hot in summer and trains are aggressively air-conditioned; carry a layer.",
+      "Most museums have suggested or pay-what-you-wish admission for New York State residents only - visitors pay the full price, so budget accordingly.",
+      "Bars and restaurants often ask for ID for anyone buying alcohol, regardless of apparent age; carry a passport or a copy."
+    ]
+  },
+  "whatIdDo": [
+    {"day": "Day 1", "plan": "Start downtown: coffee in the West Village, walk Bleecker and the crooked streets to Washington Square, then east into the Lower East Side for the Tenement Museum and lunch at Katz's. Late afternoon over the Brooklyn Bridge into Dumbo for the skyline, dinner in Brooklyn Heights."},
+    {"day": "Day 2", "plan": "Central Park from the south, crossing north through the Ramble to the Reservoir. The Met in the afternoon - three departments only. Early dinner near Lincoln Center, then a show."},
+    {"day": "Day 3", "plan": "The 9/11 Memorial in the morning, then the Staten Island Ferry there and back for the harbour. Afternoon on the High Line and the Chelsea galleries; oysters and a martini somewhere in the evening."},
+    {"day": "Day 4", "plan": "Out to Queens: Jackson Heights or Flushing for a long, cheap, excellent lunch. Back for MoMA in the late afternoon, then jazz in the Village."},
+    {"day": "Day 5", "plan": "Brooklyn: Prospect Park and the Botanic Garden, Williamsburg in the afternoon, an early dinner somewhere you have to book, and one observation deck at sunset if the weather is clear."}
+  ],
+  "quickRef": {
+    "musts": ["Central Park on foot", "The Metropolitan Museum of Art", "The Brooklyn Bridge at dusk", "A show", "The harbour by ferry"],
+    "eats": ["A bagel with lox", "Pastrami on rye", "A plain slice", "Chinatown dumplings", "One meal in Queens"],
+    "areas": ["Greenwich Village", "Lower East Side and Chinatown", "Upper East Side museums", "Williamsburg", "Harlem"],
+    "experiences": ["Jazz at the Village Vanguard", "A game at the Garden or a ballpark", "Eating your way through an outer borough"],
+    "dayTrip": "Dia Beacon in the Hudson Valley, or the Rockaways in summer for a beach on a subway fare",
+    "stay": "4-5 days"
+  },
+  "coords": {
+    "Central Park": [40.7812, -73.9665],
+    "Central Park on foot": [40.7812, -73.9665],
+    "Cross Central Park on foot": [40.7812, -73.9665],
+    "Metropolitan Museum of Art": [40.7794, -73.9632],
+    "The Met Cloisters": [40.8649, -73.9319],
+    "Museum of Modern Art": [40.7614, -73.9776],
+    "American Museum of Natural History": [40.7813, -73.9740],
+    "The Frick Collection": [40.7712, -73.9673],
+    "Whitney Museum of American Art": [40.7396, -74.0089],
+    "Brooklyn Bridge": [40.7061, -73.9969],
+    "Brooklyn Bridge at dusk": [40.7061, -73.9969],
+    "Walk the Brooklyn Bridge at dusk": [40.7061, -73.9969],
+    "9/11 Memorial and Museum": [40.7115, -74.0134],
+    "9/11 Memorial, and the harbour by ferry": [40.7115, -74.0134],
+    "Statue of Liberty and Ellis Island": [40.6892, -74.0445],
+    "Staten Island Ferry": [40.7002, -74.0134],
+    "Ride the Staten Island Ferry": [40.7002, -74.0134],
+    "Grand Central Terminal": [40.7527, -73.9772],
+    "Tenement Museum": [40.7188, -73.9900],
+    "Empire State Building or Top of the Rock": [40.7587, -73.9787],
+    "One observation deck": [40.7587, -73.9787],
+    "Greenwich Village and the West Village": [40.7336, -74.0027],
+    "Greenwich Village and West Village": [40.7336, -74.0027],
+    "Downtown walking day: Village to Lower East Side": [40.7250, -73.9950],
+    "Lower East Side and Chinatown": [40.7160, -73.9900],
+    "Lower East Side bars": [40.7200, -73.9880],
+    "Chinatown noodle shops": [40.7158, -73.9970],
+    "Chinatown dumplings and noodles": [40.7158, -73.9970],
+    "SoHo, Nolita and Tribeca": [40.7233, -74.0020],
+    "SoHo": [40.7233, -74.0020],
+    "Upper West Side and Central Park": [40.7870, -73.9754],
+    "Upper West and Upper East Sides": [40.7800, -73.9660],
+    "Midtown": [40.7549, -73.9840],
+    "Fifth Avenue and Midtown": [40.7590, -73.9750],
+    "Harlem": [40.8116, -73.9465],
+    "Sunday gospel or live music in Harlem": [40.8116, -73.9465],
+    "Williamsburg and Greenpoint": [40.7180, -73.9570],
+    "Brooklyn live music": [40.7080, -73.9330],
+    "Brooklyn Heights and Dumbo": [40.7030, -73.9900],
+    "Queens: Astoria, Jackson Heights, Flushing": [40.7480, -73.8830],
+    "An outer-borough neighbourhood": [40.7480, -73.8830],
+    "Eat a neighbourhood in another borough": [40.7480, -73.8830],
+    "Queens street food": [40.7480, -73.8910],
+    "Jackson Heights food streets": [40.7480, -73.8910],
+    "The High Line": [40.7480, -74.0048],
+    "The High Line and Chelsea galleries": [40.7480, -74.0048],
+    "Gallery hopping in Chelsea": [40.7480, -74.0048],
+    "Chelsea Market": [40.7424, -74.0061],
+    "Brooklyn Bridge Park": [40.7000, -73.9960],
+    "Prospect Park": [40.6602, -73.9690],
+    "Governors Island": [40.6895, -74.0165],
+    "Brooklyn Flea and Smorgasburg": [40.7215, -73.9615],
+    "Smorgasburg": [40.7215, -73.9615],
+    "Strand and the bookshops": [40.7332, -73.9907],
+    "Broadway and off-Broadway": [40.7590, -73.9845],
+    "A Broadway or off-Broadway show": [40.7590, -73.9845],
+    "See a show": [40.7590, -73.9845],
+    "Jazz in the West Village": [40.7360, -74.0015],
+    "Jazz at the Village Vanguard": [40.7360, -74.0015],
+    "Comedy clubs": [40.7300, -74.0000],
+    "A game at the Garden or the ballpark": [40.7505, -73.9934],
+    "A game": [40.7505, -73.9934],
+    "Ride the subway late": [40.7527, -73.9772],
+    "Katz's Delicatessen": [40.7223, -73.9874],
+    "Pastrami on rye": [40.7223, -73.9874],
+    "Russ & Daughters": [40.7226, -73.9882],
+    "Bagel with lox": [40.7226, -73.9882],
+    "Grand Central Oyster Bar": [40.7527, -73.9772],
+    "Le Bernardin": [40.7615, -73.9818],
+    "One serious dinner": [40.7615, -73.9818],
+    "Via Carota": [40.7345, -74.0030],
+    "Neighbourhood Italian": [40.7345, -74.0030],
+    "Xi'an Famous Foods": [40.7160, -73.9970],
+    "Joe's Pizza": [40.7304, -74.0020],
+    "A plain slice": [40.7304, -74.0020],
+    "Halal carts": [40.7590, -73.9760],
+    "Halal cart chicken and rice": [40.7590, -73.9760],
+    "Gramercy Tavern": [40.7385, -73.9884],
+    "A corner diner": [40.7420, -73.9880],
+    "Veniero's or an old Italian pasticceria": [40.7280, -73.9850],
+    "Devocion or a Brooklyn roaster": [40.7150, -73.9600],
+    "Levain Bakery": [40.7795, -73.9800],
+    "Storm King Art Center": [41.4245, -74.0570],
+    "Hudson Valley: Beacon and Dia": [41.5040, -73.9840],
+    "The Rockaways or Coney Island": [40.5755, -73.9707],
+    "Philadelphia": [39.9526, -75.1652],
+    "The Hamptons or Long Island beaches": [40.9634, -72.1848],
+    "Washington DC": [38.9072, -77.0369]
+  }
+}

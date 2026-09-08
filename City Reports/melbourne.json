@@ -1,0 +1,328 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Melbourne",
+  "country": "Australia",
+  "lat": -37.8136,
+  "lon": 144.9631,
+  "generated": "2026-09-08",
+  "by": "Claude",
+  "note": "Written September 2026. Transport details checked against Transport Victoria, including the Metro Tunnel which opened on 30 November 2025. Restaurants and opening arrangements change, so confirm before you book.",
+  "glance": {
+    "why": "Melbourne is a city you have to walk into rather than look at. There is no harbour and no single monument; what it has instead is a dense grid full of laneways, arcades, bars up unmarked staircases and coffee taken more seriously than almost anywhere on earth, wrapped in inner suburbs each with a distinct accent. Sydney gives up its best material in a day. Melbourne makes you find it, and rewards that with better food, better bars and a genuine cultural calendar of sport, art and music.",
+    "bestFor": ["Food", "Coffee", "Bars and nightlife", "Street art", "Live music", "Sport", "Shopping and design", "Galleries", "Day trips"],
+    "idealStay": "3-4 days for the city itself; 5-6 with the Great Ocean Road or the Mornington Peninsula",
+    "character": ["Gridded", "Layered", "Opinionated", "Weather-changeable", "Quietly stylish"],
+    "dontMiss": [
+      "The laneways and arcades of the CBD, on foot and without a map",
+      "A proper coffee, sitting down, in a place with no branding",
+      "The NGV, both buildings",
+      "Queen Victoria Market",
+      "An inner-suburb evening in Fitzroy, Carlton or Collingwood",
+      "Sport at the MCG if anything at all is on",
+      "A day on the Great Ocean Road or the Mornington Peninsula"
+    ],
+    "neighbourhoods": [
+      "The CBD laneways and arcades",
+      "Fitzroy and Collingwood",
+      "Carlton and Brunswick",
+      "St Kilda and the bay",
+      "South Melbourne and Southbank",
+      "Richmond and Cremorne"
+    ]
+  },
+  "history": {
+    "story": "Melbourne sits on the land of the Wurundjeri and Boonwurrung peoples of the Kulin Nation, on a river they had used for thousands of years. The British settlement of 1835 was a land grab by Tasmanian speculators, but the gold rushes of the 1850s changed everything: Victoria's gold made Melbourne one of the richest cities in the world within a generation, and the boulevards, banks, arcades and gold-rush architecture of the centre all date from that money. The boom collapsed in the 1890s, the city was the national capital until 1927, and postwar migration - Italian, Greek, Vietnamese, Lebanese, Chinese, Ethiopian, more recently South Asian - built the food culture the city now trades on.",
+    "origins": "The site was chosen for the Yarra's fresh water above the falls and for the sheltered bay below it, which made Melbourne the natural port for the goldfields inland. The flat river plain is why the city has a rigid grid instead of Sydney's tangle, and the grid is why the laneways exist at all.",
+    "periods": [
+      {"name": "Kulin Nation", "text": "Wurundjeri and Boonwurrung country, with the Yarra as a food source and a boundary; Birrarung Marr and the Koorie Heritage Trust are where that story is told in the city today."},
+      {"name": "Settlement, 1835-1851", "text": "A speculative settlement becomes a colonial capital when Victoria separates from New South Wales."},
+      {"name": "Gold, 1851-1890", "text": "'Marvellous Melbourne': the goldfields make it one of the world's wealthiest cities and build the arcades, banks and public libraries still standing."},
+      {"name": "Crash and federation, 1890-1927", "text": "A savage property collapse, then a period as the seat of the new federal parliament until Canberra was ready."},
+      {"name": "Postwar migration", "text": "Italian Carlton, Greek Melbourne - for decades the largest Greek-speaking population outside Greece - and later Vietnamese Richmond and Footscray reshape the suburbs."},
+      {"name": "Laneway Melbourne, 1990s-", "text": "Deliberate policy turned the emptying service lanes into bars, cafes and galleries, which is now the city's defining texture."}
+    ],
+    "whyItMatters": "Almost everything visitors like about Melbourne comes from two events: gold money, which built the grand nineteenth-century bones, and migration, which filled them. The laneway culture is younger than people assume and was substantially planned, which is why it is so consistent.",
+    "visible": [
+      "Kulin country: Birrarung Marr, the Koorie Heritage Trust at Federation Square, scar trees in the Royal Botanic Gardens",
+      "Gold-rush Melbourne: the Block and Royal arcades, the State Library dome, Parliament House, Collins Street banks",
+      "Working Melbourne: Queen Victoria Market, the Docklands wharves, Victorian terraces in Fitzroy",
+      "Migrant Melbourne: Lygon Street, Victoria Street in Richmond, Sydney Road in Brunswick, Footscray's markets",
+      "Modern Melbourne: Federation Square, NGV International, the Metro Tunnel stations opened in 2025"
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {"name": "The arcades and laneways", "area": "CBD", "why": "Block Arcade, Royal Arcade, Degraves, Hosier Lane and the unmarked doorways between them. Walk without a destination for an hour.", "mins": 120},
+      {"name": "State Library Victoria", "area": "CBD", "why": "The La Trobe Reading Room dome is one of the best interiors in Australia, and it is free.", "mins": 60},
+      {"name": "Queen Victoria Market", "area": "CBD north", "why": "A working market since 1878: produce, deli halls and, in winter, a night market. Go early on a weekday.", "mins": 120},
+      {"name": "Old Melbourne Gaol", "area": "CBD", "why": "Colonial justice told plainly, including Ned Kelly's cell.", "mins": 90},
+      {"name": "Parliament House and Collins Street", "area": "East Melbourne", "why": "The gold-rush city at its grandest; walk the 'Paris end' of Collins Street with it.", "mins": 90},
+      {"name": "Melbourne Cricket Ground", "area": "Yarra Park", "why": "A hundred thousand seats and the national sporting cathedral. Tour it, or better, get a ticket to anything.", "mins": 180}
+    ],
+    "arts": [
+      {"name": "NGV International", "area": "Southbank", "why": "The bigger of the two National Gallery buildings, with the water wall and a strong international collection. Free entry to the permanent galleries.", "mins": 150},
+      {"name": "The Ian Potter Centre: NGV Australia", "area": "Federation Square", "why": "Australian and First Nations art in the Federation Square building; the better of the two for understanding the country.", "mins": 120},
+      {"name": "ACMI", "area": "Federation Square", "why": "Moving image, from early cinema to games, and unusually well designed for how it teaches.", "mins": 120},
+      {"name": "Heide Museum of Modern Art", "area": "Bulleen", "why": "Modernist Australian art in the house and gardens where much of it was made.", "mins": 180},
+      {"name": "Street art laneways", "area": "CBD and Fitzroy", "why": "Hosier Lane for the famous version, AC/DC Lane and the Fitzroy backstreets for the better one.", "mins": 90},
+      {"name": "Live music at a suburban pub", "area": "Fitzroy, Collingwood, Brunswick", "why": "Melbourne has more live venues per head than almost anywhere; the Tote, the Corner and the Northcote Social Club are institutions.", "mins": 180}
+    ],
+    "neighbourhoods": [
+      {"name": "Fitzroy and Collingwood", "character": "Terraces, bars, vintage, murals", "highlights": "Gertrude Street, Brunswick Street, Smith Street", "food": "Wine bars, small restaurants, bakeries, late-night dumplings", "bestTime": "Afternoon into night", "mins": 240},
+      {"name": "Carlton and Brunswick", "character": "Italian heritage giving way to student and Middle Eastern Melbourne", "highlights": "Lygon Street, Sydney Road, the Exhibition Building and Carlton Gardens", "food": "Italian, Lebanese, Turkish, some of the best pizza in the city", "bestTime": "Evening", "mins": 210},
+      {"name": "The CBD grid", "character": "Laneways, arcades, rooftops, hidden staircases", "highlights": "Degraves Street, Block Arcade, Chinatown, Flinders Lane", "food": "Everything from a two-dollar dumpling to a tasting menu", "bestTime": "All day, and after dark for the bars", "mins": 240},
+      {"name": "Richmond and Cremorne", "character": "Vietnamese Victoria Street, warehouses, pubs", "highlights": "Victoria Street, Bridge Road, the walk to the MCG", "food": "Vietnamese, and a run of very good modern restaurants", "bestTime": "Lunch or early evening", "mins": 180},
+      {"name": "St Kilda and the bay", "character": "Faded seaside glamour, sunsets, cake shops", "highlights": "The pier and its penguins at dusk, Acland Street, Luna Park", "food": "European cake shops, casual seafood, beach bars", "bestTime": "Late afternoon into sunset", "mins": 180},
+      {"name": "Footscray and the west", "character": "Vietnamese and East African, market-centred, unpolished", "highlights": "Footscray Market, Barkly Street, riverside walks", "food": "Pho, Ethiopian injera, West African, cheap and excellent", "bestTime": "Daytime", "mins": 150}
+    ],
+    "nature": [
+      {"name": "Royal Botanic Gardens", "area": "South Yarra", "why": "The best park in the city, with the Tan running track around it and an Aboriginal heritage walk inside.", "mins": 120},
+      {"name": "The Yarra and Birrarung Marr", "area": "Central", "why": "Walk or ride the river path from the city out towards Abbotsford; it is how the city connects to its country.", "mins": 120},
+      {"name": "St Kilda pier at dusk", "area": "St Kilda", "why": "A little penguin colony lives in the breakwater and comes ashore after sunset. Free, and genuinely charming.", "mins": 90},
+      {"name": "Dandenong Ranges", "area": "Outer east", "why": "Mountain ash forest, fern gullies and tea rooms an hour from town.", "mins": 300},
+      {"name": "Werribee and the You Yangs", "area": "West", "why": "Open-range zoo, a grand estate and granite hills with wide views over the bay.", "mins": 360},
+      {"name": "Brighton Beach and the bay trail", "area": "Bayside", "why": "The bathing boxes are the photo; the cycle path along the bay is the better use of the afternoon.", "mins": 150}
+    ],
+    "shopping": [
+      {"name": "Block Arcade and Royal Arcade", "area": "CBD", "why": "Victorian arcades with tiled floors, tea rooms and small shops.", "mins": 60},
+      {"name": "Gertrude and Smith Streets", "area": "Fitzroy and Collingwood", "why": "Australian designers, ceramics, vintage and bookshops in a walkable strip.", "mins": 150},
+      {"name": "Queen Victoria Market", "area": "CBD north", "why": "Produce and deli halls in the morning, and a night market in season.", "mins": 120},
+      {"name": "Chapel Street and Prahran Market", "area": "South Yarra and Prahran", "why": "Fashion, a genuinely good produce market and a Sunday crowd.", "mins": 150},
+      {"name": "Sydney Road, Brunswick", "area": "Brunswick", "why": "Bridal shops, Middle Eastern grocers, record shops and cheap food, in that order.", "mins": 120},
+      {"name": "Rose Street Artists' Market", "area": "Fitzroy", "why": "Weekend market of local makers, small and well curated.", "mins": 60}
+    ],
+    "nightlife": [
+      {"name": "CBD laneway bars", "area": "CBD", "why": "The city's defining night out: unmarked doors, basements and rooftops within a few blocks of each other.", "mins": 210},
+      {"name": "Fitzroy and Collingwood", "area": "Inner north", "why": "Wine bars, dive bars and live rooms along Gertrude, Brunswick and Smith streets.", "mins": 210},
+      {"name": "Live music pubs", "area": "Inner north and east", "why": "The Tote, the Corner Hotel, the Northcote Social Club and a dozen smaller rooms most nights of the week.", "mins": 180},
+      {"name": "Chinatown late", "area": "CBD", "why": "Little Bourke Street stays open long after the restaurants elsewhere have closed.", "mins": 120},
+      {"name": "Rooftop bars", "area": "CBD", "why": "Summer only, and worth it for the view down into the grid.", "mins": 120},
+      {"name": "Comedy and theatre", "area": "CBD and Southbank", "why": "The Comedy Festival in March and April is one of the largest in the world; the theatres run year round.", "mins": 150}
+    ]
+  },
+  "essential10": [
+    {"rank": 1, "name": "Laneways and arcades on foot", "why": "The city's whole personality is in the gap between two buildings. Walk Degraves, the Block and Royal arcades, Hosier Lane and whatever door looks promising.", "mins": 150, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 2, "name": "Coffee, properly, sitting down", "why": "Not a takeaway cup between sights. Melbourne's coffee culture is the one thing it is genuinely best in the world at.", "mins": 60, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 3, "name": "NGV International and NGV Australia", "why": "Two free buildings, one international and one Australian and First Nations. Do the Australian one if you only do one.", "mins": 180, "label": "Essential", "popularity": 4, "cultural": 5, "worth": 5},
+    {"rank": 4, "name": "An evening in Fitzroy or Collingwood", "why": "Where the city eats and drinks when it is not performing for anyone.", "mins": 210, "label": "Essential", "popularity": 4, "cultural": 4, "worth": 5},
+    {"rank": 5, "name": "Queen Victoria Market", "why": "A working market since 1878, best on a weekday morning before the tour groups.", "mins": 120, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 4},
+    {"rank": 6, "name": "Sport at the MCG", "why": "Australian rules football in winter or cricket in summer, in a hundred-thousand-seat stadium. The atmosphere is the attraction, not the sport.", "mins": 240, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 7, "name": "Great Ocean Road day", "why": "Cliffs, rainforest and the Twelve Apostles. Long, but the best single day out of the city.", "mins": 660, "label": "Recommended", "popularity": 5, "cultural": 3, "worth": 4},
+    {"rank": 8, "name": "St Kilda pier at sunset", "why": "Bay sunset, faded seaside architecture and a colony of little penguins that comes ashore after dark.", "mins": 150, "label": "Recommended", "popularity": 4, "cultural": 3, "worth": 4},
+    {"rank": 9, "name": "Live music in a suburban pub", "why": "Melbourne's other world-class culture, and it happens on a Tuesday as readily as a Saturday.", "mins": 180, "label": "Recommended", "popularity": 3, "cultural": 5, "worth": 5},
+    {"rank": 10, "name": "Eat across the migrant suburbs", "why": "Vietnamese in Richmond or Footscray, Italian in Carlton, Middle Eastern in Brunswick. Cheap, and the real story of the city.", "mins": 150, "label": "Recommended", "popularity": 3, "cultural": 4, "worth": 5}
+  ],
+  "food": {
+    "identity": "Melbourne's food reputation rests on three things: coffee, migration and a bar culture that lets small operators do interesting things cheaply. There is no Melbourne dish. What there is instead is an unusually high floor - the average cafe, bakery or neighbourhood Vietnamese restaurant is very good - and a middle tier of wine bars and bistros that punch far above the price. Eat breakfast seriously, eat lunch cheaply in a migrant suburb, and spend the money at dinner in a wine bar rather than a white-tablecloth room.",
+    "mustTry": [
+      {"dish": "Melbourne coffee", "what": "Espresso-based drinks - flat white, magic, long black - from a roaster that cares.", "why": "Italian migration plus 1990s obsessiveness produced the coffee culture the world copied.", "flavour": "Balanced, milk-forward, never scalded; a 'magic' is a double ristretto flat white in a smaller cup.", "howLocalsEat": "Sitting down, before 11am, with something baked.", "importance": "Essential"},
+      {"dish": "Vietnamese pho and banh mi", "what": "Beef noodle soup and pork rolls along Victoria Street and in Footscray.", "why": "Melbourne's Vietnamese community made these a default local meal, not a novelty.", "flavour": "Clear, aromatic broth; crackling bread with pate and pickle.", "importance": "Essential"},
+      {"dish": "Carlton Italian", "what": "Pasta, pizza and old-school Italian along Lygon Street and its offshoots.", "why": "Postwar Italian migration is the foundation of how the city eats and drinks.", "flavour": "Simple, and better in the smaller rooms than the strip's tourist ends.", "importance": "Recommended"},
+      {"dish": "A bakery morning", "what": "Sourdough, croissants, sausage rolls and the ubiquitous custard tart.", "why": "The bakery scene has become as competitive as the coffee scene.", "flavour": "Laminated, buttery, and queued for.", "importance": "Essential"},
+      {"dish": "Cantonese and Chinatown supper", "what": "Roast duck, dumplings and late-night noodles on Little Bourke Street.", "why": "Melbourne's Chinatown is the longest continuously operating in the western world.", "flavour": "Salt, fat, soy; best after 9pm.", "importance": "Recommended"},
+      {"dish": "Greek food", "what": "Souvlaki, saganaki and Greek sweets around the CBD and the northern suburbs.", "why": "Melbourne has one of the largest Greek populations of any city outside Greece.", "flavour": "Charred, lemony, generous.", "importance": "Recommended"},
+      {"dish": "Middle Eastern Brunswick", "what": "Lebanese and Turkish bakeries, pide, manoush and mezze on Sydney Road.", "why": "The cheapest very good meal in the city, at almost any hour.", "flavour": "Charcoal, za'atar, yoghurt.", "importance": "Recommended"},
+      {"dish": "Victorian wine in a wine bar", "what": "Yarra Valley chardonnay and pinot, Heathcote shiraz, and a great deal of minimal-intervention oddity.", "why": "The wine bar is Melbourne's native restaurant form.", "flavour": "Cooler climate and lighter than most Australian wine stereotypes.", "importance": "Essential"},
+      {"dish": "Parma at a pub", "what": "Chicken parmigiana with chips and salad, in a suburban front bar.", "why": "The most Australian meal in the city, and a genuine local ritual.", "flavour": "Enormous. Order one between two if you have eaten at all that day.", "importance": "Optional"},
+      {"dish": "European cake shops in St Kilda", "what": "Acland Street's window displays of kugelhopf, strudel and cream cakes.", "why": "A surviving trace of the city's Jewish and Central European migration.", "flavour": "Sweet, old-fashioned, unapologetic.", "importance": "Optional"}
+    ]
+  },
+  "mustEat10": [
+    {"dish": "Coffee and pastry", "where": "Any specialty roaster with no branding", "order": "A magic or flat white, plus whatever is laminated", "price": "AUD 10-18"},
+    {"dish": "Pho", "where": "Victoria Street, Richmond, or Footscray", "order": "Pho tai with the herb plate, plus a Vietnamese iced coffee", "price": "AUD 15-22"},
+    {"dish": "Wine bar dinner", "where": "Embla or a Gertrude Street bar", "order": "Small plates, wood-fired bread, whatever the by-the-glass list is excited about", "price": "AUD 70-110 pp"},
+    {"dish": "Cantonese roast and dumplings", "where": "Chinatown, Little Bourke Street", "order": "Roast duck, greens, dumplings", "price": "AUD 25-45 pp"},
+    {"dish": "Pizza or pasta", "where": "Carlton, off the main Lygon strip", "order": "One pasta, one pizza, house red", "price": "AUD 30-55 pp"},
+    {"dish": "Modern Australian tasting", "where": "Attica, Ripponlea", "order": "The set menu", "price": "AUD 300-400 pp"},
+    {"dish": "All-day bistro", "where": "Cumulus Inc, Flinders Lane", "order": "Tuna tartare, lamb shoulder if you are a group", "price": "AUD 60-100 pp"},
+    {"dish": "Chinese banquet", "where": "Flower Drum, Chinatown", "order": "Peking duck and whatever the waiter suggests", "price": "AUD 120-200 pp"},
+    {"dish": "Middle Eastern cheap eat", "where": "Sydney Road, Brunswick", "order": "Manoush, pide or a mixed grill", "price": "AUD 12-25"},
+    {"dish": "Market breakfast", "where": "Queen Victoria Market", "order": "A bratwurst, a borek, and a coffee to carry", "price": "AUD 12-25"}
+  ],
+  "restaurants": {
+    "iconic": [
+      {"name": "Flower Drum", "cuisine": "Cantonese", "price": "High", "area": "Chinatown", "desc": "The city's grand Cantonese institution, formal in a way almost nothing else here is.", "dishes": "Peking duck, seasonal seafood", "whyGo": "A Melbourne ritual for forty years and still the standard.", "booking": "Book well ahead"},
+      {"name": "Cumulus Inc", "cuisine": "Modern Australian bistro", "price": "Mid-high", "area": "Flinders Lane", "desc": "The all-day laneway dining room that set the template for a generation of Melbourne restaurants.", "dishes": "Tuna tartare, slow-roast lamb shoulder", "whyGo": "The easiest introduction to how the city likes to eat.", "booking": "Walk-ins possible; book for dinner"},
+      {"name": "Pellegrini's", "cuisine": "Italian", "price": "Low", "area": "Bourke Street", "desc": "A 1950s espresso bar with a single long counter and a menu that has barely changed.", "dishes": "Spaghetti, granita, an espresso standing up", "whyGo": "The origin point of Melbourne's coffee culture.", "booking": "No"}
+    ],
+    "bestFood": [
+      {"name": "Attica", "cuisine": "Modern Australian", "price": "High", "area": "Ripponlea", "desc": "Native ingredients treated with more seriousness and humour than anywhere else in the country.", "dishes": "The set menu", "whyGo": "The most distinctive fine dining in Australia, and worth the trip out of the centre.", "booking": "Essential, well in advance"},
+      {"name": "Gimlet at Cavendish House", "cuisine": "European", "price": "High", "area": "Russell Street", "desc": "A grand room doing precise, classic cooking and very good drinks.", "dishes": "Oysters, steak, a martini", "whyGo": "The best-looking dining room in the city, and the cooking earns it.", "booking": "Book ahead"},
+      {"name": "Embla", "cuisine": "Wine bar", "price": "Mid-high", "area": "Russell Street", "desc": "Wood fire, small plates and a wine list that runs the whole natural-to-classic range.", "dishes": "Wood-fired bread, whatever the vegetable dish is", "whyGo": "The purest example of Melbourne's native restaurant form.", "booking": "Some seats held for walk-ins"}
+    ],
+    "bestValue": [
+      {"name": "Victoria Street Vietnamese", "cuisine": "Vietnamese", "price": "Low", "area": "Richmond", "desc": "A strip of pho and com tam shops with queues at lunch.", "dishes": "Pho tai, banh mi, iced coffee", "whyGo": "Fifteen dollars for one of the best meals of the trip.", "booking": "No"},
+      {"name": "Footscray market and food shops", "cuisine": "Vietnamese and East African", "price": "Low", "area": "Footscray", "desc": "Market halls plus Ethiopian, Somali and West African restaurants around them.", "dishes": "Injera platters, pho, tropical fruit", "whyGo": "The most interesting cheap eating in Melbourne.", "booking": "No"},
+      {"name": "Sydney Road bakeries and grills", "cuisine": "Lebanese and Turkish", "price": "Low", "area": "Brunswick", "desc": "Bakeries turning out manoush and pide from early morning.", "dishes": "Manoush, mixed grill, baklava", "whyGo": "Excellent food for the price of a coffee elsewhere.", "booking": "No"}
+    ],
+    "special": [
+      {"name": "Vue de Monde", "cuisine": "Modern Australian", "price": "High", "area": "Rialto tower, CBD", "desc": "Fine dining on the 55th floor with the whole grid below.", "dishes": "The tasting menu", "whyGo": "For a celebration where the view is part of the point.", "booking": "Book well ahead"},
+      {"name": "Attica", "cuisine": "Modern Australian", "price": "High", "area": "Ripponlea", "desc": "The country's most singular tasting menu.", "dishes": "The set menu", "whyGo": "If you book one serious dinner in Australia, this is a strong candidate.", "booking": "Essential, well in advance"}
+    ],
+    "casual": [
+      {"name": "Chin Chin", "cuisine": "Southeast Asian", "price": "Mid", "area": "Flinders Lane", "desc": "Loud, no-bookings-for-small-groups Thai-leaning cooking with a bar downstairs.", "dishes": "Son-in-law eggs, curries, the feed-me menu", "whyGo": "Consistently good and built for a group.", "booking": "Limited bookings; wait downstairs"},
+      {"name": "A front-bar parma", "cuisine": "Pub", "price": "Low", "area": "Inner suburbs", "desc": "Chicken parmigiana, chips and a pot of beer in a suburban pub.", "dishes": "Parma and a pot", "whyGo": "The most ordinary and most local meal available.", "booking": "No"},
+      {"name": "Chinatown supper", "cuisine": "Chinese", "price": "Low-mid", "area": "Little Bourke Street", "desc": "Dumpling houses and noodle bars open long after the rest of the city has closed.", "dishes": "Dumplings, hand-pulled noodles, roast duck", "whyGo": "Melbourne's default post-gig meal.", "booking": "No"}
+    ],
+    "cafes": [
+      {"name": "Market Lane Coffee", "cuisine": "Coffee", "price": "Low", "area": "Prahran and branches", "desc": "Single-origin filter and espresso done with unusual rigour.", "dishes": "Filter coffee, a single pastry", "whyGo": "The clearest demonstration of why Melbourne coffee has the reputation.", "booking": "No"},
+      {"name": "Proud Mary", "cuisine": "Coffee and brunch", "price": "Mid", "area": "Collingwood", "desc": "Roastery cafe with an ambitious breakfast menu and a queue to match.", "dishes": "Coffee flight, whatever the eggs special is", "whyGo": "The full Melbourne brunch, done properly.", "booking": "No"},
+      {"name": "Acland Street cake shops", "cuisine": "Cakes", "price": "Low", "area": "St Kilda", "desc": "Central European cake windows that have been there for generations.", "dishes": "Kugelhopf, strudel, a slice of something enormous", "whyGo": "A living piece of the city's migration history.", "booking": "No"}
+    ]
+  },
+  "experiences": [
+    {"name": "A laneway bar crawl", "what": "Three or four bars in the CBD grid, found by looking for unmarked doors and staircases.", "why": "It is the single most Melbourne evening available.", "mins": 210},
+    {"name": "Sit down for coffee", "what": "Order a magic or a filter at a roaster and stay for it.", "why": "Takeaway misses the entire point of the culture.", "mins": 45},
+    {"name": "A game at the MCG", "what": "AFL from March to September, cricket over summer, including the Boxing Day Test.", "why": "Nothing else shows you what the city cares about this plainly.", "mins": 240},
+    {"name": "Ride a tram with no plan", "what": "Take route 96, 86 or 11 out to the end and walk back through whatever suburb you land in.", "why": "The tram network is the cheapest tour of the city's differences.", "mins": 120},
+    {"name": "Street art walk in Fitzroy", "what": "The backstreets off Gertrude and Smith, rather than the Hosier Lane crowd.", "why": "The work is better and changes constantly.", "mins": 90},
+    {"name": "See a band on a weeknight", "what": "The Tote, the Corner, the Northcote Social Club or a front bar with no cover.", "why": "Melbourne's live music runs every night, not just weekends.", "mins": 180},
+    {"name": "Eat your way down one migrant street", "what": "Victoria Street, Sydney Road, Lygon Street or Barkly Street in Footscray.", "why": "One street tells the city's postwar history better than any museum.", "mins": 150},
+    {"name": "Penguins at St Kilda pier", "what": "Arrive at dusk and wait at the breakwater; volunteers are usually there to explain.", "why": "Wild little penguins, free, twenty minutes from the CBD.", "mins": 90},
+    {"name": "A festival, whatever is on", "what": "Comedy in March and April, the film festival in August, arts festivals through spring.", "why": "The calendar is dense enough that something serious is almost always running.", "mins": 180},
+    {"name": "Day on the Great Ocean Road", "what": "Drive or tour to the Twelve Apostles, stopping at Lorne and the Otways.", "why": "The best landscape day within reach of the city.", "mins": 660}
+  ],
+  "neighbourhoodGuide": [
+    {"name": "The CBD grid", "vibe": "Laneways, arcades, rooftops, hidden bars", "bestFor": "Walking, bars, galleries, shopping", "sights": "Degraves Street, Block Arcade, Chinatown, State Library, Federation Square", "food": "Everything, at every price", "mins": 300},
+    {"name": "Fitzroy and Collingwood", "vibe": "Terraces, murals, wine bars, vintage", "bestFor": "Eating, drinking, shopping, live music", "sights": "Gertrude Street, Smith Street, Rose Street market", "food": "Wine bars, bakeries, small restaurants", "mins": 240},
+    {"name": "Carlton and Brunswick", "vibe": "Italian heritage, students, Middle Eastern strips", "bestFor": "Italian food, cheap eats, record shops", "sights": "Lygon Street, Carlton Gardens, Sydney Road", "food": "Italian, Lebanese, Turkish", "mins": 210},
+    {"name": "Richmond and Cremorne", "vibe": "Vietnamese strip meets warehouse offices", "bestFor": "Cheap lunch, pubs, walking to the MCG", "sights": "Victoria Street, Bridge Road, Yarra path", "food": "Vietnamese, modern bistros", "mins": 180},
+    {"name": "St Kilda and the bay", "vibe": "Faded seaside, sunsets, cake shops", "bestFor": "A late afternoon, penguins, the beach path", "sights": "St Kilda pier, Luna Park, Acland Street", "food": "Cake shops, casual seafood", "mins": 180},
+    {"name": "South Yarra and Prahran", "vibe": "Polished, shopping-led, market-anchored", "bestFor": "Fashion, the Botanic Gardens, a produce market", "sights": "Chapel Street, Prahran Market, Royal Botanic Gardens", "food": "Cafes, good coffee, restaurants along Chapel", "mins": 180},
+    {"name": "Southbank and Docklands", "vibe": "River promenade, arts precinct, towers", "bestFor": "Galleries, theatre, river walking", "sights": "NGV International, Arts Centre, the Yarra promenade", "food": "Riverside dining, hotel bars", "mins": 150},
+    {"name": "Footscray and the west", "vibe": "Market-centred, Vietnamese and East African, unpolished", "bestFor": "Cheap food, markets, a different Melbourne", "sights": "Footscray Market, Barkly Street, riverside trails", "food": "Pho, injera, West African", "mins": 150}
+  ],
+  "timeGuidance": {
+    "three": "Day 1 the grid: laneways, arcades, NGV Australia and a laneway bar evening. Day 2 the inner north: Carlton or Brunswick by day, Fitzroy and Collingwood at night. Day 3 either the Great Ocean Road, or Queen Victoria Market plus St Kilda and the penguins at dusk.",
+    "fivePlus": "Add the MCG if anything is on, NGV International and ACMI, a Vietnamese lunch in Richmond or Footscray, a live music night, and a second day trip to the Mornington Peninsula, the Yarra Valley or the Dandenongs."
+  },
+  "dayTrips": [
+    {"name": "Great Ocean Road", "travel": "About 3 hr to the Twelve Apostles", "why": "Cliffs, surf coast towns, rainforest in the Otways and the limestone stacks at the end.", "duration": "Full day, long", "suits": "Anyone; the walking is optional and the views are not.", "logistics": "Car or organised tour. Leave early, and consider staying overnight in Apollo Bay rather than driving back in the dark.", "verdict": "Worth it"},
+    {"name": "Mornington Peninsula", "travel": "About 1-1.5 hr", "why": "Wineries, hot springs, beaches and a coastal walk out to the Cape Schanck lighthouse.", "duration": "Full day", "suits": "Wine, swimming and a slower day.", "logistics": "Easiest by car; some tours combine wineries and the hot springs.", "verdict": "Worth it"},
+    {"name": "Yarra Valley", "travel": "About 1 hr", "why": "Cool-climate wine, cellar doors and a very good regional food scene.", "duration": "Full day", "suits": "Wine drinkers with a driver or a tour.", "logistics": "Needs a car or a tour; public transport is impractical.", "verdict": "Worth it"},
+    {"name": "Dandenong Ranges", "travel": "About 1 hr", "why": "Mountain ash forest, fern gullies, gardens and the Puffing Billy steam railway.", "duration": "Half or full day", "suits": "Families and anyone wanting forest without a long drive.", "logistics": "Train to Belgrave then Puffing Billy, or drive.", "verdict": "Worth it"},
+    {"name": "Phillip Island", "travel": "About 2 hr", "why": "The penguin parade, surf beaches and a seal colony.", "duration": "Full day", "suits": "Families; the parade is heavily managed and ticketed.", "logistics": "Car or tour; the parade is after sunset, so it is a late return.", "verdict": "Only if you have extra time"},
+    {"name": "Ballarat and Sovereign Hill", "travel": "About 1.5 hr", "why": "The goldfields city, with a large open-air museum of the rush that built Melbourne.", "duration": "Full day", "suits": "History, and children.", "logistics": "Train from Southern Cross, then a short bus or taxi.", "verdict": "Only if you have extra time"},
+    {"name": "Geelong and Bellarine", "travel": "About 1 hr", "why": "A revitalised waterfront, beaches and wineries on the way to the Great Ocean Road.", "duration": "Half or full day", "suits": "A gentler coastal day than the full Ocean Road drive.", "logistics": "Train from Southern Cross; a car helps on the Bellarine.", "verdict": "Only if you have extra time"}
+  ],
+  "practical": {
+    "gettingAround": "Trams are the city's signature and the CBD sits inside a Free Tram Zone, so travel within the centre costs nothing - but tapping on outside it is not optional and inspectors are real. Elsewhere you need a myki card, which you can buy and top up at stations, 7-Elevens and machines; contactless bank-card 'tap and go' began rolling out across the network in 2026, starting with trains, so check what the reader on your mode accepts rather than assuming. The Metro Tunnel opened on 30 November 2025 and added five stations - Anzac, Town Hall, State Library, Parkville and Arden - which put the Sunbury, Cranbourne and Pakenham lines directly under the city centre; all five are in Zone 1 and cost no extra. Trains cover the suburbs and the airport bus runs frequently from Southern Cross. The grid is small and flat enough to walk end to end in half an hour, and that is usually the fastest way across the centre.",
+    "whenToGo": "Seasons are inverted, and the local joke about four seasons in one day is accurate: carry a layer whatever the forecast says. Autumn, March to May, is the best overall - mild, clear and full of festivals including the Comedy Festival. Spring, September to November, is similar but wetter, and ends with the racing carnival. Summer, December to February, brings hot northerly days, the Australian Open in January and long light evenings; it can spike above 40C. Winter, June to August, is grey and cold by Australian standards but is the football season and the best time for the bars, galleries and food the city is actually built around.",
+    "howLong": {
+      "one": "The grid: laneways, an arcade, NGV Australia, a coffee sitting down and a laneway bar at night.",
+      "twoThree": "Add Fitzroy or Carlton, Queen Victoria Market and either St Kilda or the MCG. Enough for the city itself.",
+      "fourFive": "The right length: add a day trip, a live music night and a proper eating day in the migrant suburbs.",
+      "week": "Add the Great Ocean Road with an overnight, the Mornington Peninsula or Yarra Valley, and time to be aimless in the inner north."
+    },
+    "culture": [
+      "The Free Tram Zone covers the CBD and Docklands; outside it, touch on with myki or you risk a fine.",
+      "Tipping is not expected; ten per cent for exceptional service is generous.",
+      "Coffee is ordered by style, not size. A 'magic' is a Melbourne invention and ordering one is a small local password.",
+      "Weather changes fast in any season - a cold front can drop ten degrees in an hour.",
+      "The UV is high even on cool days; sunscreen is a habit here, not a holiday activity.",
+      "Traffic drives on the left, and the CBD's hook turn - turning right from the left lane at tram intersections - catches out visiting drivers.",
+      "Many of the best bars and restaurants are unmarked upstairs or down a lane; if a door looks like nothing, try it."
+    ]
+  },
+  "whatIdDo": [
+    {"day": "Day 1", "plan": "Coffee in the Degraves area, then walk the arcades and laneways with no route. NGV Australia at Federation Square in the afternoon, ACMI if the exhibition is good. Laneway bars in the evening, Chinatown for supper."},
+    {"day": "Day 2", "plan": "Queen Victoria Market early, tram up to Carlton for the gardens and Lygon Street lunch. Afternoon in Fitzroy: Gertrude and Smith streets, the backstreet murals. Dinner at a wine bar, then a band."},
+    {"day": "Day 3", "plan": "Vietnamese lunch on Victoria Street, walk the Yarra path, and the MCG in the afternoon if anything is on - tour it if not. Sunset at St Kilda pier for the penguins, cake on Acland Street."},
+    {"day": "Day 4", "plan": "Great Ocean Road, leaving early: Lorne, the Otways, the Twelve Apostles at the end of the day. Long drive back, or stay overnight in Apollo Bay."},
+    {"day": "Day 5", "plan": "Slow morning in Prahran or South Yarra with the Botanic Gardens, Footscray for lunch, then one dinner that matters - Attica, Gimlet or Embla."}
+  ],
+  "quickRef": {
+    "musts": ["The laneways and arcades", "Coffee sitting down", "NGV Australia", "An evening in Fitzroy or Collingwood", "Queen Victoria Market"],
+    "eats": ["Melbourne coffee", "Pho on Victoria Street", "A wine bar dinner", "Chinatown supper", "A bakery morning"],
+    "areas": ["The CBD grid", "Fitzroy and Collingwood", "Carlton and Brunswick", "Richmond", "St Kilda"],
+    "experiences": ["A laneway bar crawl", "Live music on a weeknight", "Penguins at St Kilda pier"],
+    "dayTrip": "The Great Ocean Road, or the Mornington Peninsula for a shorter, gentler day",
+    "stay": "3-4 days in the city, 5-6 with day trips"
+  },
+  "coords": {
+    "The arcades and laneways": [-37.8163, 144.9655],
+    "Laneways and arcades on foot": [-37.8163, 144.9655],
+    "A laneway bar crawl": [-37.8160, 144.9660],
+    "CBD laneway bars": [-37.8160, 144.9660],
+    "The CBD grid": [-37.8140, 144.9633],
+    "Block Arcade and Royal Arcade": [-37.8155, 144.9645],
+    "State Library Victoria": [-37.8098, 144.9652],
+    "Queen Victoria Market": [-37.8076, 144.9568],
+    "Market breakfast": [-37.8076, 144.9568],
+    "Old Melbourne Gaol": [-37.8081, 144.9653],
+    "Parliament House and Collins Street": [-37.8110, 144.9735],
+    "Melbourne Cricket Ground": [-37.8200, 144.9834],
+    "Sport at the MCG": [-37.8200, 144.9834],
+    "A game at the MCG": [-37.8200, 144.9834],
+    "NGV International": [-37.8226, 144.9689],
+    "The Ian Potter Centre: NGV Australia": [-37.8175, 144.9690],
+    "NGV International and NGV Australia": [-37.8200, 144.9690],
+    "ACMI": [-37.8175, 144.9690],
+    "Heide Museum of Modern Art": [-37.7570, 145.0930],
+    "Street art laneways": [-37.8168, 144.9690],
+    "Street art walk in Fitzroy": [-37.7980, 144.9790],
+    "Live music at a suburban pub": [-37.7990, 144.9840],
+    "Live music pubs": [-37.7990, 144.9840],
+    "See a band on a weeknight": [-37.7990, 144.9840],
+    "Fitzroy and Collingwood": [-37.7980, 144.9800],
+    "An evening in Fitzroy or Collingwood": [-37.7980, 144.9800],
+    "Gertrude and Smith Streets": [-37.8010, 144.9800],
+    "Carlton and Brunswick": [-37.7830, 144.9620],
+    "Sydney Road, Brunswick": [-37.7700, 144.9600],
+    "Sydney Road bakeries and grills": [-37.7700, 144.9600],
+    "Middle Eastern cheap eat": [-37.7700, 144.9600],
+    "Richmond and Cremorne": [-37.8180, 144.9950],
+    "Victoria Street Vietnamese": [-37.8080, 144.9910],
+    "St Kilda and the bay": [-37.8680, 144.9800],
+    "St Kilda pier at dusk": [-37.8670, 144.9720],
+    "St Kilda pier at sunset": [-37.8670, 144.9720],
+    "Penguins at St Kilda pier": [-37.8670, 144.9720],
+    "Acland Street cake shops": [-37.8680, 144.9800],
+    "Footscray and the west": [-37.8000, 144.9000],
+    "Footscray market and food shops": [-37.8000, 144.9000],
+    "Eat your way down one migrant street": [-37.8080, 144.9910],
+    "Eat across the migrant suburbs": [-37.8080, 144.9910],
+    "South Yarra and Prahran": [-37.8450, 144.9930],
+    "Chapel Street and Prahran Market": [-37.8480, 144.9930],
+    "Southbank and Docklands": [-37.8230, 144.9640],
+    "Royal Botanic Gardens": [-37.8300, 144.9800],
+    "The Yarra and Birrarung Marr": [-37.8190, 144.9720],
+    "Ride a tram with no plan": [-37.8180, 144.9670],
+    "Rose Street Artists' Market": [-37.7960, 144.9790],
+    "Chinatown late": [-37.8118, 144.9690],
+    "Chinatown supper": [-37.8118, 144.9690],
+    "Cantonese roast and dumplings": [-37.8118, 144.9690],
+    "Rooftop bars": [-37.8140, 144.9660],
+    "Comedy and theatre": [-37.8210, 144.9680],
+    "A festival, whatever is on": [-37.8175, 144.9690],
+    "Sit down for coffee": [-37.8165, 144.9655],
+    "Coffee, properly, sitting down": [-37.8165, 144.9655],
+    "Dandenong Ranges": [-37.8800, 145.3500],
+    "Werribee and the You Yangs": [-37.9200, 144.6600],
+    "Brighton Beach and the bay trail": [-37.9180, 144.9850],
+    "Great Ocean Road": [-38.6650, 143.1050],
+    "Great Ocean Road day": [-38.6650, 143.1050],
+    "Day on the Great Ocean Road": [-38.6650, 143.1050],
+    "Mornington Peninsula": [-38.3600, 144.8900],
+    "Yarra Valley": [-37.6500, 145.4000],
+    "Phillip Island": [-38.4870, 145.2280],
+    "Ballarat and Sovereign Hill": [-37.5620, 143.8500],
+    "Geelong and Bellarine": [-38.1490, 144.3600],
+    "Flower Drum": [-37.8115, 144.9690],
+    "Chinese banquet": [-37.8115, 144.9690],
+    "Cumulus Inc": [-37.8165, 144.9700],
+    "All-day bistro": [-37.8165, 144.9700],
+    "Pellegrini's": [-37.8110, 144.9720],
+    "Attica": [-37.8760, 145.0060],
+    "Gimlet at Cavendish House": [-37.8130, 144.9680],
+    "Embla": [-37.8110, 144.9670],
+    "Wine bar dinner": [-37.8110, 144.9670],
+    "Vue de Monde": [-37.8180, 144.9580],
+    "Chin Chin": [-37.8165, 144.9690],
+    "A front-bar parma": [-37.7990, 144.9800],
+    "Market Lane Coffee": [-37.8490, 144.9930],
+    "Coffee and pastry": [-37.8165, 144.9655],
+    "Proud Mary": [-37.8010, 144.9880],
+    "A bakery morning": [-37.7980, 144.9800]
+  }
+}

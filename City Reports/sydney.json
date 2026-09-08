@@ -1,0 +1,321 @@
+{
+  "schema": "cityreport.v1",
+  "city": "Sydney",
+  "country": "Australia",
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "generated": "2026-09-08",
+  "by": "Claude",
+  "note": "Written September 2026. Transport details checked against Transport for NSW; restaurants and opening arrangements change, so confirm before you book.",
+  "glance": {
+    "why": "Sydney is a harbour city first and everything else second. The water is not a view you go and look at, it is the thing you cross to get to work, and the ferries, the coastal walks and the beaches are the actual daily life of the place rather than the tourist version of it. The city rewards visitors who spend less time collecting landmarks around Circular Quay and more time walking a cliff path, taking a ferry with no particular destination, and eating in the inner-western suburbs where the migration history is on the menu.",
+    "bestFor": ["Harbour and coastline", "Beaches and swimming", "Coastal walks", "Food", "Outdoor living", "Architecture", "Wildlife and bushland", "Day trips"],
+    "idealStay": "4-5 days; 6-7 if you want the Blue Mountains unhurried and a full beach day",
+    "character": ["Coastal", "Bright", "Outdoorsy", "Casual", "Expensive"],
+    "dontMiss": [
+      "The Opera House and Circular Quay, seen from the water rather than only from the forecourt",
+      "A ferry to Manly, ideally late afternoon",
+      "The Bondi to Coogee coastal walk",
+      "Walking across the Harbour Bridge, or the Pylon Lookout",
+      "The Royal Botanic Garden out to Mrs Macquarie's Chair",
+      "An inner-west food evening in Newtown or Marrickville",
+      "One day in the Blue Mountains"
+    ],
+    "neighbourhoods": [
+      "Circular Quay and The Rocks",
+      "Surry Hills and Darlinghurst",
+      "Newtown and Marrickville",
+      "Bondi and the eastern beaches",
+      "Barangaroo and the CBD",
+      "Manly and the northern beaches"
+    ]
+  },
+  "history": {
+    "story": "Sydney's harbour was home to the Gadigal and other clans of the Eora Nation for tens of thousands of years before 1788, when the First Fleet established a British penal colony at Sydney Cove. The convict city became a free one through the 1840s and 50s, boomed on gold and wool, and spread along tram and rail lines into the suburbs that still define it. Postwar migration - Italian and Greek, then Lebanese, Vietnamese, Chinese, Korean and more - rebuilt the city's food and culture, and the Opera House in 1973 gave it the image it has traded on ever since.",
+    "origins": "Sydney Cove was chosen for fresh water and a deep, sheltered anchorage: the Tank Stream fed the settlement and the harbour let ships come right into the town. That geography still shapes the city - the water fragments it into peninsulas and bays, which is why ferries are transport and why the suburbs feel like separate villages.",
+    "periods": [
+      {"name": "Before 1788", "text": "Gadigal and neighbouring Eora clans lived around the harbour; rock engravings and middens survive in the headland parks and are the oldest visible layer of the city."},
+      {"name": "Penal colony, 1788-1840s", "text": "Convict labour built the sandstone town. The Rocks and Hyde Park Barracks are the clearest surviving pieces of it."},
+      {"name": "Gold and expansion, 1850s-1900", "text": "Wealth from gold and wool produced the Victorian terraces, arcades and public buildings of the inner city."},
+      {"name": "Federation to the Bridge, 1901-1932", "text": "Sydney becomes a national city; the Harbour Bridge opens in 1932 and finally ties the north shore to the centre."},
+      {"name": "Postwar migration", "text": "European, then Middle Eastern and Asian migration reshapes the suburbs, the food and the accent of the city."},
+      {"name": "Opera House to now, 1973-", "text": "Utzon's building gives Sydney a global image; later decades bring the 2000 Olympics, the Barangaroo waterfront and a metro line under the harbour."}
+    ],
+    "whyItMatters": "Sydney wears its history lightly and unevenly. Twenty minutes of walking takes you from Aboriginal engravings on a headland to convict sandstone, Victorian terraces, an Art Deco bridge and a waterfront built in the last decade. The city is young enough that all of it is still legible.",
+    "visible": [
+      "Aboriginal Sydney: rock engravings and middens in Ku-ring-gai Chase, North Head and the coastal headlands",
+      "Convict Sydney: The Rocks, Hyde Park Barracks, Cadmans Cottage",
+      "Victorian Sydney: Queen Victoria Building, the Strand Arcade, Paddington terraces",
+      "Interwar Sydney: the Harbour Bridge, Art Deco apartment blocks in Potts Point",
+      "Modern Sydney: the Opera House, Barangaroo, the metro line under the harbour"
+    ]
+  },
+  "thingsToDo": {
+    "historic": [
+      {"name": "Sydney Opera House", "area": "Bennelong Point", "why": "Take the interior tour or, better, book any performance at all - the building only makes sense from inside during a show.", "mins": 90},
+      {"name": "Sydney Harbour Bridge", "area": "The Rocks / Milsons Point", "why": "Walk the pedestrian path across for free, climb the Pylon Lookout for the view, or do BridgeClimb if the money is worth the story.", "mins": 90},
+      {"name": "The Rocks", "area": "The Rocks", "why": "The oldest part of the colonial city; go for the sandstone lanes and pub history rather than the souvenir shops.", "mins": 120},
+      {"name": "Hyde Park Barracks", "area": "CBD", "why": "A World Heritage convict site with an excellent, unsentimental museum about who was sent here and why.", "mins": 90},
+      {"name": "Queen Victoria Building", "area": "CBD", "why": "A grand Victorian shopping arcade worth ten minutes even if you buy nothing.", "mins": 45},
+      {"name": "Cockatoo Island", "area": "Sydney Harbour", "why": "Convict prison, then shipyard, reached by ferry; an unusually raw piece of harbour history.", "mins": 180}
+    ],
+    "arts": [
+      {"name": "Art Gallery of New South Wales", "area": "The Domain", "why": "Strong Australian and Aboriginal collections, and the newer Naala Badu building is a good piece of architecture in its own right. Free entry to the main collection.", "mins": 120},
+      {"name": "Museum of Contemporary Art", "area": "Circular Quay", "why": "Contemporary Australian work with a rooftop that looks straight at the Opera House.", "mins": 90},
+      {"name": "Australian Museum", "area": "CBD", "why": "Natural history plus a serious First Nations collection; the best single stop for understanding the continent.", "mins": 120},
+      {"name": "White Rabbit Gallery", "area": "Chippendale", "why": "Contemporary Chinese art, free, and consistently more interesting than its size suggests.", "mins": 90},
+      {"name": "Chau Chak Wing Museum", "area": "Camperdown", "why": "The university's museum: antiquities, natural history and art in one well-designed building.", "mins": 90},
+      {"name": "Carriageworks", "area": "Eveleigh", "why": "Performance and installation in a converted rail workshop; check what is on before making the trip.", "mins": 90}
+    ],
+    "neighbourhoods": [
+      {"name": "Surry Hills and Darlinghurst", "character": "Terraces, small bars, restaurants, design shops", "highlights": "Crown Street, Bourke Street, the small-bar circuit", "food": "Some of the city's best restaurants and cafes", "bestTime": "Late afternoon into evening", "mins": 240},
+      {"name": "Newtown and Marrickville", "character": "Inner-west, scruffy, live music, migrant food", "highlights": "King Street, Enmore Road, breweries and record shops", "food": "Vietnamese, Greek, Thai, Portuguese tarts, brewpubs", "bestTime": "Afternoon into night", "mins": 240},
+      {"name": "The Rocks and Circular Quay", "character": "Sandstone lanes, ferries, tourists, harbour", "highlights": "Opera House, MCA, weekend markets, historic pubs", "food": "Harbourside dining, pub lunches", "bestTime": "Morning, or evening for the lights", "mins": 180},
+      {"name": "Bondi and Bronte", "character": "Beach suburb, gym-and-coffee, open sky", "highlights": "Bondi Beach, Icebergs, the coastal walk", "food": "Cafes, casual seafood, brunch", "bestTime": "Early morning or late afternoon", "mins": 240},
+      {"name": "Potts Point and Woolloomooloo", "character": "Art Deco apartments, plane trees, wharf", "highlights": "Macleay Street, Finger Wharf, Harry's Cafe de Wheels", "food": "Italian, wine bars, long breakfasts", "bestTime": "Morning or evening", "mins": 150},
+      {"name": "Barangaroo and Walsh Bay", "character": "New waterfront, headland park, harbour walk", "highlights": "Barangaroo Reserve, the harbour foreshore walk to Circular Quay", "food": "Waterfront restaurants and bars", "bestTime": "Late afternoon", "mins": 120}
+    ],
+    "nature": [
+      {"name": "Bondi to Coogee coastal walk", "area": "Eastern beaches", "why": "Six kilometres of cliff path past four beaches and an ocean pool at each end. Do it early, and swim at the far end.", "mins": 180},
+      {"name": "Royal Botanic Garden and Mrs Macquarie's Chair", "area": "The Domain", "why": "Free, on the harbour, and the walk out to the point gives the classic Bridge-and-Opera-House view together.", "mins": 90},
+      {"name": "Taronga Zoo", "area": "Mosman", "why": "Worth it mostly for Australian species and the ferry ride there; the harbour view from the giraffe enclosure is the running joke.", "mins": 240},
+      {"name": "North Head and Manly", "area": "Manly", "why": "Ferry over, walk the Manly to Spit track or out to North Head for the harbour mouth and whale season views.", "mins": 240},
+      {"name": "Royal National Park", "area": "Sutherland Shire", "why": "The world's second-oldest national park: coastal heath, cliff walks and Wattamolla. A full day.", "mins": 480},
+      {"name": "Watsons Bay and South Head", "area": "Eastern suburbs", "why": "Ferry, cliff walk at The Gap, fish and chips and a beer garden; one of the easiest half-days in the city.", "mins": 180}
+    ],
+    "shopping": [
+      {"name": "Queen Victoria Building and the Strand Arcade", "area": "CBD", "why": "Victorian arcades with Australian designers upstairs.", "mins": 90},
+      {"name": "Paddington and Oxford Street", "area": "Paddington", "why": "Australian fashion, galleries and the Saturday Paddington Markets.", "mins": 150},
+      {"name": "King Street, Newtown", "area": "Newtown", "why": "Vintage, records, books and a dense run of cheap food.", "mins": 120},
+      {"name": "Carriageworks Farmers Market", "area": "Eveleigh", "why": "Saturday mornings; the best single place to eat and buy produce in one go.", "mins": 120},
+      {"name": "Sydney Fish Market", "area": "Pyrmont", "why": "Go early, eat oysters and prawns on the spot rather than treating it as a sightseeing stop.", "mins": 90},
+      {"name": "Bondi Markets", "area": "Bondi", "why": "Sunday, in the school grounds above the beach; vintage and small designers.", "mins": 90}
+    ],
+    "nightlife": [
+      {"name": "Surry Hills small bars", "area": "Surry Hills", "why": "The heart of Sydney's small-bar culture; a few streets will fill an evening.", "mins": 180},
+      {"name": "CBD laneway bars", "area": "CBD", "why": "Basement and upstairs bars hidden around Clarence, York and Barrack streets.", "mins": 150},
+      {"name": "Newtown and Enmore", "area": "Inner west", "why": "Live music, pubs and late cheap food; the Enmore Theatre is the city's best mid-size venue.", "mins": 180},
+      {"name": "Opera Bar and Circular Quay", "area": "Circular Quay", "why": "Touristy and worth it once, at sunset, standing up, with the Bridge in front of you.", "mins": 90},
+      {"name": "Darlinghurst and Oxford Street", "area": "Darlinghurst", "why": "The historic heart of Sydney's queer nightlife and still its liveliest strip.", "mins": 180},
+      {"name": "Manly and the beaches", "area": "Manly", "why": "Beachside pubs and a last ferry back across a dark harbour.", "mins": 150}
+    ]
+  },
+  "essential10": [
+    {"rank": 1, "name": "Opera House and Circular Quay from the water", "why": "Take any ferry out and back rather than only photographing the building from the forecourt. The harbour is the city's best single experience and it costs the price of a fare.", "mins": 120, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 2, "name": "Ferry to Manly", "why": "Thirty minutes across the open harbour, past the heads, for the cost of a bus ride. Go late afternoon and eat there.", "mins": 180, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 3, "name": "Bondi to Coogee coastal walk", "why": "Cliffs, four beaches and two ocean pools. The clearest demonstration of why people live here.", "mins": 180, "label": "Essential", "popularity": 5, "cultural": 3, "worth": 5},
+    {"rank": 4, "name": "Walk across the Harbour Bridge", "why": "Free, twenty minutes, and the deck view is the one the postcards use. The Pylon Lookout adds height cheaply.", "mins": 90, "label": "Essential", "popularity": 5, "cultural": 5, "worth": 5},
+    {"rank": 5, "name": "Blue Mountains day trip", "why": "Sandstone escarpment, eucalypt haze and proper bushwalking ninety minutes from the city.", "mins": 480, "label": "Essential", "popularity": 5, "cultural": 4, "worth": 5},
+    {"rank": 6, "name": "Royal Botanic Garden to Mrs Macquarie's Chair", "why": "The walk that gives you the Bridge and the Opera House in one frame, free and rarely crowded at either end of the day.", "mins": 90, "label": "Recommended", "popularity": 4, "cultural": 3, "worth": 5},
+    {"rank": 7, "name": "Art Gallery of New South Wales", "why": "The best place to take Australian and Aboriginal art seriously, and the entry to the permanent collection is free.", "mins": 120, "label": "Recommended", "popularity": 4, "cultural": 5, "worth": 4},
+    {"rank": 8, "name": "Inner-west food evening", "why": "Newtown and Marrickville are where the city's migration history is easiest to eat your way through.", "mins": 180, "label": "Recommended", "popularity": 3, "cultural": 4, "worth": 5},
+    {"rank": 9, "name": "The Rocks and Hyde Park Barracks", "why": "Convict Sydney in one compact walk, with a museum that treats it honestly.", "mins": 150, "label": "Recommended", "popularity": 4, "cultural": 5, "worth": 4},
+    {"rank": 10, "name": "Watsons Bay and South Head", "why": "Ferry, cliff walk, fish and chips, beer garden. The most efficient good afternoon in Sydney.", "mins": 180, "label": "Recommended", "popularity": 3, "cultural": 3, "worth": 4}
+  ],
+  "food": {
+    "identity": "There is no single Sydney dish, and chasing one wastes the trip. What the city has is superb seafood, a Modern Australian style built on wood fire and restraint, and suburbs whose Cantonese, Vietnamese, Lebanese, Korean, Thai and Greek cooking is as good as the fine dining and a tenth of the price. Coffee and breakfast are taken seriously to a degree visitors find surprising: brunch is a real meal here, not a novelty. Eat one harbourside splurge, one wood-fired dinner, and several cheap meals in the inner west or the south-west, and you will have understood the place.",
+    "mustTry": [
+      {"dish": "Sydney rock oysters", "what": "A small, briny native oyster grown along the NSW estuaries, best eaten unadorned.", "why": "The single most local thing on any Sydney menu.", "flavour": "Sweet, mineral, less creamy than a Pacific oyster.", "howLocalsEat": "A dozen natural with lemon, before anything else.", "importance": "Essential"},
+      {"dish": "Australian seafood on the grill", "what": "Kingfish, snapper, barramundi or Moreton Bay bugs, usually cooked simply.", "why": "The cooking is deliberately plain because the fish is the point.", "flavour": "Clean and firm; charred edges from wood or grill.", "importance": "Essential"},
+      {"dish": "Flat white and a proper brunch", "what": "Espresso and steamed milk, with eggs, ricotta hotcakes or avocado toast alongside.", "why": "Sydney and Melbourne exported this format to the world.", "flavour": "Short, strong, and never served with cream.", "howLocalsEat": "Mid-morning, sitting down, with the newspaper.", "importance": "Essential"},
+      {"dish": "Banh mi", "what": "Vietnamese pork roll from a suburban bakery, usually under fifteen dollars.", "why": "Marrickville, Cabramatta and Bankstown have some of the best outside Vietnam.", "flavour": "Crackling crust, pate, pickle, chilli, coriander.", "importance": "Essential"},
+      {"dish": "Yum cha", "what": "Cantonese trolley or menu dim sum, usually a weekend lunch.", "why": "Sydney's Cantonese community is old and its yum cha is a genuine institution.", "flavour": "Steamed, fried and sweet, in a very loud room.", "howLocalsEat": "Late morning, with family, ordering too much.", "importance": "Recommended"},
+      {"dish": "Lebanese food", "what": "Charcoal chicken, mixed grills, manoush and sweets from the south-west.", "why": "Lakemba and Punchbowl are central to how Sydney actually eats.", "flavour": "Garlicky, smoky, generous.", "importance": "Recommended"},
+      {"dish": "Meat pie", "what": "A hand-sized pie, sometimes topped with mash and peas.", "why": "The classic Australian cheap eat; Harry's Cafe de Wheels is the pilgrimage version.", "flavour": "Rich, salty, best late at night.", "importance": "Recommended"},
+      {"dish": "Thai food in Thai Town", "what": "Regional Thai cooking in the blocks around Campbell and Pitt streets.", "why": "Sydney's Thai scene is deep and mostly cheap.", "flavour": "Sharper and hotter than the export version.", "importance": "Recommended"},
+      {"dish": "Gelato and summer desserts", "what": "Messina and its many competitors, plus pavlova and lamingtons in their traditional form.", "why": "Dessert is a genuine evening activity in a hot city.", "flavour": "Cold, sweet, occasionally ridiculous.", "importance": "Optional"},
+      {"dish": "Australian wine by the glass", "what": "Hunter Valley semillon, cool-climate shiraz and orange-wine oddities in the small bars.", "why": "The by-the-glass lists are strong and the mark-ups are gentler than in the restaurants.", "importance": "Recommended"}
+    ]
+  },
+  "mustEat10": [
+    {"dish": "Sydney rock oysters", "where": "Sydney Fish Market, Pyrmont", "order": "A dozen natural, shucked to order", "price": "AUD 30-45"},
+    {"dish": "Harbourside seafood", "where": "Doyles or a Watsons Bay kiosk", "order": "Grilled fish or fish and chips, outside", "price": "AUD 25-45"},
+    {"dish": "Modern Australian tasting menu", "where": "Quay", "order": "The set menu, at a window table", "price": "AUD 275-400 pp"},
+    {"dish": "Wood-fired everything", "where": "Firedoor, Surry Hills", "order": "Whatever is on the fire that night", "price": "AUD 150-220 pp"},
+    {"dish": "Banh mi", "where": "Marrickville pork roll shops", "order": "Pork roll with pate and extra chilli", "price": "AUD 8-14"},
+    {"dish": "Yum cha", "where": "Mr. Wong, CBD", "order": "Dumplings, char siu and roast duck", "price": "AUD 40-70 pp"},
+    {"dish": "Thai", "where": "Chat Thai, Thai Town", "order": "Boat noodles, curry and a Thai iced tea", "price": "AUD 25-45 pp"},
+    {"dish": "Meat pie", "where": "Harry's Cafe de Wheels, Woolloomooloo", "order": "The Tiger, with mash, peas and gravy", "price": "AUD 10-16"},
+    {"dish": "Coffee and brunch", "where": "Single O or Bourke Street Bakery", "order": "Flat white plus whatever the pastry case is proudest of", "price": "AUD 15-30"},
+    {"dish": "Gelato", "where": "Gelato Messina", "order": "Two scoops of the seasonal specials", "price": "AUD 8-14"}
+  ],
+  "restaurants": {
+    "iconic": [
+      {"name": "Quay", "cuisine": "Modern Australian", "price": "High", "area": "The Rocks", "desc": "The harbour-view fine-dining room, looking straight at the Opera House and the Bridge.", "dishes": "The set menu; the snow egg if it is on", "whyGo": "The one Sydney restaurant where the view and the cooking are both worth the money.", "booking": "Book weeks ahead, and ask for a window"},
+      {"name": "Bennelong", "cuisine": "Modern Australian", "price": "High", "area": "Sydney Opera House", "desc": "Inside the Opera House sails, under the ribs of the building itself.", "dishes": "Seafood entrees, the pavlova", "whyGo": "Eating inside the building is a different experience from touring it.", "booking": "Book well ahead; pre-theatre sittings are easier"},
+      {"name": "Icebergs Dining Room and Bar", "cuisine": "Italian / seafood", "price": "High", "area": "Bondi", "desc": "Above the Bondi Icebergs pool, with the whole beach in the window.", "dishes": "Crudo, pasta, whole fish", "whyGo": "The definitive Sydney beach lunch.", "booking": "Book, especially for weekend lunch"}
+    ],
+    "bestFood": [
+      {"name": "Firedoor", "cuisine": "Wood fire", "price": "High", "area": "Surry Hills", "desc": "No gas, no electricity in the kitchen: everything cooked over wood.", "dishes": "Whatever the daily menu says; the aged fish", "whyGo": "The most distinctive serious cooking in the city.", "booking": "Essential"},
+      {"name": "Saint Peter", "cuisine": "Seafood", "price": "High", "area": "Paddington", "desc": "Whole-fish butchery taken as seriously as a butcher takes beef.", "dishes": "The fish of the day, cooked whatever way they recommend", "whyGo": "It changed how Australia thinks about cooking fish.", "booking": "Book ahead"},
+      {"name": "Ester", "cuisine": "Modern Australian", "price": "Mid-high", "area": "Chippendale", "desc": "Wood oven, small plates, a room that has stayed good for a decade.", "dishes": "Blood sausage, wood-fired bread, whatever the vegetable dish is", "whyGo": "The best value at the serious end of the city's cooking.", "booking": "Book ahead"}
+    ],
+    "bestValue": [
+      {"name": "Chat Thai", "cuisine": "Thai", "price": "Low", "area": "Thai Town and branches", "desc": "Loud, fast, open late, and consistently good across every branch.", "dishes": "Boat noodles, khanom jeeb, Thai iced tea", "whyGo": "The default cheap dinner in the middle of the city.", "booking": "No; queue and wait"},
+      {"name": "Marrickville pork roll shops", "cuisine": "Vietnamese", "price": "Low", "area": "Marrickville", "desc": "Bakery counters selling banh mi to a queue of locals.", "dishes": "Pork roll with pate and chilli", "whyGo": "Ten dollars for one of the best things you will eat here.", "booking": "No"},
+      {"name": "Mamak", "cuisine": "Malaysian", "price": "Low", "area": "Haymarket", "desc": "Roti thrown at the window, curries, satay, permanent queue.", "dishes": "Roti canai, satay, nasi lemak", "whyGo": "Cheap, fast and reliably excellent before or after a show.", "booking": "No"}
+    ],
+    "special": [
+      {"name": "Aria", "cuisine": "Modern Australian", "price": "High", "area": "Circular Quay", "desc": "Polished harbour-front fine dining beside the Opera House.", "dishes": "Tasting menu", "whyGo": "The safest choice for a celebratory night with a view.", "booking": "Book well ahead"},
+      {"name": "Yoshii's Omakase", "cuisine": "Japanese", "price": "High", "area": "Barangaroo", "desc": "Counter omakase using Australian seafood.", "dishes": "The omakase", "whyGo": "Shows what Sydney's fish can do in Japanese hands.", "booking": "Essential, limited seats"}
+    ],
+    "casual": [
+      {"name": "Harry's Cafe de Wheels", "cuisine": "Pies", "price": "Low", "area": "Woolloomooloo", "desc": "A pie caravan on the wharf that has been there since 1938.", "dishes": "The Tiger pie", "whyGo": "Late-night Sydney in one paper tray.", "booking": "No"},
+      {"name": "Bourke Street Bakery", "cuisine": "Bakery", "price": "Low", "area": "Surry Hills and branches", "desc": "Sausage rolls, tarts and sourdough from a corner shop with a permanent line.", "dishes": "Sausage roll, ginger brulee tart", "whyGo": "The best cheap breakfast in the inner city.", "booking": "No"},
+      {"name": "Sydney Fish Market", "cuisine": "Seafood", "price": "Low-mid", "area": "Pyrmont", "desc": "Buy oysters, prawns and sashimi from the counters and eat them outside.", "dishes": "Oysters, prawns, a tray of sashimi", "whyGo": "Excellent seafood without a restaurant bill.", "booking": "No; go early"}
+    ],
+    "cafes": [
+      {"name": "Single O", "cuisine": "Coffee", "price": "Low", "area": "Surry Hills", "desc": "One of the roasters that built Sydney's specialty coffee scene.", "dishes": "Flat white, batch brew", "whyGo": "A quick, correct introduction to Australian coffee.", "booking": "No"},
+      {"name": "Reuben Hills", "cuisine": "Coffee and brunch", "price": "Mid", "area": "Surry Hills", "desc": "Warehouse cafe with Latin-leaning food and its own roastery.", "dishes": "Coffee, baleadas, fried chicken", "whyGo": "The full Sydney brunch experience without the Bondi queue.", "booking": "No"},
+      {"name": "Gelato Messina", "cuisine": "Gelato", "price": "Low", "area": "Darlinghurst and branches", "desc": "The city's gelato institution, with weekly specials.", "dishes": "Two scoops of the specials board", "whyGo": "An evening walk here is a genuine local habit.", "booking": "No"}
+    ]
+  },
+  "experiences": [
+    {"name": "Swim at an ocean pool", "what": "Bondi Icebergs, Bronte or Wylie's Baths: seawater pools cut into the rocks.", "why": "The most Sydney thing there is, and it costs almost nothing.", "mins": 90},
+    {"name": "Take a ferry with no destination", "what": "Ride to Manly, Watsons Bay or Cockatoo Island and come back.", "why": "The harbour is the city; the ferry is how you read it.", "mins": 120},
+    {"name": "Aboriginal-guided harbour walk", "what": "A First Nations guide through the Royal Botanic Garden or the harbour headlands.", "why": "It reframes everything you have been looking at for the rest of the trip.", "mins": 120},
+    {"name": "Surf lesson", "what": "A group lesson at Bondi, Manly or Maroubra.", "why": "Two hours to understand why the coastline runs this city's weekends.", "mins": 120},
+    {"name": "Sydney Fish Market early", "what": "Arrive before the crowd, buy from the counters and eat outside.", "why": "The best-value seafood in the city and a working market rather than a display.", "mins": 90},
+    {"name": "A performance at the Opera House", "what": "Opera, theatre, orchestra or a gig in the Concert Hall or Studio.", "why": "The building was built for this, and tickets are often cheaper than the tour.", "mins": 150},
+    {"name": "Saturday at Carriageworks Farmers Market", "what": "Producers, coffee and breakfast under a rail workshop roof.", "why": "The most enjoyable hour of food in the inner city.", "mins": 120},
+    {"name": "Bushwalk in the Blue Mountains", "what": "Walk down into the valley at Katoomba or Blackheath rather than only looking from the lookout.", "why": "The escarpment is only impressive from below.", "mins": 300},
+    {"name": "Coastal walk at dawn", "what": "Bondi to Coogee or the Spit to Manly track before the day heats up.", "why": "Empty paths, cool air, and swimming afterwards.", "mins": 180},
+    {"name": "An evening in the inner west", "what": "Eat in Marrickville or Newtown, then see a band at the Enmore or a pub.", "why": "The half of Sydney that has nothing to do with the harbour.", "mins": 240}
+  ],
+  "neighbourhoodGuide": [
+    {"name": "Circular Quay and The Rocks", "vibe": "Sandstone, ferries, the postcard", "bestFor": "First day, harbour landmarks, museums", "sights": "Opera House, Harbour Bridge, MCA, historic pubs", "food": "Harbourside dining and old pubs", "mins": 240},
+    {"name": "Surry Hills and Darlinghurst", "vibe": "Terraces, small bars, design", "bestFor": "Eating and drinking, evening wandering", "sights": "Crown Street, Brett Whiteley Studio, small galleries", "food": "The city's densest run of good restaurants", "mins": 240},
+    {"name": "Newtown and Marrickville", "vibe": "Inner-west, scruffy, musical", "bestFor": "Cheap food, live music, vintage", "sights": "King Street, Enmore Theatre, breweries", "food": "Vietnamese, Greek, Thai, Portuguese", "mins": 240},
+    {"name": "Bondi and the eastern beaches", "vibe": "Beach, sun, activewear", "bestFor": "Swimming, the coastal walk, brunch", "sights": "Bondi Beach, Icebergs, Bronte, Coogee", "food": "Cafes, seafood, casual Italian", "mins": 300},
+    {"name": "Barangaroo and the CBD", "vibe": "New waterfront against an old grid", "bestFor": "Harbour walking, shopping, dinner", "sights": "Barangaroo Reserve, QVB, Hyde Park Barracks", "food": "Waterfront restaurants, laneway bars", "mins": 180},
+    {"name": "Manly and the northern beaches", "vibe": "Relaxed, salty, ferry-connected", "bestFor": "A half-day of beach and headland", "sights": "Manly Beach, North Head, Shelly Beach", "food": "Beachfront casual and good coffee", "mins": 300},
+    {"name": "Potts Point and Woolloomooloo", "vibe": "Art Deco, plane trees, wharf", "bestFor": "Breakfast, wine bars, a short walk to the gardens", "sights": "Macleay Street, Finger Wharf, Harry's", "food": "Italian, wine bars, cafes", "mins": 150},
+    {"name": "Chippendale and Redfern", "vibe": "Post-industrial, student, artistic", "bestFor": "Galleries, small restaurants, markets", "sights": "White Rabbit Gallery, Carriageworks, Spice Alley", "food": "Ester, cheap Asian, third-wave coffee", "mins": 180}
+  ],
+  "timeGuidance": {
+    "three": "Day 1 the harbour: Circular Quay, the Bridge walk, the Botanic Garden and a ferry. Day 2 the coast: Bondi to Coogee, a swim, and dinner in Surry Hills. Day 3 the Blue Mountains, or the inner west plus a museum if you would rather stay in town.",
+    "fivePlus": "Add Manly and North Head, the Art Gallery of NSW, Watsons Bay, a market morning at Carriageworks, an evening in Newtown or Marrickville, and either the Royal National Park or a second mountains day."
+  },
+  "dayTrips": [
+    {"name": "Blue Mountains", "travel": "About 2 hr by train to Katoomba", "why": "Sandstone cliffs, waterfalls and eucalypt forest, with walks from easy to demanding.", "duration": "Full day", "suits": "Everyone; the lookouts are step-free and the valley walks are not.", "logistics": "Train from Central to Katoomba or Blackheath; buses and walking tracks from there. Go early, and check the weather - fog closes the views.", "verdict": "Worth it"},
+    {"name": "Royal National Park", "travel": "About 1 hr by train to Otford or Cronulla", "why": "Coastal heath, cliff-top walking and swimming holes in the world's second-oldest national park.", "duration": "Full day", "suits": "Walkers; the coast track is 26 km but sections are easy.", "logistics": "Train plus the Cronulla ferry to Bundeena for the coast track.", "verdict": "Worth it"},
+    {"name": "Ku-ring-gai Chase National Park", "travel": "About 1 hr", "why": "Aboriginal rock engravings, Hawkesbury views and quiet bush close to the city.", "duration": "Half or full day", "suits": "Anyone interested in Aboriginal Sydney.", "logistics": "Easiest with a car; some access by bus and ferry.", "verdict": "Worth it"},
+    {"name": "Hunter Valley", "travel": "About 2-2.5 hr", "why": "Australia's oldest wine region, known for semillon and shiraz.", "duration": "Full day or overnight", "suits": "Wine drinkers with a designated driver or a tour booking.", "logistics": "Needs a car or an organised tour; not practical by public transport.", "verdict": "Only if you have extra time"},
+    {"name": "Wollongong and the Sea Cliff Bridge", "travel": "About 1.5 hr", "why": "The coast road south, a bridge that hangs off the cliff, and beaches without crowds.", "duration": "Full day", "suits": "Drivers and anyone wanting the coastline without the tourists.", "logistics": "Best by car; the train is scenic but misses the bridge.", "verdict": "Only if you have extra time"},
+    {"name": "Palm Beach and the northern beaches", "travel": "About 1.5 hr", "why": "A long chain of beaches ending at a lighthouse headland.", "duration": "Half or full day", "suits": "Beach days and a slower pace.", "logistics": "Bus from the city, or ferry and bus combinations from Manly.", "verdict": "Only if you have extra time"}
+  ],
+  "practical": {
+    "gettingAround": "Tap on and off with a contactless credit or debit card, a linked phone or watch, or an Opal card - the fare is the same and visitors rarely need a physical card. Daily and weekly caps apply, and Sundays are capped low enough that a full day of ferries costs very little. Trains and the metro cover the centre and the airport (note the separate station access fee at the airport stations, which makes a taxi competitive for two or more people). Ferries are both transport and the best sightseeing in the city, so use them as routes rather than tours. Buses fill the gaps to the eastern beaches, and light rail runs from Circular Quay through the CBD to the inner east and south. The inner suburbs are walkable and hilly; distances on the map are shorter than they feel in summer heat.",
+    "whenToGo": "Seasons are inverted: summer is December to February - hot, humid, beach weather, but crowded and expensive around Christmas and New Year. Autumn, March to May, is the sweet spot: warm water, mild days and thinner crowds. Winter, June to August, is mild by most standards, with clear light, whale migration off the heads and Vivid Sydney lighting the city in late May and June. Spring, September to November, brings jacarandas, good walking weather and the start of beach season.",
+    "howLong": {
+      "one": "Circular Quay, walk the Bridge, the Botanic Garden, a ferry, and dinner in Surry Hills.",
+      "twoThree": "Add the Bondi to Coogee walk, a museum and either the inner west or Manly. This is the honest minimum.",
+      "fourFive": "The right length: the harbour, the coast, the Blue Mountains and time to eat properly.",
+      "week": "Add the Royal National Park, the northern beaches, a second mountains day and the suburbs where the food is."
+    },
+    "culture": [
+      "The UV is genuinely extreme. Hat, sunscreen and shade between 10am and 3pm, even on cloudy days.",
+      "Swim between the red and yellow flags; rips are the real danger at ocean beaches, not sharks.",
+      "Tipping is not expected. Rounding up or ten per cent for very good service is generous, not standard.",
+      "Dress is casual almost everywhere, including expensive restaurants.",
+      "Alcohol is sold in bottle shops, not supermarkets, and many small bars close earlier than visitors expect.",
+      "Traffic drives on the left; look right first when crossing.",
+      "Order coffee by style - flat white, long black, piccolo - rather than by size."
+    ]
+  },
+  "whatIdDo": [
+    {"day": "Day 1", "plan": "Walk across the Harbour Bridge from Milsons Point, down into The Rocks, through Circular Quay and the Royal Botanic Garden to Mrs Macquarie's Chair. Late-afternoon ferry to Watsons Bay, fish and chips, ferry back at dusk. Dinner in Surry Hills."},
+    {"day": "Day 2", "plan": "Bondi early, swim at Icebergs, then walk the coast path to Coogee and swim again. Bus back, afternoon at the Art Gallery of NSW. Evening drinks in Darlinghurst."},
+    {"day": "Day 3", "plan": "Train to Katoomba. Walk down into the valley rather than only looking at it from the lookouts. Back by early evening; something easy and cheap in Newtown."},
+    {"day": "Day 4", "plan": "Sydney Fish Market or the Carriageworks market for breakfast, White Rabbit Gallery, then the ferry to Manly, North Head and a swim at Shelly Beach. Dinner in Manly and the last ferry home."},
+    {"day": "Day 5", "plan": "Slow morning in Potts Point, Hyde Park Barracks or the Australian Museum, an afternoon in Marrickville eating, and one splurge dinner at Quay or Firedoor to finish."}
+  ],
+  "quickRef": {
+    "musts": ["The harbour by ferry", "Opera House and Circular Quay", "Bondi to Coogee walk", "Walking the Harbour Bridge", "A day in the Blue Mountains"],
+    "eats": ["Sydney rock oysters", "Grilled Australian fish", "Banh mi in Marrickville", "Flat white and brunch", "One wood-fired dinner"],
+    "areas": ["Circular Quay and The Rocks", "Surry Hills", "Newtown and Marrickville", "Bondi", "Manly"],
+    "experiences": ["Swimming at an ocean pool", "A ferry at sunset", "An Aboriginal-guided harbour walk"],
+    "dayTrip": "The Blue Mountains, or the Royal National Park coast track if you would rather walk by the sea",
+    "stay": "4-5 days"
+  },
+  "coords": {
+    "Sydney Opera House": [-33.8568, 151.2153],
+    "Opera House and Circular Quay from the water": [-33.8600, 151.2110],
+    "A performance at the Opera House": [-33.8568, 151.2153],
+    "Sydney Harbour Bridge": [-33.8523, 151.2108],
+    "Walk across the Harbour Bridge": [-33.8523, 151.2108],
+    "The Rocks": [-33.8599, 151.2090],
+    "Circular Quay and The Rocks": [-33.8610, 151.2100],
+    "The Rocks and Hyde Park Barracks": [-33.8629, 151.2124],
+    "Hyde Park Barracks": [-33.8688, 151.2124],
+    "Queen Victoria Building": [-33.8717, 151.2067],
+    "Queen Victoria Building and the Strand Arcade": [-33.8710, 151.2069],
+    "Cockatoo Island": [-33.8465, 151.1720],
+    "Art Gallery of New South Wales": [-33.8688, 151.2170],
+    "Museum of Contemporary Art": [-33.8599, 151.2089],
+    "Australian Museum": [-33.8746, 151.2130],
+    "White Rabbit Gallery": [-33.8853, 151.1990],
+    "Chau Chak Wing Museum": [-33.8880, 151.1890],
+    "Carriageworks": [-33.8965, 151.1860],
+    "Carriageworks Farmers Market": [-33.8965, 151.1860],
+    "Surry Hills and Darlinghurst": [-33.8850, 151.2120],
+    "Surry Hills small bars": [-33.8850, 151.2120],
+    "Newtown and Marrickville": [-33.9020, 151.1720],
+    "Newtown and Enmore": [-33.8960, 151.1790],
+    "An evening in the inner west": [-33.8990, 151.1750],
+    "King Street, Newtown": [-33.8960, 151.1790],
+    "Inner-west food evening": [-33.9020, 151.1720],
+    "Bondi and Bronte": [-33.8930, 151.2740],
+    "Bondi and the eastern beaches": [-33.8908, 151.2743],
+    "Bondi to Coogee coastal walk": [-33.8930, 151.2740],
+    "Bondi Markets": [-33.8895, 151.2740],
+    "Coastal walk at dawn": [-33.8930, 151.2740],
+    "Swim at an ocean pool": [-33.8915, 151.2745],
+    "Surf lesson": [-33.8908, 151.2743],
+    "Potts Point and Woolloomooloo": [-33.8700, 151.2220],
+    "Barangaroo and Walsh Bay": [-33.8600, 151.2010],
+    "Barangaroo and the CBD": [-33.8620, 151.2030],
+    "Chippendale and Redfern": [-33.8880, 151.1990],
+    "Royal Botanic Garden and Mrs Macquarie's Chair": [-33.8635, 151.2200],
+    "Royal Botanic Garden to Mrs Macquarie's Chair": [-33.8635, 151.2200],
+    "Taronga Zoo": [-33.8433, 151.2410],
+    "North Head and Manly": [-33.8000, 151.2880],
+    "Manly and the northern beaches": [-33.7969, 151.2870],
+    "Ferry to Manly": [-33.7969, 151.2870],
+    "Manly and the beaches": [-33.7969, 151.2870],
+    "Royal National Park": [-34.1200, 151.0560],
+    "Watsons Bay and South Head": [-33.8420, 151.2820],
+    "Paddington and Oxford Street": [-33.8850, 151.2270],
+    "Darlinghurst and Oxford Street": [-33.8790, 151.2170],
+    "Sydney Fish Market": [-33.8710, 151.1930],
+    "Sydney Fish Market early": [-33.8710, 151.1930],
+    "Take a ferry with no destination": [-33.8611, 151.2107],
+    "Opera Bar and Circular Quay": [-33.8570, 151.2130],
+    "CBD laneway bars": [-33.8680, 151.2060],
+    "Aboriginal-guided harbour walk": [-33.8640, 151.2170],
+    "Saturday at Carriageworks Farmers Market": [-33.8965, 151.1860],
+    "Bushwalk in the Blue Mountains": [-33.7150, 150.3110],
+    "Blue Mountains": [-33.7150, 150.3110],
+    "Blue Mountains day trip": [-33.7150, 150.3110],
+    "Ku-ring-gai Chase National Park": [-33.6500, 151.1700],
+    "Hunter Valley": [-32.7780, 151.2960],
+    "Wollongong and the Sea Cliff Bridge": [-34.2330, 150.9770],
+    "Palm Beach and the northern beaches": [-33.5990, 151.3230],
+    "Quay": [-33.8595, 151.2100],
+    "Bennelong": [-33.8568, 151.2153],
+    "Icebergs Dining Room and Bar": [-33.8915, 151.2745],
+    "Firedoor": [-33.8845, 151.2115],
+    "Saint Peter": [-33.8845, 151.2280],
+    "Ester": [-33.8870, 151.1985],
+    "Chat Thai": [-33.8790, 151.2060],
+    "Marrickville pork roll shops": [-33.9110, 151.1560],
+    "Mamak": [-33.8790, 151.2045],
+    "Aria": [-33.8600, 151.2130],
+    "Yoshii's Omakase": [-33.8630, 151.2010],
+    "Harry's Cafe de Wheels": [-33.8690, 151.2200],
+    "Bourke Street Bakery": [-33.8870, 151.2130],
+    "Single O": [-33.8830, 151.2110],
+    "Reuben Hills": [-33.8845, 151.2100],
+    "Gelato Messina": [-33.8790, 151.2190]
+  }
+}
