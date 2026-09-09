@@ -106,6 +106,36 @@ h2{font-size:calc(17px * var(--ts));letter-spacing:-.01em;margin:0 0 10px}
 .demobar b{color:#4E3D1E}
 .demobar .btn{margin-left:auto}
 
+/* ---------- where your trips live ---------- */
+.homestore{margin-top:26px;border:1px solid var(--line);border-radius:14px;padding:16px 18px;
+  background:var(--paper2);transition:border-color .12s,background .12s}
+.homestore.warn{border-color:#EBD9A8;background:#FFFBF0}
+.homestore.ok{border-color:#bcd6cb;background:#F6FAF8}
+.homestore.dropping{border-color:var(--accent);border-style:dashed;background:var(--accent2)}
+.hshead{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.hshead h2{margin:0;font-size:calc(15px * var(--ts));letter-spacing:-.01em}
+.hshead h2 b{font-family:ui-monospace,Menlo,monospace;font-size:calc(14px * var(--ts))}
+.hsdot{width:8px;height:8px;border-radius:50%;flex:none;align-self:center}
+.hsdot.ok{background:var(--m-stay)}
+.hsdot.warn{background:var(--m-do)}
+.hsmeta{margin-left:auto;font-size:calc(12px * var(--ts));color:var(--ink2);
+  font-family:ui-monospace,Menlo,monospace}
+.hsline{margin:7px 0 0;font-size:calc(13.5px * var(--ts));color:var(--ink2);line-height:1.55;max-width:70ch}
+.hsline em{font-style:italic;color:var(--ink)}
+.hsline b{font-family:ui-monospace,Menlo,monospace;color:var(--ink)}
+.hssteps{list-style:none;counter-reset:hs;display:grid;gap:10px;margin:14px 0 0;padding:0;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.hssteps li{counter-increment:hs;position:relative;padding-left:30px;font-size:calc(13px * var(--ts))}
+.hssteps li::before{content:counter(hs);position:absolute;left:0;top:0;width:21px;height:21px;
+  border-radius:50%;background:var(--accent);color:#fff;font-size:calc(11px * var(--ts));
+  font-weight:700;display:flex;align-items:center;justify-content:center}
+.hssteps b{display:block;font-weight:600}
+.hssteps span{display:block;color:var(--ink2);font-size:calc(12.5px * var(--ts));line-height:1.45;margin-top:1px}
+.hssteps i{font-style:normal;font-family:ui-monospace,Menlo,monospace}
+.hsacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+.hsdrop{margin:11px 0 0;font-size:calc(12px * var(--ts));color:var(--ink2);font-style:italic}
+.savechip .chevy{opacity:.55;font-size:calc(9px * var(--ts));margin-left:1px}
+
 /* ---------- wizard ---------- */
 .wiz{max-width:640px;margin:0 auto}
 .steps{display:flex;gap:6px;margin:22px 0 26px}
@@ -2124,16 +2154,19 @@ function scheduleWrite(){
 function storageChipHTML(){
   if(STORE.mode==="file"){
     const t = STORE.lastSaved ? new Date(STORE.lastSaved) : null;
-    return `<button class="savechip ok" id="savechip" data-act="storage" title="Click for storage options">
+    return `<button class="savechip ok" id="savechip" data-act="storage"
+      title="Where your trips are kept — click to back up, import or change the file">
       <span class="dotok"></span>${esc(STORE.handle && STORE.handle.name || "trips.json")}
       ${t?`<span class="ago">saved ${d2(t.getHours())}:${d2(t.getMinutes())}</span>`:""}</button>`;
   }
   if(STORE.mode==="file-locked"){
-    return `<button class="savechip warn" id="savechip" data-act="storage">
-      <span class="dotwait"></span>File needs reconnecting</button>`;
+    return `<button class="savechip warn" id="savechip" data-act="storage"
+      title="Click to reconnect the file your trips are written to">
+      <span class="dotwait"></span>File needs reconnecting<span class="chevy">▾</span></button>`;
   }
-  return `<button class="savechip" id="savechip" data-act="storage" title="Click for storage options">
-    <span class="dotwait"></span>Saved in this browser</button>`;
+  return `<button class="savechip" id="savechip" data-act="storage"
+    title="Where your trips are kept — click to back up, import, or link a file">
+    <span class="dotwait"></span>Saved in this browser<span class="chevy">▾</span></button>`;
 }
 function normalize(t){
   t.magnets = t.magnets || [];
@@ -2483,7 +2516,116 @@ function renderHome(){
     </div>
     ${trips.length?"":`<div class="empty">Nothing here yet. Start a trip and the board will ask
        you what it needs — or open the sample first and pull it apart.</div>`}
+    ${homeStorageHTML()}
     <input type="file" id="importfile" accept="application/json" class="hide">`;
+  wireHomeDrop();
+}
+
+/* =========================================================
+   5a1. WHERE YOUR TRIPS LIVE
+   The board saves itself, so nobody thinks about storage until the morning the
+   browser has been cleared and a fortnight of planning went with it. This says
+   where the trips are in one line and offers the fix in one click — and it is
+   also where Import lives, which used to hide behind a chip in the corner that
+   did not look like a button.
+   ========================================================= */
+function homeStorageHTML(){
+  const linked = STORE.mode === "file";
+  const locked = STORE.mode === "file-locked";
+  const name = esc((STORE.handle && STORE.handle.name) || "trips.json");
+  const n = DB.trips.length;
+  const back = prefs().lastBackup;
+  const backLine = back ? "Last backup " + agoLabel(back) : "Never backed up";
+  const importBtn = `<button class="btn" data-act="import">Import trips…</button>`;
+  const backupBtn = cls => `<button class="btn ${cls||""}" data-act="export">Back up a copy</button>`;
+
+  if(linked){
+    const at = STORE.lastSaved ? new Date(STORE.lastSaved) : null;
+    return `<section class="homestore ok">
+      <div class="hshead"><span class="hsdot ok"></span>
+        <h2>Writing to <b>${name}</b></h2>
+        <span class="hsmeta">${n} trip${n===1?"":"s"}${at?" · saved "+d2(at.getHours())+":"+d2(at.getMinutes()):""}</span></div>
+      <p class="hsline">Every change goes straight into that file. Keep it in Dropbox, iCloud or
+        Drive and your trips follow you from one computer to the next.</p>
+      <div class="hsacts">
+        ${backupBtn()}
+        <button class="btn" data-act="st-open">Open a different file…</button>
+        ${importBtn}
+      </div>
+      <p class="hsdrop">Or drop a trip file — or a city report — anywhere on this page.</p>
+    </section>`;
+  }
+
+  if(locked){
+    return `<section class="homestore warn">
+      <div class="hshead"><span class="hsdot warn"></span>
+        <h2>Your trips file needs reconnecting</h2>
+        <span class="hsmeta">${n} trip${n===1?"":"s"} · safe in this browser meanwhile</span></div>
+      <p class="hsline">Browsers ask again for permission to write to <b>${name}</b> each session,
+        and they will only ask when you click. Nothing has been lost.</p>
+      <div class="hsacts">
+        <button class="btn primary" data-act="st-reconnect">Reconnect ${name}</button>
+        ${backupBtn()}
+        ${importBtn}
+      </div>
+      <p class="hsdrop">Or drop a trip file — or a city report — anywhere on this page.</p>
+    </section>`;
+  }
+
+  return `<section class="homestore warn">
+    <div class="hshead"><span class="hsdot warn"></span>
+      <h2>Saved in this browser only</h2>
+      <span class="hsmeta">${n} trip${n===1?"":"s"} · ${esc(backLine)}</span></div>
+    <p class="hsline">${FSA
+      ? `That is real storage and it will still be here tomorrow — but it belongs to
+         <em>this browser on this computer</em>. Clear your site data, switch browser, or open
+         the board on another machine, and these trips are not there.`
+      : `This browser cannot write to a file of your own — Chrome, Edge and Arc can. Here, the
+         safe habit is a backup now and then, kept somewhere you trust.`}</p>
+    ${FSA ? `<ol class="hssteps">
+      <li><b>Link a file</b><span>Pick where to keep <i>trips.json</i>. Once.</span></li>
+      <li><b>It writes itself</b><span>Every change goes into that file from then on.</span></li>
+      <li><b>Put it in a synced folder</b><span>Dropbox, iCloud, Drive — and it follows you.</span></li>
+    </ol>` : ""}
+    <div class="hsacts">
+      ${FSA ? `<button class="btn primary" data-act="st-link">Link a file…</button>` : ""}
+      ${backupBtn(FSA ? "" : "primary")}
+      ${FSA ? `<button class="btn" data-act="st-open">Open an existing file…</button>` : ""}
+      ${importBtn}
+    </div>
+    <p class="hsdrop">Or drop a trip file — or a city report — anywhere on this page.</p>
+  </section>`;
+}
+/* Dropping the file on the window is the most obvious import there is, so the
+   whole front page takes one. */
+function wireHomeDrop(){
+  const zone = document.getElementById("app");
+  if(!zone || zone.getAttribute("data-filedrop")) return;
+  zone.setAttribute("data-filedrop", "1");
+  const carriesFiles = e => {
+    const ty = e.dataTransfer && e.dataTransfer.types;
+    return !!ty && [].slice.call(ty).indexOf("Files") >= 0;
+  };
+  const mark = on => {
+    const panel = document.querySelector(".homestore");
+    if(panel) panel.classList.toggle("dropping", on);
+  };
+  zone.addEventListener("dragover", e=>{
+    if(view.name !== "home" || !carriesFiles(e)) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "copy";
+    mark(true);
+  });
+  zone.addEventListener("dragleave", e=>{ if(!zone.contains(e.relatedTarget)) mark(false); });
+  zone.addEventListener("drop", e=>{
+    if(view.name !== "home" || !carriesFiles(e)) return;
+    e.preventDefault(); e.stopPropagation();
+    mark(false);
+    const f = e.dataTransfer.files && e.dataTransfer.files[0];
+    if(!f) return;
+    if(!/\.json$/i.test(f.name)){ toast("Drop a .json — a trip export or a city report"); return; }
+    importAll(f);
+  });
 }
 
 /* =========================================================
@@ -6384,12 +6526,9 @@ function openPasteReport(){
       <button class="btn primary" data-act="savepaste">Save report</button>
     </div>`);
 }
-async function savePastedReport(){
-  const box = document.getElementById("pastebox");
-  let obj;
-  try{ obj = JSON.parse(box.value); }
-  catch(e){ toast("That isn't valid JSON"); return; }
-  if(!obj || !obj.city){ toast("A report needs a \"city\" field"); return; }
+/* Pasted in, or dropped on the front page — same report, same handling. */
+async function adoptReport(obj){
+  if(!obj || !obj.city){ toast("A report needs a \"city\" field"); return false; }
   const slug = reportSlug(obj.city);
   REPORTS[slug] = obj;
   REPORT_ORIGIN[slug] = "pasted";
@@ -6398,11 +6537,19 @@ async function savePastedReport(){
   closeModal();
   if(reportDir && await ensureReportPermission()){
     try{ await writeReport(slug, obj); toast("Saved "+slug+".json to "+reportDirName); }
-    catch(e){ toast("Loaded, but couldn't write the file"); }
+    catch(e){ toast(obj.city+" loaded, but couldn't write the file"); }
   }else{
-    toast("Loaded for this session. Link a folder to keep it.");
+    toast(obj.city+" loaded for this session. Link a folder to keep it.");
   }
   render();
+  return true;
+}
+async function savePastedReport(){
+  const box = document.getElementById("pastebox");
+  let obj;
+  try{ obj = JSON.parse(box.value); }
+  catch(e){ toast("That isn't valid JSON"); return; }
+  await adoptReport(obj);
 }
 
 function copyText(s, msg){
@@ -10119,6 +10266,8 @@ function openStorage(){
       ${STORE.needsPermission?`<button class="btn primary" data-act="st-reconnect">Reconnect</button>`:""}
       <button class="btn ${FSA?"":"hide"}" data-act="st-open">Open existing file…</button>
       <button class="btn ${FSA?"":"hide"} ${linked?"":"primary"}" data-act="st-link">${linked?"Link a different file…":"Link a file…"}</button>
+      <button class="btn" data-act="export">Back up a copy</button>
+      <button class="btn" data-act="import">Import trips…</button>
       <button class="btn" data-act="close">Done</button>
     </div>
     <div class="modrow" style="margin-top:8px;border-top:1px solid var(--line);padding-top:12px">
@@ -10609,12 +10758,26 @@ function exportICS(t){
 
 function exportAll(){
   download("trip-board-" + todayStr() + ".json", JSON.stringify(DB, null, 2));
+  prefs().lastBackup = Date.now();
+  save();
+  if(view.name === "home") render();
+}
+function agoLabel(ts){
+  if(!ts) return "";
+  const days = Math.floor((Date.now() - ts) / 86400000);
+  if(days <= 0) return "today";
+  if(days === 1) return "yesterday";
+  if(days < 30) return days + " days ago";
+  const mo = Math.round(days/30);
+  return mo + (mo === 1 ? " month ago" : " months ago");
 }
 function importAll(file){
   const fr = new FileReader();
   fr.onload = ()=>{
     try{
       const j = JSON.parse(fr.result);
+      // a city report is a reasonable thing to drop on this app too
+      if(j && j.city && !Array.isArray(j.trips)){ adoptReport(j); return; }
       if(!j || !Array.isArray(j.trips)) throw new Error("bad file");
       // A trip you already have used to be skipped without a word, which is the
       // wrong answer when the file is a newer copy of the same trip.
@@ -10642,7 +10805,7 @@ function importAll(file){
       save(); render();
       const said = [added ? added+" added" : "", replaced ? replaced+" replaced" : ""].filter(Boolean);
       toast(said.length ? said.join(" · ") : "Nothing new in that file");
-    }catch(e){ toast("That file didn't look like a Trip Board export"); }
+    }catch(e){ toast("That file didn't look like a trip export or a city report"); }
   };
   fr.readAsText(file);
 }

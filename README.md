@@ -27,19 +27,25 @@ it explains itself on a full one. It is a real trip, not a screenshot: drag thin
 about, break it, delete it when you are done. It is rebuilt from today's date each
 time, so it is never a trip that already happened.
 
-Your trips save automatically to that browser's storage. That's a real place and it
-persists, but it's tied to one browser on one computer — so the first thing worth
-doing is **linking a file**:
+**Where your trips live** is spelled out on the front page, under your trips, and it
+is the one thing worth reading before you fill a board in. Trips save automatically to
+this browser's storage — a real place that persists, but tied to one browser on one
+computer. The panel says which state you are in and offers the fix:
 
-> Click the **Saved in this browser** chip at the top → **Link a file** → pick where
-> to keep `trips.json`.
+- **Link a file…** — pick where to keep `trips.json`, once. From then on every change
+  writes straight to it. Put it in Dropbox or iCloud and your trips follow you between
+  computers. The browser copy stays on as a mirror, so nothing is lost if the file goes
+  missing.
+- **Back up a copy** — a dated JSON you can keep anywhere. The panel remembers when you
+  last did it and says so.
+- **Import trips…** — read a backup, or someone else's trip, back in. A trip you
+  already have asks whether to replace it.
 
-From then on every change writes straight to that file. Put it in Dropbox or iCloud
-and your trips follow you. The browser copy stays as a mirror, so nothing is lost if
-you decline or the file goes missing.
+You can also **drop a `.json` anywhere on the front page**: a trip export gets
+imported, and a `cityreport.v1` file goes to the city guides.
 
-Chrome, Edge and Arc support file linking. Safari and Firefox don't — there the
-browser copy is the only copy, so use **Export** before anything drastic.
+Chrome, Edge and Arc support file linking. Safari and Firefox don't — there the panel
+says so and the backup button becomes the main one.
 
 ---
 
@@ -359,7 +365,7 @@ node tests/day-moves.test.js
 68 checks covering folding, finalising, moving between days, the "same slot" rule,
 undo, and the day-swap and ordering behaviour it would be easy to break.
 
-Seven more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
+Eight more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
 
 ```
 node tests/browser.test.js     # 42 checks
@@ -369,6 +375,7 @@ node tests/reports.test.js     # 17 checks
 node tests/sample.test.js      # 23 checks
 node tests/extras.test.js      # 36 checks
 node tests/touch.test.js       # 15 checks
+node tests/storage.test.js     # 16 checks
 ```
 
 The first: the board renders, days fold and lock, the rail opens beside the right day
@@ -393,6 +400,9 @@ five tabs populated.
 their totals, closed days, the calendar export (a real .ics, parsed and checked),
 the printed copy, search, and Today on a trip whose dates have been shifted to be
 running now.
+
+`storage.test.js` covers the front page's storage panel in each of its states, and the
+two kinds of file you can drop on it.
 
 `touch.test.js` dispatches real touch events through CDP in a context that reports
 touch support: a swipe must scroll, a press-and-hold must pick something up, a drop on
