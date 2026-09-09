@@ -183,10 +183,12 @@ const eq=(n,a,b)=>ok(n,a===b,JSON.stringify(a)+" !== "+JSON.stringify(b));
   await p.reload(); await p.waitForTimeout(200);
   await p.click('.trip-card'); await p.waitForSelector('.cal .day');
   await p.locator('.day').nth(1).locator('.daymap').scrollIntoViewIfNeeded();
-  await p.waitForTimeout(700);
-  ok("a failed tile falls back to the drawn grid",
-     await p.locator('.tilemap.notiles').count() > 0);
-  ok("and says why", await p.locator('.tilemap.notiles .tilewarn').first().isVisible());
+  // one dead tile marks its own map; a few in a row and the board stops asking
+  const fellBack = await p.waitForSelector('.dmsvg', {timeout: 8000}).then(()=>true, ()=>false);
+  ok("tiles that never arrive hand the board back to the drawn map", fellBack);
+  eq("with no empty tile boxes left behind", await p.locator('.tilemap').count(), 0);
+  ok("and it says so", /drawn maps/.test(
+     await p.locator('#toasts .toast').first().innerText().catch(()=>"")));
   ok("no page errors", errs.length===0, errs.slice(0,2).join(" | "));
 
   console.log("\n"+pass+" passed, "+fail+" failed");

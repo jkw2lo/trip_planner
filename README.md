@@ -3,14 +3,22 @@
 A trip planner built to replace the spreadsheet — the one where you type a date in
 column A and a guess in column B, then retype the whole thing when the days move.
 
-Everything here is drag-and-drop instead of typing, and everything you drop can be
-**pinned** once it's certain. One file, no install, no account, no server.
+Everything here is drag-and-drop instead of typing — with a mouse or with a finger —
+and everything you drop can be **pinned** once it's certain. One file, no install, no
+account, no server.
 
 ---
 
 ## Getting started
 
 Double-click **`Trip Board.html`**. It opens in your browser and that's the whole app.
+
+**Or open the shared link.** The board is also published as a Claude artifact, which
+is the same file running in someone else's browser — handy for showing it to a travel
+companion. Three things do not survive that trip: map tiles and the weather (the page
+is not allowed to fetch them), and saving files (Export hands you the text to copy
+instead). Trips there are kept in that browser only. The file on your own computer is
+the full-strength version.
 
 **Start with the sample.** The front page offers a finished trip — eight days across
 Beijing, Suzhou and Shanghai, with hotels, a settled day, a waiting list, notes and
@@ -132,6 +140,33 @@ A day with nothing pinned yet now shows the city itself rather than an empty
 rectangle, so there is always something to place things against. **Open in Maps** hands
 that day's stops to Google Maps as a route.
 
+**On a phone or tablet**, press and hold anything to pick it up, then drag. A swipe
+that starts moving straight away scrolls the page as usual, so the board still reads
+normally; it is the holding still for a moment that means "I want to move this". The
+rail, the drop zones and the rules about where things can land are the same ones the
+mouse uses.
+
+**Search** — the box in the trip header finds anything on the trip by name or note and
+says which day it is on. Click a result to jump to it.
+
+**How full a day is** — each day header carries a rough total: time on site plus the
+time it takes to get between the stops. It turns red when the day needs more hours
+than it has. Busy is a matter of taste; not fitting is arithmetic.
+
+**Costs** — put a number on anything (and on hotels) and the day header, the trip
+header and the printout add them up. Optional things are counted separately, which is
+the point of marking them optional. Set the currency symbol in trip settings.
+
+**Opening hours** — a report can carry an `hours` block, and anything on the board can
+be told by hand which day it closes. Put it on a day it is shut and it says so — on
+the magnet, in the notes at the top, and in the editor.
+
+### Today
+
+While the trip is actually running, today comes to the top of the calendar: what is
+on, in order, where you sleep tonight, and what the next leg is. The board opens on
+today rather than day one. Out of those dates it isn't there at all.
+
 ### To-do
 
 Four columns — Before, Pack, There, Done — with a magnet tray of the things that are
@@ -234,9 +269,18 @@ All three are preferences: they follow you across trips and stay out of the expo
 and it reads the flight details out. It picks a plausible travel window; fare
 deadlines and rebooking cut-offs look a lot like travel dates, so check what it got.
 
-**Out** — **Export** gives you either a printable itinerary (print to PDF) including
-hotels, day notes, sticky notes and your annotated images, or a JSON file you can
-import back. Export All backs up everything.
+**Out** — **Export** gives you three things:
+
+- a **printable itinerary** (print to PDF) with hotels, day notes, sticky notes, your
+  annotated images, and — because this is the copy that works with no signal — a drawn
+  map per day and the coordinates of every stop;
+- a **calendar file** (.ics) of the committed half of the trip: flights, trains,
+  hotels, and anything you gave a time or pinned. Times carry no zone, so they read as
+  local wherever you are;
+- a **trip JSON** you can import back, or hand to someone else with the app.
+
+Export All backs up everything. Importing a trip you already have now asks whether to
+replace it rather than quietly skipping it.
 
 ---
 
@@ -267,8 +311,11 @@ everywhere, and it remembers which you chose.
   many screenshots gets large. Three per day, four per hotel is the cap.
 - The ten built-in city reports are about 300KB of the file. That is the price of the
   guides tab having something in it before you have set anything up.
-- Street-map mode needs the network. It falls back to the drawn map on its own, but a
-  printed page carries only the tiles that had already loaded.
+- Street-map mode needs the network. It falls back to the drawn map on its own; the
+  printed itinerary always uses the drawn one, so paper never depends on a tile server.
+- Costs are a number you type, not a currency conversion. One symbol per trip.
+- The day-length estimate assumes you walk anything under about a kilometre and take
+  the metro otherwise. It is a sanity check, not a schedule.
 - A trip longer than 400 days is refused as a data error rather than rendered.
 - Live decks depend on OpenStreetMap coverage. Sparse regions give thin decks — a
   city report is the fix.
@@ -312,7 +359,7 @@ node tests/day-moves.test.js
 68 checks covering folding, finalising, moving between days, the "same slot" rule,
 undo, and the day-swap and ordering behaviour it would be easy to break.
 
-Five more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
+Seven more drive the real thing in Chromium and need Playwright (`npm i -D playwright`):
 
 ```
 node tests/browser.test.js     # 42 checks
@@ -320,6 +367,8 @@ node tests/drag.test.js        # 13 checks
 node tests/maps.test.js        # 16 checks
 node tests/reports.test.js     # 17 checks
 node tests/sample.test.js      # 23 checks
+node tests/extras.test.js      # 36 checks
+node tests/touch.test.js       # 15 checks
 ```
 
 The first: the board renders, days fold and lock, the rail opens beside the right day
@@ -339,6 +388,15 @@ and carries the format.
 checks the sample trip is a real one: eight days, three cities, three hotels, every
 activity carrying real coordinates, a finalised day, stickies, a waiting list, and all
 five tabs populated.
+
+`extras.test.js` covers what hangs off the board: the day-length estimate, costs and
+their totals, closed days, the calendar export (a real .ics, parsed and checked),
+the printed copy, search, and Today on a trip whose dates have been shifted to be
+running now.
+
+`touch.test.js` dispatches real touch events through CDP in a context that reports
+touch support: a swipe must scroll, a press-and-hold must pick something up, a drop on
+the rail must move it, and a plain tap must still open the editor.
 
 `drag.test.js` is about the gesture itself, which is easy to break and hard to notice:
 that a real mouse drag picks things up with folded days on screen, that the page does
