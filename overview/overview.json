@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "name": "Trip Board",
+  "tagline": "Plan trips day by day",
+  "pitch": "A trip planner to replace the spreadsheet: drag days, places and hotels around, and pin what's certain.",
+  "accent": "#1f5c4a",
+  "status": "Live",
+
+  "problem": "Trip spreadsheets need retyping every time the days move.",
+  "stats": [
+    { "value": "48", "label": "cities with hand-written idea decks" },
+    { "value": "825", "label": "cards of things a first visit shouldn't miss" },
+    { "value": "10", "label": "full city guides built in" }
+  ],
+
+  "features": [
+    { "title": "Days, cities, beds", "text": "Mark where you are each day, and the hotels line up night by night.",
+      "details": ["Every day follows along until the next change", "Hotels count nights, and flag a night with no bed", "Pencil things in, then pin them once they're certain"],
+      "screen": { "src": "overview.png", "alt": "The trip overview: Beijing four days, Suzhou two, Shanghai two, with three hotels lined up underneath and one night still unbooked" } },
+    { "title": "Swipe what to see", "text": "A deck per city of the things a first visit would regret missing.",
+      "details": ["Must do, optional, later or not for me", "Each card says how long to allow and how much walking", "What you keep is grouped by area into days"],
+      "screen": { "src": "deck.png", "alt": "A Discover card for Beijing: A hutong on foot with no destination, two hours, easy walking, with buttons for not for me, optional, later and must do" } },
+    { "title": "Am I seeing enough?", "text": "Coverage maps lay every planned day over the last, city by city.",
+      "details": ["Spot days that cover the same ground twice"] },
+    { "title": "Goes where you go", "text": "Link a file once and your trips follow you through Dropbox or iCloud.",
+      "details": ["Any city off the list gets a deck from OpenStreetMap", "While you're away, Today shows what's on and tonight's bed"] }
+  ],
+
+  "screens": [
+    { "src": "desktop.png", "alt": "Trip Board's calendar for an eight-day sample trip from Beijing to Shanghai: the overview, hotels, your magnets and the Discover decks", "caption": "The sample trip: eight days, three cities" }
+  ],
+
+  "facts": {
+    "worksOn": "Phone and desktop",
+    "data": "Your browser, or a linked file",
+    "builtWith": "One HTML file, no install",
+    "started": "Sep 2026"
+  }
+}
