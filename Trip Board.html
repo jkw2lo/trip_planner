@@ -1297,6 +1297,7 @@ body.printing #printarea{display:block;padding:0 4mm}
 .gap{background:#FFF6E0;border:1px solid #EBD9A8;border-radius:10px;padding:9px 12px;
   font-size:calc(13px * var(--ts));color:#7A5C14;margin-bottom:12px}
 </style>
+<script src="demo-welcome.js"></script>
 </head>
 <body>
 <div class="topbar">
@@ -11524,6 +11525,20 @@ try{
   initStorage();
   initReports();
 }catch(err){ bootFailed(err); throw err; }
+
+/* Demo or fresh start, for visitors from Jen's portfolio (demo-welcome.js, loaded in <head>).
+   The sample trip already marks itself and can be deleted from its own bar, so no extra banner. */
+if(typeof DemoWelcome !== "undefined") DemoWelcome.init({
+  id: "trip-board",
+  name: "Trip Board",
+  accent: "#1f5c4a",
+  demo: "Eight days, three cities, filled in: the calendar, to-dos, places to eat and city guides.",
+  fresh: "An empty board. Start a trip and it asks you what it needs.",
+  isEmpty: () => !DB.trips.length,
+  loadDemo: () => openDemoTrip(),
+  stillDemo: () => DB.trips.some(t => t.id === DEMO_ID),
+  banner: false,
+});
 </script>
 </body>
 </html>
