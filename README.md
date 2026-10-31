@@ -330,7 +330,7 @@ everywhere, and it remembers which you chose.
 
 ## Demo for portfolio visitors
 
-Opened from Jen's portfolio (`?from=portfolio`) with nothing saved yet, the app offers two ways in: **See the demo** opens the sample trip, which already says it's a sample and can be deleted from its own bar, or **Start fresh** leaves the empty board. The setup is at the end of the main script in `Trip Board.html`; `index.html` passes the query on when it forwards. Anyone arriving another way, or with their own data, sees none of it. The overlay is `demo-welcome.js`, shared with the other projects (its master is in the portfolio repo, `tools/demo-welcome.js`).
+Opened from Jen's portfolio (`?from=portfolio`) with nothing saved yet, the app offers two ways in: **See the demo** opens the sample trip, which already says it's a sample and can be deleted from its own bar, or **Start fresh** leaves the empty board. The sample opens with a short walk round it (the trip overview, hotels, a day's plan, Discover, Coverage, saving to a file, the tabs), following `DEMO.md` in the portfolio repo. The setup is at the end of the main script in `Trip Board.html`; `index.html` passes the query on when it forwards. Anyone arriving another way, or with their own data, sees none of it. The overlay is `demo-welcome.js`, shared with the other projects (its master is in the portfolio repo, `tools/demo-welcome.js`).
 
 ## Under the hood
 

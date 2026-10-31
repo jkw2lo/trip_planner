@@ -11538,6 +11538,25 @@ if(typeof DemoWelcome !== "undefined") DemoWelcome.init({
   loadDemo: () => openDemoTrip(),
   stillDemo: () => DB.trips.some(t => t.id === DEMO_ID),
   banner: false,
+  /* a walk round the sample trip (the steps follow DEMO.md in the portfolio repo) */
+  tour: [
+    { go: () => { view.tab = "cal"; render(); }, el: ["details.overview"], title: "Days across, cities down",
+      text: "Mark where you are each day, and every day after follows along until the next change. This trip is eight days in three cities." },
+    { el: ["details.stays"], title: "Hotels, night by night",
+      text: "Hotels line up under the days and count nights, not days, so a night with no bed is named in plain words." },
+    { el: [".day"], title: "Pencil in, then pin",
+      text: "Each day has a morning, afternoon and evening, lunch and dinner. Pencil things in, then pin them once they're certain." },
+    { el: [".deckpanel", ".discovercol"], title: "Swipe what to see",
+      text: "A deck per city of what a first visit would regret missing, each card with how long to allow and how much walking." },
+    { go: () => { view.tab = "cover"; render(); }, el: [".covertab .citymap", ".covertab"], title: "Am I seeing enough?",
+      text: "A map per city with every planned day laid over the last, so you can spot days that cover the same ground twice." },
+    { go: () => { view.tab = "cal"; render(); }, el: ["#storeslot .savechip", "#storeslot"], title: "Goes where you go",
+      text: "Trips are saved in this browser. Link a file once and they follow you to your other devices through Dropbox or iCloud." },
+    { el: [".tabs"], title: "Every trip's tabs",
+      text: "Calendar, To-do, Coverage, Eat & drink and City guides: every trip has the same tabs." },
+    { title: "Over to you",
+      text: "It's all real: drag a day about, pin something down, open a deck. Nothing here is yours, so break it freely, then Delete the sample in the bar at the top." },
+  ],
 });
 </script>
 </body>
